@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('articles');
+articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+<BaseLayout title="Guides" description="All guides from Weekend Basecamp">
+  <Header slot="header" />
+
+  <div style="max-width:900px;margin:3rem auto;padding:0 1.5rem;">
+    <h1 style="font-size:2.5rem;font-weight:900;margin-bottom:2rem;">All Guides</h1>
+
+    {articles.length === 0 && (
+      <p style="color:#6b6b6b;">No guides yet. Check back soon!</p>
+    )}
+
+    <div style="display:grid;gap:1.25rem;">
+      {articles.map(article => (
+        <a href={`/guides/${article.slug}`} style="display:block;background:#fff;border-radius:10px;padding:1.5rem;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+          <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
+            <div>
+              {article.data.category && (
+                <span style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#9a7a5a;">{article.data.category}</span>
+              )}
+              <h2 style="margin:0.4rem 0 0.5rem;font-size:1.2rem;font-weight:700;">{article.data.title}</h2>
+              {article.data.description && (
+                <p style="margin:0;font-size:0.9rem;color:#6b6b6b;">{article.data.description}</p>
+              )}
+            </div>
+            <time style="font-size:0.8rem;color:#999;white-space:nowrap;" datetime={article.data.pubDate.toISOString()}>
+              {article.data.pubDate.toLocaleDateString('en-US', { year:'numeric', month:'short', day:'numeric' })}
+            </time>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

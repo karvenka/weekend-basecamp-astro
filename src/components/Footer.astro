@@ -1,0 +1,79 @@
+---
+const year = new Date().getFullYear();
+---
+<footer class="wbc-footer">
+  <div class="wbc-footer__inner">
+    <p class="wbc-footer__brand">Weekend Basecamp &copy; {year}</p>
+    <nav class="wbc-footer__links">
+      <a href="/blogs/low-effort-weekends">Guides</a>
+      <a href="/pages/our-story">Our Story</a>
+      <a href="/pages/purchasing-faq">Purchasing FAQ</a>
+      <a href="/pages/privacy">Privacy</a>
+    </nav>
+    <div class="wbc-footer__social">
+      <a href="https://www.pinterest.com/weekendbasecamp" target="_blank" rel="noopener noreferrer">Pinterest</a>
+      <a href="https://www.instagram.com/weekendbasecamp" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+    <p class="wbc-footer__disclosure">
+      As an Amazon Associate, Weekend Basecamp earns from qualifying purchases.
+      Prices shown are estimates and may vary on Amazon.
+    </p>
+  </div>
+</footer>
+
+<style>
+  .wbc-footer {
+    background: #1a1a1a;
+    color: #aaa;
+    padding: 2.5rem 1.5rem;
+    margin-top: 4rem;
+    font-size: 0.875rem;
+  }
+  .wbc-footer__inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  .wbc-footer__brand {
+    margin: 0;
+    font-weight: 700;
+    color: #f5f0e8;
+    font-size: 1rem;
+  }
+  .wbc-footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  .wbc-footer__links a {
+    color: #b0a090;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.15s;
+  }
+  .wbc-footer__links a:hover { color: #f5f0e8; }
+  .wbc-footer__social {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  .wbc-footer__social a {
+    color: #888;
+    text-decoration: none;
+    font-size: 0.82rem;
+    transition: color 0.15s;
+  }
+  .wbc-footer__social a:hover { color: #f5f0e8; }
+  .wbc-footer__disclosure {
+    margin: 0;
+    font-size: 0.78rem;
+    color: #666;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+</style>

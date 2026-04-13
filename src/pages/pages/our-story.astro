@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+<BaseLayout title="Our Story" description="How Weekend Basecamp started — and why we believe weekends are where memories are made.">
+  <Header slot="header" />
+
+  <article style="max-width:760px;margin:4rem auto;padding:0 1.5rem;">
+    <nav style="margin-bottom:2rem;font-size:0.85rem;">
+      <a href="/" style="color:#9a7a5a;text-decoration:none;">Home</a>
+      <span style="color:#ccc;margin:0 8px;">›</span>
+      <span style="color:#888;">Our Story</span>
+    </nav>
+
+    <h1 style="font-size:2.75rem;font-weight:900;line-height:1.1;margin:0 0 1.5rem;">Our Story</h1>
+
+    <p style="font-size:1.15rem;line-height:1.8;color:#4a4a4a;margin-bottom:1.5rem;">
+      Weekend Basecamp started with a simple, slightly embarrassing realization: we were spending our weekends doing nothing memorable. Not because life was bad — it wasn't. But Friday nights turned into scrolling, Saturdays into errands, Sundays into dread. The people we loved were right there, and we were all staring at our phones in separate rooms.
+    </p>
+
+    <p style="font-size:1.05rem;line-height:1.8;color:#4a4a4a;margin-bottom:1.5rem;">
+      We started small. A bonfire with some borrowed lawn chairs. A board game on a Tuesday night. A hike we'd been "meaning to do" for three years. And something happened: we started looking forward to weekends again. The conversations got better. The kids stayed up too late because nobody wanted to go inside. We remembered what it felt like to actually be together — not just coexist in the same house.
+    </p>
+
+    <h2 style="font-size:1.75rem;font-weight:800;margin:2.5rem 0 1rem;">What We're Building</h2>
+
+    <p style="font-size:1.05rem;line-height:1.8;color:#4a4a4a;margin-bottom:1.5rem;">
+      Weekend Basecamp is a guide site — but not the kind that lists "50 Things to Do This Weekend" and leaves you overwhelmed. We focus on specific, doable activities that real families, couples, and friends can actually pull off. We research the gear, test the setups, and figure out the exact products that make the experience better without requiring a six-week project.
+    </p>
+
+    <p style="font-size:1.05rem;line-height:1.8;color:#4a4a4a;margin-bottom:1.5rem;">
+      Everything we recommend includes Amazon affiliate links, because that's how we keep the lights on. We only link to things we'd actually buy ourselves. When we say the <a href="https://www.amazon.com/dp/B0B7B7R8HL?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer" style="color:#CC5500;">Solo Stove Bonfire</a> changed our backyard game, we mean it — not because Solo Stove is sponsoring us, but because it genuinely did.
+    </p>
+
+    <h2 style="font-size:1.75rem;font-weight:800;margin:2.5rem 0 1rem;">For Real Weekends</h2>
+
+    <p style="font-size:1.05rem;line-height:1.8;color:#4a4a4a;margin-bottom:1.5rem;">
+      We're not here to sell you a lifestyle. We're here because weekends are short, kids grow up fast, and the people in your life won't always be this available. The best time to build a memory is this weekend. We want to help you do that.
+    </p>
+
+    <div style="background:#f8f6ea;border-radius:10px;padding:1.5rem;margin:2.5rem 0;border-left:4px solid #CC5500;">
+      <p style="margin:0;font-size:1rem;color:#4a3a2a;font-style:italic;line-height:1.7;">
+        "Get together. Have fun. Grow closer." — That's the whole mission. We're trying to make it easier.
+      </p>
+    </div>
+
+    <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid #e0d8ce;">
+      <a href="/blogs/low-effort-weekends" style="color:#CC5500;text-decoration:none;font-weight:600;font-size:1rem;">← Browse All Guides</a>
+    </div>
+  </article>
+
+  <Footer slot="footer" />
+</BaseLayout>

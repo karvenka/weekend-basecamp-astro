@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkill -f \"astro dev\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4321/)",
+      "Bash(timeout 180 npm install --no-audit --no-fund --loglevel=error)",
+      "Bash(npm install:*)",
+      "Bash(timeout 60 npx --no-install astro build)",
+      "Bash(npx --no-install astro build)",
+      "Bash(cp ~/Documents/qa_test_suite.py /tmp/qa_local.py)",
+      "Bash(python3 -c \":*)",
+      "Bash(timeout 120 python3 /tmp/qa_local.py)",
+      "Bash(tee /tmp/qa_results.txt)",
+      "Bash(python3 /tmp/qa_local.py)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(pkill -f \"node.*astro\")",
+      "Bash(npx astro:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4321/blogs/low-effort-weekends)",
+      "Bash(tee /tmp/qa_results2.txt)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4321/blogs/low-effort-weekends/the-ultimate-game-night-guide)",
+      "Bash(node -e \":*)",
+      "Bash(ipconfig getifaddr:*)",
+      "Bash(curl -s http://localhost:4321/)",
+      "Bash(grep -l \"fire pit\\\\|cornhole\\\\|telescope\\\\|tent\\\\|fire bowl\\\\|Solo Stove\\\\|Cornhole\" /Users/karthickvenkatesan/weekend-basecamp-astro/src/content/articles/*.md)",
+      "Bash(pkill -f \"astro\")",
+      "Bash(pkill -f \"node.*4321\")",
+      "Bash(python3 -c \"import json; data = json.load\\(open\\(''src/data/kits.json''\\)\\); print\\(f''Valid JSON: {len\\(data\\)} kits''\\); [print\\(f''  {k}: budget={len\\(v[\"\"budget\"\"]\\)} perfect={len\\(v[\"\"perfect\"\"]\\)} splurge={len\\(v[\"\"splurge\"\"]\\)}''\\) for k,v in data.items\\(\\)]\")"
+    ]
+  }
+}

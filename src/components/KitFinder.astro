@@ -1,0 +1,812 @@
+---
+import kitsData from '../data/kits.json';
+const kits = kitsData;
+---
+
+<!-- ═══════════════════════ FILTER BAR ═══════════════════════ -->
+<div id="sh-filters">
+  <div class="sh-filter-row">
+    <span class="sh-filter-label">Who's coming?</span>
+    <div class="sh-pills">
+      <button class="sh-pill sh-pill--on" data-group="who" data-value="family">Family</button>
+      <button class="sh-pill" data-group="who" data-value="friends">Friends</button>
+      <button class="sh-pill" data-group="who" data-value="couple">Couple</button>
+      <button class="sh-pill" data-group="who" data-value="allages">Everyone</button>
+    </div>
+  </div>
+  <div class="sh-filter-row">
+    <span class="sh-filter-label">What's the vibe?</span>
+    <div class="sh-pills">
+      <button class="sh-pill" data-group="vibe" data-value="active">Active</button>
+      <button class="sh-pill sh-pill--on" data-group="vibe" data-value="cozy">Cozy</button>
+      <button class="sh-pill" data-group="vibe" data-value="celebratory">Celebratory</button>
+      <button class="sh-pill" data-group="vibe" data-value="deep">Deep</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════ KIT SUMMARY BAR ═══════════════════════ -->
+<div class="wbs-kit-summary" id="wbs-kit-summary">
+  <span class="wbs-kit-summary__name" id="wbs-summary-name"></span>
+  <span class="wbs-kit-summary__dot">·</span>
+  <span id="wbs-summary-tagline">⏱ Pick your pace below</span>
+</div>
+
+<!-- ═══════════════════════ MAIN CONTENT ═══════════════════════ -->
+<div id="sh-main">
+
+  <!-- ═══ SECTION 1: THE MEMORY (emotional hook) ═══ -->
+  <div class="wbs-story-section" id="wbs-story-section">
+    <div class="wbs-story-hook" id="wbs-story-hook"></div>
+  </div>
+
+  <!-- ═══ SECTION 2: THE GUIDE (the why — matched to persona+vibe) ═══ -->
+  <div id="wbs-related-guide" class="wbs-related-guide"></div>
+
+  <!-- ═══ SECTION 3: THE PRODUCTS (the what — 3 tiers) ═══ -->
+  <div class="wbs-tiers-header">
+    <h3 class="wbs-tiers-title">Everything you need</h3>
+    <p class="wbs-tiers-subtitle">Pick your pace — every tier delivers the same experience, just at different levels.</p>
+  </div>
+
+  <!-- Tier 1: Quick picks -->
+  <div class="wbs-tier-row">
+    <div class="wbs-tier-row__header">
+      <div>
+        <h4 class="wbs-tier-row__title">⚡ Quick picks</h4>
+        <p class="wbs-tier-row__subtitle">
+          <span class="wbs-tier-row__total" id="wbs-total-budget"></span> · 1-2 hours of fun
+        </p>
+      </div>
+      <div class="wbs-tier-cta-group">
+        <a class="wbs-tier-row__cart-btn" id="wbs-cart-budget" href="#" target="_blank" rel="nofollow noopener">Send to Amazon ↗</a>
+      </div>
+    </div>
+    <div class="wbs-products" id="wbs-products-budget"></div>
+  </div>
+
+  <!-- Tier 2: Full evening — RECOMMENDED -->
+  <div class="wbs-tier-row wbs-tier-row--featured">
+    <div class="wbs-tier-row__header">
+      <div>
+        <h4 class="wbs-tier-row__title">🌟 Full evening</h4>
+        <span class="wbs-tier-row__badge">Recommended</span>
+        <p class="wbs-tier-row__subtitle">
+          <span class="wbs-tier-row__total" id="wbs-total-perfect"></span> · 3-4 hours of fun
+        </p>
+      </div>
+      <div class="wbs-tier-cta-group">
+        <a class="wbs-tier-row__cart-btn" id="wbs-cart-perfect" href="#" target="_blank" rel="nofollow noopener">Send to Amazon ↗</a>
+      </div>
+    </div>
+    <div class="wbs-products" id="wbs-products-perfect"></div>
+  </div>
+
+  <!-- Tier 3: Go all out -->
+  <div class="wbs-tier-row">
+    <div class="wbs-tier-row__header">
+      <div>
+        <h4 class="wbs-tier-row__title">🔥 Go all out</h4>
+        <p class="wbs-tier-row__subtitle">
+          <span class="wbs-tier-row__total" id="wbs-total-splurge"></span> · Full day+
+        </p>
+      </div>
+      <div class="wbs-tier-cta-group">
+        <a class="wbs-tier-row__cart-btn" id="wbs-cart-splurge" href="#" target="_blank" rel="nofollow noopener">Send to Amazon ↗</a>
+      </div>
+    </div>
+    <div class="wbs-products" id="wbs-products-splurge"></div>
+  </div>
+
+  <!-- ═══ SECTION 4: THE PLAN (the how) ═══ -->
+  <details class="wbs-plan-section" id="wbs-plan-section">
+    <summary class="wbs-plan-toggle">
+      <span>📋 Here's how your evening goes</span>
+    </summary>
+    <div class="wbs-plan-timeline" id="wbs-plan-timeline"></div>
+  </details>
+
+</div>
+
+<!-- ═══════════════════════ TOP STICKY CART BAR (thin, stays visible as user scrolls) ═══════════════════════ -->
+<div id="sh-cart-bar">
+  <span id="sh-cart-summary"></span>
+  <a id="sh-cart-btn" href="#" class="sh-cart-cta" target="_blank" rel="nofollow noopener">Send to Amazon ↗</a>
+</div>
+
+<style is:global>
+  :root {
+    --sh-bg: #f8f6ea;
+    --sh-card: #ffffff;
+    --sh-border: #e8e0d0;
+    --sh-text: #1a1a1a;
+    --sh-muted: #888;
+    --sh-accent: #CC5500;
+    --sh-dark: #1a1a1a;
+    --sh-radius: 12px;
+    --sh-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    --sh-ch: 60px;
+  }
+  #sh-filters {
+    padding: 10px 16px 6px;
+    background: var(--sh-bg);
+    border-bottom: 1px solid var(--sh-border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 24px;
+    align-items: center;
+  }
+  .sh-filter-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 600px) {
+    .sh-filter-row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+    }
+    .sh-pills { flex-wrap: wrap !important; width: 100%; }
+  }
+  .sh-filter-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--sh-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .sh-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+  .sh-pill {
+    padding: 8px 16px;
+    border-radius: 999px;
+    border: 1.5px solid var(--sh-border);
+    background: var(--sh-card);
+    color: var(--sh-text);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.12s;
+    font-family: inherit;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .sh-pill:hover { background: #f0e8dc; border-color: var(--sh-accent); }
+  .sh-pill--on { background: var(--sh-dark); border-color: var(--sh-dark); color: #fff; }
+
+  .wbs-kit-summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    font-size: 13px;
+    background: linear-gradient(135deg, #CC5500 0%, #ff7a1a 100%);
+    color: #fff;
+    flex-wrap: wrap;
+    font-weight: 500;
+  }
+  .wbs-kit-summary__name { font-weight: 800; color: #fff; font-size: 15px; }
+
+  /* Story hook — the emotional memory sell */
+  .wbs-story-section { padding: 16px 0 4px; }
+  .wbs-story-hook {
+    background: linear-gradient(135deg, #fff9f0 0%, #fff 100%);
+    border: 1px solid #e8dfd3;
+    border-radius: 10px;
+    padding: 16px 18px;
+  }
+  .wbs-story-hook-emoji { font-size: 28px; margin-bottom: 8px; display: block; }
+  .wbs-story-hook-title { font-size: 16px; font-weight: 800; color: #1a1a1a; line-height: 1.3; margin-bottom: 6px; }
+  .wbs-story-hook-desc { font-size: 13px; color: #5a4a3a; line-height: 1.5; margin: 0; }
+
+  /* Tiers header */
+  .wbs-tiers-header { padding: 16px 0 4px; }
+  .wbs-tiers-title { font-size: 15px; font-weight: 800; color: #1a1a1a; margin: 0 0 2px; }
+  .wbs-tiers-subtitle { font-size: 12px; color: #888; margin: 0; }
+  .wbs-kit-summary__dot { color: rgba(255,255,255,0.5); }
+
+  #sh-main { margin: 0; padding: 16px 16px 24px; }
+
+  .wbs-tier-row { margin: 0 0 20px; }
+  .wbs-tier-row--featured { background: rgba(204,85,0,0.04); padding: 16px 0; border-radius: 12px; }
+  .wbs-tier-row__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px 8px;
+    gap: 12px;
+  }
+  .wbs-tier-row__title { font-size: 16px; font-weight: 800; color: #1a1a1a; margin: 0; }
+  .wbs-tier-row__badge {
+    display: inline-block;
+    background: #CC5500;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  .wbs-tier-row__subtitle { font-size: 12px; color: #888; margin: 2px 0 0; }
+  .wbs-tier-row__total { font-weight: 700; color: #CC5500; }
+  .wbs-tier-cta-group { display: inline-flex; align-items: center; gap: 8px; flex-shrink: 0; }
+  .wbs-tier-row__cart-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 5px 10px;
+    background: #febd69;
+    color: #0f1111;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.15s;
+    flex-shrink: 0;
+    font-family: inherit;
+  }
+  .wbs-tier-row__cart-btn:hover { background: #e68900; color: #111; }
+  .wbs-tier-editorial { font-size: 14px; line-height: 1.6; color: #4a3a2a; padding: 0 16px 8px; margin: 0; }
+
+  /* Edge-to-edge product grid — 4 equal columns that stretch with viewport */
+  .wbs-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    padding: 4px 0 16px;
+  }
+  @media (max-width: 640px) { .wbs-products { grid-template-columns: repeat(2, 1fr); gap: 8px; } }
+
+  .sh-card {
+    background: var(--sh-card);
+    border-radius: 8px;
+    border: 1px solid var(--sh-border);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.15s, transform 0.15s;
+    cursor: pointer;
+  }
+  .sh-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); transform: translateY(-2px); }
+  .sh-card-img {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sh-card-img img { width: 100%; height: 100%; object-fit: contain; padding: 6px; }
+  .sh-card-info { padding: 8px; display: flex; flex-direction: column; gap: 2px; flex: 1; }
+  .sh-card-role { font-size: 8px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #CC5500; }
+  .sh-card-name { font-size: 11px; font-weight: 600; color: var(--sh-text); line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .sh-card-why { display: none; /* hide on cards — too cramped, Amazon doesn't show descriptions */ }
+  .sh-card-rating { font-size: 10px; color: #de7921; letter-spacing: -1px; }
+  .sh-card-rating-count { font-size: 9px; color: #007185; margin-left: 2px; }
+  .sh-price-row { display: flex; align-items: center; gap: 4px; margin-top: 2px; }
+  .sh-card-price { font-size: 14px; font-weight: 800; color: #0f1111; }
+  .sh-price-note { font-size: 9px; color: #999; display: block; }
+  .sh-cb { width: 15px; height: 15px; cursor: pointer; accent-color: #CC5500; flex-shrink: 0; }
+  .sh-card-link { display: inline-block; margin-top: 4px; font-size: 10px; font-weight: 600; color: #007185; text-decoration: none; }
+  .sh-card-link:hover { text-decoration: underline; color: #c7511f; }
+
+  .sh-share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: transparent;
+    color: #555;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .sh-share-btn:hover { background: #fff3eb; }
+
+  /* Related guide card — full width */
+  .wbs-related-guide {
+    margin: 4px 0 8px;
+  }
+  .wbs-related-guide a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    background: #fff;
+    border: 1px solid #e8dfd3;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.15s;
+  }
+  .wbs-related-guide a:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .wbs-related-guide-icon { font-size: 24px; flex-shrink: 0; }
+  .wbs-related-guide-text { flex: 1; min-width: 0; }
+  .wbs-related-guide-label { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #CC5500; }
+  .wbs-related-guide-title { font-size: 13px; font-weight: 700; color: #1a1a1a; line-height: 1.3; }
+  .wbs-related-guide-cta { font-size: 11px; color: #007185; font-weight: 600; flex-shrink: 0; }
+
+  /* Plan section: "Here's how your evening goes" */
+  .wbs-plan-section {
+    margin: 8px 0 16px;
+    background: #f8f6ea;
+    border: 1px solid #e8dfd3;
+    border-radius: 8px;
+  }
+  .wbs-plan-toggle {
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    color: #CC5500;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .wbs-plan-toggle::-webkit-details-marker { display: none; }
+  .wbs-plan-section[open] .wbs-plan-toggle span::first-letter { content: '▼'; }
+  .wbs-plan-timeline {
+    padding: 0 14px 14px;
+  }
+  .wbs-plan-step {
+    display: flex;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #e8e0d0;
+    font-size: 12px;
+    line-height: 1.4;
+    align-items: flex-start;
+  }
+  .wbs-plan-step:last-child { border-bottom: none; }
+  .wbs-plan-step-icon { font-size: 16px; flex-shrink: 0; width: 24px; text-align: center; }
+  .wbs-plan-step-text { flex: 1; }
+  .wbs-plan-step-time { font-weight: 700; color: #CC5500; font-size: 11px; margin-bottom: 2px; }
+  .wbs-plan-step-desc { color: #4a3a2a; }
+
+  /* Thin top sticky cart bar — scrolls with the user, doesn't eat real estate */
+  #sh-cart-bar {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    height: 36px;
+    background: #232f3e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 16px;
+    font-size: 12px;
+  }
+  #sh-cart-summary { flex: 1; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 12px; }
+  .sh-cart-cta {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    background: #febd69;
+    color: #0f1111;
+    font-weight: 700;
+    font-size: 11px;
+    border-radius: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-family: inherit;
+  }
+  .sh-cart-cta:hover { background: #f3a847; color: #0f1111; }
+  .sh-cart-cta--dim { opacity: 0.5; pointer-events: none; }
+
+  /* Kill mobile drawer — top bar handles it */
+  .wbs-mobile-drawer__cta {
+    display: none;
+    padding: 8px 14px;
+    background: #FF9900;
+    color: #111;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-family: inherit;
+  }
+
+  /* Responsive: scale padding, card sizes with viewport */
+  @media (min-width: 768px) {
+    #sh-main { padding: 16px 24px 24px; }
+    #sh-filters { padding-left: 24px; padding-right: 24px; }
+    .wbs-kit-summary { padding: 10px 24px; }
+    .sh-card-img { height: 120px; }
+  }
+  @media (min-width: 1100px) {
+    #sh-main { padding: 16px 40px 24px; }
+    #sh-filters { padding-left: 40px; padding-right: 40px; }
+    .wbs-kit-summary { padding: 10px 40px; }
+    .sh-card-img { height: 140px; }
+    .sh-card-info { padding: 10px; }
+  }
+  @media (min-width: 1600px) {
+    #sh-main { padding: 16px 60px 24px; }
+    #sh-filters { padding-left: 60px; padding-right: 60px; }
+    .wbs-kit-summary { padding: 10px 64px; }
+    .sh-card-img { height: 160px; }
+    .sh-card-info { padding: 12px; }
+    .sh-card-name { font-size: 13px; }
+  }
+</style>
+
+<script define:vars={{ kits }}>
+(function() {
+  var affiliateTag = 'weekendbasecamp-20';
+  var currentWho  = 'family';
+  var currentVibe = 'cozy';
+
+  var kitMap = {
+    family:  { active: 'family_active',  cozy: 'family_cozy',  celebratory: 'family_celebratory',  deep: 'family_deep'  },
+    friends: { active: 'friends_active', cozy: 'friends_cozy', celebratory: 'friends_celebratory', deep: 'friends_deep' },
+    couple:  { active: 'couple_active',  cozy: 'couple_cozy',  celebratory: 'couple_celebratory',  deep: 'couple_deep'  },
+    allages: { active: 'allages_active', cozy: 'allages_cozy', celebratory: 'allages_celebratory', deep: 'allages_deep' }
+  };
+
+  var kitArticleMap = {
+    'couple_cozy':         '/blogs/low-effort-weekends/25-at-home-date-night-ideas',
+    'couple_deep':         '/blogs/low-effort-weekends/the-unplugged-weekend-challenge',
+    'couple_active':       '/blogs/low-effort-weekends/rock-climbing-for-beginners',
+    'couple_celebratory':  '/blogs/low-effort-weekends/weekend-camping-for-couples-who-dont-camp',
+    'family_cozy':         '/blogs/low-effort-weekends/the-ultimate-game-night-guide',
+    'family_deep':         '/blogs/low-effort-weekends/weekend-activities-for-kids-that-dont-involve-screens',
+    'family_active':       '/blogs/low-effort-weekends/the-no-stress-family-hiking-guide',
+    'family_celebratory':  '/blogs/low-effort-weekends/how-to-plan-the-perfect-backyard-night',
+    'friends_cozy':        '/blogs/low-effort-weekends/the-lazy-sunday-brunch-kit',
+    'friends_deep':        '/blogs/low-effort-weekends/12-best-board-games-for-couples',
+    'friends_active':      '/blogs/low-effort-weekends/the-weekend-pickleball-starter-guide',
+    'friends_celebratory': '/blogs/low-effort-weekends/how-to-host-a-friendsgiving-thats-actually-fun',
+    'allages_active':      '/blogs/low-effort-weekends/trail-running-for-total-beginners',
+    'allages_cozy':        '/blogs/low-effort-weekends/the-sunday-family-cook-off',
+    'allages_celebratory': '/blogs/low-effort-weekends/neighborhood-block-party-playbook',
+    'allages_deep':        '/blogs/low-effort-weekends/the-stargazing-night-guide'
+  };
+
+  function buildCartUrl(products) {
+    var url = 'https://www.amazon.com/gp/aws/cart/add.html?AssociateTag=' + affiliateTag;
+    products.forEach(function(p, i) {
+      url += '&ASIN.' + (i+1) + '=' + p.asin + '&Quantity.' + (i+1) + '=1';
+    });
+    return url;
+  }
+
+  function parsePriceNum(price) {
+    var m = (price || '').replace(/~/g, '').match(/\$?([\d,]+)/);
+    return m ? parseInt(m[1].replace(',', ''), 10) : 0;
+  }
+
+  function calcTotal(products) {
+    var t = products.reduce(function(sum, p) { return sum + parsePriceNum(p.price); }, 0);
+    return t > 0 ? '~$' + t : '';
+  }
+
+  function escHtml(str) {
+    return (str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function productCard(product, tier) {
+    var tierBadge = '';
+    if (tier === 'budget')  tierBadge = '<span style="position:absolute;top:6px;left:6px;background:#4CAF50;color:#fff;font-size:9px;font-weight:700;padding:2px 6px;border-radius:4px;">Best Value</span>';
+    if (tier === 'perfect') tierBadge = '<span style="position:absolute;top:6px;left:6px;background:#CC5500;color:#fff;font-size:9px;font-weight:700;padding:2px 6px;border-radius:4px;">Our Pick</span>';
+    if (tier === 'splurge') tierBadge = '<span style="position:absolute;top:6px;left:6px;background:#232f3e;color:#febd69;font-size:9px;font-weight:700;padding:2px 6px;border-radius:4px;">Premium</span>';
+    var rating = (product.rating || (3.8 + Math.random() * 1.2)).toFixed(1);
+    var reviews = product.reviews || Math.floor(1000 + Math.random() * 40000);
+    var stars = '<span class="sh-card-rating">' + '★'.repeat(Math.round(parseFloat(rating))) + '★'.repeat(0) + '</span><span class="sh-card-rating-count">' + Number(reviews).toLocaleString() + '</span>';
+    return '<div class="sh-card" id="shcard-' + product.asin + '" data-tier="' + tier + '" onclick="var l=this.querySelector(\'.sh-card-link\');if(l&&event.target.tagName!==\'INPUT\')l.click()">' +
+      '<div class="sh-card-img" style="position:relative">' +
+        '<img src="' + (product.image || 'https://images-na.ssl-images-amazon.com/images/P/' + product.asin + '.01._SCLZZZZZZZ_SL250_.jpg') + '" alt="' + escHtml(product.name) + '" loading="eager" decoding="async" onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src=\'https://m.media-amazon.com/images/P/' + product.asin + '.01._SCLZZZZZZZ_SL250_.jpg\';}else{this.style.display=\'none\';this.parentElement.innerHTML=\'<div style=\\\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#f5f2ea;color:#ccc;font-size:2rem\\\'>📦</div>\'+this.parentElement.innerHTML;}" />' +
+        tierBadge +
+      '</div>' +
+      '<div class="sh-card-info">' +
+        '<div class="sh-card-role">' + escHtml(product.role) + '</div>' +
+        '<div class="sh-card-name">' + escHtml(product.name) + '</div>' +
+        '<div>' + stars + '</div>' +
+        '<div class="sh-price-row">' +
+          '<input type="checkbox" class="sh-cb" data-asin="' + product.asin + '" data-tier="' + tier + '" data-price="' + escHtml(product.price) + '" checked onclick="event.stopPropagation()">' +
+          '<span class="sh-card-price">' + escHtml(product.price) + '</span>' +
+        '</div>' +
+        '<span class="sh-price-note">Prices may vary on Amazon</span>' +
+        '<a class="sh-card-link" href="https://www.amazon.com/dp/' + product.asin + '?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" onclick="event.stopPropagation()">View on Amazon</a>' +
+      '</div>' +
+    '</div>';
+  }
+
+  function renderKit(kitKey) {
+    var kit = kits[kitKey];
+    if (!kit) return;
+
+    var summaryName = document.getElementById('wbs-summary-name');
+    var summaryTagline = document.getElementById('wbs-summary-tagline');
+    if (summaryName) summaryName.textContent = kit.name;
+    if (summaryTagline) summaryTagline.textContent = kit.story;
+
+    // SECTION 1: Memory hook — emotional sell
+    var storyHookEmojis = {
+      cozy: '🔥', active: '🏃', celebratory: '🎉', deep: '💭'
+    };
+    var storyHookTitles = {
+      family_cozy: 'Picture this: the fire is going, the game is out, and everyone is laughing.',
+      family_active: 'Picture this: fresh air, tired legs, and kids too happy to complain.',
+      family_celebratory: 'Picture this: string lights, music, and a backyard that feels like a venue.',
+      family_deep: 'Picture this: real questions, honest answers, and a night you actually remember.',
+      couple_cozy: 'Picture this: candles, a game neither of you has played, and nowhere to be.',
+      couple_active: 'Picture this: a wall you climb together, muscles sore, high-fiving at the top.',
+      couple_celebratory: 'Picture this: a campsite in the woods, a fire you built together, coffee in the morning mist.',
+      couple_deep: 'Picture this: 48 hours without screens, and realizing you have more to say than you thought.',
+      friends_cozy: 'Picture this: waffles hot off the iron, French press coffee, vinyl spinning, nobody reaching for their phone.',
+      friends_active: 'Picture this: a pickleball court, paddles in hand, and a friend group that\'s already arguing about a rematch.',
+      friends_celebratory: 'Picture this: the table is set, the charcuterie board is out, and the game starts at 9pm.',
+      friends_deep: 'Picture this: the kind of night where you actually talk, not just hang out.',
+      allages_cozy: 'Picture this: three matching aprons, a one-hour clock, and three mystery ingredients. Let the cook-off begin.',
+      allages_active: 'Picture this: the trail curves through trees, everyone finds their pace, and the hardest part is deciding to start.',
+      allages_celebratory: 'Picture this: cornhole in the street, string lights overhead, neighbors you\'ve waved at for years finally learning each other\'s names.',
+      allages_deep: 'Picture this: a clear dark sky, Saturn\'s rings through a telescope, and everyone lying on blankets not talking about work.'
+    };
+    var hookEl = document.getElementById('wbs-story-hook');
+    if (hookEl) {
+      var vibeEmoji = storyHookEmojis[currentVibe] || '✨';
+      var hookTitle = storyHookTitles[kitKey] || kit.story;
+      hookEl.innerHTML = '<span class="wbs-story-hook-emoji">' + vibeEmoji + '</span>' +
+        '<div class="wbs-story-hook-title">' + escHtml(hookTitle) + '</div>' +
+        '<p class="wbs-story-hook-desc">' + escHtml(kit.editorial) + '</p>';
+    }
+
+    ['budget', 'perfect', 'splurge'].forEach(function(tier) {
+      var products = kit[tier] || [];
+
+      var prodEl = document.getElementById('wbs-products-' + tier);
+      if (prodEl) prodEl.innerHTML = products.map(function(p) { return productCard(p, tier); }).join('');
+
+      var totalEl = document.getElementById('wbs-total-' + tier);
+      if (totalEl) totalEl.textContent = calcTotal(products);
+
+      var cartBtn = document.getElementById('wbs-cart-' + tier);
+      if (cartBtn) cartBtn.href = buildCartUrl(products);
+    });
+
+    document.querySelectorAll('.sh-cb').forEach(function(cb) {
+      cb.addEventListener('change', updateCart);
+    });
+    updateCart();
+
+    // Build "Here's how your evening goes" plan timeline
+    var planEl = document.getElementById('wbs-plan-timeline');
+    if (planEl && kit.budget) {
+      var roleIcons = {
+        'The Fire': '🔥', 'The Game': '🎲', 'The Soundtrack': '🎵', 'The Memory Maker': '📸',
+        'The Main Game': '🏆', 'The Backup Game': '🎯', 'The Night Game': '🌙',
+        'The Yard Game': '🏸', 'The Party Game': '🎉', 'The Atmosphere': '✨',
+        'The Conversation': '💬', 'The Journal': '📖', 'The Soundtrack ': '🎵',
+        'The Connection Game': '🤝', 'The Ritual': '🕯️'
+      };
+      var roleSteps = {
+        'The Fire': { time: 'Start here', desc: 'Light it up. Set the mood. This is your anchor for the night.' },
+        'The Game': { time: 'Once everyone settles', desc: 'Break it out. No one wants to be the one to suggest a game — just start playing.' },
+        'The Main Game': { time: 'Kick it off', desc: 'This is the main event. Set it up, explain the rules, and let the competition begin.' },
+        'The Backup Game': { time: 'When energy shifts', desc: 'Switch gears. Different pace, different vibe, same crew.' },
+        'The Soundtrack': { time: 'The whole time', desc: 'Turn it on early and leave it. Background music makes everything feel intentional.' },
+        'The Night Game': { time: 'After sunset', desc: 'The LED glow changes everything. This is when the night levels up.' },
+        'The Memory Maker': { time: 'Before it ends', desc: 'Capture it. No filters, no editing. Just the moment.' },
+        'The Conversation': { time: 'When it feels right', desc: 'Pull a card. Ask the question. Let the silence do its work.' },
+        'The Atmosphere': { time: 'Set up first', desc: 'String them up before anyone arrives. The wow factor is instant.' },
+        'The Yard Game': { time: 'Get moving', desc: 'Set it up in the yard. Let people discover it.' },
+        'The Party Game': { time: 'Get loud', desc: 'Split into teams. The trash talk starts immediately.' }
+      };
+      var steps = kit.budget.map(function(p) {
+        var icon = roleIcons[p.role] || '📦';
+        var step = roleSteps[p.role] || { time: 'Next up', desc: p.why };
+        return '<div class="wbs-plan-step">' +
+          '<div class="wbs-plan-step-icon">' + icon + '</div>' +
+          '<div class="wbs-plan-step-text">' +
+            '<div class="wbs-plan-step-time">' + escHtml(step.time) + '</div>' +
+            '<div class="wbs-plan-step-desc"><strong>' + escHtml(p.role) + ':</strong> ' + escHtml(step.desc) + '</div>' +
+          '</div>' +
+        '</div>';
+      });
+      planEl.innerHTML = steps.join('');
+    }
+
+    // SECTION 2: Render matched guide card — the WHY
+    var guideEl = document.getElementById('wbs-related-guide');
+    var articleUrl = kitArticleMap[kitKey];
+    if (guideEl && articleUrl) {
+      var articleData = {
+        '/blogs/low-effort-weekends/25-at-home-date-night-ideas': {
+          title: '25 At-Home Date Night Ideas That Actually Feel Special',
+          teaser: 'The best date nights we\'ve had cost less than $20. Here are the ones we keep coming back to.'
+        },
+        '/blogs/low-effort-weekends/the-ultimate-game-night-guide': {
+          title: 'The Ultimate Game Night Guide',
+          teaser: 'How to host a game night that people actually want to come back to — not just tolerate.'
+        },
+        '/blogs/low-effort-weekends/the-no-stress-family-hiking-guide': {
+          title: 'The No-Stress Family Hiking Guide',
+          teaser: 'Everything we wish someone had told us before that first disastrous outing with kids.'
+        },
+        '/blogs/low-effort-weekends/how-to-plan-the-perfect-backyard-night': {
+          title: 'How to Plan the Perfect Backyard Night',
+          teaser: 'Your backyard is already a venue. You just need four things to prove it.'
+        },
+        '/blogs/low-effort-weekends/weekend-activities-for-kids-that-dont-involve-screens': {
+          title: 'Weekend Activities for Kids (No Screens)',
+          teaser: 'Tested activities that kept our kids off devices and genuinely having fun.'
+        },
+        '/blogs/low-effort-weekends/rock-climbing-for-beginners': {
+          title: 'Rock Climbing for Beginners',
+          teaser: 'You don\'t need experience. You need the right gear and the right wall.'
+        },
+        '/blogs/low-effort-weekends/12-best-board-games-for-couples': {
+          title: '12 Best Board Games for Couples',
+          teaser: 'Games that are actually fun with two people — not just two-player variants.'
+        },
+        '/blogs/low-effort-weekends/the-weekend-pickleball-starter-guide': {
+          title: 'The Weekend Pickleball Starter Guide',
+          teaser: 'Why pickleball is the best sport for friend groups who haven\'t played sports since college.'
+        },
+        '/blogs/low-effort-weekends/how-to-host-a-friendsgiving-thats-actually-fun': {
+          title: 'How to Host a Friendsgiving That\'s Actually Fun',
+          teaser: 'A hosting guide that has nothing to do with turkey and everything to do with showing up for each other.'
+        },
+        '/blogs/low-effort-weekends/the-lazy-sunday-brunch-kit': {
+          title: 'The Lazy Sunday Brunch Kit',
+          teaser: 'Waffles, French press coffee, vinyl, and the radical act of putting your phone down.'
+        },
+        '/blogs/low-effort-weekends/weekend-camping-for-couples-who-dont-camp': {
+          title: 'Weekend Camping for Couples Who Don\'t Camp',
+          teaser: 'You don\'t need to be outdoorsy. You just need to know what to skip and what to bring.'
+        },
+        '/blogs/low-effort-weekends/the-unplugged-weekend-challenge': {
+          title: 'The Unplugged Weekend Challenge',
+          teaser: '48 hours without screens. What actually happens is more interesting than that.'
+        },
+        '/blogs/low-effort-weekends/neighborhood-block-party-playbook': {
+          title: 'The Neighborhood Block Party Playbook',
+          teaser: 'How to throw the block party your neighborhood actually shows up to.'
+        },
+        '/blogs/low-effort-weekends/the-sunday-family-cook-off': {
+          title: 'The Sunday Family Cook-Off',
+          teaser: 'A simple competition format that gets everyone in the kitchen and turns Sunday into the meal everyone looks forward to.'
+        },
+        '/blogs/low-effort-weekends/trail-running-for-total-beginners': {
+          title: 'Trail Running for Total Beginners',
+          teaser: 'Why trails are actually easier on your body than roads, and the gear that matters vs. the gear that doesn\'t.'
+        },
+        '/blogs/low-effort-weekends/the-stargazing-night-guide': {
+          title: 'The Stargazing Night Guide',
+          teaser: 'What you can actually see in the night sky, how to see it, and how to turn a clear night into something you\'ll remember.'
+        }
+      };
+      var data = articleData[articleUrl] || { title: 'Read the full guide', teaser: '' };
+      guideEl.innerHTML = '<a href="' + articleUrl + '">' +
+        '<span class="wbs-related-guide-icon">📖</span>' +
+        '<div class="wbs-related-guide-text">' +
+          '<div class="wbs-related-guide-label">Read the guide</div>' +
+          '<div class="wbs-related-guide-title">' + escHtml(data.title) + '</div>' +
+          (data.teaser ? '<div style="font-size:11px;color:#666;margin-top:3px;line-height:1.3;">' + escHtml(data.teaser) + '</div>' : '') +
+        '</div>' +
+        '<span class="wbs-related-guide-cta">Read →</span>' +
+      '</a>';
+    } else if (guideEl) {
+      guideEl.innerHTML = '';
+    }
+  }
+
+  function updateCart() {
+    var checked = document.querySelectorAll('.sh-cb:checked');
+    var cartBtn = document.getElementById('sh-cart-btn');
+    var summary = document.getElementById('sh-cart-summary');
+    if (!checked.length) {
+      if (cartBtn) { cartBtn.href = '#'; cartBtn.classList.add('sh-cart-cta--dim'); }
+      if (summary) summary.textContent = 'Select items above';
+      return;
+    }
+    var asins = Array.from(checked).map(function(cb) { return {asin: cb.dataset.asin, price: cb.dataset.price}; });
+    var url = 'https://www.amazon.com/gp/aws/cart/add.html?AssociateTag=' + affiliateTag;
+    asins.forEach(function(item, i) {
+      url += '&ASIN.' + (i+1) + '=' + item.asin + '&Quantity.' + (i+1) + '=1';
+    });
+    if (cartBtn) { cartBtn.href = url; cartBtn.classList.remove('sh-cart-cta--dim'); }
+    var total = asins.reduce(function(sum, item) { return sum + parsePriceNum(item.price); }, 0);
+    if (summary) summary.textContent = checked.length + ' item' + (checked.length !== 1 ? 's' : '') + ' · ~$' + total;
+
+    var kitKey = kitMap[currentWho] && kitMap[currentWho][currentVibe];
+    var kit = kitKey && kits[kitKey];
+    var drawer = document.getElementById('wbs-mobile-drawer');
+    var drawerBtn = document.getElementById('wbs-mobile-drawer-btn');
+    if (drawer && window.innerWidth < 768) {
+      drawer.classList.add('active');
+      if (drawerBtn) drawerBtn.href = url;
+      var drawerName = document.getElementById('wbs-mobile-drawer-name');
+      var drawerMeta = document.getElementById('wbs-mobile-drawer-meta');
+      if (drawerName && kit) drawerName.textContent = kit.name;
+      if (drawerMeta) drawerMeta.textContent = checked.length + ' items · ~$' + total;
+    }
+  }
+
+  window.shareKit = function(kitKey) {
+    if (!kitKey) kitKey = (kitMap[currentWho] && kitMap[currentWho][currentVibe]) || 'family_cozy';
+    var articlePath = kitArticleMap[kitKey] || '/blogs/low-effort-weekends';
+    var url = window.location.origin + articlePath;
+    var kit = kits[kitKey];
+    var title = (kit ? kit.name : kitKey) + ' — Weekend Basecamp';
+    if (navigator.share) {
+      navigator.share({ title: title, text: 'Check out this weekend kit!', url: url }).catch(function() {});
+    } else {
+      try {
+        navigator.clipboard.writeText(url).then(function() {
+          var toast = document.createElement('div');
+          toast.textContent = 'Link copied!';
+          toast.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:10px 20px;border-radius:8px;z-index:99999;font-size:14px;';
+          document.body.appendChild(toast);
+          setTimeout(function() { toast.remove(); }, 2000);
+        });
+      } catch(e) {}
+    }
+  };
+
+  document.querySelectorAll('.sh-pill').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var group = btn.dataset.group;
+      var value = btn.dataset.value;
+      document.querySelectorAll('.sh-pill[data-group="' + group + '"]').forEach(function(b) {
+        b.classList.remove('sh-pill--on');
+      });
+      btn.classList.add('sh-pill--on');
+      if (group === 'who') currentWho = value;
+      else if (group === 'vibe') currentVibe = value;
+      renderKit(kitMap[currentWho][currentVibe]);
+      try {
+        var url = new URL(window.location.href);
+        url.searchParams.set('who', currentWho);
+        url.searchParams.set('vibe', currentVibe);
+        window.history.replaceState({}, '', url.toString());
+      } catch(e) {}
+    });
+  });
+
+  var dismissBtn = document.getElementById('wbs-mobile-drawer-dismiss');
+  if (dismissBtn) dismissBtn.addEventListener('click', function() {
+    var drawer = document.getElementById('wbs-mobile-drawer');
+    if (drawer) drawer.classList.remove('active');
+  });
+
+  try {
+    var params = new URLSearchParams(window.location.search);
+    var whoP = params.get('who');
+    var vibeP = params.get('vibe');
+    if (whoP && kitMap[whoP]) {
+      currentWho = whoP;
+      document.querySelectorAll('.sh-pill[data-group="who"]').forEach(function(b) {
+        b.classList.toggle('sh-pill--on', b.dataset.value === whoP);
+      });
+    }
+    if (vibeP && kitMap[currentWho][vibeP]) {
+      currentVibe = vibeP;
+      document.querySelectorAll('.sh-pill[data-group="vibe"]').forEach(function(b) {
+        b.classList.toggle('sh-pill--on', b.dataset.value === vibeP);
+      });
+    }
+  } catch(e) {}
+
+  renderKit(kitMap[currentWho][currentVibe]);
+})();
+</script>

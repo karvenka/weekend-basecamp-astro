@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+<BaseLayout title="Purchasing FAQ" description="Answers to your questions about Amazon links, affiliate disclosure, and how Weekend Basecamp works.">
+  <Header slot="header" />
+
+  <article style="max-width:760px;margin:4rem auto;padding:0 1.5rem;">
+    <nav style="margin-bottom:2rem;font-size:0.85rem;">
+      <a href="/" style="color:#9a7a5a;text-decoration:none;">Home</a>
+      <span style="color:#ccc;margin:0 8px;">›</span>
+      <span style="color:#888;">Purchasing FAQ</span>
+    </nav>
+
+    <h1 style="font-size:2.5rem;font-weight:900;line-height:1.1;margin:0 0 1.5rem;">Purchasing FAQ</h1>
+    <p style="font-size:1.05rem;color:#6b5c4c;margin-bottom:2.5rem;line-height:1.7;">
+      Everything you need to know about how our Amazon links work and what to expect when you shop.
+    </p>
+
+    <div class="faq-section">
+
+      <div class="faq-item">
+        <h2>Why do you link to Amazon?</h2>
+        <p>Amazon is the most reliable way to get things delivered quickly and with easy returns. All of our recommended products are available on Amazon with fast Prime shipping. We link directly to product pages so you can read hundreds of reviews, see current pricing, and order with confidence.</p>
+      </div>
+
+      <div class="faq-item">
+        <h2>Do you earn money from these links?</h2>
+        <p>Yes. Weekend Basecamp is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program. When you click one of our links and make a purchase, we earn a small commission at no extra cost to you. This is how we keep the site running and the guides free.</p>
+        <p>Our affiliate tag is <code>weekendbasecamp-20</code>. You'll see it in the URL of every Amazon link we share.</p>
+      </div>
+
+      <div class="faq-item">
+        <h2>Does using your links cost me more?</h2>
+        <p>No. You pay the same price you'd pay if you went directly to Amazon. The commission comes from Amazon's side, not yours. Using our links is a free way to support the work we do.</p>
+      </div>
+
+      <div class="faq-item">
+        <h2>Are the prices accurate?</h2>
+        <p>Prices on Amazon change frequently. The prices we list are estimates at the time of writing. Always check Amazon directly for the current price before purchasing. We try to update our articles regularly, but pricing can change between updates.</p>
+      </div>
+
+      <div class="faq-item">
+        <h2>What if an item is out of stock?</h2>
+        <p>Amazon inventory varies. If an item is out of stock, Amazon will usually show you similar alternatives on the product page. For most of our recommended products, Amazon will allow you to sign up for back-in-stock notifications.</p>
+      </div>
+
+      <div class="faq-item">
+        <h2>What about returns?</h2>
+        <p>All returns are handled directly through Amazon. Amazon has an excellent return policy — most items can be returned within 30 days for any reason. Weekend Basecamp is not involved in the purchase or return process; we're simply pointing you to products we believe in.</p>
+      </div>
+
+      <div class="faq-item">
+        <h2>Do you only recommend products you've personally tested?</h2>
+        <p>We try to. For our core kit recommendations — the products that appear in our Kit Finder and featured articles — we've either used them personally or researched them extensively through verified reviews, expert sources, and community feedback. We don't accept payment to recommend products.</p>
+      </div>
+
+      <div class="faq-item">
+        <h2>How do I build the multi-item cart?</h2>
+        <p>Click the "Send Kit to Amazon ↗" button on any kit. This builds a pre-loaded Amazon cart with all selected items using a single link. You can review and modify the cart on Amazon before checking out.</p>
+      </div>
+
+      <div class="faq-item">
+        <h2>Questions or concerns?</h2>
+        <p>Reach out through our social channels — <a href="https://www.instagram.com/weekendbasecamp" target="_blank" rel="noopener noreferrer" style="color:#CC5500;">Instagram</a> or <a href="https://www.pinterest.com/weekendbasecamp" target="_blank" rel="noopener noreferrer" style="color:#CC5500;">Pinterest</a>. We read everything.</p>
+      </div>
+
+    </div>
+
+    <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid #e0d8ce;">
+      <a href="/" style="color:#CC5500;text-decoration:none;font-weight:600;font-size:1rem;">← Back to Home</a>
+    </div>
+  </article>
+
+  <Footer slot="footer" />
+</BaseLayout>
+
+<style>
+  .faq-section { display: flex; flex-direction: column; gap: 0; }
+  .faq-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e8dfd3;
+  }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-item h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin: 0 0 0.75rem;
+    line-height: 1.3;
+  }
+  .faq-item p {
+    margin: 0 0 0.75rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #4a4a4a;
+  }
+  .faq-item p:last-child { margin-bottom: 0; }
+  .faq-item code {
+    background: #f0ebe0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: monospace;
+    color: #CC5500;
+  }
+</style>

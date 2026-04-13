@@ -1,0 +1,632 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map(article => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content, headings } = await article.render();
+
+const siteUrl = 'https://weekendbasecamp.com';
+const articleUrl = `${siteUrl}/blogs/low-effort-weekends/${article.slug}`;
+const pubDate = article.data.pubDate.toISOString();
+const pubDateReadable = article.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+// Build Article JSON-LD
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": article.data.title,
+  "description": article.data.description || '',
+  "author": {
+    "@type": "Person",
+    "name": article.data.author || 'Weekend Basecamp Team'
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Weekend Basecamp",
+    "url": siteUrl
+  },
+  "datePublished": pubDate,
+  "dateModified": pubDate,
+  "url": articleUrl,
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": articleUrl
+  }
+};
+
+// Build HowTo JSON-LD (for all articles — generic instructional structure)
+const h2Headings = headings.filter(h => h.depth === 2);
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": article.data.title,
+  "description": article.data.description || article.data.title,
+  "step": h2Headings.length > 0
+    ? h2Headings.map((h, i) => ({
+        "@type": "HowToStep",
+        "position": i + 1,
+        "name": h.text,
+        "url": `${articleUrl}#${h.slug}`
+      }))
+    : [{
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Read the guide",
+        "url": articleUrl
+      }]
+};
+
+// BreadcrumbList schema
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Guides", "item": `${siteUrl}/blogs/low-effort-weekends` },
+    { "@type": "ListItem", "position": 3, "name": article.data.title, "item": articleUrl }
+  ]
+};
+---
+<BaseLayout title={article.data.title} description={article.data.description}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+  <Header slot="header" />
+
+  <div class="article-layout">
+
+    <!-- Sidebar TOC (desktop) -->
+    {h2Headings.length > 0 && (
+      <aside class="article-toc" id="article-toc" aria-label="Table of contents">
+        <nav>
+          <p class="toc-label">In this guide</p>
+          <ul class="toc-list">
+            {h2Headings.map(h => (
+              <li>
+                <a href={`#${h.slug}`} class="toc-link">{h.text}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </aside>
+    )}
+
+    <!-- Article body -->
+    <article class="article-body">
+
+      <!-- Breadcrumbs -->
+      <nav class="article-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <a href="/blogs/low-effort-weekends">Guides</a>
+        <span>›</span>
+        <span>{article.data.title}</span>
+      </nav>
+
+      <!-- Category pill -->
+      {article.data.category && (
+        <span class="article-category">{article.data.category}</span>
+      )}
+
+      <!-- Title -->
+      <h1 class="article-title">{article.data.title}</h1>
+
+      <!-- Byline -->
+      <div class="article-byline">
+        <span>By {article.data.author || 'Weekend Basecamp Team'}</span>
+        {article.data.readTime && <span>· {article.data.readTime}</span>}
+        <time datetime={pubDate}>· {pubDateReadable}</time>
+      </div>
+
+      <!-- Share bar -->
+      <div class="gng-share-bar" id="article-share-bar">
+        <a
+          class="share-btn share-btn--twitter"
+          href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.data.title)}&url=${encodeURIComponent(articleUrl)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Share on Twitter"
+        >𝕏 Twitter</a>
+        <a
+          class="share-btn share-btn--facebook"
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Share on Facebook"
+        >Facebook</a>
+        <button class="share-btn share-btn--copy" id="copy-link-btn" aria-label="Copy link">
+          🔗 Copy Link
+        </button>
+        <button class="share-btn share-btn--native" id="native-share-btn" aria-label="Share" style="display:none">
+          📣 Share
+        </button>
+      </div>
+
+      <!-- Mobile TOC -->
+      {h2Headings.length > 0 && (
+        <details class="mobile-toc" id="mobile-toc">
+          <summary>📋 Table of Contents</summary>
+          <ul class="toc-list mobile-toc__list">
+            {h2Headings.map(h => (
+              <li><a href={`#${h.slug}`} class="toc-link">{h.text}</a></li>
+            ))}
+          </ul>
+        </details>
+      )}
+
+      <!-- Content -->
+      <div class="article-content prose">
+        <Content />
+      </div>
+
+      <!-- Inline product kit — matches this article to its kit -->
+      <div class="article-kit-embed" id="article-kit-embed">
+        <div class="article-kit-header">
+          <span class="article-kit-icon">🎒</span>
+          <div>
+            <div class="article-kit-label">The Kit For This Guide</div>
+            <div class="article-kit-name" id="article-kit-name">Loading kit...</div>
+          </div>
+        </div>
+        <div class="article-kit-products" id="article-kit-products"></div>
+        <a class="article-kit-cta" id="article-kit-cta" href="#" target="_blank" rel="noopener noreferrer nofollow">
+          Send Kit to Amazon →
+        </a>
+        <a class="article-kit-browse" href="/">Browse all kits →</a>
+      </div>
+
+      <!-- Amazon bundle CTA (fallback) -->
+      <div class="article-amazon-cta">
+        <p style="margin:0 0 12px;font-weight:700;font-size:1rem;">Ready to shop the full kit?</p>
+        <a
+          href="https://www.amazon.com/?tag=weekendbasecamp-20"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="amazon-cta-btn"
+        >
+          Browse on Amazon →
+        </a>
+        <p style="margin:8px 0 0;font-size:0.8rem;color:#999;">All links include our affiliate tag (weekendbasecamp-20). Prices may vary.</p>
+      </div>
+
+      <!-- Bottom nav -->
+      <div class="article-bottom-nav">
+        <a href="/blogs/low-effort-weekends">← All Guides</a>
+      </div>
+    </article>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>
+
+<style>
+  .article-layout {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  @media (min-width: 900px) {
+    .article-layout {
+      grid-template-columns: 220px 1fr;
+      align-items: start;
+    }
+    .article-toc { order: -1; }
+  }
+
+  /* ── Sidebar TOC ── */
+  .article-toc {
+    position: sticky;
+    top: 80px;
+    background: #f8f6ea;
+    border-radius: 10px;
+    padding: 1.25rem;
+    border: 1px solid #e8dfd3;
+    font-size: 0.875rem;
+  }
+  .toc-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9a7a5a;
+    margin: 0 0 0.75rem;
+  }
+  .toc-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  .toc-link {
+    color: #4a4a4a;
+    text-decoration: none;
+    line-height: 1.4;
+    display: block;
+    padding: 2px 0;
+    transition: color 0.1s;
+  }
+  .toc-link:hover { color: #CC5500; }
+  @media (max-width: 899px) { .article-toc { display: none; } }
+
+  /* ── Mobile TOC ── */
+  .mobile-toc {
+    background: #f8f6ea;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    border: 1px solid #e8dfd3;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+  .mobile-toc summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: #2c2c2c;
+    list-style: none;
+  }
+  .mobile-toc summary::-webkit-details-marker { display: none; }
+  .mobile-toc__list { margin-top: 0.75rem; }
+  @media (min-width: 900px) { .mobile-toc { display: none; } }
+
+  /* ── Article body ── */
+  .article-body { max-width: 760px; min-width: 0; }
+
+  .article-breadcrumb {
+    font-size: 0.82rem;
+    color: #999;
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-items: center;
+  }
+  .article-breadcrumb a { color: #9a7a5a; text-decoration: none; }
+  .article-breadcrumb a:hover { text-decoration: underline; }
+  .article-breadcrumb span { color: #ccc; }
+
+  .article-category {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9a7a5a;
+    margin-bottom: 0.75rem;
+  }
+  .article-title {
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+    font-weight: 900;
+    line-height: 1.15;
+    margin: 0 0 1rem;
+    color: #1a1a1a;
+  }
+  .article-byline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #888;
+    margin-bottom: 1.5rem;
+  }
+
+  /* ── Share bar ── */
+  .gng-share-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border-top: 1px solid #e8dfd3;
+    border-bottom: 1px solid #e8dfd3;
+  }
+  .share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 14px;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+  }
+  .share-btn:hover { opacity: 0.85; }
+  .share-btn--twitter { background: #000; color: #fff; }
+  .share-btn--facebook { background: #1877f2; color: #fff; }
+  .share-btn--copy { background: #f0ebe0; color: #4a3a2a; }
+  .share-btn--native { background: #CC5500; color: #fff; }
+
+  /* Hide duplicate H1 from markdown body (title already shown above) */
+  .prose > h1:first-child,
+  .prose > p:first-child + h1 { display: none; }
+
+  /* ── Content prose ── */
+  .prose {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #2c2c2c;
+  }
+  .prose h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 2.5rem 0 1rem;
+    color: #1a1a1a;
+    scroll-margin-top: 80px;
+  }
+  .prose h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 2rem 0 0.75rem;
+    color: #2c2c2c;
+    scroll-margin-top: 80px;
+  }
+  .prose p { margin: 0 0 1.25rem; }
+  .prose ul, .prose ol { margin: 0 0 1.25rem; padding-left: 1.5rem; }
+  .prose li { margin-bottom: 0.4rem; }
+  .prose blockquote {
+    border-left: 4px solid #CC5500;
+    margin: 1.5rem 0;
+    padding: 0.75rem 1.25rem;
+    background: #f8f6ea;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: #4a4a4a;
+  }
+  .prose img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1rem 0;
+    display: block;
+  }
+  .prose a {
+    color: #CC5500;
+    text-decoration: underline;
+    text-decoration-color: rgba(204,85,0,0.3);
+  }
+  .prose a:hover { text-decoration-color: #CC5500; }
+  .prose strong { font-weight: 700; }
+  .prose code {
+    background: #f0ebe0;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
+  /* Force all external links in prose to open in new tab via CSS pointer (handled in JS) */
+  .prose a[href^="http"]:not([href*="weekendbasecamp.com"]) {
+    /* external link styling hint */
+  }
+
+  /* ── Inline kit embed ── */
+  .article-kit-embed {
+    background: #fff;
+    border: 2px solid #e8dfd3;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin: 2rem 0;
+  }
+  .article-kit-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  .article-kit-icon { font-size: 28px; }
+  .article-kit-label { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #CC5500; }
+  .article-kit-name { font-size: 15px; font-weight: 800; color: #1a1a1a; }
+  .article-kit-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  @media (min-width: 600px) { .article-kit-products { grid-template-columns: repeat(4, 1fr); } }
+  .article-kit-card {
+    background: #faf7f2;
+    border: 1px solid #ebe5da;
+    border-radius: 6px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: box-shadow 0.15s;
+  }
+  .article-kit-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .article-kit-card img { width: 60px; height: 60px; object-fit: contain; margin-bottom: 4px; }
+  .article-kit-card-name { font-size: 10px; font-weight: 600; line-height: 1.2; color: #1a1a1a; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .article-kit-card-price { font-size: 12px; font-weight: 800; color: #0f1111; margin-top: 2px; }
+  .article-kit-cta {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: #febd69;
+    color: #0f1111;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 8px;
+  }
+  .article-kit-cta:hover { background: #f3a847; }
+  .article-kit-browse {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #007185;
+    text-decoration: none;
+  }
+  .article-kit-browse:hover { text-decoration: underline; }
+
+  /* ── Amazon CTA ── */
+  .article-amazon-cta {
+    background: #f8f6ea;
+    border: 1px solid #e8dfd3;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 2.5rem 0;
+    text-align: center;
+  }
+  .amazon-cta-btn {
+    display: inline-block;
+    background: #FF9900;
+    color: #111;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  .amazon-cta-btn:hover { background: #e68900; color: #111; }
+
+  /* ── Bottom nav ── */
+  .article-bottom-nav {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0d8ce;
+  }
+  .article-bottom-nav a {
+    color: #9a7a5a;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  .article-bottom-nav a:hover { color: #CC5500; }
+
+  @media (max-width: 600px) {
+    .article-layout { padding: 1.5rem 1rem 4rem; }
+    .gng-share-bar { gap: 6px; }
+    .share-btn { font-size: 0.78rem; padding: 6px 10px; }
+  }
+</style>
+
+<script is:inline>
+// Share functionality — weekendbasecamp.com article share
+function shareArticle() {
+  var url = window.location.href;
+  var title = document.title;
+  if (navigator.share) {
+    navigator.share({ title: title, url: url }).catch(function() {});
+  } else {
+    try {
+      navigator.clipboard.writeText(url).then(function() {
+        var btn = document.getElementById('copy-link-btn');
+        if (btn) {
+          btn.textContent = '✓ Copied!';
+          setTimeout(function() { btn.textContent = '🔗 Copy Link'; }, 2000);
+        }
+      });
+    } catch(e) {}
+  }
+}
+window.shareArticle = shareArticle;
+
+// Copy link button
+var copyBtn = document.getElementById('copy-link-btn');
+if (copyBtn) {
+  copyBtn.addEventListener('click', function() {
+    try {
+      navigator.clipboard.writeText(window.location.href).then(function() {
+        copyBtn.textContent = '✓ Copied!';
+        setTimeout(function() { copyBtn.textContent = '🔗 Copy Link'; }, 2000);
+      });
+    } catch(e) {
+      shareArticle();
+    }
+  });
+}
+
+// Native share button
+var nativeBtn = document.getElementById('native-share-btn');
+if (nativeBtn && navigator.share) {
+  nativeBtn.style.display = 'inline-flex';
+  nativeBtn.addEventListener('click', function() {
+    navigator.share({ title: document.title, url: window.location.href }).catch(function() {});
+  });
+}
+
+// Open all external links in new tab
+document.querySelectorAll('.prose a[href^="http"]').forEach(function(a) {
+  if (!a.href.includes('weekendbasecamp.com')) {
+    a.setAttribute('target', '_blank');
+    a.setAttribute('rel', 'noopener noreferrer');
+  }
+});
+
+// Smooth scroll for TOC links
+document.querySelectorAll('.toc-link').forEach(function(link) {
+  link.addEventListener('click', function(e) {
+    var target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+// Load matching kit into article
+(function() {
+  var slug = window.location.pathname.split('/').pop();
+  var articleKitMap = {
+    '25-at-home-date-night-ideas': 'couple_cozy',
+    'the-ultimate-game-night-guide': 'family_cozy',
+    'the-no-stress-family-hiking-guide': 'family_active',
+    'how-to-plan-the-perfect-backyard-night': 'family_celebratory',
+    'weekend-activities-for-kids-that-dont-involve-screens': 'family_deep',
+    'rock-climbing-for-beginners': 'couple_active',
+    '12-best-board-games-for-couples': 'friends_deep',
+    'the-weekend-pickleball-starter-guide': 'friends_active',
+    'how-to-host-a-friendsgiving-thats-actually-fun': 'friends_celebratory',
+    'the-lazy-sunday-brunch-kit': 'friends_cozy',
+    'weekend-camping-for-couples-who-dont-camp': 'couple_celebratory',
+    'the-unplugged-weekend-challenge': 'couple_deep',
+    'neighborhood-block-party-playbook': 'allages_celebratory',
+    'the-sunday-family-cook-off': 'allages_cozy',
+    'trail-running-for-total-beginners': 'allages_active',
+    'the-stargazing-night-guide': 'allages_deep'
+  };
+  var kitKey = articleKitMap[slug];
+  if (!kitKey) { var embed = document.getElementById('article-kit-embed'); if (embed) embed.style.display = 'none'; return; }
+
+  fetch('/kits.json').then(function(r) { return r.json(); }).then(function(kits) {
+    var kit = kits[kitKey];
+    if (!kit) return;
+    var nameEl = document.getElementById('article-kit-name');
+    if (nameEl) nameEl.textContent = kit.name;
+    var products = kit.budget || [];
+    var tag = 'weekendbasecamp-20';
+    var prodsEl = document.getElementById('article-kit-products');
+    if (prodsEl) {
+      prodsEl.innerHTML = products.map(function(p) {
+        return '<a class="article-kit-card" href="https://www.amazon.com/dp/' + p.asin + '?tag=' + tag + '" target="_blank" rel="noopener noreferrer nofollow">' +
+          '<img src="https://images-na.ssl-images-amazon.com/images/P/' + p.asin + '.01._SCLZZZZZZZ_SL250_.jpg" alt="' + (p.name || '').replace(/"/g,'') + '" onerror="this.onerror=null;this.src=\'https://m.media-amazon.com/images/P/' + p.asin + '.01._SCLZZZZZZZ_SL250_.jpg\';" />' +
+          '<div class="article-kit-card-name">' + (p.name || '') + '</div>' +
+          '<div class="article-kit-card-price">' + (p.price || '') + '</div>' +
+        '</a>';
+      }).join('');
+    }
+    var ctaEl = document.getElementById('article-kit-cta');
+    if (ctaEl) {
+      var url = 'https://www.amazon.com/gp/aws/cart/add.html?AssociateTag=' + tag;
+      products.forEach(function(p, i) { url += '&ASIN.' + (i+1) + '=' + p.asin + '&Quantity.' + (i+1) + '=1'; });
+      ctaEl.href = url;
+    }
+  }).catch(function() {});
+})();
+</script>

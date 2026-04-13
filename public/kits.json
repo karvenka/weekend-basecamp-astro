@@ -1,0 +1,1618 @@
+{
+  "family_active": {
+    "name": "Family Games Kit",
+    "story": "Throw these in a tote, find any patch of grass, and you've got a full afternoon of family competition. No setup instructions. No assembly. Just go.",
+    "editorial": "We picked games that run themselves. Codenames scales from 4 to 20 players without anyone needing instructions. The glow sticks mean it keeps going after dark.",
+    "plan": "active",
+    "budget": [
+      {
+        "role": "The Game",
+        "asin": "B00A0LBJI2",
+        "name": "TENZI Dice Game",
+        "why": "10 dice per player, 20 seconds per round. Pure chaos. Everyone learns in 60 seconds.",
+        "price": "$18"
+      },
+      {
+        "role": "The Night Game",
+        "asin": "B07ZQ5MTQS",
+        "name": "200-Pack Glow Sticks Party Set (Bracelets + Necklaces)",
+        "why": "Hand these out at dusk. Game time extends by two hours.",
+        "price": "$10"
+      },
+      {
+        "role": "The Fuel",
+        "asin": "B009LVVCE0",
+        "name": "Clif Bar Variety Pack (12-count)",
+        "why": "Nobody argues when there are enough snacks. One for each quarter.",
+        "price": "$18"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "27 honest shots from the afternoon nobody planned but everyone remembers.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Game",
+        "asin": "B0FJMQB63N",
+        "name": "Codenames Party Game",
+        "why": "Two teams, one board. Scales to every size, works every age. Picnic table or living room floor.",
+        "price": "$25"
+      },
+      {
+        "role": "The Night Game",
+        "asin": "B07ZQ5MTQS",
+        "name": "200-Pack Glow Sticks Party Set (Bracelets + Necklaces)",
+        "why": "Hand these out at dusk. Nobody goes home for another two hours.",
+        "price": "$10"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Pocket-sized but loud enough for the whole park. Clip it to the bag.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "27 shots. No filters. No scrolling. Just the afternoon.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Game",
+        "asin": "B0FRFVZBTJ",
+        "name": "Ticket to Ride Board Game (2025 Refresh)",
+        "why": "The cross-country classic. Bring a flat surface. Runs for hours.",
+        "price": "$38",
+        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip it to any bag strap. IP67 waterproof. 10 hours of music.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Fuel",
+        "asin": "B09MVQD88Q",
+        "name": "Liquid IV Hydration Multiplier 30-count Variety Pack",
+        "why": "Mix in a water bottle. Everyone stays hydrated. Nobody fades in the second half.",
+        "price": "$35"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00B5I44PY",
+        "name": "Fujifilm Instax Mini Film 20-pack",
+        "why": "Instant prints everyone fights over at the end of the day.",
+        "price": "$14"
+      }
+    ]
+  },
+  "family_cozy": {
+    "name": "Cozy Family Night Kit",
+    "story": "Game, hot drinks, soft music, and a camera to catch the laughs. Grab these, clear the table, and the evening takes care of itself.",
+    "editorial": "The hot cocoa is non-optional. The disposable camera is the thing everyone asks about when the prints come back from the drugstore.",
+    "plan": "cozy",
+    "budget": [
+      {
+        "role": "The Game",
+        "asin": "B00000IVAK",
+        "name": "Sequence Original Board Game",
+        "why": "Cards meet board game. Every age gets it in two minutes. The game that goes three rounds without asking.",
+        "price": "$20",
+        "image": "https://m.media-amazon.com/images/I/81xN2QLBUeL._SL1500_.jpg"
+      },
+      {
+        "role": "The Snack",
+        "asin": "B074WMQR7V",
+        "name": "Swiss Miss Hot Cocoa 50-count Variety Pack",
+        "why": "Milk or water, 60 seconds in the microwave. The one thing nobody refuses.",
+        "price": "$12"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "24-hour battery. Warm sound at low volume. Set it and forget it.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "Pass it around the table. The prints come back way better than you expect.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Game",
+        "asin": "B0FRFVZBTJ",
+        "name": "Ticket to Ride Board Game (2025 Refresh)",
+        "why": "The modern classic. Cross-country train routes for the whole family. Nobody puts it away early.",
+        "price": "$38",
+        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Snack",
+        "asin": "B07V4KXPFQ",
+        "name": "Ghirardelli Premium Hot Cocoa 15-count Variety",
+        "why": "The upgrade cocoa. Dark chocolate, mocha, sweet ground. Actually different from Swiss Miss.",
+        "price": "$16"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Pocket-sized. Surprisingly loud. 5-hour battery for a full game night.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00B5I44PY",
+        "name": "Fujifilm Instax Mini Film 20-pack",
+        "why": "Print from the Instax and hand the photo to whoever's having the best night.",
+        "price": "$14"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Game",
+        "asin": "B00U26V4VQ",
+        "name": "CATAN Board Game (6th Edition)",
+        "why": "Build, trade, backstab. The game that started a million arguments and twice as many rematches.",
+        "price": "$53",
+        "image": "https://m.media-amazon.com/images/I/81zZW70yiYL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Snack",
+        "asin": "B0D3XHMPSD",
+        "name": "Ghirardelli Premium Hot Cocoa Gift Set (Assorted, 30-count)",
+        "why": "Enough for the whole game. The good kind, not the powder-and-water kind.",
+        "price": "$22"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip it to the shelf. IP67 waterproof. 10 hours. Nobody messes with the music.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B0CQQ6L8T5",
+        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
+        "why": "Two cameras, two perspectives of the same night. Develop them together.",
+        "price": "$32"
+      }
+    ]
+  },
+  "family_celebratory": {
+    "name": "Family Celebration Kit",
+    "story": "Games, glow, music, and cameras — grab these, invite whoever's around, and the celebration runs itself without a single thing to set up.",
+    "editorial": "Codenames works for every age and scales to any group size. The glow sticks are the moment everyone remembers. The camera is the thing they fight over at the end.",
+    "plan": "celebratory",
+    "budget": [
+      {
+        "role": "The Game",
+        "asin": "B0FJMQB63N",
+        "name": "Codenames Party Game",
+        "why": "Two teams, one board, unlimited trash talk. Works for 4 or 14 players.",
+        "price": "$25"
+      },
+      {
+        "role": "The Atmosphere",
+        "asin": "B0BNQMFR5K",
+        "name": "300-Piece Glow Party Pack (Bracelets, Necklaces, Rings)",
+        "why": "Dump the bag when the sun goes down. Instant celebration.",
+        "price": "$12"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "24-hour battery. Loud enough for dancing. On before anyone arrives.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "Pass it around. The prints from a party camera always beat phone photos.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Game",
+        "asin": "B0FJMQB63N",
+        "name": "Codenames Party Game",
+        "why": "The game that makes everyone yell. Scales from 4 to 20 without a rule book.",
+        "price": "$25"
+      },
+      {
+        "role": "The Atmosphere",
+        "asin": "B08LMTXF3K",
+        "name": "Confetti Poppers 24-Pack",
+        "why": "Load one per person. Pop on count three. Instant celebration.",
+        "price": "$15"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Fits in a pocket. Loud enough for a party. 5-hour battery.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00B5I44PY",
+        "name": "Fujifilm Instax Mini Film 20-pack",
+        "why": "Print the group shot. Instant. Everyone wants the extra copy.",
+        "price": "$14"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Game",
+        "asin": "B0FRFVZBTJ",
+        "name": "Ticket to Ride Board Game (2025 Refresh)",
+        "why": "The game that runs for hours. Everyone's still talking strategy at the end.",
+        "price": "$38",
+        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Atmosphere",
+        "asin": "B09FDLVKF2",
+        "name": "Confetti Cannon Party Set (6-pack)",
+        "why": "Six cannons for six moments. Save two for later — you'll know when.",
+        "price": "$20"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip it anywhere. IP67 waterproof. 10 hours of party music.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B0CQQ6L8T5",
+        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
+        "why": "Two cameras, double the coverage. Develop them and split the prints.",
+        "price": "$32"
+      }
+    ]
+  },
+  "family_deep": {
+    "name": "Meaningful Family Night Kit",
+    "story": "Skip the phones. Pull out the cards, pour something warm, and start asking real questions. Grab these before the evening disappears into another scroll session.",
+    "editorial": "The {THE AND} deck is the unlock. It gives everyone permission to go somewhere real in conversation. Every tier delivers the same depth — just at different levels of comfort.",
+    "plan": "deep",
+    "budget": [
+      {
+        "role": "The Conversation",
+        "asin": "B0DT3P6M5Q",
+        "name": "{THE AND} Family Edition Card Game",
+        "why": "Questions that start real conversations across generations. More than 200 prompts.",
+        "price": "$25"
+      },
+      {
+        "role": "The Journal",
+        "asin": "B07KBVLZ5C",
+        "name": "Mini Composition Notebooks 3-Pack",
+        "why": "One per person. Write down the answers worth keeping.",
+        "price": "$10"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "Background music, just enough. 24-hour battery. Keep it low.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Ritual",
+        "asin": "B074WMQR7V",
+        "name": "Swiss Miss Hot Cocoa 50-count Variety Pack",
+        "why": "Warm mugs change the energy of a room. The ritual that signals the evening has started.",
+        "price": "$10"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Conversation",
+        "asin": "B0DT3P6M5Q",
+        "name": "{THE AND} Family Edition Card Game",
+        "why": "Go deep. Skip small talk. Questions worth asking out loud.",
+        "price": "$25"
+      },
+      {
+        "role": "The Journal",
+        "asin": "B00MXFQJDQ",
+        "name": "Leuchtturm1917 Hardcover Notebook (A5, Dotted)",
+        "why": "Numbered pages, solid binding. The kind of journal worth writing in.",
+        "price": "$25"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Soft music, just enough to fill the room. 5-hour battery.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Ritual",
+        "asin": "B00A3AQZZY",
+        "name": "Harney & Sons Tea Sampler 50-count",
+        "why": "Hot tea changes the energy. Pick a flavor, pour slowly, don't rush the night.",
+        "price": "$15"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Conversation",
+        "asin": "B0CQRVTCGH",
+        "name": "Esther Perel — Where Should We Begin? Card Game (2nd Ed.)",
+        "why": "From the world's most famous relationship therapist. Questions worth asking at any age.",
+        "price": "$42",
+        "image": "https://m.media-amazon.com/images/I/71CCSvCST+L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Journal",
+        "asin": "B00MXFQJDQ",
+        "name": "Leuchtturm1917 Hardcover Notebook (A5, Dotted)",
+        "why": "Write down the answers worth keeping. This notebook becomes an artifact.",
+        "price": "$25"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "10 hours. Clip it to the shelf. Fills the room without demanding attention.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Ritual",
+        "asin": "B07V4KXPFQ",
+        "name": "Ghirardelli Premium Hot Cocoa 15-count Variety",
+        "why": "Warm mugs, a real question, and nowhere to be. The upgrade from dinner.",
+        "price": "$16"
+      }
+    ]
+  },
+  "friends_active": {
+    "name": "Park Day Kit",
+    "story": "Card games, snacks, music, and a camera — throw these in your bag and you've already planned the best part of the weekend. No court, no equipment, no setup.",
+    "editorial": "Codenames turns any group of friends into two competitive teams instantly. The Liquid IV means nobody fades before the rematch.",
+    "plan": "active",
+    "budget": [
+      {
+        "role": "The Game",
+        "asin": "B0039K4LSG",
+        "name": "Bicycle Playing Cards 2-Pack",
+        "why": "Poker, rummy, BS, war — two decks handles any group, any game.",
+        "price": "$10"
+      },
+      {
+        "role": "The Fuel",
+        "asin": "B009LVVCE0",
+        "name": "Clif Bar Variety Pack (12-count)",
+        "why": "One each, no arguments. Keeps everyone going for the afternoon.",
+        "price": "$18"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "24-hour battery. Loud enough for the park. Tough enough for the bag.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "27 shots from the afternoon nobody planned. Develop together later.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Game",
+        "asin": "B0FJMQB63N",
+        "name": "Codenames Party Game",
+        "why": "Two teams, one board. Learn in 5 minutes, play for 2 hours. Scales to any group.",
+        "price": "$25"
+      },
+      {
+        "role": "The Fuel",
+        "asin": "B08MVQD88P",
+        "name": "Liquid IV Hydration Multiplier 16-count Variety Pack",
+        "why": "Mix one in a bottle. Every friend stays hydrated. Nobody fades at hour three.",
+        "price": "$22"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Pocket-sized. Loud enough for a picnic blanket crowd.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00B5I44PY",
+        "name": "Fujifilm Instax Mini Film 20-pack",
+        "why": "Print the group shot. Instant prints everyone actually wants to keep.",
+        "price": "$14"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Game",
+        "asin": "B0FRFVZBTJ",
+        "name": "Ticket to Ride Board Game (2025 Refresh)",
+        "why": "The game that runs itself for three hours. Bring a flat surface and you're set.",
+        "price": "$38",
+        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Fuel",
+        "asin": "B09MVQD88Q",
+        "name": "Liquid IV Hydration Multiplier 30-count Variety Pack",
+        "why": "Enough for the whole group. The electrolytes that actually work.",
+        "price": "$35"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip to the bag. IP67 waterproof. 10-hour battery. Music handled.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "27 unfiltered shots. The prints from a disposable always surprise you.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  "friends_cozy": {
+    "name": "Sunday Morning Kit",
+    "story": "Instant coffee, a game for the table, soft music, and something to capture the morning. Grab these and let the Sunday take its time.",
+    "editorial": "The Starbucks Via is genuinely good — better than anything a single-serve machine makes at that price. Codenames at a kitchen table is the Sunday ritual nobody knew they needed.",
+    "plan": "cozy",
+    "budget": [
+      {
+        "role": "The Coffee",
+        "asin": "B00464BCUA",
+        "name": "Starbucks Via Ready Brew Instant Coffee (26-count Variety)",
+        "why": "Grab cups, pour hot water, done. Actually good coffee without a machine.",
+        "price": "$18"
+      },
+      {
+        "role": "The Game",
+        "asin": "B00000IVAK",
+        "name": "Sequence Original Board Game",
+        "why": "Cards + board game. Everyone gets it in two minutes. Runs for hours on a Sunday.",
+        "price": "$20",
+        "image": "https://m.media-amazon.com/images/I/81xN2QLBUeL._SL1500_.jpg"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "Background music at the right volume. On the counter, not in your face.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "Sunday mornings look better on film. 27 shots of the people worth keeping.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Coffee",
+        "asin": "B00464BCUA",
+        "name": "Starbucks Via Ready Brew Instant Coffee (26-count Variety)",
+        "why": "Keep a box on the counter. Hot water, thirty seconds. Genuinely good.",
+        "price": "$18"
+      },
+      {
+        "role": "The Game",
+        "asin": "B0FJMQB63N",
+        "name": "Codenames Party Game",
+        "why": "The game that turns brunch into a three-hour event. Learn in five minutes.",
+        "price": "$25"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "On the shelf, not in the way. Morning playlist at Sunday volume.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00B5I44PY",
+        "name": "Fujifilm Instax Mini Film 20-pack",
+        "why": "Print the table shot while everyone's still there. Hand them out before they leave.",
+        "price": "$14"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Coffee",
+        "asin": "B0BJHBXJPN",
+        "name": "Premium Coffee & Snack Gift Set — Whole Bean Variety Sampler",
+        "why": "Five different roasts. Grind before guests arrive. The room smells incredible.",
+        "price": "$35"
+      },
+      {
+        "role": "The Game",
+        "asin": "B00U26V4VQ",
+        "name": "CATAN Board Game (6th Edition)",
+        "why": "Three to four hours of trading, building, and betrayal. The game that is Sunday.",
+        "price": "$53",
+        "image": "https://m.media-amazon.com/images/I/81zZW70yiYL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip it to the cabinet handle. 10 hours. The morning playlist that runs all day.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "The Sunday that looks like nothing on the calendar is always the one worth capturing.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  "friends_celebratory": {
+    "name": "Friendsgiving Hosting Kit",
+    "story": "The snack box before dinner, the game that saves 9pm, candles that make the table feel like somewhere worth staying, and music that's already playing when people walk in.",
+    "editorial": "Codenames works for 4 to 12 people without anyone needing to know anything. The snack box buys you grace before dinner's ready. The speaker needs to be on before guests arrive.",
+    "plan": "celebratory",
+    "budget": [
+      {
+        "role": "The Snack Kit",
+        "asin": "B09B3Z4Q4W",
+        "name": "Hickory Farms Farmhouse Snack Box",
+        "why": "Crackers, summer sausage, cheese, and mustard. Sets the tone before dinner. Looks like you planned it.",
+        "price": "$20"
+      },
+      {
+        "role": "The Game",
+        "asin": "B0FJMQB63N",
+        "name": "Codenames Party Game",
+        "why": "Two teams, one board, unlimited trash talk. The game that saves every 9pm.",
+        "price": "$25"
+      },
+      {
+        "role": "The Atmosphere",
+        "asin": "B083BQMXMC",
+        "name": "Unscented Tea Light Candles 100-count",
+        "why": "Line them down the table. The moment they're lit, dinner feels like an occasion.",
+        "price": "$10"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "70s soul through dinner, something livelier after. On before anyone arrives.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Snack Kit",
+        "asin": "B0BJHBXJPN",
+        "name": "Gourmet Snack Gift Box — Cheese, Crackers & Nuts Assortment",
+        "why": "The pre-dinner spread that actually holds the room while the oven works.",
+        "price": "$28"
+      },
+      {
+        "role": "The Game",
+        "asin": "B0FJMQB63N",
+        "name": "Codenames Party Game",
+        "why": "The game that turns strangers into teams. Learn in 5 minutes, play for 2 hours.",
+        "price": "$25"
+      },
+      {
+        "role": "The Atmosphere",
+        "asin": "B08LPXJ2B9",
+        "name": "Scented Soy Candle Set (3-pack, Warm Amber Variety)",
+        "why": "One per table zone. Warm scent and glow that makes the room feel intentional.",
+        "price": "$18"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Near the table. 5 hours. No one has to babysit the music.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Snack Kit",
+        "asin": "B0D1KFMX9T",
+        "name": "Murray's Cheese & Charcuterie Gift Box — Premium Assortment",
+        "why": "Aged cheeses, cured meats, fig jam. Guests talk about the spread before they even sit down.",
+        "price": "$42"
+      },
+      {
+        "role": "The Game",
+        "asin": "B00U26V4VQ",
+        "name": "CATAN Board Game (6th Edition)",
+        "why": "Scales to 6. No trivia, no luck. Just wit, trades, and the longest road argument.",
+        "price": "$53",
+        "image": "https://m.media-amazon.com/images/I/81zZW70yiYL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Atmosphere",
+        "asin": "B09CPMR4WJ",
+        "name": "Premium Scented Candle Set — Luxury Jar Candles (3-pack)",
+        "why": "Real wax, real throw. Light all three and the apartment becomes a venue.",
+        "price": "$25"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip near the table. Waterproof. 10 hours. The playlist that takes over at 10pm.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  "friends_deep": {
+    "name": "Reunion Night Kit",
+    "story": "The conversation deck, the s'mores kit, the camera, and soft music. Grab these — the depth of a reunion night doesn't come from a fire pit, it comes from the questions.",
+    "editorial": "We Are Not Really Strangers skips three hours of small talk. The s'mores kit gives everyone something to do with their hands while the conversation finds its footing.",
+    "plan": "deep",
+    "budget": [
+      {
+        "role": "The Conversation",
+        "asin": "B092GM9NWH",
+        "name": "We Are Not Really Strangers Card Game",
+        "why": "Skip small talk. Go straight to the real stuff. The deck that actually changes the night.",
+        "price": "$25",
+        "image": "https://m.media-amazon.com/images/I/61zgNkWtvvL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Ritual",
+        "asin": "B07QTXVD71",
+        "name": "S'mores Marshmallow Roasting Kit (Sticks + Ingredients)",
+        "why": "Hands busy, guards down. The s'mores ritual is why the conversation keeps going.",
+        "price": "$12"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "Low and long. 24-hour battery. Background music that never interrupts.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "27 honest shots from the night. Develop them before the next reunion.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Conversation",
+        "asin": "B092GM9NWH",
+        "name": "We Are Not Really Strangers Card Game",
+        "why": "The conversation that doesn't end at midnight.",
+        "price": "$25",
+        "image": "https://m.media-amazon.com/images/I/61zgNkWtvvL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Ritual",
+        "asin": "B0C8Y6JVFK",
+        "name": "Premium S'mores Kit with Telescoping Skewers (Serves 8)",
+        "why": "Premium chocolate, quality marshmallows, real graham crackers. The upgrade ritual.",
+        "price": "$20"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Soft music. Just enough. The background that lets conversation be the foreground.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00B5I44PY",
+        "name": "Fujifilm Instax Mini Film 20-pack",
+        "why": "Instant prints for the group shot nobody staged.",
+        "price": "$14"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Conversation",
+        "asin": "B0CQRVTCGH",
+        "name": "Esther Perel — Where Should We Begin? Card Game (2nd Ed.)",
+        "why": "From the world's top relationship therapist. Questions that go somewhere real.",
+        "price": "$42",
+        "image": "https://m.media-amazon.com/images/I/71CCSvCST+L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Ritual",
+        "asin": "B0C8Y6JVFK",
+        "name": "Premium S'mores Kit with Telescoping Skewers (Serves 8)",
+        "why": "The ritual that extends the night. Hands busy, stories flowing.",
+        "price": "$20"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "10 hours. Clip it somewhere and forget it. The music that outlasts you.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B0CQQ6L8T5",
+        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
+        "why": "Two cameras for two perspectives. The prints from a reunion camera are always the best.",
+        "price": "$32"
+      }
+    ]
+  },
+  "couple_active": {
+    "name": "Adventure For Two Kit",
+    "story": "The scratch-off book, the speaker, snacks, and a camera — grab these and call it a date. Wherever you end up, you're already prepared.",
+    "editorial": "The Adventure Challenge scratch-off book is the unlock. It gives you permission to do something spontaneous without having to invent it from scratch.",
+    "plan": "active",
+    "budget": [
+      {
+        "role": "The Adventure",
+        "asin": "B087Q6NV9V",
+        "name": "The Adventure Challenge Couples Edition",
+        "why": "Scratch off a challenge. Do it together. No phones, no planning required.",
+        "price": "$35"
+      },
+      {
+        "role": "The Fuel",
+        "asin": "B00FOX0UW8",
+        "name": "Kind Bars Variety Pack (12-count)",
+        "why": "Toss them in the bag. Whole-food bars that don't melt, don't crumble, don't disappoint.",
+        "price": "$15"
+      },
+      {
+        "role": "The Night Game",
+        "asin": "B07ZQ5MTQS",
+        "name": "200-Pack Glow Sticks Party Set",
+        "why": "For when you're still out after dark. Make bracelets. Keep going.",
+        "price": "$8"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "Document the date you actually did instead of the one you planned.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Adventure",
+        "asin": "B087Q6NV9V",
+        "name": "The Adventure Challenge Couples Edition",
+        "why": "Scratch off a challenge, do it together. The most creative date night format.",
+        "price": "$35"
+      },
+      {
+        "role": "The Fuel",
+        "asin": "B08MVQD88P",
+        "name": "Liquid IV Hydration Multiplier 16-count Variety Pack",
+        "why": "Mix one in a water bottle before you head out. Stay sharp for the rematch.",
+        "price": "$22"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Pocket-sized. Plays wherever the adventure takes you. 5-hour battery.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00B5I44PY",
+        "name": "Fujifilm Instax Mini Film 20-pack",
+        "why": "Instant prints of wherever you ended up. Keep them in the Adventure Challenge book.",
+        "price": "$14"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Adventure",
+        "asin": "B087Q6NV9V",
+        "name": "The Adventure Challenge Couples Edition",
+        "why": "The scratch-off book that makes spontaneity feel planned. Best date night format.",
+        "price": "$35"
+      },
+      {
+        "role": "The Fuel",
+        "asin": "B09MVQD88Q",
+        "name": "Liquid IV Hydration Multiplier 30-count Variety Pack",
+        "why": "Stock up. You'll use these every weekend once you start.",
+        "price": "$35"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip it to the bag. IP67 waterproof. 10 hours wherever the date goes.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B0CQQ6L8T5",
+        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
+        "why": "Two cameras, one date. Trade them halfway through and see what each of you noticed.",
+        "price": "$32"
+      }
+    ]
+  },
+  "couple_cozy": {
+    "name": "The Quiet Evening Kit",
+    "story": "Conversation cards, candles, soft music, and something warm to drink. Set these on the table and the evening happens by itself.",
+    "editorial": "The candles replace the fire pit and cost $15 instead of $300. The {THE AND} deck gives you permission to skip the 'how was your day' loop. Every tier is a genuinely good evening.",
+    "plan": "cozy",
+    "budget": [
+      {
+        "role": "The Conversation",
+        "asin": "B09D17K38B",
+        "name": "{THE AND} Couples Edition Card Game",
+        "why": "Questions that go deeper than how was your day. More than 200 prompts.",
+        "price": "$25"
+      },
+      {
+        "role": "The Ritual",
+        "asin": "B08LPXJ2B9",
+        "name": "Scented Soy Candle Set (3-pack, Warm Variety)",
+        "why": "Light all three. The room changes. No fire pit required.",
+        "price": "$15"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "Background music at the right volume. Low and long. 24-hour battery.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Comfort",
+        "asin": "B074WMQR7V",
+        "name": "Swiss Miss Hot Cocoa 50-count Variety Pack",
+        "why": "Warm mugs, close together, nowhere to be. The ritual that signals the evening has started.",
+        "price": "$12"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Conversation",
+        "asin": "B09D17K38B",
+        "name": "{THE AND} Couples Edition Card Game",
+        "why": "Designed for real conversations. Go one card deeper than you planned.",
+        "price": "$25"
+      },
+      {
+        "role": "The Ritual",
+        "asin": "B09CPMR4WJ",
+        "name": "Premium Scented Candle Set — Luxury Jar Candles (3-pack)",
+        "why": "The upgrade candle that actually fills the room. Light one, smell the difference.",
+        "price": "$20"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "5 hours. Soft music. Just enough to fill the quiet between cards.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Comfort",
+        "asin": "B00464BCUA",
+        "name": "Starbucks Via Ready Brew Instant Coffee (26-count Variety)",
+        "why": "Hot coffee whenever you want it. No machine, no fuss, no getting up.",
+        "price": "$18"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Conversation",
+        "asin": "B0CQRVTCGH",
+        "name": "Esther Perel — Where Should We Begin? Card Game (2nd Ed.)",
+        "why": "From the world's top relationship therapist. For couples who want to go somewhere real.",
+        "price": "$42",
+        "image": "https://m.media-amazon.com/images/I/71CCSvCST+L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Ritual",
+        "asin": "B09CPMR4WJ",
+        "name": "Premium Scented Candle Set — Luxury Jar Candles (3-pack)",
+        "why": "The candle set that makes the room feel like a destination. Real wax, real throw.",
+        "price": "$45"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "10 hours. Clip to the shelf. No interruptions. Music handled for the whole evening.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Comfort",
+        "asin": "B07V4KXPFQ",
+        "name": "Ghirardelli Premium Hot Cocoa 15-count Variety",
+        "why": "The real hot chocolate. Dark, mocha, sweet ground. The upgrade from Swiss Miss.",
+        "price": "$16"
+      }
+    ]
+  },
+  "couple_celebratory": {
+    "name": "Picnic Date Kit",
+    "story": "Blanket, snacks, camera, and music — grab these, find a spot, and you've just planned the most romantic afternoon of the month. No reservations, no setup.",
+    "editorial": "The packable blanket is the anchor. The snack box means you show up ready. The disposable camera gives you something to do that isn't your phone. This kit goes anywhere.",
+    "plan": "celebratory",
+    "budget": [
+      {
+        "role": "The Spread",
+        "asin": "B09B3Z4Q4W",
+        "name": "Hickory Farms Farmhouse Snack Box",
+        "why": "Crackers, sausage, cheese, mustard. Open it on the blanket. Done.",
+        "price": "$18"
+      },
+      {
+        "role": "The Blanket",
+        "asin": "B0CWDVHQY4",
+        "name": "Compact Packable Picnic Blanket (Waterproof Base, Fleece Top)",
+        "why": "Folds to the size of a water bottle. Rolls out on any surface. Dry on the bottom.",
+        "price": "$20"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "24-hour battery. Outdoor volume. Sets the tone without anyone touching it again.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "The best photos from any date are always the unplanned ones.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Spread",
+        "asin": "B0BJHBXJPN",
+        "name": "Gourmet Snack Gift Box — Cheese, Crackers & Nuts Assortment",
+        "why": "The spread that looks intentional. Open the box, arrange it on the blanket.",
+        "price": "$25"
+      },
+      {
+        "role": "The Blanket",
+        "asin": "B0CWP7M285",
+        "name": "Bedsure Waterproof Outdoor Blanket",
+        "why": "Waterproof bottom, fleece top. Big enough for two. Packs flat. Goes everywhere.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71mnTS8YwPL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Sits in the corner of the blanket. Warm sound. 5-hour outdoor battery.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00B5I44PY",
+        "name": "Fujifilm Instax Mini Film 20-pack",
+        "why": "Print one of you, one of the view. Trade them at the end of the afternoon.",
+        "price": "$14"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Spread",
+        "asin": "B0D1KFMX9T",
+        "name": "Murray's Cheese & Charcuterie Gift Box — Premium Assortment",
+        "why": "Aged cheese, cured meats, fig jam. The picnic spread that feels like a restaurant.",
+        "price": "$42"
+      },
+      {
+        "role": "The Blanket",
+        "asin": "B09VH2MW2G",
+        "name": "Packable Down Throw Blanket — Lightweight, Compressible",
+        "why": "Packs to the size of a grapefruit. Impossibly warm. The blanket you bring on every trip after.",
+        "price": "$45"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip to the bag strap. IP67 waterproof. 10 hours of music wherever you go.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B0CQQ6L8T5",
+        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
+        "why": "Two cameras for the afternoon. Trade halfway. Develop together.",
+        "price": "$32"
+      }
+    ]
+  },
+  "couple_deep": {
+    "name": "Unplugged Weekend Kit",
+    "story": "48 hours, no screens. Conversation cards, a board game for the evening, a journal for two, and tea for the quiet parts. Grab these before the weekend starts.",
+    "editorial": "The conversation cards are the unlock — they give you permission to go somewhere real. The board game handles the evenings. The journal is optional until suddenly it isn't.",
+    "plan": "deep",
+    "budget": [
+      {
+        "role": "The Conversation",
+        "asin": "B09D17K38B",
+        "name": "{THE AND} Couples Edition Card Game",
+        "why": "Questions between 'how was your day' and 'what are you afraid of.' Use them at dinner.",
+        "price": "$25"
+      },
+      {
+        "role": "The Journal",
+        "asin": "B07KBVLZ5C",
+        "name": "Mini Composition Notebooks 3-Pack",
+        "why": "One each. Write whatever comes up. Trade notebooks on Sunday morning.",
+        "price": "$10"
+      },
+      {
+        "role": "The Game",
+        "asin": "B00J1LZDPK",
+        "name": "Patchwork Board Game (2-Player)",
+        "why": "30 minutes, no luck. The tile puzzle game that turns competitive fast.",
+        "price": "$25"
+      },
+      {
+        "role": "The Ritual",
+        "asin": "B000GG0IIK",
+        "name": "Celestial Seasonings Tea Sampler 50-count",
+        "why": "Hot tea, phones face-down. The ritual that signals the unplugged part has started.",
+        "price": "$12"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Conversation",
+        "asin": "B09D17K38B",
+        "name": "{THE AND} Couples Edition Card Game",
+        "why": "The cards that change the quality of the weekend. Use them at dinner.",
+        "price": "$25"
+      },
+      {
+        "role": "The Journal",
+        "asin": "B00MXFQJDQ",
+        "name": "Leuchtturm1917 Hardcover Notebook (A5, Dotted)",
+        "why": "One journal, two people. Take turns. No rules about what to write.",
+        "price": "$25"
+      },
+      {
+        "role": "The Game",
+        "asin": "B00J1LZDPK",
+        "name": "Patchwork Board Game (2-Player)",
+        "why": "The best 2-player board game at this price. Deceptively strategic. Immediate rematch.",
+        "price": "$25"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Load offline playlists before the weekend starts. Phone goes face-down. Music stays on.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Conversation",
+        "asin": "B0CQRVTCGH",
+        "name": "Esther Perel — Where Should We Begin? Card Game (2nd Ed.)",
+        "why": "The conversation deck for couples who want to go somewhere real. Worth every penny.",
+        "price": "$42",
+        "image": "https://m.media-amazon.com/images/I/71CCSvCST+L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Journal",
+        "asin": "B00MXFQJDQ",
+        "name": "Leuchtturm1917 Hardcover Notebook (A5, Dotted)",
+        "why": "The notebook worth keeping. Good paper, numbered pages, lies flat.",
+        "price": "$25"
+      },
+      {
+        "role": "The Game",
+        "asin": "B0FRFVZBTJ",
+        "name": "Ticket to Ride Board Game (2025 Refresh)",
+        "why": "The game that fills a full evening. Immediate rematch every time.",
+        "price": "$38",
+        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "10-hour battery. Load Spotify offline before the weekend starts. Phone goes in the drawer.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  "allages_active": {
+    "name": "Trail Day Kit",
+    "story": "Trail mix, hydration packets, a speaker for the walk back, and a camera for the good views. Throw these in a daypack and the trail takes care of the rest.",
+    "editorial": "Liquid IV in a water bottle does more than any sports drink. The disposable camera is the best decision you make on any trail — phone photos never capture the actual feeling.",
+    "plan": "active",
+    "budget": [
+      {
+        "role": "The Fuel",
+        "asin": "B08F4W3JCF",
+        "name": "Trail Mix Variety Pack (14-count Individual Bags)",
+        "why": "One per person, one for the summit. The classic trail fuel that actually works.",
+        "price": "$18"
+      },
+      {
+        "role": "The Hydration",
+        "asin": "B00IFYZ0FK",
+        "name": "Nuun Sport Hydration Tablets (4-pack, Variety Flavors)",
+        "why": "Drop one in a water bottle. Better electrolytes than any sports drink.",
+        "price": "$16"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "24-hour battery. Fits any pocket. The walk back always needs music.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "For the views that phone cameras never quite get right. 27 honest shots.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Fuel",
+        "asin": "B07CZVZMXY",
+        "name": "RXBAR Whole Food Protein Bars Variety Pack (12-count)",
+        "why": "Real ingredients, no junk, no wrapper guilt. The bar that actually fills you up on trail.",
+        "price": "$25"
+      },
+      {
+        "role": "The Hydration",
+        "asin": "B08MVQD88P",
+        "name": "Liquid IV Hydration Multiplier 16-count Variety Pack",
+        "why": "One packet multiplies your hydration. Mix it, drink it, keep moving.",
+        "price": "$22"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Pocket-sized. Sounds great outdoors. 5-hour battery for the whole trail.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00B5I44PY",
+        "name": "Fujifilm Instax Mini Film 20-pack",
+        "why": "Print the summit shot. Instant, physical, and it actually captures the light.",
+        "price": "$14"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Fuel",
+        "asin": "B08CTRVZMX",
+        "name": "RXBAR Whole Food Protein Bars Variety Pack (24-count)",
+        "why": "Stock up. You'll go back to these every weekend once you start.",
+        "price": "$38"
+      },
+      {
+        "role": "The Hydration",
+        "asin": "B09MVQD88Q",
+        "name": "Liquid IV Hydration Multiplier 30-count Variety Pack",
+        "why": "Enough for the whole season. Throw packets in every bag you own.",
+        "price": "$35"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip to the shoulder strap. IP67 waterproof. 10 hours. Handles any weather.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B0CQQ6L8T5",
+        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
+        "why": "Two cameras, one trail. One for the views, one for the people who showed up.",
+        "price": "$32"
+      }
+    ]
+  },
+  "allages_cozy": {
+    "name": "Sunday Cook-Off Kit",
+    "story": "Pick 3 ingredients, set the timer, everyone cooks. Aprons on, music up, and whoever finishes last does the dishes. Grab these and the competition starts itself.",
+    "editorial": "The timer is not optional — it's what makes it feel like a competition instead of Sunday dinner prep. The aprons signal that the cook-off has started.",
+    "plan": "cozy",
+    "budget": [
+      {
+        "role": "The Aprons",
+        "asin": "B09FZGXHBN",
+        "name": "Disposable Chef Aprons (10-pack)",
+        "why": "Put one on and you're a chef. Take it off and you're back to regular Sunday.",
+        "price": "$12"
+      },
+      {
+        "role": "The Timer",
+        "asin": "B07FLL9LGV",
+        "name": "Large Digital Kitchen Timer with Loud Alarm",
+        "why": "Visible from across the kitchen. The countdown changes the energy in the room.",
+        "price": "$12"
+      },
+      {
+        "role": "The Snack Station",
+        "asin": "B0C3QG7YKF",
+        "name": "Variety Snack Pack (Chips, Crackers & Pretzels, 30-count)",
+        "why": "For the judges. And the cooks between rounds. Nobody cooks well when hungry.",
+        "price": "$15"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "Counter height, kitchen volume. The soundtrack that makes the cook-off feel real.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Aprons",
+        "asin": "B08KGFXK2L",
+        "name": "Matching Family Apron Set (4-Pack, Adults + Kids)",
+        "why": "When the aprons go on, the cook-off has started. The costume is the signal.",
+        "price": "$35"
+      },
+      {
+        "role": "The Kids Kitchen",
+        "asin": "B07DT7XDZ5",
+        "name": "America's Test Kitchen Kids Cookbook",
+        "why": "Written for actual young cooks, not parents pretending to supervise. Real techniques.",
+        "price": "$25",
+        "image": "https://m.media-amazon.com/images/I/91SnWGQkliL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Timer",
+        "asin": "B07FLL9LGV",
+        "name": "Large Digital Kitchen Timer with Loud Alarm",
+        "why": "One hour. Visible countdown. Real stakes.",
+        "price": "$12"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Mounted on the cabinet handle. Kitchen chaos needs the right energy.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Aprons",
+        "asin": "B08KGFXK2L",
+        "name": "Matching Family Apron Set (4-Pack, Adults + Kids)",
+        "why": "The uniform. The whole family is a restaurant for one hour.",
+        "price": "$35"
+      },
+      {
+        "role": "The Kids Kitchen",
+        "asin": "B07DT7XDZ5",
+        "name": "America's Test Kitchen Kids Cookbook",
+        "why": "The book that made our kids actually want to cook. Takes them seriously.",
+        "price": "$25",
+        "image": "https://m.media-amazon.com/images/I/91SnWGQkliL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip to the cabinet. IP67 waterproof for the splatter zone. Competition needs volume.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "Pass it around for the plating shots. Cook-off photos always surprise you.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  "allages_celebratory": {
+    "name": "Block Party Kit",
+    "story": "Card games, glow accessories, something for the cooler, and music — grab these and the block party runs itself without a single thing to assemble or return.",
+    "editorial": "Codenames works for every age and every group size. The glow sticks are the moment everyone remembers. Best of all: fits in a single tote bag.",
+    "plan": "celebratory",
+    "budget": [
+      {
+        "role": "The Game",
+        "asin": "B0FJMQB63N",
+        "name": "Codenames Party Game",
+        "why": "Set it up on a table. People find it. No instruction session required.",
+        "price": "$25"
+      },
+      {
+        "role": "The Atmosphere",
+        "asin": "B0BNQMFR5K",
+        "name": "300-Piece Glow Party Pack (Bracelets, Necklaces, Rings)",
+        "why": "Hand them out at dusk. Instant party. Zero setup.",
+        "price": "$12"
+      },
+      {
+        "role": "The Cooler Boost",
+        "asin": "B0CTXV2N1K",
+        "name": "Kool Aid Drink Mix Singles 48-count Variety",
+        "why": "Mix in water bottles for everyone. Endless supply. Keeps the kids hydrated.",
+        "price": "$8"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B01MTB55WH",
+        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
+        "why": "On before anyone arrives. 24-hour battery. The playlist that runs all afternoon.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Game",
+        "asin": "B0FJMQB63N",
+        "name": "Codenames Party Game",
+        "why": "The tournament game. Scales to 20 players without any extra equipment.",
+        "price": "$25"
+      },
+      {
+        "role": "The Atmosphere",
+        "asin": "B08LMTXF3K",
+        "name": "Confetti Poppers 24-Pack + Glow Bracelet Set",
+        "why": "Pop the cannons at the right moment. Hand out the bracelets after dark.",
+        "price": "$20"
+      },
+      {
+        "role": "The Cooler Boost",
+        "asin": "B08MVQD88P",
+        "name": "Liquid IV Hydration Multiplier 16-count Variety Pack",
+        "why": "For the crowd that's been out in the heat. One packet, one water bottle, done.",
+        "price": "$22"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Plenty loud for a gathering. 5-hour battery. No one babysits it.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Game",
+        "asin": "B0FRFVZBTJ",
+        "name": "Ticket to Ride Board Game (2025 Refresh)",
+        "why": "The game that runs for three hours at a single table. Everybody wants in.",
+        "price": "$38",
+        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Atmosphere",
+        "asin": "B09FDLVKF2",
+        "name": "Confetti Cannon Party Set (6-pack) + Glow Mega Pack",
+        "why": "Six cannons plus glow accessories. The two moments everyone talks about later.",
+        "price": "$25"
+      },
+      {
+        "role": "The Cooler Boost",
+        "asin": "B09MVQD88Q",
+        "name": "Liquid IV Hydration Multiplier 30-count Variety Pack",
+        "why": "Enough for the whole block. Throw one in every cooler you've got.",
+        "price": "$35"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip it to the table edge. IP67 waterproof. 10 hours at gathering volume.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  "allages_deep": {
+    "name": "Stargazing Night Kit",
+    "story": "A star map, something warm to drink, a blanket you can actually lie on, and a camera to capture what you see. Grab these — the sky does the rest.",
+    "editorial": "You don't need a telescope for your first night. The planisphere teaches you more than an app, and it works without a battery. The thermos is what keeps you outside for hour three.",
+    "plan": "deep",
+    "budget": [
+      {
+        "role": "The Map",
+        "asin": "B000MMEOIC",
+        "name": "David Chandler Planisphere (40-degree latitude)",
+        "why": "Set the date and time. It shows exactly what's overhead. The paper version that slows you down in a good way.",
+        "price": "$15"
+      },
+      {
+        "role": "The Warmth",
+        "asin": "B0CWP7M285",
+        "name": "Bedsure Waterproof Outdoor Blanket",
+        "why": "Waterproof bottom, fleece top. Lie on it, wrap in it. Clear nights get cold fast.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71mnTS8YwPL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Thermos",
+        "asin": "B0756LN9NH",
+        "name": "Stanley Classic Trigger-Action Travel Mug (16oz)",
+        "why": "Hot tea or cocoa at midnight. The thing that keeps you outside for the extra hour.",
+        "price": "$18"
+      },
+      {
+        "role": "The Memory Maker",
+        "asin": "B00001R3W3",
+        "name": "Kodak FunSaver 35mm Disposable Camera",
+        "why": "Film is the only medium that captures how the sky actually looked. 27 shots.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._AC_SL1500_.jpg"
+      }
+    ],
+    "perfect": [
+      {
+        "role": "The Map",
+        "asin": "B000MMEOIC",
+        "name": "David Chandler Planisphere (40-degree latitude)",
+        "why": "The analog complement to Stellarium. Navigate the sky yourself. No phone required.",
+        "price": "$15"
+      },
+      {
+        "role": "The Warmth",
+        "asin": "B0CWP7M285",
+        "name": "Bedsure Waterproof Outdoor Blanket",
+        "why": "Big enough for the group. Dry on the bottom. The blanket you always wish you'd brought.",
+        "price": "$28",
+        "image": "https://m.media-amazon.com/images/I/71mnTS8YwPL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Hot Drink",
+        "asin": "B00464BCUA",
+        "name": "Starbucks Via Ready Brew Instant Coffee (26-count Variety)",
+        "why": "Hot coffee at hour two. No machine. Just hot water and the stars.",
+        "price": "$18"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08KW1KR5H",
+        "name": "JBL Go 3 Portable Bluetooth Speaker",
+        "why": "Low volume ambient music while you wait for your eyes to dark-adapt. 5-hour battery.",
+        "price": "$30",
+        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL1500_.jpg"
+      }
+    ],
+    "splurge": [
+      {
+        "role": "The Map",
+        "asin": "B000MMEOIC",
+        "name": "David Chandler Planisphere (40-degree latitude)",
+        "why": "Always start with the paper map. You'll remember constellations you navigated yourself.",
+        "price": "$15"
+      },
+      {
+        "role": "The Warmth",
+        "asin": "B09VH2MW2G",
+        "name": "Packable Down Throw Blanket — Lightweight, Compressible",
+        "why": "Packs to the size of a grapefruit. Impossibly warm at midnight. Worth every penny.",
+        "price": "$45"
+      },
+      {
+        "role": "The Hot Drink",
+        "asin": "B00A3AQZZY",
+        "name": "Harney & Sons Tea Sampler 50-count",
+        "why": "Hot tea changes the experience at hour two when the temperature drops 15 degrees.",
+        "price": "$25"
+      },
+      {
+        "role": "The Soundtrack",
+        "asin": "B08PJ7JMQM",
+        "name": "JBL Clip 4 Portable Bluetooth Speaker",
+        "why": "Clip to the blanket bag. Ambient music that doesn't interrupt the conversation the sky starts.",
+        "price": "$50",
+        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg"
+      }
+    ]
+  }
+}

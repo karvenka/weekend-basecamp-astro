@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import KitFinder from '../components/KitFinder.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('articles');
+const featured = allArticles.slice(0, 6);
+---
+<BaseLayout title="Home" description="Guides & Gear That Help You Build Memories">
+  <Header slot="header" />
+
+  <section style="max-width:900px;margin:0 auto;padding:32px 24px 16px;text-align:center;">
+    <h1 style="font-size:clamp(2rem,5vw,3.25rem);font-weight:900;line-height:1.1;color:#2c2c2c;margin:0 0 1rem;">
+      Guides &amp; Gear That Help You Build Memories
+    </h1>
+    <p style="font-size:1.05rem;color:#6b5c4c;max-width:560px;margin:0 auto 0.75rem;line-height:1.5;">
+      With family, friends, and the people who matter most. Get together. Have fun. Grow closer.
+    </p>
+  </section>
+
+  <KitFinder />
+
+  {featured.length > 0 && (
+    <section style="margin:3rem 0 2rem;padding:0 24px;">
+      <h2 style="font-size:1.6rem;font-weight:800;margin-bottom:1.5rem;">Featured Guides</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;">
+        {featured.map(article => (
+          <a href={`/blogs/low-effort-weekends/${article.slug}`} style="display:block;background:#fff;border-radius:10px;padding:1.5rem;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+            {article.data.category && (
+              <span style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#9a7a5a;">{article.data.category}</span>
+            )}
+            <h3 style="margin:0.5rem 0 0.75rem;font-size:1.1rem;font-weight:700;line-height:1.3;">{article.data.title}</h3>
+            {article.data.description && (
+              <p style="margin:0;font-size:0.9rem;color:#6b6b6b;line-height:1.5;">{article.data.description}</p>
+            )}
+          </a>
+        ))}
+      </div>
+      <div style="text-align:center;margin-top:2rem;">
+        <a href="/blogs/low-effort-weekends" style="display:inline-block;background:#2c2c2c;color:#f5f0e8;padding:0.75rem 2rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:1rem;">Browse All Guides →</a>
+      </div>
+    </section>
+  )}
+
+  <Footer slot="footer" />
+</BaseLayout>
