@@ -4,6 +4,8 @@ description: "What you can actually see in the night sky, how to see it, and how
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
 category: "Everyone"
+thumbnail: "🌌"
+thumbnailBg: "linear-gradient(135deg, #0f0c29, #302b63, #24243e)"
 ---
 
 Most people's last serious look at the night sky happened either in childhood or on a camping trip far from city lights, and the memory tends to be vivid precisely because the sky looked nothing like what they'd seen before. More stars. Deeper dark. The Milky Way as an actual visible band rather than a concept in textbooks.

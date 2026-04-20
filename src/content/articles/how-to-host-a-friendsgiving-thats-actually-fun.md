@@ -4,6 +4,8 @@ description: "A hosting guide for the friend group holiday that has nothing to d
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
 category: "Friends"
+thumbnail: "🍂"
+thumbnailBg: "linear-gradient(135deg, #ff9a56, #ff6f00)"
 ---
 
 Here is the honest truth about Friendsgiving: the food is secondary. I know that's a strange thing to say at the start of what some people might expect to be a cooking guide. But we've hosted or attended a dozen of these gatherings over the years, and the ones that became traditions had nothing to do with whose green bean casserole was better. They had to do with the people who showed up, the table they sat around, and whether anyone thought to have an activity ready for 9pm when the energy starts to flag.

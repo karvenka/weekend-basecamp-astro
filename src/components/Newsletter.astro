@@ -1,0 +1,132 @@
+---
+/**
+ * Newsletter signup component.
+ * 
+ * To connect to Mailchimp:
+ * 1. Go to Mailchimp → Audience → Signup forms → Embedded forms
+ * 2. Copy your form action URL (looks like: https://weekendbasecamp.us21.list-manage.com/subscribe/post?u=XXXXX&id=XXXXX)
+ * 3. Replace the MAILCHIMP_FORM_ACTION placeholder below
+ * 4. The hidden field name for email in Mailchimp is usually "EMAIL" (already set)
+ */
+const MAILCHIMP_FORM_ACTION = "https://weekendbasecamp.us21.list-manage.com/subscribe/post";
+// Set these from your Mailchimp embed code:
+const MAILCHIMP_U = "YOUR_MAILCHIMP_U_VALUE";
+const MAILCHIMP_ID = "YOUR_MAILCHIMP_LIST_ID";
+---
+
+<section class="wbc-newsletter" id="newsletter">
+  <div class="wbc-newsletter__inner">
+    <div class="wbc-newsletter__icon">📬</div>
+    <h2 class="wbc-newsletter__title">Get weekend ideas in your inbox</h2>
+    <p class="wbc-newsletter__desc">
+      One email per week. Curated kits, new guides, and the occasional product we can't stop recommending.
+    </p>
+    <form
+      class="wbc-newsletter__form"
+      action={MAILCHIMP_FORM_ACTION}
+      method="POST"
+      target="_blank"
+      novalidate
+    >
+      <input type="hidden" name="u" value={MAILCHIMP_U} />
+      <input type="hidden" name="id" value={MAILCHIMP_ID} />
+      <!-- Anti-bot field (Mailchimp honeypot) -->
+      <div style="position:absolute;left:-5000px;" aria-hidden="true">
+        <input type="text" name="b_fake_honeypot" tabindex="-1" value="" />
+      </div>
+      <div class="wbc-newsletter__fields">
+        <input
+          type="email"
+          name="EMAIL"
+          placeholder="your@email.com"
+          required
+          class="wbc-newsletter__input"
+          aria-label="Email address"
+        />
+        <button type="submit" class="wbc-newsletter__btn">
+          Subscribe
+        </button>
+      </div>
+    </form>
+    <p class="wbc-newsletter__fine">No spam. Unsubscribe anytime. We respect your inbox.</p>
+  </div>
+</section>
+
+<style>
+  .wbc-newsletter {
+    background: #1a1a1a;
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+  .wbc-newsletter__inner {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  .wbc-newsletter__icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .wbc-newsletter__title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #f5f0e8;
+    margin: 0 0 0.5rem;
+  }
+  .wbc-newsletter__desc {
+    font-size: 0.95rem;
+    color: #a89880;
+    margin: 0 0 1.5rem;
+    line-height: 1.5;
+  }
+  .wbc-newsletter__fields {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wbc-newsletter__input {
+    flex: 1;
+    min-width: 220px;
+    padding: 12px 16px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    background: #fff;
+    color: #1a1a1a;
+    font-family: inherit;
+    transition: border-color 0.2s;
+  }
+  .wbc-newsletter__input:focus {
+    outline: none;
+    border-color: #CC5500;
+  }
+  .wbc-newsletter__btn {
+    padding: 12px 28px;
+    background: #CC5500;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.2s, transform 0.1s;
+    white-space: nowrap;
+  }
+  .wbc-newsletter__btn:hover {
+    background: #e06000;
+    transform: translateY(-1px);
+  }
+  .wbc-newsletter__btn:active {
+    transform: translateY(0);
+  }
+  .wbc-newsletter__fine {
+    font-size: 0.75rem;
+    color: #555;
+    margin: 0.75rem 0 0;
+  }
+  @media (max-width: 480px) {
+    .wbc-newsletter__input { min-width: 100%; }
+    .wbc-newsletter__btn { width: 100%; }
+  }
+</style>

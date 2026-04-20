@@ -4,6 +4,8 @@ description: ""
 author: "Karthick Venkatesan"
 pubDate: 2026-03-31
 category: "Guides"
+thumbnail: "🧗"
+thumbnailBg: "linear-gradient(135deg, #6a85b6, #bac8e0)"
 ---
 
 The first time we went rock climbing, we were terrified. Our hands were shaking as we laced up borrowed shoes two sizes too big. The wall seemed impossibly tall. We couldn't imagine how we'd ever get our bodies off the ground, let alone reach the top. Our friend who'd invited us kept saying encouraging things—"You're stronger than you think!" and "It's not about strength, it's about technique!"—but we were convinced she was lying.

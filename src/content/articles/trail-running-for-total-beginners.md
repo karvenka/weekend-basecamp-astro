@@ -4,6 +4,8 @@ description: "Why trails are actually easier on your body than roads, the simple
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
 category: "Everyone"
+thumbnail: "🏃"
+thumbnailBg: "linear-gradient(135deg, #fc4a1a, #f7b733)"
 ---
 
 The counterintuitive thing about trail running is that it's easier on your body than running on roads. Not easier in the sense of effortless — you will absolutely be breathing harder on a trail climb than on a flat road — but easier in the sense of impact, repetitive stress, and the kind of cumulative damage that sidelines road runners.

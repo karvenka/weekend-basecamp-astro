@@ -4,6 +4,8 @@ description: ""
 author: "Karthick Venkatesan"
 pubDate: 2026-03-31
 category: "Guides"
+thumbnail: "🥾"
+thumbnailBg: "linear-gradient(135deg, #56ab2f, #a8e063)"
 ---
 
 Weekend Basecamp • Family & Kids

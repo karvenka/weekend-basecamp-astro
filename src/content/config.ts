@@ -9,6 +9,8 @@ const articles = defineCollection({
     readTime: z.string().optional(),
     category: z.string().optional(),
     heroImage: z.string().optional(),
+    thumbnail: z.string().optional(),
+    thumbnailBg: z.string().optional(),
   }),
 });
 export const collections = { articles };

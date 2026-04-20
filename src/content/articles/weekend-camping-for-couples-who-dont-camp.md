@@ -4,6 +4,8 @@ description: "You don't need to be outdoorsy to pull off a romantic camping week
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
 category: "Couples"
+thumbnail: "⛺"
+thumbnailBg: "linear-gradient(135deg, #2d5016, #56ab2f)"
 ---
 
 My partner had exactly one camping experience before we started doing this: a miserable three-day trip in high school where it rained continuously, the food was awful, and she slept on what might as well have been gravel. For years, "camping" was a hard no. Then we found a state park cabin with a fire ring, a covered porch, and a bed with actual springs. She was converted. Not into camping as generally understood — into the specific, comfortable, romantic version of it that most camping gear companies don't want you to know is an option.

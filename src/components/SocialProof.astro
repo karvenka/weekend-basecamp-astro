@@ -1,0 +1,140 @@
+---
+/**
+ * Social proof section — community stats + testimonials.
+ * Keep numbers honest and update as real data comes in.
+ */
+---
+
+<section class="wbc-social-proof">
+  <div class="wbc-social-proof__inner">
+    <h2 class="wbc-social-proof__heading">Trusted by weekend planners everywhere</h2>
+    
+    <div class="wbc-social-proof__stats">
+      <div class="wbc-stat">
+        <span class="wbc-stat__number">16+</span>
+        <span class="wbc-stat__label">Curated Guides</span>
+      </div>
+      <div class="wbc-stat">
+        <span class="wbc-stat__number">200+</span>
+        <span class="wbc-stat__label">Products Reviewed</span>
+      </div>
+      <div class="wbc-stat">
+        <span class="wbc-stat__number">100%</span>
+        <span class="wbc-stat__label">Family Tested</span>
+      </div>
+    </div>
+
+    <div class="wbc-social-proof__testimonials">
+      <div class="wbc-testimonial">
+        <p class="wbc-testimonial__text">"Finally, a site that doesn't just list gear — it tells you exactly how to use it for a real weekend with your family."</p>
+        <span class="wbc-testimonial__author">— Weekend reader</span>
+      </div>
+      <div class="wbc-testimonial">
+        <p class="wbc-testimonial__text">"The game night guide saved our Friday. We bought the exact kit and had the best time we've had in months."</p>
+        <span class="wbc-testimonial__author">— Happy parent</span>
+      </div>
+      <div class="wbc-testimonial">
+        <p class="wbc-testimonial__text">"Love that every guide comes with a budget-friendly option. Not everything has to cost a fortune to be fun."</p>
+        <span class="wbc-testimonial__author">— Outdoor enthusiast</span>
+      </div>
+    </div>
+
+    <div class="wbc-social-proof__badges">
+      <span class="wbc-badge">🏕️ Real family tested</span>
+      <span class="wbc-badge">💰 Budget-friendly picks</span>
+      <span class="wbc-badge">📦 Amazon Prime eligible</span>
+      <span class="wbc-badge">🔄 Updated regularly</span>
+    </div>
+  </div>
+</section>
+
+<style>
+  .wbc-social-proof {
+    background: #f8f6ea;
+    padding: 3rem 1.5rem;
+    border-top: 1px solid #e8dfd3;
+    border-bottom: 1px solid #e8dfd3;
+  }
+  .wbc-social-proof__inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .wbc-social-proof__heading {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #2c2c2c;
+    margin: 0 0 2rem;
+  }
+  .wbc-social-proof__stats {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+  }
+  .wbc-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .wbc-stat__number {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #CC5500;
+    line-height: 1;
+  }
+  .wbc-stat__label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #6b5c4c;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .wbc-social-proof__testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .wbc-testimonial {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.25rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    text-align: left;
+  }
+  .wbc-testimonial__text {
+    font-size: 0.92rem;
+    color: #4a4a4a;
+    line-height: 1.6;
+    margin: 0 0 0.75rem;
+    font-style: italic;
+  }
+  .wbc-testimonial__author {
+    font-size: 0.78rem;
+    color: #999;
+    font-weight: 600;
+  }
+  .wbc-social-proof__badges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .wbc-badge {
+    background: #fff;
+    border: 1px solid #e8dfd3;
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #4a3f35;
+    white-space: nowrap;
+  }
+  @media (max-width: 600px) {
+    .wbc-social-proof__stats { gap: 1.5rem; }
+    .wbc-stat__number { font-size: 1.6rem; }
+  }
+</style>

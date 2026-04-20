@@ -4,6 +4,8 @@ description: "The art of doing nothing together, but doing it beautifully—waff
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
 category: "Friends"
+thumbnail: "🥐"
+thumbnailBg: "linear-gradient(135deg, #fccb90, #d57eeb)"
 ---
 
 There is a specific kind of Sunday morning that you only get a handful of times a year — when nobody has obligations until afternoon, the weather is doing something interesting outside the window, and a small group of people you actually like has ended up in the same place without anyone planning it. The question is whether you let that morning dissolve into everyone staring at their phones or whether you build something worth remembering out of it.

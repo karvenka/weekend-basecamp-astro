@@ -4,6 +4,8 @@ description: ""
 author: "Karthick Venkatesan"
 pubDate: 2026-03-31
 category: "Guides"
+thumbnail: "🎯"
+thumbnailBg: "linear-gradient(135deg, #4facfe, #00f2fe)"
 ---
 
 Here's a confession: we used to be terrible at game night. Not terrible at games — terrible at hosting them. We'd invite eight people over, crack open Monopoly, and watch the evening slowly disintegrate into a three-hour slog where half the table was on their phones by hour two and someone was genuinely angry about a property trade. By 10 PM, people were inventing excuses to leave. "Early morning tomorrow." "My cat has a vet appointment." Sure, Kevin. On a Saturday.

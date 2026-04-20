@@ -40,6 +40,9 @@ const vibes = ['All', 'Active', 'Cozy', 'Celebratory', 'Deep', 'Family', 'Couple
           class="guide-card"
           data-category={article.data.category?.toLowerCase() || ''}
         >
+          <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#CC5500,#ff8c42)'};`}>
+            <span class="guide-card__emoji">{article.data.thumbnail || '📖'}</span>
+          </div>
           <div class="guide-card__content">
             {article.data.category && (
               <span class="guide-card__cat">{article.data.category}</span>
@@ -104,6 +107,18 @@ const vibes = ['All', 'Active', 'Cozy', 'Celebratory', 'Deep', 'Family', 'Couple
     overflow: hidden;
   }
   .guide-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+  .guide-card__thumb {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+  }
+  .guide-card__emoji {
+    font-size: 3.5rem;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.2));
+    line-height: 1;
+  }
   .guide-card__content { padding: 1.5rem; }
   .guide-card__cat {
     font-size: 0.72rem;

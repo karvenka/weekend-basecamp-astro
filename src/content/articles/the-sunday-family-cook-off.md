@@ -4,6 +4,8 @@ description: "A simple competition format that gets everyone in the kitchen, tea
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
 category: "Everyone"
+thumbnail: "👨‍🍳"
+thumbnailBg: "linear-gradient(135deg, #ff5858, #f09819)"
 ---
 
 The problem with cooking together as a family is that it usually isn't actually together. One parent is at the stove managing the real work while everyone else watches or wanders off. Kids are nominally helping until they're in the way and get redirected to the table. It's a performance of collaboration without the actual thing.

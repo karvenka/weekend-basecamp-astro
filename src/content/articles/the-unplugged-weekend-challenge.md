@@ -4,6 +4,8 @@ description: "48 hours without screens sounds like a punishment. What actually h
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
 category: "Couples"
+thumbnail: "📵"
+thumbnailBg: "linear-gradient(135deg, #a18cd1, #fbc2eb)"
 ---
 
 We lasted about six hours the first time we tried this. Not because we couldn't handle no screens — because we'd forgotten that our phones were also our maps, our timers, our music, our cameras, and our default response to any moment of silence or uncertainty. Without them, we kept reaching for pockets that had nothing useful in them.

@@ -19,8 +19,11 @@ articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 
     <div style="display:grid;gap:1.25rem;">
       {articles.map(article => (
-        <a href={`/guides/${article.slug}`} style="display:block;background:#fff;border-radius:10px;padding:1.5rem;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-          <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
+        <a href={`/guides/${article.slug}`} style="display:flex;background:#fff;border-radius:10px;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.06);overflow:hidden;transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)'">
+          <div style={`min-width:100px;width:100px;display:flex;align-items:center;justify-content:center;background:${article.data.thumbnailBg || 'linear-gradient(135deg,#CC5500,#ff8c42)'};font-size:2.2rem;flex-shrink:0;`}>
+            {article.data.thumbnail || '📖'}
+          </div>
+          <div style="padding:1.25rem;flex:1;display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
             <div>
               {article.data.category && (
                 <span style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#9a7a5a;">{article.data.category}</span>

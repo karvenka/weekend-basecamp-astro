@@ -4,6 +4,8 @@ description: ""
 author: "Karthick Venkatesan"
 pubDate: 2026-03-29
 category: "Guides"
+thumbnail: "🕯️"
+thumbnailBg: "linear-gradient(135deg, #E91E63, #F06292)"
 ---
 
 Weekend Basecamp • Couples

@@ -4,6 +4,8 @@ description: ""
 author: "Karthick Venkatesan"
 pubDate: 2026-03-28
 category: "Guides"
+thumbnail: "🎲"
+thumbnailBg: "linear-gradient(135deg, #667eea, #764ba2)"
 ---
 
 Board games for couples are the best-kept secret in date night planning. No reservations needed, no screens competing for attention — just two people, a table, and a game that reveals sides of each other you did not know existed. Whether you want deep conversation, fierce competition, or uncontrollable laughter, there is a game for that.

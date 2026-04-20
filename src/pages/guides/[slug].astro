@@ -13,7 +13,8 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const { Content } = await article.render();
+const { Content, headings } = await article.render();
+const h2Headings = headings.filter(h => h.depth === 2);
 ---
 <BaseLayout title={article.data.title} description={article.data.description}>
   <Header slot="header" />
@@ -39,18 +40,66 @@ const { Content } = await article.render();
       {article.data.readTime && <span>{article.data.readTime}</span>}
     </div>
 
-    <div style="display:flex;gap:8px;margin:16px 0 32px">
+    <div style="display:flex;gap:8px;margin:16px 0 32px;flex-wrap:wrap;">
+      <a href="#" onclick={`window.open('https://pinterest.com/pin/create/button/?url='+encodeURIComponent(window.location.href)+'&description='+encodeURIComponent(document.title),'_blank','width=750,height=550');return false`} style="padding:8px 16px;border:1px solid #ddd;border-radius:20px;text-decoration:none;color:#fff;font-size:0.875rem;background:#E60023;border-color:#E60023;font-weight:600">📌 Pin It</a>
       <a href="#" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" style="padding:8px 16px;border:1px solid #ddd;border-radius:20px;text-decoration:none;color:#333;font-size:0.875rem">X</a>
       <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(window.location.href),'_blank','width=550,height=420');return false" style="padding:8px 16px;border:1px solid #ddd;border-radius:20px;text-decoration:none;color:#333;font-size:0.875rem">Facebook</a>
       <a href="#" onclick="navigator.clipboard.writeText(window.location.href).then(()=>this.textContent='Copied!');return false" style="padding:8px 16px;border:1px solid #ddd;border-radius:20px;text-decoration:none;color:#333;font-size:0.875rem;cursor:pointer">Copy Link</a>
       <a href="#" onclick="navigator.share&&navigator.share({title:document.title,url:window.location.href});return false" style="padding:8px 16px;border:1px solid #ddd;border-radius:20px;text-decoration:none;color:#333;font-size:0.875rem">Share 📣</a>
     </div>
 
+    {h2Headings.length > 0 && (
+      <details class="guides-toc-mobile">
+        <summary>📋 Table of Contents</summary>
+        <ul class="guides-toc-list">
+          {h2Headings.map(h => (
+            <li><a href={`#${h.slug}`} class="guides-toc-link">{h.text}</a></li>
+          ))}
+        </ul>
+      </details>
+    )}
+
     <div class="article-body" style="font-size:1.05rem;line-height:1.75;color:#2c2c2c;">
       <Content />
     </div>
 
-    <style>.article-body > h1:first-child { display: none; }</style>
+    <style>
+      .article-body > h1:first-child { display: none; }
+      .guides-toc-mobile {
+        background: #f8f6ea;
+        border-radius: 10px;
+        padding: 1rem 1.25rem;
+        border: 1px solid #e8dfd3;
+        margin-bottom: 2rem;
+        font-size: 0.9rem;
+      }
+      .guides-toc-mobile summary {
+        cursor: pointer;
+        font-weight: 700;
+        color: #2c2c2c;
+        list-style: none;
+      }
+      .guides-toc-mobile summary::-webkit-details-marker { display: none; }
+      .guides-toc-list {
+        list-style: none;
+        margin: 0.75rem 0 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .guides-toc-link {
+        color: #4a4a4a;
+        text-decoration: none;
+        line-height: 1.4;
+        display: block;
+        padding: 2px 0;
+        transition: color 0.1s;
+      }
+      .guides-toc-link:hover { color: #CC5500; }
+      .article-body h2 { scroll-margin-top: 80px; }
+      .article-body h3 { scroll-margin-top: 80px; }
+    </style>
     <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid #e0d8ce;">
       <a href="/guides" style="color:#9a7a5a;text-decoration:none;font-weight:600;">← All Guides</a>
     </div>

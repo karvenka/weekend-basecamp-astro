@@ -4,6 +4,8 @@ description: ""
 author: "Karthick Venkatesan"
 pubDate: 2026-03-27
 category: "Guides"
+thumbnail: "🔥"
+thumbnailBg: "linear-gradient(135deg, #f7971e, #ffd200)"
 ---
 
 The best family nights don't happen at restaurants or movie theaters. They happen in your own backyard — with a fire, some food, and zero plan to be anywhere else. Here's how to set one up without it feeling like another thing on your to-do list.

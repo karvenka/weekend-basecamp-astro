@@ -4,6 +4,8 @@ description: "Why pickleball is the best sport for friend groups who haven't pla
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
 category: "Friends"
+thumbnail: "🏓"
+thumbnailBg: "linear-gradient(135deg, #11998e, #38ef7d)"
 ---
 
 We stumbled into pickleball the way most people do: someone at a backyard party said "I found a court, I have paddles, let's go," and three hours later we were already arguing about whether to book the court again next weekend. That was two years ago. We still book the court every other weekend.

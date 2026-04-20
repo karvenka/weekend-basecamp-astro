@@ -4,6 +4,8 @@ description: "How to throw the block party your neighborhood actually shows up t
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
 category: "Everyone"
+thumbnail: "🎉"
+thumbnailBg: "linear-gradient(135deg, #43e97b, #38f9d7)"
 ---
 
 The first time someone on our block suggested a block party, the response was enthusiastic in theory and paralyzed in practice. Everyone liked the idea. Nobody wanted to be responsible for it. We've seen this pattern repeat in five different neighborhoods: the block party that almost happened but didn't because the logistics seemed too complicated and nobody stepped forward.

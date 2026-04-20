@@ -133,6 +133,13 @@ const breadcrumbSchema = {
       <!-- Share bar -->
       <div class="gng-share-bar" id="article-share-bar">
         <a
+          class="share-btn share-btn--pinterest"
+          href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(articleUrl)}&description=${encodeURIComponent(article.data.title)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Pin on Pinterest"
+        >📌 Pin It</a>
+        <a
           class="share-btn share-btn--twitter"
           href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.data.title)}&url=${encodeURIComponent(articleUrl)}`}
           target="_blank"
@@ -345,6 +352,7 @@ const breadcrumbSchema = {
     white-space: nowrap;
   }
   .share-btn:hover { opacity: 0.85; }
+  .share-btn--pinterest { background: #E60023; color: #fff; }
   .share-btn--twitter { background: #000; color: #fff; }
   .share-btn--facebook { background: #1877f2; color: #fff; }
   .share-btn--copy { background: #f0ebe0; color: #4a3a2a; }
