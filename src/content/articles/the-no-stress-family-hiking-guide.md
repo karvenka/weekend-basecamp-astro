@@ -38,17 +38,8 @@ Here's something nobody tells you about family hiking: the parent's comfort matt
 
 The [**Columbia Newton Ridge Plus II (~$85)**](https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20) is the boot we recommend to every parent who asks. It's not the fanciest hiking boot on the market, and that's exactly the point. It's comfortable out of the box — no break-in period, which matters when you're a parent who doesn't have three weekends to spend conditioning leather. The waterproof membrane actually works (we've tested it in creek crossings and unexpected rain), the ankle support is solid without being stiff, and the tread grips wet rock without making you feel like you're wearing cement blocks. At $85, it's roughly a third of the price of the boots the serious hikers wear, and for trails under five miles with kids, it's everything you need.
 
-![Columbia Newton Ridge Plus II Waterproof Hiking Boot](https://m.media-amazon.com/images/I/61ToPAsTJbL._AC_SL1200_.jpg)
 
-[Columbia Newton Ridge Plus II Waterproof Hiking Boot](https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20)
-
-★★★★★ 4.5 · 35,000+ ratings
-
-$85 on Amazon
-
-"Comfortable right out of the box. I wore these on a 6-mile hike the day they arrived with zero blisters. The waterproofing held up through two creek crossings." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0BXDVHX48.01._SCLZZZZZZZ_SL250_.jpg" alt="Columbia Newton Ridge Plus II Waterproof Hiking Boot" style="width:60px;height:60px;object-fit:contain;" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Columbia Newton Ridge Plus II Waterproof Hiking Boot</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$85</div></div><a href="https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Kids Hiking Shoes: Let Them Pick the Color
 
@@ -58,17 +49,15 @@ Kids don't need hiking boots. They need shoes they're excited to wear that also 
 
 The [**Merrell Trail Chaser Jr. (~$40)**](https://www.amazon.com/s?k=Merrell+kids+hiking+shoes+waterproof&tag=weekendbasecamp-20) hits the sweet spot. They're light enough that kids forget they're wearing them, grippy enough for rocky trails, and they come in colors that make children actually want to put them on. The toggle lacing system means no stopping every quarter mile to retie shoes, which alone is worth the price. Our daughter has worn hers through puddles, mud, and one ill-advised sprint through a shallow creek. They survived all of it. Get them a half-size up — kids' feet grow fast, and you want at least a season out of these.
 
-![Merrell Trail Chaser Jr. Kids Hiking Shoe](https://m.media-amazon.com/images/I/711l5UzchjL._AC_SL1500_.jpg)
 
 [Merrell Trail Chaser Jr. Kids Hiking Shoe](https://www.amazon.com/s?k=Merrell+kids+hiking+shoes+waterproof&tag=weekendbasecamp-20)
 
-★★★★★ 4.6 · 5,200+ ratings
 
 ~$40 on Amazon
 
-"My daughter loves these shoes. They're light, the toggle laces are a lifesaver, and they've survived a dozen muddy hikes without falling apart." — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/s?k=Merrell+kids+hiking+shoes+waterproof&tag=weekendbasecamp-20)
+<a href="https://www.amazon.com/s?k=Merrell+kids+hiking+shoes+waterproof&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;margin:8px 0">View on Amazon →</a>
+
 
 ### The Water Situation: CamelBak Kids Eddy+
 
@@ -78,17 +67,8 @@ Dehydration turns a manageable kid into an unmanageable one in about fifteen min
 
 The [**CamelBak Kids Eddy+ (~$30)**](https://www.amazon.com/dp/B0DZSJDP3V?tag=weekendbasecamp-20) is the one we've settled on after trying roughly six different options. The bite valve means kids can drink while walking without stopping, the straw reaches every last drop, and the thing is basically indestructible — ours has been dropped off a picnic table, kicked down a trail, and thrown into a car trunk approximately 500 times. It still doesn't leak. Each kid gets their own, clipped to their belt loop or backpack, and the rule is simple: drink every time we stop, drink every time you see a cool rock, drink every time you hear a bird. Over-hydration is not a thing we're worried about on a family hike.
 
-![CamelBak Kids Eddy+ Water Bottle \(14 oz\)](https://m.media-amazon.com/images/I/711l5UzchjL._AC_SL1500_.jpg)
 
-[CamelBak Kids Eddy+ Water Bottle (14 oz)](https://www.amazon.com/dp/B0DZSJDP3V?tag=weekendbasecamp-20)
-
-★★★★★ 4.7 · 12,000+ ratings
-
-$30 on Amazon
-
-"Leak-proof, kid-proof, and dishwasher safe. My toddler can operate it independently, which is the whole point. We own four of these." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/dp/B0DZSJDP3V?tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0DZSJDP3V.01._SCLZZZZZZZ_SL250_.jpg" alt="CamelBak Kids Eddy+ Water Bottle (14 oz)" style="width:60px;height:60px;object-fit:contain;" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">CamelBak Kids Eddy+ Water Bottle (14 oz)</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$30</div></div><a href="https://www.amazon.com/dp/B0DZSJDP3V?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### The Backpack: Osprey Daylite Plus
 
@@ -98,17 +78,15 @@ The single biggest mistake we made on our early hikes was distributing gear acro
 
 The [**Osprey Daylite Plus (~$75)**](https://www.amazon.com/s?k=Osprey+Daylite+Plus+backpack&tag=weekendbasecamp-20) is the pack that solved our problem. It's 20 liters — big enough for a family of four's snacks, water, sunscreen, first aid kit, extra layer, and a few surprises, but not so big that you feel like you're training for Everest. The front mesh pocket is where the current-rotation snacks live (accessible without opening the main compartment — this matters more than you think). The hip belt distributes weight so your shoulders aren't screaming by mile two. And it has a built-in hydration sleeve if you ever graduate to a water bladder. We've used it on over 40 family hikes and it shows zero signs of wear. Osprey's lifetime warranty isn't marketing — it's a genuine promise.
 
-📦
 
 [Osprey Daylite Plus Daypack (20L)](https://www.amazon.com/s?k=Osprey+Daylite+Plus+backpack&tag=weekendbasecamp-20)
 
-★★★★★ 4.7 · 9,800+ ratings
 
 ~$75 on Amazon
 
-"The perfect day hike pack. Carries everything our family of four needs without being bulky. The mesh pocket for quick snack access is brilliant." — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/s?k=Osprey+Daylite+Plus+backpack&tag=weekendbasecamp-20)
+<a href="https://www.amazon.com/s?k=Osprey+Daylite+Plus+backpack&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;margin:8px 0">View on Amazon →</a>
+
 
 ### First Aid Kit: Be Ready, Not Paranoid
 
@@ -118,17 +96,15 @@ You will not need the first aid kit on 95% of your family hikes. You will be ext
 
 We carry a pre-packed [**compact trail first aid kit (~$16)**](https://www.amazon.com/s?k=compact+first+aid+kit+hiking&tag=weekendbasecamp-20) and we've added a few extras: children's Benadryl (for surprise allergic reactions to plants or stings), moleskin for hot spots, and a handful of character Band-Aids, because a Bluey Band-Aid has healing powers that regular Band-Aids do not possess. The whole thing weighs under a pound and lives in the bottom of the Osprey pack. We've used it for scraped knees, splinters, a bee sting, and one memorable occasion where the moleskin saved my wife's heel and therefore our marriage.
 
-📦
 
 [Compact Hiking First Aid Kit (66 Pieces)](https://www.amazon.com/s?k=compact+first+aid+kit+hiking&tag=weekendbasecamp-20)
 
-★★★★★ 4.6 · 22,000+ ratings
 
 ~$16 on Amazon
 
-"Small enough to toss in any pack, but has everything you'd actually need on a day hike. We added kids' meds and character Band-Aids and it's perfect." — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/s?k=compact+first+aid+kit+hiking&tag=weekendbasecamp-20)
+<a href="https://www.amazon.com/s?k=compact+first+aid+kit+hiking&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;margin:8px 0">View on Amazon →</a>
+
 
 Gear up for your first family hike — all the essentials in one cart
 
@@ -164,17 +140,15 @@ A hike is boring if it's just walking. A treasure hunt is never boring. We bring
 
 For older kids, we've upgraded to photography scavenger hunts. Each kid gets the [**Fujifilm Instax Mini 12 (~$68)**](https://www.amazon.com/s?k=Fujifilm+Instax+Mini+12+camera&tag=weekendbasecamp-20) (or takes turns with one camera) and the list becomes "photograph something that looks like a face, something smaller than your thumb, the tallest thing you can see." The instant photos become a physical record of the hike that kids are weirdly proud of. Our fridge is covered in blurry Instax photos of rocks and trees and one extremely cooperative frog, and honestly, they're among my favorite family artifacts.
 
-📦
 
 [Fujifilm Instax Mini 12 Instant Camera](https://www.amazon.com/s?k=Fujifilm+Instax+Mini+12+camera&tag=weekendbasecamp-20)
 
-★★★★★ 4.7 · 15,000+ ratings
 
 ~$68 on Amazon
 
-"My kids are obsessed with this camera. It's survived drops, dirt, and sticky fingers. The photos come out great and they love the instant gratification." — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/s?k=Fujifilm+Instax+Mini+12+camera&tag=weekendbasecamp-20)
+<a href="https://www.amazon.com/s?k=Fujifilm+Instax+Mini+12+camera&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;margin:8px 0">View on Amazon →</a>
+
 
 ###  5 The Car Treat Is Non-Negotiable
 
@@ -194,17 +168,8 @@ If you do nothing else with this guide, take your family to a waterfall trail. W
 
 Most waterfall trails are short by design — the waterfall is the attraction, not the walk. Look for trails under a mile and a half, and check the elevation gain. A waterfall at the bottom of a steep descent means a steep climb back, which is the exact opposite of what you want with kids (save the climb-at-the-end trails for when they're older and more experienced). The best waterfall trails are relatively flat with the falls at the turnaround point, so the walk back feels like a victory lap instead of a punishment. Bring the [**JBL Clip 4 (~$50)**](https://www.amazon.com/dp/B09BFDM5QD?tag=weekendbasecamp-20) for the walk in — clip it to the backpack, play something fun and low-volume — then turn it off when you reach the falls. The sound of the water is the soundtrack now.
 
-📦
 
-[JBL Clip 4 Ultra-Portable Bluetooth Speaker](https://www.amazon.com/dp/B09BFDM5QD?tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 38,000+ ratings
-
-$50 on Amazon
-
-"This little speaker is perfect for hiking. The carabiner clips right to the backpack, it's waterproof, and the sound quality punches way above its size. Battery lasts all day." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/dp/B09BFDM5QD?tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B09BFDM5QD.01._SCLZZZZZZZ_SL250_.jpg" alt="JBL Clip 4 Ultra-Portable Bluetooth Speaker" style="width:60px;height:60px;object-fit:contain;" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">JBL Clip 4 Ultra-Portable Bluetooth Speaker</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$50</div></div><a href="https://www.amazon.com/dp/B09BFDM5QD?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Loop Trails Under 2 Miles: No Backtracking Drama
 
@@ -256,7 +221,6 @@ Packing for a family hike is not packing for a backpacking trip. You don't need 
   * Phone (fully charged) — for trail navigation, photos, and emergencies
 
 
-
 #### 🚗 The Car (Load Before You Leave)
 
   * Small cooler with car treats — popsicles, cold drinks, fruit cups
@@ -265,7 +229,6 @@ Packing for a family hike is not packing for a backpacking trip. You don't need 
   * Towel — for wet kids, muddy dogs, or emergency picnics
   * Trash bag — pack it out, always
   * Change of clothes — for the kid who will inevitably find water
-
 
 
 The Morning-Of Routine (Our Exact Timeline) →
@@ -359,7 +322,6 @@ The memory-making bundle — speaker + camera for trail adventures
   * The Weekend Camping Checklist That Changed How We Pack
   * 15 Backyard Activities That Actually Tire Kids Out
   * The Family Road Trip Survival Guide: Snacks, Stops, and Sanity
-
 
 
 ## Frequently Asked Questions

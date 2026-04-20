@@ -3,16 +3,44 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 ---
-<BaseLayout title="Our Story" description="About Weekend Basecamp">
+<BaseLayout title="Our Story" description="Why we built Weekend Basecamp — and why weekends matter more than you think.">
   <Header slot="header" />
 
-  <div style="max-width:760px;margin:4rem auto;padding:0 1.5rem;">
-    <h1 style="font-size:2.5rem;font-weight:900;">Our Story</h1>
-    <p style="font-size:1.1rem;line-height:1.8;color:#4a4a4a;">
-      Weekend Basecamp started with a simple idea: every weekend is an opportunity to build a memory with the people you love most.
-      We curate gear guides and outdoor tips so you can spend less time researching and more time making memories.
-    </p>
-  </div>
+  <article style="max-width:720px;margin:0 auto;padding:3rem 1.5rem 4rem;">
+    <h1 style="font-size:clamp(2rem,4vw,2.75rem);font-weight:900;line-height:1.15;margin:0 0 1.5rem;color:#1a1a1a;">We started Weekend Basecamp because we kept wasting our weekends.</h1>
+
+    <div style="font-size:1.05rem;line-height:1.8;color:#3a3a3a;">
+      <p>Not in a dramatic way. We weren't miserable. We just kept ending up on the couch, scrolling, saying "we should do something" and then not doing it. Sunday would come, and we'd realize the weekend was gone and we had nothing to show for it.</p>
+
+      <p>It wasn't a motivation problem. It was a planning problem. Every fun weekend activity requires specific stuff — the right game for the group, a speaker that actually sounds good outdoors, a camera that captures the moment without everyone staring at their phones. And figuring out what to buy, what's actually good, and what works together? That's a research project nobody has time for on a Friday night.</p>
+
+      <p>So we started building kits. Not random product lists — curated bundles designed around a specific kind of weekend. A cozy family night. An active day with friends. A deep conversation with your partner. Each kit has a vibe, a plan, and every product you need to make it happen.</p>
+
+      <h2 style="font-size:1.5rem;font-weight:800;margin:2.5rem 0 1rem;color:#1a1a1a;">What makes us different</h2>
+
+      <p>We're not a review site. We don't test 47 speakers and rank them. We pick the one speaker that works for <em>this specific evening</em> and tell you why. Every product recommendation comes from a real weekend we've had — with our family, our friends, our kids who have strong opinions about everything.</p>
+
+      <p>Our articles aren't SEO filler. They're the guide we wish we'd had before our first game night flopped, before we bought the wrong hiking boots, before we planned a backyard party and forgot the music. We write from experience, we're honest about what didn't work, and we only recommend things we'd actually bring to our own weekend.</p>
+
+      <h2 style="font-size:1.5rem;font-weight:800;margin:2.5rem 0 1rem;color:#1a1a1a;">How it works</h2>
+
+      <p>Pick who's coming (family, friends, couple, everyone) and the vibe you want (active, cozy, celebratory, deep). We'll show you a curated kit with everything you need — at three price levels so you can go budget or go all out. Every product links to Amazon with our affiliate tag, which is how we keep the lights on without charging you anything.</p>
+
+      <p>Then read the guide. Each kit maps to an in-depth article that walks you through the experience — not just what to buy, but how to use it, what to expect, and how to make the evening (or the hike, or the party) genuinely memorable.</p>
+
+      <h2 style="font-size:1.5rem;font-weight:800;margin:2.5rem 0 1rem;color:#1a1a1a;">The people behind it</h2>
+
+      <p>Weekend Basecamp is built by <strong>Karthick Venkatesan</strong> — a dad, a product thinker, and someone who believes the best memories come from intentional time together. Not expensive vacations. Not elaborate plans. Just the right setup, the right people, and a weekend where everyone puts their phone down long enough to remember why they like each other.</p>
+
+      <p style="margin-top:2rem;padding:1.25rem;background:#f8f6ea;border-radius:8px;border-left:4px solid #CC5500;font-style:italic;color:#4a3a2a;">
+        "The weekends you remember aren't the ones where everything was perfect. They're the ones where everyone was present."
+      </p>
+    </div>
+
+    <div style="text-align:center;margin-top:3rem;">
+      <a href="/" style="display:inline-block;background:#1a1a1a;color:#f5f0e8;padding:0.75rem 2rem;border-radius:6px;text-decoration:none;font-weight:600;">Find Your Weekend Kit →</a>
+    </div>
+  </article>
 
   <Footer slot="footer" />
 </BaseLayout>

@@ -34,7 +34,6 @@ The trick is giving everyone something to do with their hands.
   * Kodak FunSaver Disposable Camera — ~$18
 
 
-
 ## Food Without the Fuss
 
 Don't overcomplicate it. Hot dogs on sticks, pre-made foil packets on the grill, and s'mores for dessert. **MalloMe Marshmallow Roasting Sticks (~$15)** are telescoping, so kids can roast safely from a distance. Prep everything in the kitchen before sunset — once you're outside, you shouldn't need to go back in.

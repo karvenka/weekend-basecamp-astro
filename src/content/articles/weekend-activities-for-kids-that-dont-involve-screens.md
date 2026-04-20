@@ -110,17 +110,15 @@ We brought snacks, let everyone set the pace, and didn't make it a race. Our you
 
 To make these more comfortable, we invested in **[Columbia Newton Ridge hiking boots for kids](https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20)** ($84.95 on Amazon). Good footwear genuinely makes a difference—blisters end hikes early and sour kids on the experience. These boots are durable, have good ankle support, and actually fit kids' feet properly rather than being scaled-down adult boots. The reviews consistently mention that kids actually want to wear them.
 
-![Columbia Newton Ridge Plus II Boots](https://m.media-amazon.com/images/I/61ToPAsTJbL._AC_SL1200_.jpg)
 
 [Columbia Newton Ridge Plus II Boots](https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20)
 
-★★★★★ 4.4 · 6,500+ ratings
-
-$84.95 on Amazon
 
 “Near perfect for the price. Feet stay dry every hike.” — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20)
+
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0BXDVHX48.01._SCLZZZZZZZ_SL250_.jpg" alt="Columbia Newton Ridge Boots" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a">Columbia Newton Ridge Boots</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$90</div></div><a href="https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
+
 
 We've also invested in a **[CamelBak kids' water bottle with backpack](https://www.amazon.com/dp/B0DZSJDP3V?tag=weekendbasecamp-20)** ($28 on Amazon). Kids are much more likely to stay hydrated when they have their own water delivery system, and the backpack attachment means we're not carrying everything. The bottle is spill-resistant and fits in cup holders, which matters on longer expeditions.
 
@@ -260,7 +258,6 @@ Preparation & Shopping List
   * Something for car rides if you're going somewhere (books, magnetic games, travel-friendly activities)
 
 
-
 **Stock your pantry with:**
 
   * Ingredients for at least two snacks and dinner
@@ -268,7 +265,6 @@ Preparation & Shopping List
   * Drinks besides water (juice, lemonade, etc.)
   * Basic craft supplies (paper, crayons, markers)
   * Games and activity materials
-
 
 
 **Mental preparation:**

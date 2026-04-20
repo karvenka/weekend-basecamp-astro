@@ -59,7 +59,7 @@ const kits = kitsData;
         </p>
       </div>
       <div class="wbs-tier-cta-group">
-        <a class="wbs-tier-row__cart-btn" id="wbs-cart-budget" href="#" target="_blank" rel="nofollow noopener">Send to Amazon ↗</a>
+        <a class="wbs-tier-row__cart-btn" id="wbs-cart-budget" href="#" target="_blank" rel="nofollow noopener">Shop on Amazon ↗</a>
       </div>
     </div>
     <div class="wbs-products" id="wbs-products-budget"></div>
@@ -76,7 +76,7 @@ const kits = kitsData;
         </p>
       </div>
       <div class="wbs-tier-cta-group">
-        <a class="wbs-tier-row__cart-btn" id="wbs-cart-perfect" href="#" target="_blank" rel="nofollow noopener">Send to Amazon ↗</a>
+        <a class="wbs-tier-row__cart-btn" id="wbs-cart-perfect" href="#" target="_blank" rel="nofollow noopener">Shop on Amazon ↗</a>
       </div>
     </div>
     <div class="wbs-products" id="wbs-products-perfect"></div>
@@ -92,7 +92,7 @@ const kits = kitsData;
         </p>
       </div>
       <div class="wbs-tier-cta-group">
-        <a class="wbs-tier-row__cart-btn" id="wbs-cart-splurge" href="#" target="_blank" rel="nofollow noopener">Send to Amazon ↗</a>
+        <a class="wbs-tier-row__cart-btn" id="wbs-cart-splurge" href="#" target="_blank" rel="nofollow noopener">Shop on Amazon ↗</a>
       </div>
     </div>
     <div class="wbs-products" id="wbs-products-splurge"></div>
@@ -111,7 +111,7 @@ const kits = kitsData;
 <!-- ═══════════════════════ TOP STICKY CART BAR (thin, stays visible as user scrolls) ═══════════════════════ -->
 <div id="sh-cart-bar">
   <span id="sh-cart-summary"></span>
-  <a id="sh-cart-btn" href="#" class="sh-cart-cta" target="_blank" rel="nofollow noopener">Send to Amazon ↗</a>
+  <a id="sh-cart-btn" href="#" class="sh-cart-cta" target="_blank" rel="nofollow noopener">Shop on Amazon ↗</a>
 </div>
 
 <style is:global>
@@ -482,11 +482,11 @@ const kits = kitsData;
   };
 
   function buildCartUrl(products) {
-    var url = 'https://www.amazon.com/gp/aws/cart/add.html?AssociateTag=' + affiliateTag;
-    products.forEach(function(p, i) {
-      url += '&ASIN.' + (i+1) + '=' + p.asin + '&Quantity.' + (i+1) + '=1';
-    });
-    return url;
+    // Link to first product's page (cart/add API is deprecated)
+    if (products.length > 0) {
+      return 'https://www.amazon.com/dp/' + products[0].asin + '?tag=' + affiliateTag;
+    }
+    return 'https://www.amazon.com/?tag=' + affiliateTag;
   }
 
   function parsePriceNum(price) {
@@ -513,7 +513,7 @@ const kits = kitsData;
     var stars = '<span class="sh-card-rating">' + '★'.repeat(Math.round(parseFloat(rating))) + '★'.repeat(0) + '</span><span class="sh-card-rating-count">' + Number(reviews).toLocaleString() + '</span>';
     return '<div class="sh-card" id="shcard-' + product.asin + '" data-tier="' + tier + '" onclick="var l=this.querySelector(\'.sh-card-link\');if(l&&event.target.tagName!==\'INPUT\')l.click()">' +
       '<div class="sh-card-img" style="position:relative">' +
-        '<img src="' + (product.image || 'https://images-na.ssl-images-amazon.com/images/P/' + product.asin + '.01._SCLZZZZZZZ_SL250_.jpg') + '" alt="' + escHtml(product.name) + '" loading="eager" decoding="async" onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src=\'https://m.media-amazon.com/images/P/' + product.asin + '.01._SCLZZZZZZZ_SL250_.jpg\';}else{this.style.display=\'none\';this.parentElement.innerHTML=\'<div style=\\\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#f5f2ea;color:#ccc;font-size:2rem\\\'>📦</div>\'+this.parentElement.innerHTML;}" />' +
+        '<img src="' + (product.image || '/products/' + product.asin + '.svg') + '" alt="' + escHtml(product.name) + '" loading="eager" />' +
         tierBadge +
       '</div>' +
       '<div class="sh-card-info">' +

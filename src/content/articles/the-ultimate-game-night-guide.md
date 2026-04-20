@@ -26,33 +26,15 @@ The first thing we changed was the music, and the difference was immediate. A si
 
 What works: low-fi beats, jazz, acoustic covers, or instrumental playlists at a volume where you can hear it during lulls but it disappears when people are talking. Think coffee-shop energy, not nightclub. We run everything through a **[JBL Charge 5 (~$140)](https://www.amazon.com/dp/B08X4YMTPM?tag=weekendbasecamp-20)** , which has become the unofficial soundtrack machine of every gathering we host. The sound fills a living room without distortion, the battery lasts an entire evening (and then some), and it's waterproof, which matters when someone inevitably sets a drink too close. We've tested cheaper speakers, and they work, but the Charge 5 hits a sweet spot of volume, clarity, and bass that genuinely improves the mood.
 
-![JBL Charge 5 Portable Bluetooth Speaker](https://m.media-amazon.com/images/I/61qMO3TS2RL._AC_SL1500_.jpg)
 
-[JBL Charge 5 Portable Bluetooth Speaker](https://www.amazon.com/dp/B08X4YMTPM?tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 42,000+ ratings
-
-$140 on Amazon
-
-"This speaker is a beast. Deep bass, loud enough for a party, and the battery lasts forever. It's become the centerpiece of every gathering." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/dp/B08X4YMTPM?tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B08X4YMTPM.01._SCLZZZZZZZ_SL250_.jpg" alt="JBL Charge 5 Portable Bluetooth Speaker" style="width:60px;height:60px;object-fit:contain;" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">JBL Charge 5 Portable Bluetooth Speaker</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$140</div></div><a href="https://www.amazon.com/dp/B08X4YMTPM?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### The Light: Warm, Dim, and Intentional
 
 Overhead fluorescent lighting is the enemy of a good time. We're not being dramatic. There's actual research on this — warm, dim lighting makes people relax, talk more, and stay longer. Cool, bright lighting makes people feel like they're at the DMV. For game night, you want enough light to read cards and see the board, but not so much that it feels clinical. Our go-to move is turning off the overheads entirely and using a combination of a table lamp and **[LED flameless candles (~$15)](https://www.amazon.com/s?k=LED+flameless+candles+with+remote&tag=weekendbasecamp-20)** scattered around the table. They flicker like real candles, they won't set anyone's sleeve on fire, and they create this warm, golden glow that makes the whole room feel like a cabin in the mountains. It's a tiny investment that transforms the vibe completely.
 
-📦
 
-[LED Flameless Candles with Remote (Set of 12)](https://www.amazon.com/s?k=LED+flameless+candles+with+remote&tag=weekendbasecamp-20)
-
-★★★★★ 4.6 · 18,000+ ratings
-
-$15 on Amazon
-
-"Perfect for ambiance without the fire risk. The flickering is surprisingly realistic and the remote is so convenient." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=LED+flameless+candles+with+remote&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B07L73GRGL.01._SCLZZZZZZZ_SL250_.jpg" alt="LED Flameless Candles with Remote (Set of 12)" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">LED Flameless Candles with Remote (Set of 12)</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$15</div></div><a href="https://www.amazon.com/s?k=LED+flameless+candles+with+remote&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### The Rule That Changed Everything: No Phones at the Table
 
@@ -67,7 +49,6 @@ How to Pull This Off →
   5. **Phone basket:** Label a basket and put it near the door. Mention it casually as people arrive — "We're doing a no-phones thing tonight, toss yours in!" Confidence sells it.
 
 
-
 ## The Best Games for Two Players
 
 Two-player game nights have a completely different energy than group ones, and we mean that as a compliment. There's an intimacy to sitting across from one person — your partner, your roommate, your best friend — and matching wits over a shared table. The games in this section are the ones we come back to over and over, the ones that reward repeated play and create those quiet, wonderful evenings where you look up and realize it's midnight and you've been playing for four hours.
@@ -76,81 +57,36 @@ Two-player game nights have a completely different energy than group ones, and w
 
 Let's start with the elephant in the room. Classic Catan is a 3-4 player game, and the two-player variant with the base set is, frankly, not great. But the **[Catan (~$35)](https://www.amazon.com/s?k=Catan+Board+Game&tag=weekendbasecamp-20)** ecosystem has expanded significantly, and the two-player duel version captures everything that makes Catan addictive — resource management, building, that satisfying moment when your strategy clicks into place — in a tighter, more focused package. What we love about Catan for couples is the negotiation element. Even with just two players, there's this push-and-pull dynamic where you're watching what your partner is building, guessing their strategy, and adjusting yours in real time. It teaches you a lot about how someone thinks, which is either wonderful or terrifying depending on your relationship. The learning curve is gentle, the games run about 45-60 minutes, and there's enough variety in the setup that it feels fresh every time. This is the game we recommend when someone says, "We want something with a little strategy but not too heavy."
 
-📦
 
-[Catan Board Game (Base Edition)](https://www.amazon.com/s?k=Catan+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.7 · 38,000+ ratings
-
-$35 on Amazon
-
-"We play this every Friday night. It never gets old because the board is different every time. The best gateway strategy game there is." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Catan+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B00U26V4VQ.01._SCLZZZZZZZ_SL250_.jpg" alt="Catan Board Game (Base Edition)" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Catan Board Game (Base Edition)</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$35</div></div><a href="https://www.amazon.com/s?k=Catan+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Ticket to Ride
 
 **[Ticket to Ride (~$30)](https://www.amazon.com/s?k=Ticket+to+Ride+Board+Game&tag=weekendbasecamp-20)** is, in our opinion, the single best board game for people who think they don't like board games. The rules take five minutes to learn: collect colored train cards, claim routes on a map, connect cities. That's it. But beneath that simplicity is a surprisingly tense strategic experience, especially with two players. With fewer people on the board, every route your partner claims feels personal. You start reading their ticket cards, predicting their routes, and — if you're the competitive type — strategically blocking them. It's the board game equivalent of a friendly arm-wrestling match: low stakes, high engagement, and just enough rivalry to keep things spicy. We've played this over a hundred times across the base game and its expansions (the Europe version is our favorite for two players — the stations mechanic adds a nice safety valve), and it remains our most-recommended game for date night. Games run about 30-45 minutes, which means you can easily fit two rounds into an evening.
 
-📦
 
-[Ticket to Ride Board Game](https://www.amazon.com/s?k=Ticket+to+Ride+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 27,000+ ratings
-
-$30 on Amazon
-
-"We bought this for a road trip and now it comes out every single weekend. Easy to learn, impossible to stop playing." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Ticket+to+Ride+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0FRFVZBTJ.01._SCLZZZZZZZ_SL250_.jpg" alt="Ticket to Ride Board Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Ticket to Ride Board Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$30</div></div><a href="https://www.amazon.com/s?k=Ticket+to+Ride+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Codenames Duet
 
 Most of the games on this list are competitive, which is why **[Codenames Duet (~$17)](https://www.amazon.com/s?k=Codenames+Duet&tag=weekendbasecamp-20)** is such a refreshing change. It's cooperative — you and your partner are working together against the game itself, trying to identify secret agents using one-word clues. The magic of Codenames Duet is that it turns communication into a game mechanic. You have to think about how your partner thinks, which words they'd associate with which clues, what connections they'd make that you wouldn't. It's surprisingly revealing. We've been with our partner for years and still get surprised by the wild associations they make. ("How does 'breakfast' connect to 'Berlin'?" "Because of the wall!" "...What?") The cooperative element also means nobody goes to bed angry, which is a genuine consideration for couples' game night. If you've had a long week and want to sit together, work as a team, and share some laughs, this is the one. Games take about 20-25 minutes, making it perfect as a warm-up or a wind-down.
 
-📦
 
-[Codenames Duet — Two-Player Word Game](https://www.amazon.com/s?k=Codenames+Duet&tag=weekendbasecamp-20)
-
-★★★★★ 4.7 · 8,500+ ratings
-
-$17 on Amazon
-
-"Finally a two-player game where we work together instead of competing. It's become our go-to date night game." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Codenames+Duet&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B078TLMQ1G.01._SCLZZZZZZZ_SL250_.jpg" alt="Codenames Duet — Two-Player Word Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Codenames Duet — Two-Player Word Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$17</div></div><a href="https://www.amazon.com/s?k=Codenames+Duet&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Patchwork
 
 If you want a game that's equal parts relaxing and brain-burning, **[Patchwork (~$25)](https://www.amazon.com/s?k=Patchwork+Board+Game&tag=weekendbasecamp-20)** is an absolute gem. Designed specifically for two players, it's about building a quilt — yes, a quilt — by purchasing fabric patches and fitting them together on your personal board. It sounds wholesome, and it is, but don't let the theme fool you. This game is a puzzle. Every purchase involves weighing the cost in buttons (the game's currency) and time against the spatial challenge of fitting oddly-shaped pieces together. It's like Tetris crossed with economics. What makes Patchwork perfect for couples is its tempo. It's quiet, contemplative, almost meditative. You can play it with a glass of wine and a conversation happening alongside it. But then you'll spot the perfect piece, snatch it right before your partner can, and suddenly there's this delicious tension in the air. It's a masterclass in elegant game design, and at under $25, it's one of the best values in gaming.
 
-📦
 
-[Patchwork — A Two-Player Strategy Game](https://www.amazon.com/s?k=Patchwork+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 6,200+ ratings
-
-$25 on Amazon
-
-"Don't let the quilt theme scare you off. This is one of the tightest, most satisfying two-player games ever made. My wife and I are obsessed." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Patchwork+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B00RCCAPPE.01._SCLZZZZZZZ_SL250_.jpg" alt="Patchwork — A Two-Player Strategy Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Patchwork — A Two-Player Strategy Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$25</div></div><a href="https://www.amazon.com/s?k=Patchwork+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### 7 Wonders Duel
 
 For couples who want more strategic depth without the three-hour commitment of a heavy Euro game, **[7 Wonders Duel (~$25)](https://www.amazon.com/s?k=7+Wonders+Duel&tag=weekendbasecamp-20)** is the gold standard. It takes the civilization-building card drafting of its parent game and distills it into a head-to-head showdown that plays in about 30 minutes. You're building ancient civilizations — constructing wonders, advancing science, raising armies — but the genius is in the card display. Cards are laid out in a pyramid structure, some face-up and some face-down, and the order in which you draft them creates cascading decisions that ripple through the entire game. Do you take the science card you need, or do you hate-draft the military card that would give your partner the advantage? Every turn is a miniature dilemma. We've played 7 Wonders Duel more than any other game on this list, and it's the one we most often recommend for couples who've already gone through the gateway phase. There are three ways to win — military dominance, scientific supremacy, or civilian points — which means the game never plays the same way twice. If you buy one two-player game this year, make it this one.
 
-📦
 
-[7 Wonders Duel — Two-Player Strategy Game](https://www.amazon.com/s?k=7+Wonders+Duel&tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 12,000+ ratings
-
-$25 on Amazon
-
-"The best two-player game ever made, full stop. Deep strategy in 30 minutes. We play this more than anything else in our collection." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=7+Wonders+Duel&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B00PR9L78A.01._SCLZZZZZZZ_SL250_.jpg" alt="7 Wonders Duel — Two-Player Strategy Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">7 Wonders Duel — Two-Player Strategy Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$25</div></div><a href="https://www.amazon.com/s?k=7+Wonders+Duel&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 Want everything for a perfect two-player game night? Add the whole bundle to your Amazon cart in one click.
 
@@ -164,81 +100,36 @@ Group game night is a different beast entirely. You're managing personalities, a
 
 The original **[Codenames (~$16)](https://www.amazon.com/s?k=Codenames+Board+Game&tag=weekendbasecamp-20)** is, for our money, the best party game ever designed. We know that's a bold claim. We stand by it. The setup: two teams, a grid of words, and one clue-giver per team who has to link multiple words together with a single-word clue. It creates these incredible moments of group telepathy — when your team collectively decodes a clue that seemed impossible, the eruption of joy is better than most things in life. What makes Codenames untouchable as a group game is how it handles player count. It works with four people. It works with twelve. It works with your weird uncle who doesn't play games and your friend's partner who's meeting everyone for the first time. The clue-giver role gives outgoing people a spotlight, while quieter players can contribute during the team discussion without pressure. We've introduced this game to maybe fifty people at this point, and we've never had someone not enjoy it. The rules take two minutes, the rounds are fast, and the replay value is essentially infinite because the word grid changes every game.
 
-📦
 
-[Codenames — The #1 Party Word Game](https://www.amazon.com/s?k=Codenames+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.7 · 22,000+ ratings
-
-$16 on Amazon
-
-"We bring this to every gathering. Every single one. It works with literally any group and creates moments you'll talk about for weeks." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Codenames+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0FJMQB63N.01._SCLZZZZZZZ_SL250_.jpg" alt="Codenames — The #1 Party Word Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Codenames — The #1 Party Word Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$16</div></div><a href="https://www.amazon.com/s?k=Codenames+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Wavelength
 
 If Codenames is about words, **[Wavelength (~$26)](https://www.amazon.com/s?k=Wavelength+Board+Game&tag=weekendbasecamp-20)** is about vibes, and we mean that literally. The game uses a physical dial hidden behind a screen. The clue-giver sees where a target is on a spectrum — say, "Hot ↔ Cold" — and gives a clue that they think lands at that exact point. The team then debates where on the spectrum the clue falls and sets the dial accordingly. It sounds simple, and mechanically it is. But the conversations it generates are unlike anything in gaming. "Is pizza more hot or cold?" "Well, it starts hot..." "But cold pizza is iconic!" "That's leftover pizza, that doesn't count." You will learn more about your friends' worldviews in one game of Wavelength than in a year of normal conversation. The debates are hilarious, surprisingly philosophical, and occasionally heated in the best possible way. It's also one of the most visually appealing games on this list — the chunky plastic dial and the reveal moment when you lift the screen are genuinely satisfying. This is our go-to when we have a group of six or more and want guaranteed laughter.
 
-📦
 
-[Wavelength — The Spectrum Guessing Game](https://www.amazon.com/s?k=Wavelength+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.7 · 5,800+ ratings
-
-$26 on Amazon
-
-"The debates this game creates are PRICELESS. We laughed so hard we cried. Best party game purchase we've ever made." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Wavelength+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B07VJM2SG4.01._SCLZZZZZZZ_SL250_.jpg" alt="Wavelength — The Spectrum Guessing Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Wavelength — The Spectrum Guessing Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$26</div></div><a href="https://www.amazon.com/s?k=Wavelength+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Telestrations
 
 Every game night needs at least one game that makes people laugh until their stomachs hurt. **[Telestrations (~$20)](https://www.amazon.com/s?k=Telestrations+Board+Game&tag=weekendbasecamp-20)** is that game. It's telephone meets Pictionary: you draw a word, pass your sketchbook, the next person guesses what you drew, passes it again, the next person draws that guess, and so on around the table. By the time the booklet comes back to you, "birthday cake" has become "nuclear explosion" through a chain of increasingly unhinged drawings and guesses. It is, without exaggeration, the hardest we have ever laughed during a game. What makes Telestrations special for groups is that artistic skill is irrelevant — in fact, terrible drawing is an advantage, because worse drawings create funnier misinterpretations. This is the great equalizer. Your artist friend and your stick-figure friend will have equally good times. It's also nearly impossible to explain how fun this game is; you have to experience the moment when someone reveals their booklet and the whole table loses it. Fair warning: this game has ended at least three of our game nights because nobody could compose themselves enough to play anything afterward. That's not a complaint.
 
-📦
 
-[Telestrations — The Original Sketch & Guess Party Game](https://www.amazon.com/s?k=Telestrations+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 15,000+ ratings
-
-$20 on Amazon
-
-"I have never laughed harder in my life. We literally had to stop playing because people couldn't breathe. Buy this game immediately." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Telestrations+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0055ZT6T2.01._SCLZZZZZZZ_SL250_.jpg" alt="Telestrations — The Original Sketch & Guess Party Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Telestrations — The Original Sketch & Guess Party Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$20</div></div><a href="https://www.amazon.com/s?k=Telestrations+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### The Resistance: Avalon
 
 Some of the best game nights we've ever hosted centered around **[The Resistance: Avalon (~$18)](https://www.amazon.com/s?k=Resistance+Avalon+Board+Game&tag=weekendbasecamp-20)** , and some of the most dramatic arguments we've witnessed happened during it too. This is a social deduction game — think Mafia or Werewolf, but better designed and with no player elimination. Some players are loyal servants of Arthur; others are secretly traitors working for Mordred. The loyal players are trying to figure out who the traitors are through discussion, voting, and reading body language, while the traitors are trying to sabotage missions without getting caught. It's lying as a game mechanic, and it is intoxicating. The reason Avalon is our pick over other social deduction games is the special roles. Merlin knows who the traitors are but can't reveal himself. The Assassin is trying to figure out who Merlin is. These roles create layers of deception that keep even experienced players guessing. A word of caution: this game is intense. Friendships will be tested. Accusations will fly. Someone will say "I knew you were lying!" with genuine emotion. It's not for every group, but for groups who lean into the drama, nothing else comes close.
 
-📦
 
-[The Resistance: Avalon — Social Deduction Game](https://www.amazon.com/s?k=Resistance+Avalon+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.7 · 9,800+ ratings
-
-$18 on Amazon
-
-"Destroyed friendships in the best possible way. The lying, the accusations, the dramatic reveals — this game is ELECTRIC with the right group." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Resistance+Avalon+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><div style="width:60px;height:60px;flex-shrink:0;background:#f8f6ea;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">🛒</div><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">The Resistance: Avalon — Social Deduction Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$18</div></div><a href="https://www.amazon.com/s?k=Resistance+Avalon+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Just One
 
 If you need a game that works for absolutely any group — mixed ages, mixed gaming experience, mixed energy levels — **[Just One (~$19)](https://www.amazon.com/s?k=Just+One+Board+Game&tag=weekendbasecamp-20)** is your answer. It's a cooperative word-guessing game where one player closes their eyes while everyone else writes a one-word clue on their easel. The catch: duplicate clues are eliminated before the guesser sees them. So if the word is "beach" and three people write "sand," all three clues vanish. This creates a delightful metagame of trying to think of unique-but-helpful clues that nobody else will also think of. It rewards creative thinking, obscure knowledge, and understanding your fellow players' thought patterns. We adore Just One because it's genuinely cooperative in a way that feels communal rather than stressful. When the guesser nails a tough word, everyone cheers. When all the obvious clues cancel out and the guesser is left with one wildly obscure hint, the tension is palpable. It won the Spiel des Jahres (the Oscar of board gaming) in 2019, and it deserved it. At under $20, it's also one of the cheapest games on this list relative to the amount of joy it delivers.
 
-📦
 
-[Just One — Cooperative Party Word Game](https://www.amazon.com/s?k=Just+One+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 11,000+ ratings
-
-$19 on Amazon
-
-"Spiel des Jahres winner for a reason. Easy to learn, endlessly replayable, and everyone from my 10-year-old nephew to my 75-year-old mom loved it." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Just+One+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><div style="width:60px;height:60px;flex-shrink:0;background:#f8f6ea;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">🛒</div><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Just One — Cooperative Party Word Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$19</div></div><a href="https://www.amazon.com/s?k=Just+One+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 Hosting a bigger group? Add the complete group game night collection to your Amazon cart.
 
@@ -252,81 +143,36 @@ Family game night is a different challenge than gaming with your peers. You're o
 
 **[Ticket to Ride (~$30)](https://www.amazon.com/s?k=Ticket+to+Ride+Board+Game&tag=weekendbasecamp-20)** appears in the couples section and the family section because it genuinely excels at both. For families, the visual nature of the game — colorful trains on a big map — is engaging for kids in a way that card-only games often aren't. Children as young as eight can play independently (with a little help reading the destination cards), and the decision space is broad enough that adults don't feel like they're playing a kids' game. We've watched our friend's twelve-year-old beat a table of adults through a combination of lucky draws and brilliant route-planning, and the look of pride on his face was worth more than any game we've ever recommended. The "First Journey" edition is available for younger kids (ages 6+), but we've found that most kids 8+ can handle the full version with a round or two of coaching.
 
-📦
 
-[Ticket to Ride Board Game](https://www.amazon.com/s?k=Ticket+to+Ride+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 27,000+ ratings
-
-$30 on Amazon
-
-"Perfect family game. My 9-year-old learned it in one round and now beats us regularly. Highly recommend for family game night." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Ticket+to+Ride+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0FRFVZBTJ.01._SCLZZZZZZZ_SL250_.jpg" alt="Ticket to Ride Board Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Ticket to Ride Board Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$30</div></div><a href="https://www.amazon.com/s?k=Ticket+to+Ride+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Dixit
 
 **[Dixit (~$30)](https://www.amazon.com/s?k=Dixit+Board+Game&tag=weekendbasecamp-20)** is the most beautiful game on this list, both literally and in concept. Every card features a dreamlike, surrealist illustration — think Studio Ghibli meets Salvador Dalí. The active player chooses a card from their hand and gives a clue — a word, a phrase, a sound effect, a movie quote, anything. Everyone else plays the card from their own hand that best matches the clue, and then everyone votes on which card they think was the original. Here's the twist: the clue-giver only scores if some people guess correctly but not everyone. If the clue is too obvious, no points. Too obscure, no points. You need to be creative and calibrated, which creates this wonderful dynamic where you're crafting clues specifically for your audience. For families, Dixit is magical because there's no reading comprehension barrier — kids can play based entirely on imagery and imagination, and they often give the most creative clues at the table. It rewards divergent thinking rather than knowledge, putting a seven-year-old on equal footing with a forty-year-old. The art alone makes it worth owning.
 
-📦
 
-[Dixit — The Beautifully Imaginative Board Game](https://www.amazon.com/s?k=Dixit+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 9,200+ ratings
-
-$30 on Amazon
-
-"The artwork alone is stunning, but the gameplay is what keeps us coming back. Our 7-year-old gives better clues than the adults half the time." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Dixit+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B004L6NKG4.01._SCLZZZZZZZ_SL250_.jpg" alt="Dixit — The Beautifully Imaginative Board Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Dixit — The Beautifully Imaginative Board Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$30</div></div><a href="https://www.amazon.com/s?k=Dixit+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Sushi Go!
 
 When we need a family game that plays in fifteen minutes flat and leaves everyone wanting another round, **[Sushi Go! (~$10)](https://www.amazon.com/s?k=Sushi+Go+Card+Game&tag=weekendbasecamp-20)** is our first call. It's a card-drafting game with adorable sushi-themed artwork where you pick one card from your hand and pass the rest. You're building sets of sushi — three sashimi for 10 points, the most maki rolls for a bonus, a pair of tempura for 5 points. The strategy comes from balancing what you want against what you're passing to your neighbor. It's deceptively clever for such a small, cute game. Kids love the art (every piece of sushi has an expressive little face), adults love the strategy, and at under ten dollars, it's the best value on this entire list. The "Party" version supports up to eight players with extra menu items, but the base game's simplicity is part of its charm. We've yet to play a single round of Sushi Go that didn't immediately lead to "again, again!"
 
-📦
 
-[Sushi Go! — The Pick and Pass Card Game](https://www.amazon.com/s?k=Sushi+Go+Card+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.7 · 14,000+ ratings
-
-$10 on Amazon
-
-"For ten bucks, this game delivers more fun per dollar than anything else we own. Our whole family is obsessed with the adorable sushi characters." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Sushi+Go+Card+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><div style="width:60px;height:60px;flex-shrink:0;background:#f8f6ea;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">🛒</div><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Sushi Go! — The Pick and Pass Card Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$10</div></div><a href="https://www.amazon.com/s?k=Sushi+Go+Card+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Spot It! (Dobble)
 
 Some games don't need strategic depth to be perfect. **[Spot It! (~$10)](https://www.amazon.com/s?k=Spot+It+Card+Game&tag=weekendbasecamp-20)** is pure reflex and pattern recognition: every pair of circular cards shares exactly one matching symbol, and you race to find it first. That's the entire game. It sounds trivial on paper, but in practice it's electric — the frantic energy of five people shouting "TREE! No, wait — LIGHTNING BOLT!" while scanning cards is absurdly entertaining. It plays in five minutes, works for ages 4 and up, fits in a pocket, and requires zero setup. We bring this to every family gathering, every vacation, and every waiting room. It's also our go-to when younger kids want to play but the big-kid games are too complex. The math behind the card design (projective planes, if you're curious) is fascinating, but you don't need to know any of that — you just need fast eyes and faster hands. Multiple game variants in the box keep it fresh.
 
-📦
 
-[Spot It! — The Award-Winning Visual Matching Game](https://www.amazon.com/s?k=Spot+It+Card+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 52,000+ ratings
-
-$10 on Amazon
-
-"We take this everywhere. Restaurants, road trips, family reunions. Kids and grandparents love it equally. Best $10 I've ever spent." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Spot+It+Card+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><div style="width:60px;height:60px;flex-shrink:0;background:#f8f6ea;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">🛒</div><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Spot It! — The Award-Winning Visual Matching Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$10</div></div><a href="https://www.amazon.com/s?k=Spot+It+Card+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Uno Flip
 
 We know what you're thinking. "Uno? Seriously?" And if this were regular Uno, you'd be right to be skeptical — it's fine, it's nostalgic, but it's not exactly a game night revelation. **[Uno Flip (~$8)](https://www.amazon.com/s?k=Uno+Flip+Card+Game&tag=weekendbasecamp-20)** is different. The cards are double-sided — a "light" side and a "dark" side — and a Flip card forces everyone to turn their entire hand over, revealing a completely different set of cards with nastier action cards and higher draw penalties. It takes the familiar, accessible bones of Uno and injects genuine strategic chaos. The flip mechanic means you can go from winning to losing in a single card, which keeps everyone engaged and prevents the "I'm so far behind, why bother" feeling that plagues standard Uno. At eight dollars, it costs less than a movie ticket and will entertain your family for years. Just... hide the "Draw 5" dark card from your youngest. Trust us.
 
-📦
 
-[Uno Flip! — Double-Sided Card Game](https://www.amazon.com/s?k=Uno+Flip+Card+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.7 · 34,000+ ratings
-
-$8 on Amazon
-
-"This is what Uno should have always been. The flip mechanic adds so much strategy and chaos. My kids beg to play this every night." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Uno+Flip+Card+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B005I5M2F8.01._SCLZZZZZZZ_SL250_.jpg" alt="Uno Flip! — Double-Sided Card Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Uno Flip! — Double-Sided Card Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$8</div></div><a href="https://www.amazon.com/s?k=Uno+Flip+Card+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 Planning a family game night? Grab the full family bundle and save a trip.
 
@@ -340,49 +186,22 @@ You've graduated. You've played Catan fifty times. You've memorized every Codena
 
 **[Wingspan (~$45)](https://www.amazon.com/s?k=Wingspan+Board+Game&tag=weekendbasecamp-20)** is the game that proved board games could be both mechanically brilliant and drop-dead gorgeous. You're building an aviary — collecting birds, playing them into habitats, chaining together powers that create satisfying combos. Each bird card features scientifically accurate artwork and real facts about the species, so you're accidentally learning ornithology while having the time of your life. The engine-building mechanic is deeply satisfying: as you place more birds, your actions become more powerful, creating this snowball effect where late-game turns feel incredibly productive. What elevates Wingspan above other strategy games is its accessibility. Despite being a "medium-weight" game (in board game terminology), it teaches remarkably well. The solo mode is outstanding for practice, and games play in about 60-75 minutes — long enough to feel substantial, short enough to fit into an evening with room for a second game. It's also one of the few strategy games we've seen that appeals equally to gamers and non-gamers, largely because the theme is so inviting. Nobody's intimidated by birds.
 
-📦
 
-[Wingspan — Award-Winning Bird Strategy Game](https://www.amazon.com/s?k=Wingspan+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.8 · 19,000+ ratings
-
-$45 on Amazon
-
-"I've played hundreds of board games and Wingspan is in my top 3 all-time. Beautiful, deep, endlessly replayable. A masterpiece of modern game design." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Wingspan+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B07YQ1PJ4Y.01._SCLZZZZZZZ_SL250_.jpg" alt="Wingspan — Award-Winning Bird Strategy Game" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Wingspan — Award-Winning Bird Strategy Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$45</div></div><a href="https://www.amazon.com/s?k=Wingspan+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Terraforming Mars
 
 **[Terraforming Mars (~$50)](https://www.amazon.com/s?k=Terraforming+Mars+Board+Game&tag=weekendbasecamp-20)** is the game we pull out when we want to lose ourselves for an entire evening. You're a corporation helping to terraform Mars — raising the temperature, increasing oxygen, creating oceans — by playing project cards that represent everything from asteroid mining to introducing plant life. Each card has a unique ability and cost, and the interactions between hundreds of cards create a combinatorial explosion of possible strategies. No two games feel remotely similar. The game is long — two to three hours for experienced players, longer with newcomers — and the production quality of the base game is admittedly underwhelming (the player boards are thin cardboard that slide around, a known issue that third-party overlays fix beautifully). But we include it here because nothing else in our collection delivers the same sense of epic accomplishment. When you look at the Mars board at the end of the game — covered in oceans, cities, and green forests that weren't there three hours ago — and you know that you built a meaningful portion of that, the feeling is unmatched. This is a once-a-month game, not a weekly one. But that monthly session will be the highlight of your gaming calendar.
 
-📦
 
-[Terraforming Mars Board Game](https://www.amazon.com/s?k=Terraforming+Mars+Board+Game&tag=weekendbasecamp-20)
-
-★★★★★ 4.6 · 10,500+ ratings
-
-$50 on Amazon
-
-"The most immersive board game experience I've ever had. You genuinely feel like you're building something on another planet. Worth every penny and every hour." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Terraforming+Mars+Board+Game&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><div style="width:60px;height:60px;flex-shrink:0;background:#f8f6ea;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">🛒</div><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Terraforming Mars Board Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$50</div></div><a href="https://www.amazon.com/s?k=Terraforming+Mars+Board+Game&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 ### Gloomhaven: Jaws of the Lion
 
 If you've ever wanted to play a tabletop RPG but didn't have the group, the time, or the patience for a traditional Dungeons & Dragons campaign, **[Gloomhaven: Jaws of the Lion (~$35)](https://www.amazon.com/s?k=Gloomhaven+Jaws+of+the+Lion&tag=weekendbasecamp-20)** is a revelation. It's a cooperative dungeon-crawling game where each player controls a unique character with a deck of ability cards. Instead of rolling dice, you choose which cards to play each round, and the interplay between your abilities and your teammates' creates these thrilling tactical puzzles. The "Jaws of the Lion" version is specifically designed as an entry point to the Gloomhaven universe — the tutorial scenarios teach you the rules gradually over the first five scenarios, so you never have to read a 50-page rulebook upfront. By the time you're through the tutorial, you're playing a full-featured tactical RPG and barely noticed the learning curve. There are 25 scenarios in the box, each taking about 60-90 minutes, which means you're looking at roughly 30-40 hours of content for $35. That's absurd value. We played through the entire campaign with our partner over the course of a month, and it was one of the most memorable gaming experiences we've ever had — the kind where you talk about what happened during the session for days afterward.
 
-📦
 
-[Gloomhaven: Jaws of the Lion — Tactical RPG Board Game](https://www.amazon.com/s?k=Gloomhaven+Jaws+of+the+Lion&tag=weekendbasecamp-20)
-
-★★★★★ 4.7 · 8,200+ ratings
-
-$35 on Amazon
-
-"40+ hours of incredible tactical gameplay for $35. The tutorial system is genius — you learn by playing, not by reading. Best co-op game ever made." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.com/s?k=Gloomhaven+Jaws+of+the+Lion&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><div style="width:60px;height:60px;flex-shrink:0;background:#f8f6ea;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">🛒</div><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a;line-height:1.3">Gloomhaven: Jaws of the Lion — Tactical RPG Board Game</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$35</div></div><a href="https://www.amazon.com/s?k=Gloomhaven+Jaws+of+the+Lion&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
 
 Ready to go deep? Add the serious gamer collection to your Amazon cart.
 
@@ -431,7 +250,6 @@ How to Pull This Off →
   3. **Pre-batch your drinks.** A big pitcher of something is infinitely better than playing bartender all night.
   4. **Have backup games ready.** Sometimes a game falls flat. Have an alternative queued up so you can pivot without a pause.
   5. **Set a gentle end time.** "We'll wrap up around 10:30" gives people an out without making it awkward, and it makes the evening feel intentional rather than open-ended.
-
 
 
 **Snack rules we swear by:** No Cheetos (orange dust on cards is a crime). No chips that shatter into crumbs. No chocolate that melts in warm hands. Yes to anything on a toothpick. Yes to grapes, nuts, and pretzels. Yes to M&Ms in a bowl (the candy shell protects everything). And always, always have more napkins than you think you need. 

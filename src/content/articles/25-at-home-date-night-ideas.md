@@ -36,17 +36,15 @@ Everyone watches movies at home. That's not a date night — that's a Tuesday. T
 
 The key is atmosphere. You're not watching a movie on the couch after dinner. You're building a tiny cinema. The [**LED flameless candles (~$15)**](https://www.amazon.com/s?k=LED+flameless+candles&tag=weekendbasecamp-20) make the room glow without the fire hazard. The [**Bedsure waterproof fleece blanket (~$28)**](https://www.amazon.com/dp/B0CWP7M285?tag=weekendbasecamp-20) is the one we keep on the couch specifically for these nights — it's unreasonably soft for the price. Add popcorn in a real bowl (not the bag), pour something nice into actual glasses, and suddenly you've created an experience instead of just killing time.
 
-![Bedsure Fleece Blanket](https://m.media-amazon.com/images/I/71mnTS8YwPL._AC_SL1500_.jpg)
 
 [Bedsure Fleece Blanket](https://www.amazon.com/dp/B0CWP7M285?tag=weekendbasecamp-20)
 
-★★★★★ 4.5 · 85,000+ ratings
-
-$27.99 on Amazon
 
 “Ridiculously soft for the price. Our go-to for movie nights.” — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/dp/B0CWP7M285?tag=weekendbasecamp-20)
+
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0CWP7M285.01._SCLZZZZZZZ_SL250_.jpg" alt="Bedsure Fleece Blanket" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a">Bedsure Fleece Blanket</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$28</div></div><a href="https://www.amazon.com/dp/B0CWP7M285?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
+
 
 **Pro tip:** Take turns choosing the theme each time. The person who didn't choose gets veto power on one film. This single rule has prevented approximately four arguments in our house.
 
@@ -76,17 +74,15 @@ We stole this idea from every cooking competition show we'd ever binged, and hon
 
 What makes this better than just cooking dinner together is the competitive element. You're not collaborating — you're competing. You're guarding your cutting board like it contains state secrets. You're trash-talking each other's knife skills. It's ridiculous and fun in a way that regular Tuesday-night meal prep will never be. Music helps: put the [**JBL Clip 4 (~$50)**](https://www.amazon.com/dp/B09BFDM5QD?tag=weekendbasecamp-20) on the counter with an upbeat playlist and the kitchen transforms into your own personal cooking show set. The Clip 4 is small enough to clip onto a cabinet handle and loud enough to fill the room. After six months, we've found it works for basically every date night on this list.
 
-📦
 
 [JBL Clip 4 Speaker](https://www.amazon.com/dp/B09BFDM5QD?tag=weekendbasecamp-20)
 
-★★★★★ 4.7 · 30,000+ ratings
-
-$49.95 on Amazon
 
 “Clips onto anything, fills the kitchen with sound.” — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/dp/B09BFDM5QD?tag=weekendbasecamp-20)
+
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B09BFDM5QD.01._SCLZZZZZZZ_SL250_.jpg" alt="JBL Clip 4 Speaker" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a">JBL Clip 4 Speaker</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$50</div></div><a href="https://www.amazon.com/dp/B09BFDM5QD?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
+
 
 How to Pull This Off →
 
@@ -192,17 +188,15 @@ There's a specific kind of evening that happens when you combine candles, a good
 
 A pack of [**unscented tea light candles (~$10 for 100-count)**](https://www.amazon.com/s?k=unscented+tea+light+candles+100+pack&tag=weekendbasecamp-20) scattered across a table and a ledge transforms the space instantly. Pair them with a [**JBL Clip 4 (~$50)**](https://www.amazon.com/dp/B08PJ7JMQM?tag=weekendbasecamp-20) playing low enough to be atmosphere, not entertainment, and you've built something. Not an activity. A place. A place you'll keep going back to.
 
-![JBL Clip 4 Portable Bluetooth Speaker](https://m.media-amazon.com/images/I/712bkrVtjHL._AC_SL1500_.jpg)
 
 [JBL Clip 4 Portable Bluetooth Speaker](https://www.amazon.com/dp/B08PJ7JMQM?tag=weekendbasecamp-20)
 
-★★★★★ 4.8 · 15,000+ ratings
-
-$49.95 on Amazon
 
 “Clips anywhere, sounds incredible. Best small speaker I've owned.” — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/dp/B08PJ7JMQM?tag=weekendbasecamp-20)
+
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B08PJ7JMQM.01._SCLZZZZZZZ_SL250_.jpg" alt="JBL Clip 4 Speaker" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a">JBL Clip 4 Speaker</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$50</div></div><a href="https://www.amazon.com/dp/B08PJ7JMQM?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
+
 
 How to Pull This Off →
 
@@ -331,17 +325,15 @@ We know. Waking up before dawn doesn't sound romantic. It sounds like a punishme
 
 Something happens when you watch the sun come up from a trail with someone you love. The scale of it — the sky changing colors, the birds starting up, the world waking up while everyone else is still asleep — it makes all the things you were stressed about feel smaller. We've done maybe fifteen sunrise hikes together, and each one felt like hitting a reset button on whatever low-grade tension had built up during the week. Good shoes matter: the [**Columbia Newton Ridge Plus II boots (~$85)**](https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20) are what we both wear, and they handle everything from paved paths to rocky trails without blisters. Bring water and a snack for the summit. Leave the phones in the car if you're brave enough.
 
-![Columbia Newton Ridge Plus II Boots](https://m.media-amazon.com/images/I/61ToPAsTJbL._AC_SL1200_.jpg)
 
 [Columbia Newton Ridge Plus II Boots](https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20)
 
-★★★★★ 4.4 · 6,500+ ratings
-
-$84.95 on Amazon
 
 “Near perfect for the price. Feet stay dry every hike.” — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20)
+
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0BXDVHX48.01._SCLZZZZZZZ_SL250_.jpg" alt="Columbia Newton Ridge Boots" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a">Columbia Newton Ridge Boots</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$90</div></div><a href="https://www.amazon.com/dp/B0BXDVHX48?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
+
 
 How to Pull This Off →
 
@@ -368,17 +360,15 @@ The key word is "nowhere." This isn't a training ride. This isn't a ride with a 
 
 We do this on weekend mornings and it's become one of our default warm-weather dates. Some rides are twenty minutes. Some are two hours. There's no pressure either way. The best rides end somewhere unexpected — a park bench with a view, a bakery you didn't know existed, a neighborhood that makes you say "we should live here." All you need are bikes that work and a general willingness to get a little lost. A [**CamelBak water bottle (~$30)**](https://www.amazon.com/dp/B0DZSJDP3V?tag=weekendbasecamp-20) is worth having for the longer rides, especially in summer.
 
-![CamelBak Eddy+ Water Bottle](https://m.media-amazon.com/images/I/711l5UzchjL._AC_SL1500_.jpg)
 
 [CamelBak Eddy+ Water Bottle](https://www.amazon.com/dp/B0DZSJDP3V?tag=weekendbasecamp-20)
 
-★★★★★ 4.7 · 10,000+ ratings
-
-$28.00 on Amazon
 
 “Doesn't leak, easy to clean, keeps water cold.” — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/dp/B0DZSJDP3V?tag=weekendbasecamp-20)
+
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0DZSJDP3V.01._SCLZZZZZZZ_SL250_.jpg" alt="View Product" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a">View Product</div></div><a href="https://www.amazon.com/dp/B0DZSJDP3V?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
+
 
 How to Pull This Off →
 
@@ -453,17 +443,15 @@ Competition brings out a side of your partner you don't see at the dinner table.
 
 [**Codenames (~$25)**](https://www.amazon.com/dp/B0FJMQB63N?tag=weekendbasecamp-20) is our favorite two-player card game. It's fast, it's mental, and the learning curve is quick enough that you're having fun within five minutes but strategic enough that you're still improving months later. We alternate between Codenames, TENZI dice rounds, and playing cards for a best-of-three tournament bracket. Keep score across the whole tournament. Award the winner something ridiculous — they pick the movie next time, or they get out of dishes for a day. The stakes don't have to be high for the competition to feel real.
 
-![Codenames Party Game](https://m.media-amazon.com/images/I/81RaGVH5StL._AC_SL1500_.jpg)
 
 [Codenames Party Game](https://www.amazon.com/dp/B0FJMQB63N?tag=weekendbasecamp-20)
 
-★★★★★ 4.8 · 20,000+ ratings
-
-$24.99 on Amazon
 
 “Play it once and you'll play it every weekend.” — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/dp/B0FJMQB63N?tag=weekendbasecamp-20)
+
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0FJMQB63N.01._SCLZZZZZZZ_SL250_.jpg" alt="View Product" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a">View Product</div></div><a href="https://www.amazon.com/dp/B0FJMQB63N?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
+
 
 How to Pull This Off →
 
@@ -598,17 +586,15 @@ Take a camera — not your phone, an actual camera — and walk through your nei
 
 We use an [**Instax Mini 12 (~$70)**](https://www.amazon.com/dp/B0BXDR63VP?tag=weekendbasecamp-20) for this, and the instant prints make the comparison session at the end feel more tangible and fun. There's something about holding a physical photo that a phone screen can't replicate. Plus, you end up with a collection of prints that become accidental documentation of your relationship — where you went, what you noticed, what you were drawn to on that particular Saturday afternoon. We keep ours in a shoebox that's become one of our most valued possessions.
 
-📦
 
 [Fujifilm Instax Mini 12](https://www.amazon.com/dp/B0BXDR63VP?tag=weekendbasecamp-20)
 
-★★★★★ 4.4 · 12,000+ ratings
-
-$68.00 on Amazon
 
 “Instant prints are pure magic at gatherings.” — Verified Amazon buyer
 
-[View on Amazon →](https://www.amazon.com/dp/B0BXDR63VP?tag=weekendbasecamp-20)
+
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B0BXDR63VP.01._SCLZZZZZZZ_SL250_.jpg" alt="View Product" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a">View Product</div></div><a href="https://www.amazon.com/dp/B0BXDR63VP?tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap;flex-shrink:0">View on Amazon</a></div>
+
 
 **Pro tip:** Alternate who picks the walking route. The person who knows the neighborhood less often finds the most interesting things to photograph.
 
@@ -775,7 +761,6 @@ Couple+Cozy • Couple+Active • Couple+Deep • Couple+Celebratory
   * [The Ultimate Game Night Guide](https://weekendbasecamp.com/blogs/guides/the-ultimate-game-night-guide)
   * [The No-Stress Family Hiking Guide](https://weekendbasecamp.com/blogs/guides/the-no-stress-family-hiking-guide)
   * [How to Plan the Perfect Backyard Night](https://weekendbasecamp.com/blogs/guides/how-to-plan-the-perfect-backyard-night)
-
 
 
 ## Frequently Asked Questions

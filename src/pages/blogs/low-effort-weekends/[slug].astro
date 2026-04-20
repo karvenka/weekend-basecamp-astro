@@ -182,7 +182,7 @@ const breadcrumbSchema = {
         </div>
         <div class="article-kit-products" id="article-kit-products"></div>
         <a class="article-kit-cta" id="article-kit-cta" href="#" target="_blank" rel="noopener noreferrer nofollow">
-          Send Kit to Amazon →
+          Shop This Kit on Amazon →
         </a>
         <a class="article-kit-browse" href="/">Browse all kits →</a>
       </div>
@@ -615,7 +615,7 @@ document.querySelectorAll('.toc-link').forEach(function(link) {
     if (prodsEl) {
       prodsEl.innerHTML = products.map(function(p) {
         return '<a class="article-kit-card" href="https://www.amazon.com/dp/' + p.asin + '?tag=' + tag + '" target="_blank" rel="noopener noreferrer nofollow">' +
-          '<img src="https://images-na.ssl-images-amazon.com/images/P/' + p.asin + '.01._SCLZZZZZZZ_SL250_.jpg" alt="' + (p.name || '').replace(/"/g,'') + '" onerror="this.onerror=null;this.src=\'https://m.media-amazon.com/images/P/' + p.asin + '.01._SCLZZZZZZZ_SL250_.jpg\';" />' +
+          '<img src="' + (p.image || '/products/' + p.asin + '.svg') + '" alt="' + (p.name || '').replace(/"/g,'') + '" />' +
           '<div class="article-kit-card-name">' + (p.name || '') + '</div>' +
           '<div class="article-kit-card-price">' + (p.price || '') + '</div>' +
         '</a>';
@@ -623,9 +623,8 @@ document.querySelectorAll('.toc-link').forEach(function(link) {
     }
     var ctaEl = document.getElementById('article-kit-cta');
     if (ctaEl) {
-      var url = 'https://www.amazon.com/gp/aws/cart/add.html?AssociateTag=' + tag;
-      products.forEach(function(p, i) { url += '&ASIN.' + (i+1) + '=' + p.asin + '&Quantity.' + (i+1) + '=1'; });
-      ctaEl.href = url;
+      // Link to first product (cart/add API deprecated)
+      ctaEl.href = products.length > 0 ? 'https://www.amazon.com/dp/' + products[0].asin + '?tag=' + tag : 'https://www.amazon.com/?tag=' + tag;
     }
   }).catch(function() {});
 })();

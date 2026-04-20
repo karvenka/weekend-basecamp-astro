@@ -62,15 +62,7 @@ Your own climbing shoes are the first thing to buy, and honestly, this is the on
 
 For beginners, we recommend the **La Sportiva Tarantulace** , an all-around incredible shoe that strikes the perfect balance between sensitivity and comfort. It's stiffer than performance shoes (so less painful on your toes) but still responsive enough that you can feel what your feet are doing on the wall. La Sportiva is beloved by climbers globally, and their beginner shoes are genuinely the entry point for nearly everyone we know. At around $80, it's an investment, but it's the investment that actually matters.
 
-[La Sportiva Tarantulace](https://www.amazon.s3.amazonaws.com/s?k=La+Sportiva+Tarantulace&i=sporting&tag=weekendbasecamp-20)
-
-★★★★★ 4.7 · 1,200+ ratings
-
-$79–$89 on Amazon
-
-"Perfect for beginners. Comfortable enough to wear for hours but still gives you the sensitivity you need to progress." — Verified Amazon buyer
-
-[View on Amazon →](https://www.amazon.s3.amazonaws.com/s?k=La+Sportiva+Tarantulace&i=sporting&tag=weekendbasecamp-20)
+<div style="display:flex;gap:12px;align-items:center;padding:12px 16px;margin:16px 0;background:#fff;border:1px solid #e8dfd3;border-radius:8px"><img src="https://images-na.ssl-images-amazon.com/images/P/B01B5JM5T4.01._SCLZZZZZZZ_SL250_.jpg" alt="La Sportiva Tarantulace Climbing Shoes" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:4px;background:#f8f6ea" onerror="this.style.display='none'" /><div style="flex:1;min-width:0"><div style="font-size:13px;font-weight:700;color:#1a1a1a">La Sportiva Tarantulace Climbing Shoes</div><div style="font-size:15px;font-weight:800;color:#0f1111;margin-top:2px">$79–$89</div></div><a href="https://www.amazon.com/s?k=La+Sportiva+Tarantulace&tag=weekendbasecamp-20" target="_blank" rel="noopener noreferrer nofollow" style="display:inline-block;padding:6px 14px;background:#febd69;color:#0f1111;font-size:11px;font-weight:700;border-radius:4px;text-decoration:none;white-space:nowrap">View on Amazon</a></div>
 
 ### 2\. Chalk and Chalk Bag
 
@@ -154,7 +146,6 @@ The biggest mistake beginners make is trying to progress too fast and injuring t
   6. **Strengthen your antagonists:** Pull-ups and climbing use your back and biceps. Push-ups and rows strengthen the opposite muscles and prevent imbalances.
 
 
-
 ### When to Buy vs. Rent
 
 Climbing shoes: Buy after session one. Chalk bag: Buy after session two. Harness: Buy after session eight or nine, once you know you're going to stick with top-rope. Belay device: Buy once you have a harness (they go together). Don't buy a crash pad if you're bouldering indoors—the gym provides padding. Don't buy protection equipment until you're lead climbing outside, which is months away.
@@ -174,10 +165,9 @@ Total: ~$85
   * La Sportiva Tarantulace climbing shoes ($85)
 
 
-
 That's it. Rent everything else from the gym. Once you've climbed 10-15 times and you know this is something you want to continue, move to Tier 2.
 
-[Add to Amazon Cart](https://www.amazon.s3.amazonaws.com/s?k=La+Sportiva+Tarantulace&i=sporting&tag=weekendbasecamp-20)
+[Add to Amazon Cart](https://www.amazon.com/s?k=La+Sportiva+Tarantulace&tag=weekendbasecamp-20)
 
 ### Tier 2: The Regular Gym Climber ($200-250)
 
@@ -194,10 +184,9 @@ Total: ~$220
   * Climbing chalk ($10)
 
 
-
 This setup covers bouldering and top-rope climbing. You're now a "real" climber with your own gear. You don't need anything else until you start leading.
 
-[Build Amazon Cart](https://www.amazon.s3.amazonaws.com/s?k=Black+Diamond+climbing+harness+gear+package&tag=weekendbasecamp-20)
+[Build Amazon Cart](https://www.amazon.com/s?k=Black+Diamond+climbing+harness+gear+package&tag=weekendbasecamp-20)
 
 #### How to Execute Tier 2
 
@@ -205,7 +194,6 @@ This setup covers bouldering and top-rope climbing. You're now a "real" climber 
   2. Get the harness and belay device together after you've had your belay certification and done 2-3 top-rope sessions.
   3. The chalk bag is the last thing you buy—it's nice to have but not essential if you're climbing regularly with friends who have bags.
   4. Buy your chalk last. It's the cheapest item and lasts forever.
-
 
 
 ### Tier 3: The Committed Climber ($400-500)
@@ -230,10 +218,9 @@ Total: ~$450
   * Climbing tape for finger support ($8)
 
 
-
 At this tier, you're essentially equipped for indoor gym climbing, outdoor top-rope climbing, and introductory lead climbing. You've invested in backup gear and specialty items that make climbing easier.
 
-[Build Complete Amazon Cart](https://www.amazon.s3.amazonaws.com/s?k=climbing+gear+complete+set&tag=weekendbasecamp-20)
+[Build Complete Amazon Cart](https://www.amazon.com/s?k=climbing+gear+complete+set&tag=weekendbasecamp-20)
 
 ## Beyond the First Month: What Comes Next
 
