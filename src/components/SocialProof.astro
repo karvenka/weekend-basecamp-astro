@@ -1,7 +1,7 @@
 ---
 /**
- * Social proof section — honest community stats and trust badges.
- * No fake testimonials. Update numbers as real data comes in.
+ * Social proof section — real quotes from our own guides + honest stats.
+ * Each quote is pulled directly from a published article.
  */
 ---
 
@@ -22,6 +22,21 @@
         <span class="wbc-stat__number">100%</span>
         <span class="wbc-stat__label">Family Tested</span>
       </div>
+    </div>
+
+    <div class="wbc-social-proof__quotes">
+      <a href="/guides/25-at-home-date-night-ideas" class="wbc-quote">
+        <blockquote>"The secret to a great date night isn't spending more money — it's spending more attention."</blockquote>
+        <cite>— from <strong>25 At-Home Date Night Ideas</strong></cite>
+      </a>
+      <a href="/guides/the-no-stress-family-hiking-guide" class="wbc-quote">
+        <blockquote>"The goal of a family hike isn't the summit. It's the car ride home where nobody is crying."</blockquote>
+        <cite>— from <strong>The No-Stress Family Hiking Guide</strong></cite>
+      </a>
+      <a href="/guides/weekend-activities-for-kids-that-dont-involve-screens" class="wbc-quote">
+        <blockquote>"We declared a screen-free Saturday once, expecting a riot. Instead, we had the best family day we'd had in months."</blockquote>
+        <cite>— from <strong>Weekend Activities for Kids</strong></cite>
+      </a>
     </div>
 
     <div class="wbc-social-proof__badges">
@@ -77,6 +92,38 @@
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
+  .wbc-social-proof__quotes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  .wbc-quote {
+    background: #fff;
+    border: 1px solid #e8dfd3;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .wbc-quote:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  .wbc-quote blockquote {
+    margin: 0 0 0.75rem;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #2c2c2c;
+    line-height: 1.5;
+  }
+  .wbc-quote cite {
+    font-size: 0.78rem;
+    font-style: normal;
+    color: #CC5500;
+  }
   .wbc-social-proof__badges {
     display: flex;
     justify-content: center;
@@ -96,5 +143,6 @@
   @media (max-width: 600px) {
     .wbc-social-proof__stats { gap: 1.5rem; }
     .wbc-stat__number { font-size: 1.6rem; }
+    .wbc-social-proof__quotes { grid-template-columns: 1fr; }
   }
 </style>
