@@ -615,7 +615,7 @@ document.querySelectorAll('.toc-link').forEach(function(link) {
     if (prodsEl) {
       prodsEl.innerHTML = products.map(function(p) {
         return '<a class="article-kit-card" href="https://www.amazon.com/dp/' + p.asin + '?tag=' + tag + '" target="_blank" rel="noopener noreferrer nofollow">' +
-          '<img src="' + (p.image || '/products/' + p.asin + '.svg') + '" alt="' + (p.name || '').replace(/"/g,'') + '" />' +
+          '<img src="' + (p.image || '/products/' + p.asin + '.svg') + '" alt="' + (p.name || '').replace(/"/g,'') + '" onerror="this.onerror=null;this.src=\'/products/' + p.asin + '.svg\'" />' +
           '<div class="article-kit-card-name">' + (p.name || '') + '</div>' +
           '<div class="article-kit-card-price">' + (p.price || '') + '</div>' +
         '</a>';

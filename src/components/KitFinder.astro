@@ -513,7 +513,7 @@ const kits = kitsData;
     var stars = '<span class="sh-card-rating">' + '★'.repeat(Math.round(parseFloat(rating))) + '★'.repeat(0) + '</span><span class="sh-card-rating-count">' + Number(reviews).toLocaleString() + '</span>';
     return '<div class="sh-card" id="shcard-' + product.asin + '" data-tier="' + tier + '" onclick="var l=this.querySelector(\'.sh-card-link\');if(l&&event.target.tagName!==\'INPUT\')l.click()">' +
       '<div class="sh-card-img" style="position:relative">' +
-        '<img src="' + (product.image || '/products/' + product.asin + '.svg') + '" alt="' + escHtml(product.name) + '" loading="eager" />' +
+        '<img src="' + (product.image || '/products/' + product.asin + '.svg') + '" alt="' + escHtml(product.name) + '" loading="eager" data-asin="' + product.asin + '" data-name="' + escHtml(product.name) + '" />' +
         tierBadge +
       '</div>' +
       '<div class="sh-card-info">' +
@@ -808,5 +808,56 @@ const kits = kitsData;
   } catch(e) {}
 
   renderKit(kitMap[currentWho][currentVibe]);
+
+  // === DYNAMIC IMAGE FALLBACK ===
+  // Checks all product images after render. If an image fails to load or loads blank,
+  // tries multiple Amazon URL patterns before falling back to SVG placeholder.
+  function fixBrokenImages() {
+    document.querySelectorAll('.sh-card-img img[data-asin]').forEach(function(img) {
+      var asin = img.dataset.asin;
+      var name = img.dataset.name || '';
+      if (!asin) return;
+
+      // Skip SVGs — they always work
+      if (img.src.endsWith('.svg')) return;
+
+      img.onerror = function() {
+        var urls = [
+          'https://m.media-amazon.com/images/P/' + asin + '.01._SCLZZZZZZZ_SL300_.jpg',
+          'https://images-na.ssl-images-amazon.com/images/P/' + asin + '.01._SCLZZZZZZZ_SL250_.jpg',
+          '/products/' + asin + '.svg'
+        ];
+
+        var currentIdx = urls.indexOf(this.src);
+        var nextIdx = currentIdx + 1;
+
+        if (nextIdx < urls.length) {
+          this.onerror = function() {
+            // Try next URL
+            var next = urls.indexOf(this.src) + 1;
+            if (next < urls.length) {
+              this.src = urls[next];
+            }
+          };
+          this.src = urls[nextIdx >= 0 ? nextIdx : 0];
+        }
+      };
+
+      // Also check if image loaded but is tiny (Amazon sometimes returns 1x1 pixel)
+      if (img.complete && img.naturalWidth < 10) {
+        img.src = '/products/' + asin + '.svg';
+      }
+    });
+  }
+
+  // Run after initial render
+  setTimeout(fixBrokenImages, 500);
+
+  // Also run after any filter change (new products render)
+  var originalRenderKit = renderKit;
+  renderKit = function(key) {
+    originalRenderKit(key);
+    setTimeout(fixBrokenImages, 300);
+  };
 })();
 </script>
