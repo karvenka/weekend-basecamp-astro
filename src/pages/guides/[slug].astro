@@ -15,8 +15,9 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content, headings } = await article.render();
 const h2Headings = headings.filter(h => h.depth === 2);
+const canonicalUrl = `https://weekendbasecamp.com/guides/${article.slug}/`;
 ---
-<BaseLayout title={article.data.title} description={article.data.description}>
+<BaseLayout title={article.data.title} description={article.data.description} canonicalUrl={canonicalUrl}>
   <Header slot="header" />
 
   <article style="max-width:760px;margin:3rem auto;padding:0 1.5rem;">

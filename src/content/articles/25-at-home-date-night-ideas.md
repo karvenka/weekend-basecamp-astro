@@ -1,6 +1,6 @@
 ---
 title: "25 At-Home Date Night Ideas That Actually Feel Special"
-description: ""
+description: "25 creative at-home date night ideas that actually feel special—from cooking challenges to stargazing on the couch. Most cost under $20."
 author: "Karthick Venkatesan"
 pubDate: 2026-03-29
 category: "Guides"
@@ -759,10 +759,10 @@ Couple+Cozy • Couple+Active • Couple+Deep • Couple+Celebratory
 
 ### Keep Reading
 
-  * [12 Best Board Games for Couples — The Definitive Guide](https://weekendbasecamp.com/blogs/guides/12-best-board-games-for-couples)
-  * [The Ultimate Game Night Guide](https://weekendbasecamp.com/blogs/guides/the-ultimate-game-night-guide)
-  * [The No-Stress Family Hiking Guide](https://weekendbasecamp.com/blogs/guides/the-no-stress-family-hiking-guide)
-  * [How to Plan the Perfect Backyard Night](https://weekendbasecamp.com/blogs/guides/how-to-plan-the-perfect-backyard-night)
+  * [12 Best Board Games for Couples — The Definitive Guide](/guides/12-best-board-games-for-couples)
+  * [The Ultimate Game Night Guide](/guides/the-ultimate-game-night-guide)
+  * [The No-Stress Family Hiking Guide](/guides/the-no-stress-family-hiking-guide)
+  * [How to Plan the Perfect Backyard Night](/guides/how-to-plan-the-perfect-backyard-night)
 
 
 ## Frequently Asked Questions
