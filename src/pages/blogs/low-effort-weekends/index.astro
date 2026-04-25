@@ -36,7 +36,7 @@ const vibes = ['All', 'Active', 'Cozy', 'Celebratory', 'Deep', 'Family', 'Couple
     <div class="guides-grid" id="guides-grid">
       {articles.map(article => (
         <a
-          href={`/blogs/low-effort-weekends/${article.slug}`}
+          href={`/guides/${article.slug}`}
           class="guide-card"
           data-category={article.data.category?.toLowerCase() || ''}
         >

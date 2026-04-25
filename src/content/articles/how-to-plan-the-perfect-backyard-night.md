@@ -1,6 +1,6 @@
 ---
 title: "How to Plan the Perfect Backyard Night"
-description: ""
+description: "Plan the perfect backyard night with the right lighting, music, food, and screen-free activities. A step-by-step guide with tested gear picks."
 author: "Karthick Venkatesan"
 pubDate: 2026-03-27
 category: "Guides"

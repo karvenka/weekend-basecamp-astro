@@ -1,6 +1,6 @@
 ---
 title: "The Ultimate Game Night Guide"
-description: ""
+description: "Host an unforgettable game night with the right games, snacks, and pacing. 60+ board games tested and ranked by group size, vibe, and complexity."
 author: "Karthick Venkatesan"
 pubDate: 2026-03-31
 category: "Guides"

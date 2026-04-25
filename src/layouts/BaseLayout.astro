@@ -2,19 +2,22 @@
 export interface Props {
   title: string;
   description?: string;
+  canonicalUrl?: string;
 }
-const { title, description = 'Weekend Basecamp — Guides & Gear for Family Adventures' } = Astro.props;
+const { title, description = 'Weekend Basecamp — Guides & Gear for Family Adventures', canonicalUrl } = Astro.props;
+const canonical = canonicalUrl || Astro.url.href;
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href={canonical} />
   <meta name="description" content={description} />
   <meta property="og:title" content={`${title} | Weekend Basecamp`} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content={Astro.url.href} />
+  <meta property="og:url" content={canonical} />
   <meta property="og:image" content="https://weekendbasecamp.com/social-card.png" />
   <meta property="og:site_name" content="Weekend Basecamp" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -43,7 +46,7 @@ const { title, description = 'Weekend Basecamp — Guides & Gear for Family Adve
 {"@context":"https://schema.org","@type":"Organization","name":"Weekend Basecamp","url":"https://weekendbasecamp.com","logo":"https://weekendbasecamp.com/logo.png","description":"Guides & Gear That Help You Build Memories","sameAs":["https://www.pinterest.com/weekendbasecamp","https://www.instagram.com/weekendbasecamp"]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"Weekend Basecamp","url":"https://weekendbasecamp.com","potentialAction":{"@type":"SearchAction","target":"https://weekendbasecamp.com/blogs/low-effort-weekends?q={search_term_string}","query-input":"required name=search_term_string"}}
+{"@context":"https://schema.org","@type":"WebSite","name":"Weekend Basecamp","url":"https://weekendbasecamp.com","potentialAction":{"@type":"SearchAction","target":"https://weekendbasecamp.com/guides?q={search_term_string}","query-input":"required name=search_term_string"}}
 </script>
 </head>
 <body>

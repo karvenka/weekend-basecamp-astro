@@ -5,7 +5,16 @@ import rehypeExternalLinks from 'rehype-external-links';
 
 export default defineConfig({
   site: 'https://weekendbasecamp.com',
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    sitemap({
+      filter: (page) => !page.includes('/blogs/'),
+    }),
+  ],
+  redirects: {
+    '/blogs/low-effort-weekends/[...slug]': '/guides/[...slug]',
+    '/blogs/low-effort-weekends': '/guides',
+  },
   markdown: {
     rehypePlugins: [
       [rehypeExternalLinks, {

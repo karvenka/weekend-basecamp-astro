@@ -1,6 +1,6 @@
 ---
 title: "12 Best Board Games for Couples"
-description: ""
+description: "The 12 best board games for couples—from deep conversation starters to competitive two-player strategy games. Tested, ranked, and honest about which ones are worth buying."
 author: "Karthick Venkatesan"
 pubDate: 2026-03-28
 category: "Guides"
