@@ -11,10 +11,7 @@ export default defineConfig({
       filter: (page) => !page.includes('/blogs/'),
     }),
   ],
-  redirects: {
-    '/blogs/low-effort-weekends/[...slug]': '/guides/[...slug]',
-    '/blogs/low-effort-weekends': '/guides',
-  },
+
   markdown: {
     rehypePlugins: [
       [rehypeExternalLinks, {

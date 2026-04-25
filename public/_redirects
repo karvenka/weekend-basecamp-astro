@@ -1,0 +1,18 @@
+# Redirect old /blogs/ paths to canonical /guides/ paths (301 permanent)
+/blogs/low-effort-weekends/12-best-board-games-for-couples /guides/12-best-board-games-for-couples/ 301
+/blogs/low-effort-weekends/25-at-home-date-night-ideas /guides/25-at-home-date-night-ideas/ 301
+/blogs/low-effort-weekends/how-to-host-a-friendsgiving-thats-actually-fun /guides/how-to-host-a-friendsgiving-thats-actually-fun/ 301
+/blogs/low-effort-weekends/how-to-plan-the-perfect-backyard-night /guides/how-to-plan-the-perfect-backyard-night/ 301
+/blogs/low-effort-weekends/neighborhood-block-party-playbook /guides/neighborhood-block-party-playbook/ 301
+/blogs/low-effort-weekends/rock-climbing-for-beginners /guides/rock-climbing-for-beginners/ 301
+/blogs/low-effort-weekends/the-lazy-sunday-brunch-kit /guides/the-lazy-sunday-brunch-kit/ 301
+/blogs/low-effort-weekends/the-no-stress-family-hiking-guide /guides/the-no-stress-family-hiking-guide/ 301
+/blogs/low-effort-weekends/the-stargazing-night-guide /guides/the-stargazing-night-guide/ 301
+/blogs/low-effort-weekends/the-sunday-family-cook-off /guides/the-sunday-family-cook-off/ 301
+/blogs/low-effort-weekends/the-ultimate-game-night-guide /guides/the-ultimate-game-night-guide/ 301
+/blogs/low-effort-weekends/the-unplugged-weekend-challenge /guides/the-unplugged-weekend-challenge/ 301
+/blogs/low-effort-weekends/the-weekend-pickleball-starter-guide /guides/the-weekend-pickleball-starter-guide/ 301
+/blogs/low-effort-weekends/trail-running-for-total-beginners /guides/trail-running-for-total-beginners/ 301
+/blogs/low-effort-weekends/weekend-activities-for-kids-that-dont-involve-screens /guides/weekend-activities-for-kids-that-dont-involve-screens/ 301
+/blogs/low-effort-weekends/weekend-camping-for-couples-who-dont-camp /guides/weekend-camping-for-couples-who-dont-camp/ 301
+/blogs/low-effort-weekends /guides 301
