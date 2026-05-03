@@ -592,22 +592,22 @@ document.querySelectorAll('.toc-link').forEach(function(link) {
 (function() {
   var slug = window.location.pathname.split('/').pop();
   var articleKitMap = {
+    'how-to-plan-the-perfect-backyard-night': 'family_cozy',
+    'the-ultimate-game-night-guide': 'family_active',
+    'the-no-stress-family-hiking-guide': 'allages_active',
+    '12-best-board-games-for-couples': 'couple_cozy',
     '25-at-home-date-night-ideas': 'couple_cozy',
-    'the-ultimate-game-night-guide': 'family_cozy',
-    'the-no-stress-family-hiking-guide': 'family_active',
-    'how-to-plan-the-perfect-backyard-night': 'family_celebratory',
-    'weekend-activities-for-kids-that-dont-involve-screens': 'family_deep',
-    'rock-climbing-for-beginners': 'couple_active',
-    '12-best-board-games-for-couples': 'friends_deep',
-    'the-weekend-pickleball-starter-guide': 'friends_active',
-    'how-to-host-a-friendsgiving-thats-actually-fun': 'friends_celebratory',
+    'weekend-activities-for-kids-that-dont-involve-screens': 'family_active',
     'the-lazy-sunday-brunch-kit': 'friends_cozy',
-    'weekend-camping-for-couples-who-dont-camp': 'couple_celebratory',
+    'how-to-host-a-friendsgiving-thats-actually-fun': 'friends_celebratory',
+    'the-weekend-pickleball-starter-guide': 'friends_active',
+    'trail-running-for-total-beginners': 'allages_active',
+    'the-stargazing-night-guide': 'allages_deep',
+    'the-sunday-family-cook-off': 'allages_cozy',
     'the-unplugged-weekend-challenge': 'couple_deep',
     'neighborhood-block-party-playbook': 'allages_celebratory',
-    'the-sunday-family-cook-off': 'allages_cozy',
-    'trail-running-for-total-beginners': 'allages_active',
-    'the-stargazing-night-guide': 'allages_deep'
+    'weekend-camping-for-couples-who-dont-camp': 'couple_active',
+    'rock-climbing-for-beginners': 'allages_active'
   };
   var kitKey = articleKitMap[slug];
   if (!kitKey) { var embed = document.getElementById('article-kit-embed'); if (embed) embed.style.display = 'none'; return; }

@@ -6,104 +6,104 @@
     "plan": "active",
     "budget": [
       {
-        "role": "The Game",
-        "asin": "B00A0LBJI2",
-        "name": "TENZI Dice Game",
-        "why": "10 dice per player, 20 seconds per round. Pure chaos. Everyone learns in 60 seconds.",
-        "price": "$18",
-        "image": "/products/B00A0LBJI2.svg"
+        "role": "The Lawn Game",
+        "asin": "B07QH5F2KN",
+        "name": "GrowUpSmart Ring Toss Game Set for Kids and Adults",
+        "why": "Set it up on any patch of grass. Immediate competition.",
+        "price": "$15",
+        "image": "https://m.media-amazon.com/images/I/71%2B3R8EVMUL._AC_SL500_.jpg"
       },
       {
-        "role": "The Night Game",
-        "asin": "B07ZQ5MTQS",
-        "name": "200-Pack Glow Sticks Party Set (Bracelets + Necklaces)",
-        "why": "Hand these out at dusk. Game time extends by two hours.",
+        "role": "The Flying Disc",
+        "asin": "B076G5F3YT",
+        "name": "Wham-O Frisbee Ultimate Flying Disc 175g",
+        "why": "Five minutes of warmup turns into two hours of play.",
         "price": "$10",
-        "image": "/products/B07ZQ5MTQS.svg"
+        "image": "https://m.media-amazon.com/images/I/71Ct3WUGVJL._AC_SL500_.jpg"
       },
       {
-        "role": "The Fuel",
-        "asin": "B009LVVCE0",
-        "name": "Clif Bar Variety Pack (12-count)",
-        "why": "Nobody argues when there are enough snacks. One for each quarter.",
-        "price": "$18",
-        "image": "/products/B009LVVCE0.svg"
+        "role": "The Water Balloons",
+        "asin": "B07WHBNQ3Q",
+        "name": "ZURU Bunch O Balloons Self Sealing Water Balloons 100pcs",
+        "why": "Inflates in seconds. Keeps the party moving.",
+        "price": "$13",
+        "image": "https://m.media-amazon.com/images/I/81mJLT5KCWL._AC_SL500_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "27 honest shots from the afternoon nobody planned but everyone remembers.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Chalk Kit",
+        "asin": "B00LH1WN4W",
+        "name": "Crayola Washable Sidewalk Chalk Set 72-Count",
+        "why": "The driveway becomes a canvas. Works for every age.",
+        "price": "$12",
+        "image": "https://m.media-amazon.com/images/I/91NB0wnE6kL._AC_SL500_.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Game",
-        "asin": "B0FJMQB63N",
-        "name": "Codenames Party Game",
-        "why": "Two teams, one board. Scales to every size, works every age. Picnic table or living room floor.",
+        "role": "The Badminton Set",
+        "asin": "B0C9558DPM",
+        "name": "Zdgao Badminton Set for Backyard with 4 Rackets 3 Shuttlecocks Carry Bag",
+        "why": "Net goes up in 5 minutes. Rackets, birdies, and a bag included.",
+        "price": "$29",
+        "image": "https://m.media-amazon.com/images/I/71g6zqmRKML._AC_SL500_.jpg"
+      },
+      {
+        "role": "The Ring Toss",
+        "asin": "B00NIJZISE",
+        "name": "Elite Sportz Ring Toss Games for Kids Adults and Family",
+        "why": "Set it up on any patch of grass. Immediate competition.",
+        "price": "$20",
+        "image": "https://m.media-amazon.com/images/I/81uJrEbAHAL._AC_SL500_.jpg"
+      },
+      {
+        "role": "The Rocket Launcher",
+        "asin": "B0006O8Q7Y",
+        "name": "Stomp Rocket Ultra Rocket Launcher for Kids 4 Rockets",
+        "why": "Stomp the pad, watch it fly. No batteries, no batteries ever.",
         "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/81-ZhxEhSWL._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/81o5YjrBDlL._AC_SL500_.jpg"
       },
       {
-        "role": "The Night Game",
-        "asin": "B07ZQ5MTQS",
-        "name": "200-Pack Glow Sticks Party Set (Bracelets + Necklaces)",
-        "why": "Hand these out at dusk. Nobody goes home for another two hours.",
-        "price": "$10",
-        "image": "/products/B07ZQ5MTQS.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Pocket-sized but loud enough for the whole park. Clip it to the bag.",
-        "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
-      },
-      {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "27 shots. No filters. No scrolling. Just the afternoon.",
+        "role": "The Kite Pack",
+        "asin": "B0CDW546Y4",
+        "name": "5 Pack Rainbow Kites for Kids Easy to Fly Ages 3-5 4-8",
+        "why": "Five in the pack. Everyone gets one. Wind takes care of the rest.",
         "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71k7z4WBQNL._AC_SL500_.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Game",
-        "asin": "B0FRFVZBTJ",
-        "name": "Ticket to Ride Board Game (2025 Refresh)",
-        "why": "The cross-country classic. Bring a flat surface. Runs for hours.",
-        "price": "$38",
-        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._SL300_.jpg"
+        "role": "The Spikeball Set",
+        "asin": "B0CJ8N9YRS",
+        "name": "Spikeball 3-Ball Original Roundnet Game Set",
+        "why": "The game that makes everyone stop and watch.",
+        "price": "$60",
+        "image": "https://m.media-amazon.com/images/I/81VhJsPsqIL._AC_SL500_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip it to any bag strap. IP67 waterproof. 10 hours of music.",
-        "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "role": "The Cornhole Set",
+        "asin": "B0DBWH4X4J",
+        "name": "GoSports 4x2 ft Classic Wooden Cornhole Board Set with 8 Bean Bags",
+        "why": "The backyard standard. Plays itself once it's set up.",
+        "price": "$55",
+        "image": "https://m.media-amazon.com/images/I/81b8T5dRZlL._AC_SL500_.jpg"
       },
       {
-        "role": "The Fuel",
-        "asin": "B09MVQD88Q",
-        "name": "Liquid IV Hydration Multiplier 30-count Variety Pack",
-        "why": "Mix in a water bottle. Everyone stays hydrated. Nobody fades in the second half.",
+        "role": "The Capture The Flag",
+        "asin": "B00XK9C4H0",
+        "name": "Capture The Flag REDUX Original Glow in the Dark Outdoor Game",
+        "why": "Hand them out at dusk. Instant celebration.",
+        "price": "$45",
+        "image": "https://m.media-amazon.com/images/I/81wYiJG1GGL._AC_SL500_.jpg"
+      },
+      {
+        "role": "The Archery Set",
+        "asin": "B0B6J73KSC",
+        "name": "TEMI Foam Bow and Arrow Set for Kids with 10 Arrows 2 Quivers",
+        "why": "Foam arrows, real fun. Safe for the yard.",
         "price": "$35",
-        "image": "/products/B09MVQD88Q.svg"
-      },
-      {
-        "role": "The Memory Maker",
-        "asin": "B00B5I44PY",
-        "name": "Fujifilm Instax Mini Film 20-pack",
-        "why": "Instant prints everyone fights over at the end of the day.",
-        "price": "$14",
-        "image": "/products/B00B5I44PY.svg"
+        "image": "/products/B0B6J73KSC.svg"
       }
     ]
   },
@@ -114,536 +114,536 @@
     "plan": "cozy",
     "budget": [
       {
-        "role": "The Game",
-        "asin": "B00000IVAK",
-        "name": "Sequence Original Board Game",
-        "why": "Cards meet board game. Every age gets it in two minutes. The game that goes three rounds without asking.",
-        "price": "$20",
-        "image": "https://m.media-amazon.com/images/I/81xN2QLBUeL._SL300_.jpg"
+        "role": "The Microwave Popcorn",
+        "asin": "B017E0KGK2",
+        "name": "Quinn Snacks Microwave Popcorn Variety Pack Butter Sea Salt White Cheddar 3-Pack",
+        "why": "The classic movie snack. Zero prep, zero cleanup.",
+        "price": "$11",
+        "image": "https://m.media-amazon.com/images/I/81qOGVxNj1L._AC_SL500_.jpg"
       },
       {
-        "role": "The Snack",
-        "asin": "B074WMQR7V",
-        "name": "Swiss Miss Hot Cocoa 50-count Variety Pack",
-        "why": "Milk or water, 60 seconds in the microwave. The one thing nobody refuses.",
-        "price": "$12",
-        "image": "/products/B074WMQR7V.svg"
+        "role": "The Candy Mix",
+        "asin": "B09CW3SJB2",
+        "name": "Bulk Candy Variety Pack 2 Pound Assorted Individually Wrapped",
+        "why": "Individually wrapped, variety pack. Nobody argues over the last one.",
+        "price": "$14",
+        "image": "/products/B09CW3SJB2.svg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "24-hour battery. Warm sound at low volume. Set it and forget it.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Glow Sticks",
+        "asin": "B0BKTS39DL",
+        "name": "JOYIN 100 Pcs 8-Inch Glow Sticks Bulk Party Favors with Necklaces and Bracelets",
+        "why": "Hand them out at dusk. Instant celebration.",
+        "price": "$9",
+        "image": "/products/B0BKTS39DL.svg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "Pass it around the table. The prints come back way better than you expect.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Hot Cocoa",
+        "asin": "B075NT5Q1J",
+        "name": "Cocoa Classics Hot Cocoa Mix Variety Pack 34 Count Assorted Flavors",
+        "why": "Warm mugs change the energy of the room.",
+        "price": "$13",
+        "image": "/products/B075NT5Q1J.svg"
       }
     ],
     "perfect": [
       {
-        "role": "The Game",
-        "asin": "B0FRFVZBTJ",
-        "name": "Ticket to Ride Board Game (2025 Refresh)",
-        "why": "The modern classic. Cross-country train routes for the whole family. Nobody puts it away early.",
-        "price": "$38",
-        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._SL300_.jpg"
+        "role": "The Snack Trays",
+        "asin": "B0C1H43CD2",
+        "name": "RIKICACA Movie Night Snack Trays with Popcorn Bags and Food Trays Theater Style",
+        "why": "The classic movie snack. Zero prep, zero cleanup.",
+        "price": "$20",
+        "image": "/products/B0C1H43CD2.svg"
       },
       {
-        "role": "The Snack",
-        "asin": "B07V4KXPFQ",
-        "name": "Ghirardelli Premium Hot Cocoa 15-count Variety",
-        "why": "The upgrade cocoa. Dark chocolate, mocha, sweet ground. Actually different from Swiss Miss.",
-        "price": "$16",
-        "image": "/products/B07V4KXPFQ.svg"
+        "role": "The Movie Blanket",
+        "asin": "B08BC2MSKW",
+        "name": "Bedsure Fleece Throw Blanket for Couch Lightweight Plush Fuzzy 50x60 Cream",
+        "why": "Brings the cozy wherever it lands.",
+        "price": "$18",
+        "image": "/products/B08BC2MSKW.svg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Pocket-sized. Surprisingly loud. 5-hour battery for a full game night.",
-        "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "role": "The Trivia Game",
+        "asin": "B088N7HW51",
+        "name": "Movie Trivia Party Game by Outset Media 800+ Questions",
+        "why": "Keeps the conversation going between scenes.",
+        "price": "$23",
+        "image": "/products/B088N7HW51.svg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00B5I44PY",
-        "name": "Fujifilm Instax Mini Film 20-pack",
-        "why": "Print from the Instax and hand the photo to whoever's having the best night.",
-        "price": "$14",
-        "image": "/products/B00B5I44PY.svg"
+        "role": "The Gourmet Popcorn Kit",
+        "asin": "B0B4X5SLKC",
+        "name": "Pop n' Dulge Popcorn Movie Night Supplies 16-Piece Set 5 Kernels 5 Seasonings",
+        "why": "The classic movie snack. Zero prep, zero cleanup.",
+        "price": "$28",
+        "image": "/products/B0B4X5SLKC.svg"
       }
     ],
     "splurge": [
       {
-        "role": "The Game",
-        "asin": "B00U26V4VQ",
-        "name": "CATAN Board Game (6th Edition)",
-        "why": "Build, trade, backstab. The game that started a million arguments and twice as many rematches.",
-        "price": "$53",
-        "image": "https://m.media-amazon.com/images/I/81zZW70yiYL._SL300_.jpg"
-      },
-      {
-        "role": "The Snack",
-        "asin": "B0D3XHMPSD",
-        "name": "Ghirardelli Premium Hot Cocoa Gift Set (Assorted, 30-count)",
-        "why": "Enough for the whole game. The good kind, not the powder-and-water kind.",
-        "price": "$22",
-        "image": "/products/B0D3XHMPSD.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip it to the shelf. IP67 waterproof. 10 hours. Nobody messes with the music.",
+        "role": "The Mini Projector",
+        "asin": "B0991YNM7B",
+        "name": "NICPOW Mini Projector Portable Outdoor Movie 1080P Supported with TV Stick Phone",
+        "why": "Turns any wall into a screen. Setup in under 5 minutes.",
         "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "image": "/products/B0991YNM7B.svg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B0CQQ6L8T5",
-        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
-        "why": "Two cameras, two perspectives of the same night. Develop them together.",
-        "price": "$32",
-        "image": "/products/B0CQQ6L8T5.svg"
+        "role": "The Popcorn Machine",
+        "asin": "B012TN5COO",
+        "name": "Movie Night Countertop Popcorn Machine 3 Gallon 8oz Kettle by Superior Popcorn",
+        "why": "The classic movie snack. Zero prep, zero cleanup.",
+        "price": "$60",
+        "image": "/products/B012TN5COO.svg"
+      },
+      {
+        "role": "The Weighted Blanket",
+        "asin": "B073429DV2",
+        "name": "YnM Weighted Blanket 15lbs 48x72 Inches Twin/Full Dark Grey Cooling Glass Beads",
+        "why": "Brings the cozy wherever it lands.",
+        "price": "$55",
+        "image": "/products/B073429DV2.svg"
+      },
+      {
+        "role": "The Movie Gift Box",
+        "asin": "B0BWQB31GM",
+        "name": "Movie Night Gift Basket with Popcorn Candy Theater Snacks Premium Set",
+        "why": "The classic movie snack. Zero prep, zero cleanup.",
+        "price": "$45",
+        "image": "/products/B0BWQB31GM.svg"
       }
     ]
   },
   "family_celebratory": {
     "name": "Family Celebration Kit",
-    "story": "Games, glow, music, and cameras \u2014 grab these, invite whoever's around, and the celebration runs itself without a single thing to set up.",
+    "story": "Games, glow, music, and cameras — grab these, invite whoever's around, and the celebration runs itself without a single thing to set up.",
     "editorial": "Codenames works for every age and scales to any group size. The glow sticks are the moment everyone remembers. The camera is the thing they fight over at the end.",
     "plan": "celebratory",
     "budget": [
       {
-        "role": "The Game",
-        "asin": "B0FJMQB63N",
-        "name": "Codenames Party Game",
-        "why": "Two teams, one board, unlimited trash talk. Works for 4 or 14 players.",
-        "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/81-ZhxEhSWL._SL300_.jpg"
+        "role": "The Confetti Poppers",
+        "asin": "B074SP7FZH",
+        "name": "Confetti Party Poppers 24-Count Multicolor Indoor Outdoor Celebration",
+        "why": "The moment everyone counts down to. Save one for the end.",
+        "price": "$10",
+        "image": "/products/B074SP7FZH.svg"
       },
       {
-        "role": "The Atmosphere",
-        "asin": "B0BNQMFR5K",
-        "name": "300-Piece Glow Party Pack (Bracelets, Necklaces, Rings)",
-        "why": "Dump the bag when the sun goes down. Instant celebration.",
-        "price": "$12",
-        "image": "/products/B0BNQMFR5K.svg"
+        "role": "The Glow Bracelets",
+        "asin": "B00N1QPNMA",
+        "name": "PartySticks Glow Sticks Party Supplies 100pk 8-Inch with Connectors for Bracelets",
+        "why": "Hand them out at dusk. Instant celebration.",
+        "price": "$9",
+        "image": "/products/B00N1QPNMA.svg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "24-hour battery. Loud enough for dancing. On before anyone arrives.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Party Cups",
+        "asin": "B00OCGUG02",
+        "name": "Hefty Party On Disposable Plastic Cups 16oz 100 Count Assorted Colors",
+        "why": "The piece that pulls the kit together.",
+        "price": "$10",
+        "image": "/products/B00OCGUG02.svg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "Pass it around. The prints from a party camera always beat phone photos.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Balloon Pump Kit",
+        "asin": "B07W4WQ1HM",
+        "name": "Balloon Pump Hand Held Dual Action 2-Pack Inflator Air Pump for Balloons",
+        "why": "Inflates in seconds. Keeps the party moving.",
+        "price": "$10",
+        "image": "/products/B07W4WQ1HM.svg"
       }
     ],
     "perfect": [
       {
-        "role": "The Game",
-        "asin": "B0FJMQB63N",
-        "name": "Codenames Party Game",
-        "why": "The game that makes everyone yell. Scales from 4 to 20 without a rule book.",
-        "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/81-ZhxEhSWL._SL300_.jpg"
-      },
-      {
-        "role": "The Atmosphere",
-        "asin": "B08LMTXF3K",
-        "name": "Confetti Poppers 24-Pack",
-        "why": "Load one per person. Pop on count three. Instant celebration.",
-        "price": "$15",
-        "image": "/products/B08LMTXF3K.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Fits in a pocket. Loud enough for a party. 5-hour battery.",
+        "role": "The String Lights",
+        "asin": "B0B4NT4J28",
+        "name": "Brightever LED Outdoor String Lights 100FT 52 Shatterproof Edison Bulbs Waterproof",
+        "why": "Drape them up, plug them in. The backyard becomes a venue.",
         "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "image": "/products/B0B4NT4J28.svg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00B5I44PY",
-        "name": "Fujifilm Instax Mini Film 20-pack",
-        "why": "Print the group shot. Instant. Everyone wants the extra copy.",
-        "price": "$14",
-        "image": "/products/B00B5I44PY.svg"
+        "role": "The Bubble Machine",
+        "asin": "B07VZF7X31",
+        "name": "Automatic Bubble Machine 18000+ Bubbles Per Minute Battery or Plugin",
+        "why": "Works on every age. Kids and adults both chase them.",
+        "price": "$23",
+        "image": "/products/B07VZF7X31.svg"
+      },
+      {
+        "role": "The Lawn Dice",
+        "asin": "B07K2VWN3Z",
+        "name": "Novelty Place 2 Pcs Jumbo Inflatable Dice 20-Inch White and Black Giant Yard Dice",
+        "why": "Giant dice = instant lawn game. No rules required.",
+        "price": "$15",
+        "image": "/products/B07K2VWN3Z.svg"
+      },
+      {
+        "role": "The Photo Props",
+        "asin": "B0D5WV9751",
+        "name": "Party Photo Booth Props Kit 60-Piece Photobooth Set with Sign Sticks",
+        "why": "Set up the props, let people find them. Photos come out great.",
+        "price": "$18",
+        "image": "/products/B0D5WV9751.svg"
       }
     ],
     "splurge": [
       {
-        "role": "The Game",
-        "asin": "B0FRFVZBTJ",
-        "name": "Ticket to Ride Board Game (2025 Refresh)",
-        "why": "The game that runs for hours. Everyone's still talking strategy at the end.",
-        "price": "$38",
-        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._SL300_.jpg"
-      },
-      {
-        "role": "The Atmosphere",
-        "asin": "B09FDLVKF2",
-        "name": "Confetti Cannon Party Set (6-pack)",
-        "why": "Six cannons for six moments. Save two for later \u2014 you'll know when.",
-        "price": "$20",
-        "image": "/products/B09FDLVKF2.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip it anywhere. IP67 waterproof. 10 hours of party music.",
+        "role": "The Fog Machine",
+        "asin": "B07T28NQKX",
+        "name": "AGPTEK Fog Machine 600W 12 Colorful LED Lights Wireless Remote Halloween Party",
+        "why": "The atmosphere upgrade nobody expected.",
         "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "image": "/products/B07T28NQKX.svg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B0CQQ6L8T5",
-        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
-        "why": "Two cameras, double the coverage. Develop them and split the prints.",
-        "price": "$32",
-        "image": "/products/B0CQQ6L8T5.svg"
+        "role": "The Party Speaker",
+        "asin": "B0GWGRVXG2",
+        "name": "BUGANI 120W Portable Bluetooth Speaker LED Lights IPX6 Waterproof Outdoor Party",
+        "why": "The soundtrack that sets the pace. Load the playlist before anyone arrives.",
+        "price": "$55",
+        "image": "/products/B0GWGRVXG2.svg"
+      },
+      {
+        "role": "The LED Balloons",
+        "asin": "B07QN83WFP",
+        "name": "18 Packs Light Up LED Balloons 3 Modes Flashing Clear Balloon String Lights",
+        "why": "Drape them up, plug them in. The backyard becomes a venue.",
+        "price": "$25",
+        "image": "/products/B07QN83WFP.svg"
+      },
+      {
+        "role": "The Outdoor Movie Screen",
+        "asin": "B097233HSY",
+        "name": "14FT Inflatable Outdoor Movie Projector Screen with Air Blower and Carry Bag",
+        "why": "Turns any wall into a screen. Setup in under 5 minutes.",
+        "price": "$70",
+        "image": "/products/B097233HSY.svg"
       }
     ]
   },
   "family_deep": {
     "name": "Meaningful Family Night Kit",
     "story": "Skip the phones. Pull out the cards, pour something warm, and start asking real questions. Grab these before the evening disappears into another scroll session.",
-    "editorial": "The {THE AND} deck is the unlock. It gives everyone permission to go somewhere real in conversation. Every tier delivers the same depth \u2014 just at different levels of comfort.",
+    "editorial": "The {THE AND} deck is the unlock. It gives everyone permission to go somewhere real in conversation. Every tier delivers the same depth — just at different levels of comfort.",
     "plan": "deep",
     "budget": [
       {
-        "role": "The Conversation",
-        "asin": "B0DT3P6M5Q",
-        "name": "{THE AND} Family Edition Card Game",
-        "why": "Questions that start real conversations across generations. More than 200 prompts.",
-        "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/71pZp+XiSWL._SL300_.jpg"
+        "role": "The Conversation Cards",
+        "asin": "B0891Y35LR",
+        "name": "200 Family Conversation Cards Put Down the Phones Connect with Family",
+        "why": "Skips the small talk. Gets to something real.",
+        "price": "$13",
+        "image": "/products/B0891Y35LR.svg"
       },
       {
-        "role": "The Journal",
-        "asin": "B07KBVLZ5C",
-        "name": "Mini Composition Notebooks 3-Pack",
-        "why": "One per person. Write down the answers worth keeping.",
+        "role": "The Gratitude Journal",
+        "asin": "1735401374",
+        "name": "The Family Gratitude Journal: A Bedtime Gratitude Practice for Parents and Kids",
+        "why": "The thing you return to later and are glad you wrote.",
+        "price": "$15",
+        "image": "/products/1735401374.svg"
+      },
+      {
+        "role": "The Colored Pens",
+        "asin": "B0BFW1558K",
+        "name": "YIZOCENGUO 24 Fineliner Color Pens Set 0.4mm Fine Tip for Journal Drawing",
+        "why": "Good pens make you want to write more.",
+        "price": "$9",
+        "image": "/products/B0BFW1558K.svg"
+      },
+      {
+        "role": "The Blank Postcards",
+        "asin": "B0CX1JPTBS",
+        "name": "MEIOPUOYEAM Blank Postcards for Mailing 100 White 4x6 Cardstock for Art DIY",
+        "why": "Write one per person. Date them and mail them to yourselves.",
         "price": "$10",
-        "image": "/products/B07KBVLZ5C.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "Background music, just enough. 24-hour battery. Keep it low.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
-      },
-      {
-        "role": "The Ritual",
-        "asin": "B074WMQR7V",
-        "name": "Swiss Miss Hot Cocoa 50-count Variety Pack",
-        "why": "Warm mugs change the energy of a room. The ritual that signals the evening has started.",
-        "price": "$10",
-        "image": "/products/B074WMQR7V.svg"
+        "image": "/products/B0CX1JPTBS.svg"
       }
     ],
     "perfect": [
       {
-        "role": "The Conversation",
-        "asin": "B0DT3P6M5Q",
-        "name": "{THE AND} Family Edition Card Game",
-        "why": "Go deep. Skip small talk. Questions worth asking out loud.",
+        "role": "The Adventure Book",
+        "asin": "1452169772",
+        "name": "The Family Adventure Journal: Turn Everyday Outings into Memorable Explorations",
+        "why": "The piece that pulls the kit together.",
+        "price": "$19",
+        "image": "/products/1452169772.svg"
+      },
+      {
+        "role": "The Memory Journal",
+        "asin": "B0DK46WLK5",
+        "name": "The Only Complete Life Story Kit with Conversation Cards and Journal Memory Keepsake",
+        "why": "The thing you return to later and are glad you wrote.",
+        "price": "$35",
+        "image": "/products/B0DK46WLK5.svg"
+      },
+      {
+        "role": "The Question Cards",
+        "asin": "B0DJNDTFSV",
+        "name": "Big Life Journal Sharing Joy Family Conversation Cards 150 Cards",
+        "why": "Skips the small talk. Gets to something worth talking about.",
         "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/71pZp+XiSWL._SL300_.jpg"
+        "image": "/products/B0DJNDTFSV.svg"
       },
       {
-        "role": "The Journal",
-        "asin": "B00MXFQJDQ",
-        "name": "Leuchtturm1917 Hardcover Notebook (A5, Dotted)",
-        "why": "Numbered pages, solid binding. The kind of journal worth writing in.",
-        "price": "$25",
-        "image": "/products/B00MXFQJDQ.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Soft music, just enough to fill the room. 5-hour battery.",
-        "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
-      },
-      {
-        "role": "The Ritual",
-        "asin": "B00A3AQZZY",
-        "name": "Harney & Sons Tea Sampler 50-count",
-        "why": "Hot tea changes the energy. Pick a flavor, pour slowly, don't rush the night.",
-        "price": "$15",
-        "image": "/products/B00A3AQZZY.svg"
+        "role": "The Scrapbook Kit",
+        "asin": "B092HMPZ2N",
+        "name": "Vienrose DIY Scrapbook Photo Album Kit 60 Pages Hardcover with Pens Tapes Stickers",
+        "why": "Photos plus notes. The physical record of the day.",
+        "price": "$23",
+        "image": "/products/B092HMPZ2N.svg"
       }
     ],
     "splurge": [
       {
-        "role": "The Conversation",
-        "asin": "B0CQRVTCGH",
-        "name": "Esther Perel \u2014 Where Should We Begin? Card Game (2nd Ed.)",
-        "why": "From the world's most famous relationship therapist. Questions worth asking at any age.",
-        "price": "$42",
-        "image": "/products/B0CQRVTCGH.svg"
+        "role": "The Family Time Capsule",
+        "asin": "B008YDF1QS",
+        "name": "K&Company Smash Time Capsule Kit 23-Piece Memory Preservation Set",
+        "why": "Seal it up. Open it in 5 years. Everyone forgets what they put in.",
+        "price": "$35",
+        "image": "/products/B008YDF1QS.svg"
       },
       {
-        "role": "The Journal",
-        "asin": "B00MXFQJDQ",
-        "name": "Leuchtturm1917 Hardcover Notebook (A5, Dotted)",
-        "why": "Write down the answers worth keeping. This notebook becomes an artifact.",
+        "role": "The Premium Connection Set",
+        "asin": "B0FHG443ZH",
+        "name": "Big Life Journal Know Me If You Can Connection Game 160 Cards Family Kids Adults",
+        "why": "Three levels of questions. Goes somewhere real by level two.",
+        "price": "$40",
+        "image": "/products/B0FHG443ZH.svg"
+      },
+      {
+        "role": "The Storytelling Game",
+        "asin": "B09BSP7B7V",
+        "name": "Dixit Board Game 2021 Award-Winning Storytelling Game for Family Kids Adults",
+        "why": "The game that starts conversations about the art itself.",
+        "price": "$36",
+        "image": "/products/B09BSP7B7V.svg"
+      },
+      {
+        "role": "The Family Tree Kit",
+        "asin": "B0727WG16X",
+        "name": "Reminisce Family Tree Scrapbook Collection Kit 12x12 Inch Themed Papers Stickers",
+        "why": "Photos plus notes. The physical record of the day.",
         "price": "$25",
-        "image": "/products/B00MXFQJDQ.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "10 hours. Clip it to the shelf. Fills the room without demanding attention.",
-        "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
-      },
-      {
-        "role": "The Ritual",
-        "asin": "B07V4KXPFQ",
-        "name": "Ghirardelli Premium Hot Cocoa 15-count Variety",
-        "why": "Warm mugs, a real question, and nowhere to be. The upgrade from dinner.",
-        "price": "$16",
-        "image": "/products/B07V4KXPFQ.svg"
+        "image": "/products/B0727WG16X.svg"
       }
     ]
   },
   "friends_active": {
     "name": "Park Day Kit",
-    "story": "Card games, snacks, music, and a camera \u2014 throw these in your bag and you've already planned the best part of the weekend. No court, no equipment, no setup.",
+    "story": "Card games, snacks, music, and a camera — throw these in your bag and you've already planned the best part of the weekend. No court, no equipment, no setup.",
     "editorial": "Codenames turns any group of friends into two competitive teams instantly. The Liquid IV means nobody fades before the rematch.",
     "plan": "active",
     "budget": [
       {
-        "role": "The Game",
-        "asin": "B0039K4LSG",
-        "name": "Bicycle Playing Cards 2-Pack",
-        "why": "Poker, rummy, BS, war \u2014 two decks handles any group, any game.",
+        "role": "The Pickleball Balls",
+        "asin": "B09H3Z8PJL",
+        "name": "Franklin Sports Pickleball Balls - X-40 USAPA Approved Outdoor Pickleballs (3 Pack)",
+        "why": "USAPA approved. The ones the courts use. Three in a pack.",
         "price": "$10",
-        "image": "/products/B0039K4LSG.svg"
+        "image": "https://m.media-amazon.com/images/I/71FqfX6SXFL._AC_SX679_.jpg"
       },
       {
-        "role": "The Fuel",
-        "asin": "B009LVVCE0",
-        "name": "Clif Bar Variety Pack (12-count)",
-        "why": "One each, no arguments. Keeps everyone going for the afternoon.",
-        "price": "$18",
-        "image": "/products/B009LVVCE0.svg"
+        "role": "The Athletic Sweatbands",
+        "asin": "B09TSXBHGR",
+        "name": "FACATH Sport Sweatbands Set - Cotton Headband and Wristbands for Tennis Basketball Yoga",
+        "why": "Keeps the sweat out of your eyes. The difference between three sets and five.",
+        "price": "$10",
+        "image": "https://m.media-amazon.com/images/I/81tX6xW3wTL._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "24-hour battery. Loud enough for the park. Tough enough for the bag.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Sport Sunscreen",
+        "asin": "B0173G3AY6",
+        "name": "Coppertone SPORT Sunscreen Lotion SPF 50 (7 Fl Oz)",
+        "why": "Set it up in 10 minutes. The neighborhood will notice.",
+        "price": "$10",
+        "image": "https://m.media-amazon.com/images/I/71oiYL4GBWL._AC_SX679_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "27 shots from the afternoon nobody planned. Develop together later.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Energy Protein Bars",
+        "asin": "B018H3LFJG",
+        "name": "RXBAR Protein Bars Variety Pack - 12 Count (Chocolate Sea Salt, Blueberry, Peanut Butter)",
+        "why": "Real ingredients. Enough fuel to keep going past the first set.",
+        "price": "$15",
+        "image": "https://m.media-amazon.com/images/I/71JTNL5bDLL._AC_SX679_.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Game",
-        "asin": "B0FJMQB63N",
-        "name": "Codenames Party Game",
-        "why": "Two teams, one board. Learn in 5 minutes, play for 2 hours. Scales to any group.",
-        "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/81-ZhxEhSWL._SL300_.jpg"
+        "role": "The Pickleball Paddle",
+        "asin": "B0DFMPG2L2",
+        "name": "Amazin' Aces Signature Graphite Pickleball Paddle with Honeycomb Core - USAPA Approved",
+        "why": "USAPA approved. The ones the courts use. Three in a pack.",
+        "price": "$35",
+        "image": "https://m.media-amazon.com/images/I/71Qo8DjKt6L._AC_SX679_.jpg"
       },
       {
-        "role": "The Fuel",
-        "asin": "B08MVQD88P",
-        "name": "Liquid IV Hydration Multiplier 16-count Variety Pack",
-        "why": "Mix one in a bottle. Every friend stays hydrated. Nobody fades at hour three.",
-        "price": "$22",
-        "image": "/products/B08MVQD88P.svg"
+        "role": "The Insulated Water Bottle",
+        "asin": "B09R8KRRDX",
+        "name": "Hydro Flask 32 oz Wide Mouth Stainless Steel Vacuum Insulated Water Bottle",
+        "why": "BPA-free, wide mouth, two-pack. One each, for the whole trail.",
+        "price": "$40",
+        "image": "https://m.media-amazon.com/images/I/61pNJFqbV4L._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Pocket-sized. Loud enough for a picnic blanket crowd.",
-        "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "role": "The Cooling Towel Set",
+        "asin": "B073F1TBMR",
+        "name": "Sukeen 4 Pack Cooling Towels (40\"x12\") - Ice Towel for Sports Gym Running Yoga",
+        "why": "Soak, wring, snap. Five degrees cooler instantly.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/71K2hTGDiEL._AC_SX679_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00B5I44PY",
-        "name": "Fujifilm Instax Mini Film 20-pack",
-        "why": "Print the group shot. Instant prints everyone actually wants to keep.",
-        "price": "$14",
-        "image": "/products/B00B5I44PY.svg"
+        "role": "The Sports Drawstring Bag",
+        "asin": "B06WD35WN1",
+        "name": "HOLYLUCK Drawstring Backpack Sport Gym Sackpack Bag",
+        "why": "Everything fits. Carries itself.",
+        "price": "$20",
+        "image": "https://m.media-amazon.com/images/I/71iAq+Y3mDL._AC_SX679_.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Game",
-        "asin": "B0FRFVZBTJ",
-        "name": "Ticket to Ride Board Game (2025 Refresh)",
-        "why": "The game that runs itself for three hours. Bring a flat surface and you're set.",
-        "price": "$38",
-        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._SL300_.jpg"
+        "role": "The Pickleball Paddle Set",
+        "asin": "B0DMTJWCRQ",
+        "name": "ESPN Pickleball Starter Set - 2 Paddles, 2 Balls, Portable Net with Carry Bag",
+        "why": "USAPA approved. The ones the courts use. Three in a pack.",
+        "price": "$60",
+        "image": "https://m.media-amazon.com/images/I/71T7V4ZN0kL._AC_SX679_.jpg"
       },
       {
-        "role": "The Fuel",
-        "asin": "B09MVQD88Q",
-        "name": "Liquid IV Hydration Multiplier 30-count Variety Pack",
-        "why": "Enough for the whole group. The electrolytes that actually work.",
-        "price": "$35",
-        "image": "/products/B09MVQD88Q.svg"
+        "role": "The Portable Pickleball Net",
+        "asin": "B0CJM14D66",
+        "name": "A11N SPORTS Portable Pickleball Net 22ft Regulation Size with Carrying Bag",
+        "why": "USAPA approved. The ones the courts use. Three in a pack.",
+        "price": "$70",
+        "image": "https://m.media-amazon.com/images/I/71UBgUFBFAL._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip to the bag. IP67 waterproof. 10-hour battery. Music handled.",
-        "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "role": "The Portable Sports Cooler Bag",
+        "asin": "B07KBG4BW2",
+        "name": "RTIC 20 Can Soft Pack Insulated Cooler Bag - Lightweight Portable Backpack Cooler",
+        "why": "Twenty cans of cold. Portable cooler for the court.",
+        "price": "$65",
+        "image": "https://m.media-amazon.com/images/I/71XzJeqV4iL._AC_SX679_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "27 unfiltered shots. The prints from a disposable always surprise you.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Pickleball Court Shoes",
+        "asin": "B0C62MD9RW",
+        "name": "Skechers Women's Viper Court Indoor/Outdoor Pickleball Athletic Shoes with Arch Fit",
+        "why": "USAPA approved. The ones the courts use. Three in a pack.",
+        "price": "$68",
+        "image": "https://m.media-amazon.com/images/I/61dHzxXMV0L._AC_SX679_.jpg"
       }
     ]
   },
   "friends_cozy": {
     "name": "Sunday Morning Kit",
     "story": "Instant coffee, a game for the table, soft music, and something to capture the morning. Grab these and let the Sunday take its time.",
-    "editorial": "The Starbucks Via is genuinely good \u2014 better than anything a single-serve machine makes at that price. Codenames at a kitchen table is the Sunday ritual nobody knew they needed.",
+    "editorial": "The Starbucks Via is genuinely good — better than anything a single-serve machine makes at that price. Codenames at a kitchen table is the Sunday ritual nobody knew they needed.",
     "plan": "cozy",
     "budget": [
       {
-        "role": "The Coffee",
-        "asin": "B00464BCUA",
-        "name": "Starbucks Via Ready Brew Instant Coffee (26-count Variety)",
-        "why": "Grab cups, pour hot water, done. Actually good coffee without a machine.",
-        "price": "$18",
-        "image": "/products/B00464BCUA.svg"
+        "role": "The Pancake Waffle Mix",
+        "asin": "B000QCLEB6",
+        "name": "Krusteaz Light & Fluffy Buttermilk Complete Pancake Mix, 32 oz",
+        "why": "Add water and go. Brunch ready in 15 minutes.",
+        "price": "$6",
+        "image": "https://m.media-amazon.com/images/I/71EixYJfPYL._AC_SX679_.jpg"
       },
       {
-        "role": "The Game",
-        "asin": "B00000IVAK",
-        "name": "Sequence Original Board Game",
-        "why": "Cards + board game. Everyone gets it in two minutes. Runs for hours on a Sunday.",
-        "price": "$20",
-        "image": "https://m.media-amazon.com/images/I/81xN2QLBUeL._SL300_.jpg"
+        "role": "The Plastic Champagne Flutes",
+        "asin": "B0929K1W38",
+        "name": "Prestee 24-Pack Clear Plastic Champagne Flutes 4.5oz - Shatterproof Disposable Glasses",
+        "why": "Shatterproof plastic that looks like glass. Safer for gatherings.",
+        "price": "$13",
+        "image": "https://m.media-amazon.com/images/I/71jNLZT6TiL._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "Background music at the right volume. On the counter, not in your face.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Cocktail Napkins",
+        "asin": "B098XYCCT3",
+        "name": "Funny Cocktail Napkins - Please Leave by 9 PM - 30 Pack Disposable Paper Napkins",
+        "why": "The napkin that actually fits the mood.",
+        "price": "$12",
+        "image": "https://m.media-amazon.com/images/I/71z0Yj4BVPL._AC_SX679_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "Sunday mornings look better on film. 27 shots of the people worth keeping.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Card Game",
+        "asin": "B07WKXRJNB",
+        "name": "Taco Cat Goat Cheese Pizza Card Game - Fun Fast-Paced Party Card Game for All Ages",
+        "why": "Skips the small talk. Gets to something real.",
+        "price": "$13",
+        "image": "https://m.media-amazon.com/images/I/81bCQFe7cRL._AC_SX679_.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Coffee",
-        "asin": "B00464BCUA",
-        "name": "Starbucks Via Ready Brew Instant Coffee (26-count Variety)",
-        "why": "Keep a box on the counter. Hot water, thirty seconds. Genuinely good.",
-        "price": "$18",
-        "image": "/products/B00464BCUA.svg"
+        "role": "The Mini Waffle Maker",
+        "asin": "B0169N1YNS",
+        "name": "DASH Mini Maker for Individual Waffles, Hash Browns, Keto Chaffles - 4 Inch Non-Stick",
+        "why": "Add water and go. Brunch ready in 15 minutes.",
+        "price": "$20",
+        "image": "https://m.media-amazon.com/images/I/618xqyGHi1L._AC_SX679_.jpg"
       },
       {
-        "role": "The Game",
+        "role": "The Adult Party Board Game",
         "asin": "B0FJMQB63N",
-        "name": "Codenames Party Game",
-        "why": "The game that turns brunch into a three-hour event. Learn in five minutes.",
-        "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/81-ZhxEhSWL._SL300_.jpg"
+        "name": "Codenames Board Game 2nd Edition - Top Secret Word Association Party Game, 4+ Players",
+        "why": "The piece that pulls the kit together.",
+        "price": "$20",
+        "image": "https://m.media-amazon.com/images/I/71lbPz9WNFL._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "On the shelf, not in the way. Morning playlist at Sunday volume.",
+        "role": "The Cocktail Mixer Syrup Set",
+        "asin": "B0GSX3TVX3",
+        "name": "Collins Floral & Lychee Cocktail Syrup Gift Set - Lavender, Lychee, Hibiscus & Rose (4 Bottles)",
+        "why": "Four flavors, cocktail or mocktail. Brunch bar done.",
         "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71LGbdQq6kL._AC_SX679_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00B5I44PY",
-        "name": "Fujifilm Instax Mini Film 20-pack",
-        "why": "Print the table shot while everyone's still there. Hand them out before they leave.",
-        "price": "$14",
-        "image": "/products/B00B5I44PY.svg"
+        "role": "The Brunch Cookbook",
+        "asin": "1945256605",
+        "name": "All-Time Best Brunch by America's Test Kitchen - Recipes for Sweet and Savory Brunch",
+        "why": "Real recipes from America's Test Kitchen. More than pancakes.",
+        "price": "$21",
+        "image": "https://m.media-amazon.com/images/I/81XRHkDMuQL._AC_SX679_.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Coffee",
-        "asin": "B0BJHBXJPN",
-        "name": "Premium Coffee & Snack Gift Set \u2014 Whole Bean Variety Sampler",
-        "why": "Five different roasts. Grind before guests arrive. The room smells incredible.",
-        "price": "$35",
-        "image": "/products/B0BJHBXJPN.svg"
+        "role": "The Single Serve Coffee Maker",
+        "asin": "B07GV2S1GS",
+        "name": "Keurig K-Mini Plus Single Serve K-Cup Pod Coffee Maker with Travel Mug Friendly",
+        "why": "Single serve, any pod. Coffee for the group in under 10 minutes.",
+        "price": "$70",
+        "image": "https://m.media-amazon.com/images/I/61L3FQ7CmEL._AC_SX679_.jpg"
       },
       {
-        "role": "The Game",
-        "asin": "B00U26V4VQ",
-        "name": "CATAN Board Game (6th Edition)",
-        "why": "Three to four hours of trading, building, and betrayal. The game that is Sunday.",
-        "price": "$53",
-        "image": "https://m.media-amazon.com/images/I/81zZW70yiYL._SL300_.jpg"
+        "role": "The Premium Party Game",
+        "asin": "B09R6FF1LY",
+        "name": "WHAT DO YOU MEME? Core Game New Edition - Adult Party Card Game for Meme Lovers",
+        "why": "The game that ages like fine wine. Still funny every time.",
+        "price": "$45",
+        "image": "https://m.media-amazon.com/images/I/71FNMrJJJxL._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip it to the cabinet handle. 10 hours. The morning playlist that runs all day.",
-        "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "role": "The Charcuterie Cheese Board Set",
+        "asin": "B0CR99N5KV",
+        "name": "Bamboo Charcuterie Board Set with 4 Knives, 2 Ceramic Bowls & Labeling Tool",
+        "why": "Board, knives, bowls. Everything you need for the spread.",
+        "price": "$45",
+        "image": "https://m.media-amazon.com/images/I/71hXhk+3NZL._AC_SX679_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "The Sunday that looks like nothing on the calendar is always the one worth capturing.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Wine Glasses Set",
+        "asin": "B09J4JVRB2",
+        "name": "Swanfort Red Wine Glasses Set of 4 - 15oz Elegant Long Stem Glasses in Gift Box",
+        "why": "The right glass changes the whole drink.",
+        "price": "$45",
+        "image": "https://m.media-amazon.com/images/I/61xJjPIp8AL._AC_SX679_.jpg"
       }
     ]
   },
@@ -654,320 +654,320 @@
     "plan": "celebratory",
     "budget": [
       {
-        "role": "The Snack Kit",
-        "asin": "B09B3Z4Q4W",
-        "name": "Hickory Farms Farmhouse Snack Box",
-        "why": "Crackers, summer sausage, cheese, and mustard. Sets the tone before dinner. Looks like you planned it.",
-        "price": "$20",
-        "image": "/products/B09B3Z4Q4W.svg"
+        "role": "The Thanksgiving Napkins",
+        "asin": "B08C4VQYZ9",
+        "name": "Gatherfun Thanksgiving Paper Napkins Fallen Leaves Party Supplies, 50 Pack",
+        "why": "The napkin that actually fits the mood.",
+        "price": "$8",
+        "image": "https://m.media-amazon.com/images/I/71cGa5YTWGL._AC_SX679_.jpg"
       },
       {
-        "role": "The Game",
-        "asin": "B0FJMQB63N",
-        "name": "Codenames Party Game",
-        "why": "Two teams, one board, unlimited trash talk. The game that saves every 9pm.",
-        "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/81-ZhxEhSWL._SL300_.jpg"
+        "role": "The Pie Server",
+        "asin": "B0CLVVCBBQ",
+        "name": "Orblue Premium Stainless Steel Pie & Cake Server Set - Dishwasher Safe",
+        "why": "Serves clean every time. No more crumbled slices.",
+        "price": "$13",
+        "image": "https://m.media-amazon.com/images/I/61JZRAmqUGL._AC_SX679_.jpg"
       },
       {
-        "role": "The Atmosphere",
-        "asin": "B083BQMXMC",
-        "name": "Unscented Tea Light Candles 100-count",
-        "why": "Line them down the table. The moment they're lit, dinner feels like an occasion.",
+        "role": "The Tea Light Candles",
+        "asin": "B0BQX38CCH",
+        "name": "MontoPack Unscented Tea Light Candles 100 Pack - 4 Hour Burn White Tealights",
+        "why": "Light one and the room becomes somewhere worth staying.",
         "price": "$10",
-        "image": "/products/B083BQMXMC.svg"
+        "image": "https://m.media-amazon.com/images/I/61P+JBLSZJL._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "70s soul through dinner, something livelier after. On before anyone arrives.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Thanksgiving Place Cards",
+        "asin": "B0B3WJSMB1",
+        "name": "Thanksgiving Turkey Table Place Cards - Tent Seating Cards for Guests, 25 Pack",
+        "why": "Sets the table tone without any effort.",
+        "price": "$9",
+        "image": "https://m.media-amazon.com/images/I/71R3FcsTZEL._AC_SX679_.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Snack Kit",
-        "asin": "B0BJHBXJPN",
-        "name": "Gourmet Snack Gift Box \u2014 Cheese, Crackers & Nuts Assortment",
-        "why": "The pre-dinner spread that actually holds the room while the oven works.",
-        "price": "$28",
-        "image": "/products/B0BJHBXJPN.svg"
+        "role": "The Large Serving Platter",
+        "asin": "B0BKGDZ589",
+        "name": "Taeochiy 14-Inch Oval Ceramic Serving Platter Set of 3 - Oven Safe Large White Platters",
+        "why": "Three sizes, one set. Handles every dish on the table.",
+        "price": "$29",
+        "image": "https://m.media-amazon.com/images/I/71gV7J1h5jL._AC_SX679_.jpg"
       },
       {
-        "role": "The Game",
-        "asin": "B0FJMQB63N",
-        "name": "Codenames Party Game",
-        "why": "The game that turns strangers into teams. Learn in 5 minutes, play for 2 hours.",
+        "role": "The Wine Opener Corkscrew Set",
+        "asin": "B095HTVD7S",
+        "name": "Wine Bottle Opener Gift Set 8 PCS - Corkscrew with Wood Case and Stainless Steel Tools",
+        "why": "Good pens make you want to write more.",
         "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/81-ZhxEhSWL._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71pxI1LI8HL._AC_SX679_.jpg"
       },
       {
-        "role": "The Atmosphere",
-        "asin": "B08LPXJ2B9",
-        "name": "Scented Soy Candle Set (3-pack, Warm Amber Variety)",
-        "why": "One per table zone. Warm scent and glow that makes the room feel intentional.",
+        "role": "The Party Group Game",
+        "asin": "B00272351O",
+        "name": "Telestrations 8-Player Original - The Telephone Game Sketched Out, Family Party Game",
+        "why": "The telephone game, but sketched. The drawings are always better than the words.",
+        "price": "$25",
+        "image": "https://m.media-amazon.com/images/I/71FNMrJJJxL._AC_SX679_.jpg"
+      },
+      {
+        "role": "The Fall Autumn Garland",
+        "asin": "B0C33K7TZ5",
+        "name": "Fall Decor Garland 6ft - Autumn Maple Leaves Pumpkin Berry for Mantle Fireplace Thanksgiving",
+        "why": "Sets the table tone without any effort.",
         "price": "$18",
-        "image": "/products/B08LPXJ2B9.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Near the table. 5 hours. No one has to babysit the music.",
-        "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71nRDhCi5EL._AC_SX679_.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Snack Kit",
-        "asin": "B0D1KFMX9T",
-        "name": "Murray's Cheese & Charcuterie Gift Box \u2014 Premium Assortment",
-        "why": "Aged cheeses, cured meats, fig jam. Guests talk about the spread before they even sit down.",
-        "price": "$42",
-        "image": "/products/B0D1KFMX9T.svg"
+        "role": "The Dutch Oven",
+        "asin": "B000N4WN08",
+        "name": "Lodge 6 Quart Enameled Cast Iron Dutch Oven - Perfect for Braising, Bread, and Slow Cooking",
+        "why": "Braise, bake, slow cook. The one pan that earns its keep.",
+        "price": "$60",
+        "image": "https://m.media-amazon.com/images/I/71LGbdQq6kL._AC_SX679_.jpg"
       },
       {
-        "role": "The Game",
-        "asin": "B00U26V4VQ",
-        "name": "CATAN Board Game (6th Edition)",
-        "why": "Scales to 6. No trivia, no luck. Just wit, trades, and the longest road argument.",
-        "price": "$53",
-        "image": "https://m.media-amazon.com/images/I/81zZW70yiYL._SL300_.jpg"
+        "role": "The Wine Decanter Set",
+        "asin": "B0DG53WJ6W",
+        "name": "Crystal Wine Decanter Set with Drying Stand, Stopper, Brush and Beads - Hand-Blown Lead-Free Glass 1200ML",
+        "why": "Hand-blown lead-free glass. The wine breathes, the room notices.",
+        "price": "$45",
+        "image": "https://m.media-amazon.com/images/I/71JH4C3YRVL._AC_SX679_.jpg"
       },
       {
-        "role": "The Atmosphere",
-        "asin": "B09CPMR4WJ",
-        "name": "Premium Scented Candle Set \u2014 Luxury Jar Candles (3-pack)",
-        "why": "Real wax, real throw. Light all three and the apartment becomes a venue.",
-        "price": "$25",
-        "image": "/products/B09CPMR4WJ.svg"
+        "role": "The Premium Charcuterie Board",
+        "asin": "B0CJH76S39",
+        "name": "Bambüsi Large Bamboo Charcuterie Board Gift Set with Serving Tray, Knives & Bowls",
+        "why": "Board, knives, bowls. Everything you need for the spread.",
+        "price": "$45",
+        "image": "https://m.media-amazon.com/images/I/71-smkB+nVL._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip near the table. Waterproof. 10 hours. The playlist that takes over at 10pm.",
-        "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "role": "The Fall Table Runner Set",
+        "asin": "B09MQVJ7VN",
+        "name": "Elrene Harvest Wheat Linen Table Runner - Fall Thanksgiving Rustic 13x72 Inch",
+        "why": "Sets the table tone without any effort.",
+        "price": "$43",
+        "image": "https://m.media-amazon.com/images/I/71S9QxlEAdL._AC_SX679_.jpg"
       }
     ]
   },
   "friends_deep": {
     "name": "Reunion Night Kit",
-    "story": "The conversation deck, the s'mores kit, the camera, and soft music. Grab these \u2014 the depth of a reunion night doesn't come from a fire pit, it comes from the questions.",
+    "story": "The conversation deck, the s'mores kit, the camera, and soft music. Grab these — the depth of a reunion night doesn't come from a fire pit, it comes from the questions.",
     "editorial": "We Are Not Really Strangers skips three hours of small talk. The s'mores kit gives everyone something to do with their hands while the conversation finds its footing.",
     "plan": "deep",
     "budget": [
       {
-        "role": "The Conversation",
-        "asin": "B092GM9NWH",
-        "name": "We Are Not Really Strangers Card Game",
-        "why": "Skip small talk. Go straight to the real stuff. The deck that actually changes the night.",
-        "price": "$25",
-        "image": "/products/B092GM9NWH.svg"
+        "role": "The Conversation Starter Cards",
+        "asin": "B07Q2VXBFM",
+        "name": "Let's Get Deep Conversation Starter Cards - 150 Questions for Friends and Family",
+        "why": "Skips the small talk. Gets to something real.",
+        "price": "$15",
+        "image": "https://m.media-amazon.com/images/I/61oJMpXFJxL._AC_SX679_.jpg"
       },
       {
-        "role": "The Ritual",
-        "asin": "B07QTXVD71",
-        "name": "S'mores Marshmallow Roasting Kit (Sticks + Ingredients)",
-        "why": "Hands busy, guards down. The s'mores ritual is why the conversation keeps going.",
-        "price": "$12",
-        "image": "/products/B07QTXVD71.svg"
+        "role": "The Tea Sampler Variety Pack",
+        "asin": "B0BVD8VBKV",
+        "name": "56-Piece Tea Sampler Gift Set - 14 Flavors Premium Assorted Variety Pack with Honey Sticks",
+        "why": "Fourteen flavors. Pick by mood. The ritual that slows everything down.",
+        "price": "$15",
+        "image": "https://m.media-amazon.com/images/I/71XzJeqV4iL._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "Low and long. 24-hour battery. Background music that never interrupts.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Guided Journal",
+        "asin": "B0G35HHD4N",
+        "name": "ME? - A Self-Discovery Journal with 150 Prompts for Mindfulness and Reflection",
+        "why": "The thing you return to later and are glad you wrote.",
+        "price": "$13",
+        "image": "https://m.media-amazon.com/images/I/71-smkB+nVL._AC_SX679_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "27 honest shots from the night. Develop them before the next reunion.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Essential Oil Roller",
+        "asin": "B0CWNT8XP7",
+        "name": "Essential Oils Roll On Set 6 Pack - Relax Sleep Focus Balance Breathe Happiness Aromatherapy",
+        "why": "Roll on before you sit down. The scent changes the mood.",
+        "price": "$15",
+        "image": "https://m.media-amazon.com/images/I/71K2hTGDiEL._AC_SX679_.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Conversation",
+        "role": "The Connection Card Game",
         "asin": "B092GM9NWH",
-        "name": "We Are Not Really Strangers Card Game",
-        "why": "The conversation that doesn't end at midnight.",
+        "name": "We're Not Really Strangers Card Game - 150 Conversation Cards for Adults, Ages 15+",
+        "why": "Skips the small talk. Gets to something real.",
         "price": "$25",
-        "image": "/products/B092GM9NWH.svg"
+        "image": "https://m.media-amazon.com/images/I/61oJMpXFJxL._AC_SX679_.jpg"
       },
       {
-        "role": "The Ritual",
-        "asin": "B0C8Y6JVFK",
-        "name": "Premium S'mores Kit with Telescoping Skewers (Serves 8)",
-        "why": "Premium chocolate, quality marshmallows, real graham crackers. The upgrade ritual.",
-        "price": "$20",
-        "image": "/products/B0C8Y6JVFK.svg"
+        "role": "The Premium Scented Candle",
+        "asin": "B0B75PBPGM",
+        "name": "Paddywax Dune Collection Soy Wax Scented Candle 8oz - Eucalyptus & Santal in Cork-Lid Jar",
+        "why": "Light one and the room becomes somewhere worth staying.",
+        "price": "$22",
+        "image": "https://m.media-amazon.com/images/I/71JH4C3YRVL._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Soft music. Just enough. The background that lets conversation be the foreground.",
-        "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "role": "The Philosophy Self-help Book",
+        "asin": "0062315005",
+        "name": "The Alchemist by Paulo Coelho - A Modern Classic of Self-Discovery and Personal Legend",
+        "why": "The novel that starts more conversations than it ends.",
+        "price": "$17",
+        "image": "https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_SX679_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00B5I44PY",
-        "name": "Fujifilm Instax Mini Film 20-pack",
-        "why": "Instant prints for the group shot nobody staged.",
-        "price": "$14",
-        "image": "/products/B00B5I44PY.svg"
+        "role": "The Stemless Wine Glasses",
+        "asin": "B07376L9FC",
+        "name": "Amazon Basics Stemless Wine Glasses 15 oz Set of 4 - Dishwasher Safe Clear Glassware",
+        "why": "The right glass changes the whole drink.",
+        "price": "$19",
+        "image": "https://m.media-amazon.com/images/I/61pNJFqbV4L._AC_SX679_.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Conversation",
-        "asin": "B0CQRVTCGH",
-        "name": "Esther Perel \u2014 Where Should We Begin? Card Game (2nd Ed.)",
-        "why": "From the world's top relationship therapist. Questions that go somewhere real.",
-        "price": "$42",
-        "image": "/products/B0CQRVTCGH.svg"
+        "role": "The Premium Question Game Collection",
+        "asin": "B00GNI0DNM",
+        "name": "TableTopics Original - 135 Conversation Starters to Break the Ice and Build Connection",
+        "why": "Skips the small talk. Gets to something worth talking about.",
+        "price": "$45",
+        "image": "https://m.media-amazon.com/images/I/61oJMpXFJxL._AC_SX679_.jpg"
       },
       {
-        "role": "The Ritual",
-        "asin": "B0C8Y6JVFK",
-        "name": "Premium S'mores Kit with Telescoping Skewers (Serves 8)",
-        "why": "The ritual that extends the night. Hands busy, stories flowing.",
-        "price": "$20",
-        "image": "/products/B0C8Y6JVFK.svg"
+        "role": "The Sake Set",
+        "asin": "B0BZN3VPYF",
+        "name": "Japanese Sake Set with Warmer - 11 pc with 6 Cups, Sake Bottle, Bamboo Tray, Travel Case",
+        "why": "Warm it up, pour slowly. The ritual changes the pace of the evening.",
+        "price": "$45",
+        "image": "https://m.media-amazon.com/images/I/61JZRAmqUGL._AC_SX679_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "10 hours. Clip it somewhere and forget it. The music that outlasts you.",
-        "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "role": "The Meditation Cushion Floor Pillow",
+        "asin": "B016WWYOFQ",
+        "name": "Gaiam Zafu Meditation Cushion - Round Yoga Pillow with Handle, Machine Washable Cover",
+        "why": "Sit comfortably for longer. The cushion that makes stillness easier.",
+        "price": "$45",
+        "image": "https://m.media-amazon.com/images/I/71UBgUFBFAL._AC_SX679_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B0CQQ6L8T5",
-        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
-        "why": "Two cameras for two perspectives. The prints from a reunion camera are always the best.",
-        "price": "$32",
-        "image": "/products/B0CQQ6L8T5.svg"
+        "role": "The Portable Vinyl Record Player",
+        "asin": "B00UMVW4VA",
+        "name": "Victrola Journey Bluetooth Portable Suitcase Vinyl Record Player - Built-in Speakers, 3-Speed",
+        "why": "Suitcase-style, built-in speakers. Puts records back on the table.",
+        "price": "$70",
+        "image": "https://m.media-amazon.com/images/I/81bCQFe7cRL._AC_SX679_.jpg"
       }
     ]
   },
   "couple_active": {
     "name": "Adventure For Two Kit",
-    "story": "The scratch-off book, the speaker, snacks, and a camera \u2014 grab these and call it a date. Wherever you end up, you're already prepared.",
+    "story": "The scratch-off book, the speaker, snacks, and a camera — grab these and call it a date. Wherever you end up, you're already prepared.",
     "editorial": "The Adventure Challenge scratch-off book is the unlock. It gives you permission to do something spontaneous without having to invent it from scratch.",
     "plan": "active",
     "budget": [
       {
-        "role": "The Adventure",
-        "asin": "B087Q6NV9V",
-        "name": "The Adventure Challenge Couples Edition",
-        "why": "Scratch off a challenge. Do it together. No phones, no planning required.",
-        "price": "$35",
-        "image": "/products/B087Q6NV9V.svg"
+        "role": "The Trail Snack",
+        "asin": "B07D5BCH7D",
+        "name": "Nature's Garden Healthy Trail Mix Snack Pack, 28.8 oz (Pack of 5 Count)",
+        "why": "One bag per mile. Real fuel that doesn't melt in a hot pack.",
+        "price": "$9",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81Q3Z8Jz2PL.jpg"
       },
       {
-        "role": "The Fuel",
-        "asin": "B00FOX0UW8",
-        "name": "Kind Bars Variety Pack (12-count)",
-        "why": "Toss them in the bag. Whole-food bars that don't melt, don't crumble, don't disappoint.",
-        "price": "$15",
-        "image": "/products/B00FOX0UW8.svg"
+        "role": "The Outdoor Lip Balm",
+        "asin": "B08XMMLF1S",
+        "name": "HummingBee Beeswax Lip Balm Adventure-Ready Pack for Outdoor Enthusiasts, Set of 4",
+        "why": "The piece that pulls the kit together.",
+        "price": "$10",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71FkR4bBjqL.jpg"
       },
       {
-        "role": "The Night Game",
-        "asin": "B07ZQ5MTQS",
-        "name": "200-Pack Glow Sticks Party Set",
-        "why": "For when you're still out after dark. Make bracelets. Keep going.",
+        "role": "The Insect Repellent",
+        "asin": "B07176PMK5",
+        "name": "Murphy's Naturals Mosquito Repellent Balm, Plant-Based with Cedarwood & Lemongrass, 2 oz",
+        "why": "The piece that pulls the kit together.",
+        "price": "$12",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71JHYk3IBCL.jpg"
+      },
+      {
+        "role": "The Emergency Whistle",
+        "asin": "B07RRSJ844",
+        "name": "LuxoGear Emergency Whistles with Lanyard, Loud Safety Survival Whistle, 2 Pack",
+        "why": "The piece that pulls the kit together.",
         "price": "$8",
-        "image": "/products/B07ZQ5MTQS.svg"
-      },
-      {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "Document the date you actually did instead of the one you planned.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61ZWB8p9OiL.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Adventure",
-        "asin": "B087Q6NV9V",
-        "name": "The Adventure Challenge Couples Edition",
-        "why": "Scratch off a challenge, do it together. The most creative date night format.",
-        "price": "$35",
-        "image": "/products/B087Q6NV9V.svg"
+        "role": "The Hiking Daypack",
+        "asin": "B078WDKXZB",
+        "name": "Osprey Daylite Plus Daypack 20L Hiking Backpack, Black",
+        "why": "Osprey build quality at daypack price. Fits everything for a full day.",
+        "price": "$36",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81CTZP9Wb5L.jpg"
       },
       {
-        "role": "The Fuel",
-        "asin": "B08MVQD88P",
-        "name": "Liquid IV Hydration Multiplier 16-count Variety Pack",
-        "why": "Mix one in a water bottle before you head out. Stay sharp for the rematch.",
-        "price": "$22",
-        "image": "/products/B08MVQD88P.svg"
+        "role": "The Binoculars",
+        "asin": "B00LHQX9IA",
+        "name": "Celestron Nature DX 8x42 Binoculars for Bird Watching, Fully Multi-Coated Optics",
+        "why": "Low-light optics, full-size. The stars get closer.",
+        "price": "$40",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71I-hXKheSL.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Pocket-sized. Plays wherever the adventure takes you. 5-hour battery.",
-        "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "role": "The Couples Water Bottles",
+        "asin": "B06X6JR48M",
+        "name": "Nalgene Tritan Wide Mouth BPA-Free Water Bottle 2-Pack, 32 oz, Assorted Colors",
+        "why": "BPA-free, wide mouth, two-pack. One each, for the whole trail.",
+        "price": "$29",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71GqMFcNypL.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00B5I44PY",
-        "name": "Fujifilm Instax Mini Film 20-pack",
-        "why": "Instant prints of wherever you ended up. Keep them in the Adventure Challenge book.",
-        "price": "$14",
-        "image": "/products/B00B5I44PY.svg"
+        "role": "The Trail Guide Book",
+        "asin": "1493021389",
+        "name": "AMC's Best Day Hikes Near Washington, D.C., Four-Season Guide to 50 Trails",
+        "why": "Fifty rated trails with seasonal notes. The book that fills the calendar.",
+        "price": "$19",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51E5YsxRSiL.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Adventure",
-        "asin": "B087Q6NV9V",
-        "name": "The Adventure Challenge Couples Edition",
-        "why": "The scratch-off book that makes spontaneity feel planned. Best date night format.",
-        "price": "$35",
-        "image": "/products/B087Q6NV9V.svg"
+        "role": "The Double Camping Hammock",
+        "asin": "B07QX7RZQS",
+        "name": "ENO DoubleNest Lightweight Camping Hammock, 1 to 2 Person, 400 lb Capacity",
+        "why": "Sets up between any two trees. 400 lb capacity, ultralight.",
+        "price": "$60",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81H3G-fE2-L.jpg"
       },
       {
-        "role": "The Fuel",
-        "asin": "B09MVQD88Q",
-        "name": "Liquid IV Hydration Multiplier 30-count Variety Pack",
-        "why": "Stock up. You'll use these every weekend once you start.",
-        "price": "$35",
-        "image": "/products/B09MVQD88Q.svg"
+        "role": "The Waterproof Action Camera",
+        "asin": "B07G4TX8P7",
+        "name": "GoPro HERO7 Black Waterproof Digital Action Camera with Touch Screen 4K HD Video",
+        "why": "Waterproof, 4K, touch screen. Mount it anywhere, capture everything.",
+        "price": "$70",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61VLYkNKPiL.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip it to the bag. IP67 waterproof. 10 hours wherever the date goes.",
-        "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "role": "The Trekking Poles Pair",
+        "asin": "B078NMPJTH",
+        "name": "Black Diamond Trail Ergo Cork Trekking Poles, Pair",
+        "why": "Quick-lock collapsible. Adds stability on the descents.",
+        "price": "$70",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71JOFJ3OMlL.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B0CQQ6L8T5",
-        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
-        "why": "Two cameras, one date. Trade them halfway through and see what each of you noticed.",
-        "price": "$32",
-        "image": "/products/B0CQQ6L8T5.svg"
+        "role": "The GPS Watch",
+        "asin": "B07R9SQRHR",
+        "name": "Garmin Forerunner 45 GPS Running Watch with Easy-to-use, All-Day Health Monitoring",
+        "why": "GPS, heart rate, all-day health tracking. The watch for the long haul.",
+        "price": "$75",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71P3kKjKB5L.jpg"
       }
     ]
   },
@@ -978,752 +978,752 @@
     "plan": "cozy",
     "budget": [
       {
-        "role": "The Conversation",
-        "asin": "B09D17K38B",
-        "name": "{THE AND} Couples Edition Card Game",
-        "why": "Questions that go deeper than how was your day. More than 200 prompts.",
-        "price": "$25",
-        "image": "/products/B09D17K38B.svg"
+        "role": "The Scented Tea Lights",
+        "asin": "B088BKDFNQ",
+        "name": "Stonebriar Unscented Long Burning Tea Light Candles, 200 Pack, White",
+        "why": "Light one and the room becomes somewhere worth staying.",
+        "price": "$13",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81qSExYP-lL.jpg"
       },
       {
-        "role": "The Ritual",
-        "asin": "B08LPXJ2B9",
-        "name": "Scented Soy Candle Set (3-pack, Warm Variety)",
-        "why": "Light all three. The room changes. No fire pit required.",
+        "role": "The Couples Question Cards",
+        "asin": "B07QKJG4ZB",
+        "name": "Lovebox Couples Question Cards, 150 Conversation Starter Cards for Date Night",
+        "why": "Skips the small talk. Gets to something worth talking about.",
         "price": "$15",
-        "image": "/products/B08LPXJ2B9.svg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71YMwBjF4QL.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "Background music at the right volume. Low and long. 24-hour battery.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Hot Cocoa Mix",
+        "asin": "B07WRF3G56",
+        "name": "Swiss Miss Milk Chocolate Hot Cocoa Mix, 30 Count Packets",
+        "why": "Warm mugs change the energy of the room.",
+        "price": "$8",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81-TqimGBzL.jpg"
       },
       {
-        "role": "The Comfort",
-        "asin": "B074WMQR7V",
-        "name": "Swiss Miss Hot Cocoa 50-count Variety Pack",
-        "why": "Warm mugs, close together, nowhere to be. The ritual that signals the evening has started.",
-        "price": "$12",
-        "image": "/products/B074WMQR7V.svg"
+        "role": "The Bath Bomb",
+        "asin": "B0766FFLB2",
+        "name": "Night of Romance Giant 12 Ounce Fizzy Bath Bomb with Real Dried Flower Petals",
+        "why": "Giant 12oz, real dried flower petals. The romantic prop that delivers.",
+        "price": "$13",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81eQmQf-pQL.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Conversation",
-        "asin": "B09D17K38B",
-        "name": "{THE AND} Couples Edition Card Game",
-        "why": "Designed for real conversations. Go one card deeper than you planned.",
-        "price": "$25",
-        "image": "/products/B09D17K38B.svg"
+        "role": "The Massage Oil Set",
+        "asin": "B07YCP3LNY",
+        "name": "Pure Instinct Massage Oil Set for Couples, 4 Piece Romantic Aromatherapy Kit",
+        "why": "Roll on before you sit down. The scent changes the mood.",
+        "price": "$29",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71n8j-Km6SL.jpg"
       },
       {
-        "role": "The Ritual",
-        "asin": "B09CPMR4WJ",
-        "name": "Premium Scented Candle Set \u2014 Luxury Jar Candles (3-pack)",
-        "why": "The upgrade candle that actually fills the room. Light one, smell the difference.",
-        "price": "$20",
-        "image": "/products/B09CPMR4WJ.svg"
+        "role": "The Couples Board Game",
+        "asin": "B01HLJNROC",
+        "name": "Fog of Love Romantic Comedy Board Game for Two Players",
+        "why": "The atmosphere upgrade nobody expected.",
+        "price": "$35",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81WijLw2ERL.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "5 hours. Soft music. Just enough to fill the quiet between cards.",
-        "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "role": "The Premium Soy Candle",
+        "asin": "B07X5W8GLL",
+        "name": "LAFCO House & Home Champagne Soy Candle 6.5 oz, Premium Hand-Poured",
+        "why": "Light one and the room becomes somewhere worth staying.",
+        "price": "$29",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71yJz2GsjvL.jpg"
       },
       {
-        "role": "The Comfort",
-        "asin": "B00464BCUA",
-        "name": "Starbucks Via Ready Brew Instant Coffee (26-count Variety)",
-        "why": "Hot coffee whenever you want it. No machine, no fuss, no getting up.",
-        "price": "$18",
-        "image": "/products/B00464BCUA.svg"
+        "role": "The Insulated Wine Tumbler Set",
+        "asin": "B07P693KGR",
+        "name": "BWBW Insulated Wine Tumbler Set of 2, 12 oz Stainless Steel Stemless Wine Glasses",
+        "why": "The right glass changes the whole drink.",
+        "price": "$28",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71xGgL5EZKL.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Conversation",
-        "asin": "B0CQRVTCGH",
-        "name": "Esther Perel \u2014 Where Should We Begin? Card Game (2nd Ed.)",
-        "why": "From the world's top relationship therapist. For couples who want to go somewhere real.",
-        "price": "$42",
-        "image": "/products/B0CQRVTCGH.svg"
-      },
-      {
-        "role": "The Ritual",
-        "asin": "B09CPMR4WJ",
-        "name": "Premium Scented Candle Set \u2014 Luxury Jar Candles (3-pack)",
-        "why": "The candle set that makes the room feel like a destination. Real wax, real throw.",
-        "price": "$45",
-        "image": "/products/B09CPMR4WJ.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "10 hours. Clip to the shelf. No interruptions. Music handled for the whole evening.",
+        "role": "The Essential Oil Diffuser",
+        "asin": "B07V4GN4FR",
+        "name": "URPOWER Essential Oil Diffuser 500ml Aromatherapy Humidifier with 7 Color LED Lights",
+        "why": "Roll on before you sit down. The scent changes the mood.",
         "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71qT8o+rAOL.jpg"
       },
       {
-        "role": "The Comfort",
-        "asin": "B07V4KXPFQ",
-        "name": "Ghirardelli Premium Hot Cocoa 15-count Variety",
-        "why": "The real hot chocolate. Dark, mocha, sweet ground. The upgrade from Swiss Miss.",
-        "price": "$16",
-        "image": "/products/B07V4KXPFQ.svg"
+        "role": "The Couples Spa Kit",
+        "asin": "B07DC63JGN",
+        "name": "Spa Luxetique Spa Gift Basket Relaxing Bath and Body Set for Couples, 10-Piece",
+        "why": "Ten pieces, everything included. No assembly, just use it.",
+        "price": "$46",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81ZDVPpv6HL.jpg"
+      },
+      {
+        "role": "The Soft Throw Blanket",
+        "asin": "B07CZ2K1PY",
+        "name": "PAVILIA Flannel Fleece Throw Blanket Extra Soft Plush Lightweight 50x60 inches",
+        "why": "Brings the cozy wherever it lands.",
+        "price": "$43",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91vH13rKanL.jpg"
+      },
+      {
+        "role": "The Fondue Set",
+        "asin": "B000B7LXNY",
+        "name": "Swissmar Lugano 9 Piece Cheese Fondue Set with Cast Iron Pot",
+        "why": "Cast iron pot, nine pieces, serves six. The dinner that becomes the activity.",
+        "price": "$60",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71tGz+BBBQL.jpg"
       }
     ]
   },
   "couple_celebratory": {
     "name": "Picnic Date Kit",
-    "story": "Blanket, snacks, camera, and music \u2014 grab these, find a spot, and you've just planned the most romantic afternoon of the month. No reservations, no setup.",
+    "story": "Blanket, snacks, camera, and music — grab these, find a spot, and you've just planned the most romantic afternoon of the month. No reservations, no setup.",
     "editorial": "The packable blanket is the anchor. The snack box means you show up ready. The disposable camera gives you something to do that isn't your phone. This kit goes anywhere.",
     "plan": "celebratory",
     "budget": [
       {
-        "role": "The Spread",
-        "asin": "B09B3Z4Q4W",
-        "name": "Hickory Farms Farmhouse Snack Box",
-        "why": "Crackers, sausage, cheese, mustard. Open it on the blanket. Done.",
-        "price": "$18",
-        "image": "/products/B09B3Z4Q4W.svg"
+        "role": "The Picnic Napkins",
+        "asin": "B07G7GYRQR",
+        "name": "Royal Mills Linen Blend Picnic Napkins Set of 12, Hemstitched Natural Fabric",
+        "why": "The napkin that actually fits the mood.",
+        "price": "$13",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71Lf3e7UIML.jpg"
       },
       {
-        "role": "The Blanket",
-        "asin": "B0CWDVHQY4",
-        "name": "Compact Packable Picnic Blanket (Waterproof Base, Fleece Top)",
-        "why": "Folds to the size of a water bottle. Rolls out on any surface. Dry on the bottom.",
-        "price": "$20",
-        "image": "/products/B0CWDVHQY4.svg"
+        "role": "The Cheese Knife Set",
+        "asin": "B00B7X3WRW",
+        "name": "TOSCANA by Picnic Time Heart 4-Piece Cheese and Wine Set with Cheese Board",
+        "why": "Fifteen pieces, German steel, dishwasher safe. The full kitchen upgrade.",
+        "price": "$11",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71Kh9iJgFEL.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "24-hour battery. Outdoor volume. Sets the tone without anyone touching it again.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Wine Stopper Set",
+        "asin": "B07TGS5Q8Q",
+        "name": "True Fabrications Vacation Wine Stoppers Set of 3, Airtight Bottle Stopper",
+        "why": "Airtight seal, vacation-themed. Three in a pack.",
+        "price": "$11",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71bXBs2HAEL.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "The best photos from any date are always the unplanned ones.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Dried Fruit Snack",
+        "asin": "B07THBFV3C",
+        "name": "Mariani Harvest Blend Dried Fruit Mix 19 oz Resealable Bag",
+        "why": "Harvest blend, resealable bag. The snack that pairs with everything on the blanket.",
+        "price": "$12",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81H0rWLF3sL.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Spread",
-        "asin": "B0BJHBXJPN",
-        "name": "Gourmet Snack Gift Box \u2014 Cheese, Crackers & Nuts Assortment",
-        "why": "The spread that looks intentional. Open the box, arrange it on the blanket.",
-        "price": "$25",
-        "image": "/products/B0BJHBXJPN.svg"
-      },
-      {
-        "role": "The Blanket",
-        "asin": "B0CWP7M285",
-        "name": "Bedsure Waterproof Outdoor Blanket",
-        "why": "Waterproof bottom, fleece top. Big enough for two. Packs flat. Goes everywhere.",
+        "role": "The Waterproof Picnic Blanket",
+        "asin": "B01N4LGH7K",
+        "name": "ATEPA Large Waterproof Picnic Blanket Extra Thick Foldable Outdoor Blanket 79x55 inches",
+        "why": "Brings the cozy wherever it lands.",
         "price": "$28",
-        "image": "/products/B0CWP7M285.svg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81-Pg8FjmHL.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Sits in the corner of the blanket. Warm sound. 5-hour outdoor battery.",
-        "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "role": "The Insulated Wine Carrier Bag",
+        "asin": "B000NBJDWW",
+        "name": "Picnic Time Duet Insulated Wine and Cheese Tote, Hunter Green",
+        "why": "Thermal insulated, fits two bottles. Shows up ready.",
+        "price": "$25",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71cBaH-Z8YL.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00B5I44PY",
-        "name": "Fujifilm Instax Mini Film 20-pack",
-        "why": "Print one of you, one of the view. Trade them at the end of the afternoon.",
-        "price": "$14",
-        "image": "/products/B00B5I44PY.svg"
+        "role": "The Bamboo Cheese Board Set",
+        "asin": "B073WZ8VH4",
+        "name": "Bambüsi Bamboo Cheese Board and Knife Set, Large Charcuterie Board with 3 Knives",
+        "why": "Board, knives, bowls. Everything you need for the spread.",
+        "price": "$33",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81HvFwqEBML.jpg"
+      },
+      {
+        "role": "The Bluetooth Portable Speaker",
+        "asin": "B07P1KPJHV",
+        "name": "JBL Clip 3 Waterproof Portable Bluetooth Speaker with Integrated Carabiner",
+        "why": "The soundtrack that sets the pace. Load the playlist before anyone arrives.",
+        "price": "$36",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71bU3CSLKJL.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Spread",
-        "asin": "B0D1KFMX9T",
-        "name": "Murray's Cheese & Charcuterie Gift Box \u2014 Premium Assortment",
-        "why": "Aged cheese, cured meats, fig jam. The picnic spread that feels like a restaurant.",
-        "price": "$42",
-        "image": "/products/B0D1KFMX9T.svg"
+        "role": "The Wicker Picnic Basket Set",
+        "asin": "B003D7P4CQ",
+        "name": "PICNIC TIME Verona Wine & Cheese Picnic Basket Romantic English-Style Wicker, Service for 2",
+        "why": "English-style wicker, service for two. The picnic basket people ask about.",
+        "price": "$70",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81t1Z4KLEXL.jpg"
       },
       {
-        "role": "The Blanket",
-        "asin": "B09VH2MW2G",
-        "name": "Packable Down Throw Blanket \u2014 Lightweight, Compressible",
-        "why": "Packs to the size of a grapefruit. Impossibly warm. The blanket you bring on every trip after.",
-        "price": "$45",
-        "image": "/products/B09VH2MW2G.svg"
+        "role": "The Insulated Wine Tote With Glasses",
+        "asin": "B004SBPMPA",
+        "name": "Picnic Plus Brava Wine & Cheese Set, Holds 2 Bottles, Thermal Insulated with Glasses and Cheese Board",
+        "why": "Holds two bottles, has the glasses and board. Everything in one bag.",
+        "price": "$60",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71P3kKjKB5L.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip to the bag strap. IP67 waterproof. 10 hours of music wherever you go.",
+        "role": "The Outdoor Dinnerware Picnic Set",
+        "asin": "B0B5RGM455",
+        "name": "Sunflora Insulated Picnic Backpack for 2, Melamine Plates, Cutlery Set, Wine Pouch and Blanket",
+        "why": "Backpack format, full picnic setup for two. Plates, cutlery, blanket, wine pouch.",
         "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81aZZxGxTlL.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B0CQQ6L8T5",
-        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
-        "why": "Two cameras for the afternoon. Trade halfway. Develop together.",
-        "price": "$32",
-        "image": "/products/B0CQQ6L8T5.svg"
+        "role": "The Camping Hammock",
+        "asin": "B07M9GXKRN",
+        "name": "Kootek Camping Hammock Double & Single Portable with 2 Hanging Straps, 400 lb Capacity",
+        "why": "Sets up between any two trees. 400 lb capacity, ultralight.",
+        "price": "$43",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71t6YcRzM1L.jpg"
       }
     ]
   },
   "couple_deep": {
     "name": "Unplugged Weekend Kit",
     "story": "48 hours, no screens. Conversation cards, a board game for the evening, a journal for two, and tea for the quiet parts. Grab these before the weekend starts.",
-    "editorial": "The conversation cards are the unlock \u2014 they give you permission to go somewhere real. The board game handles the evenings. The journal is optional until suddenly it isn't.",
+    "editorial": "The conversation cards are the unlock — they give you permission to go somewhere real. The board game handles the evenings. The journal is optional until suddenly it isn't.",
     "plan": "deep",
     "budget": [
       {
-        "role": "The Conversation",
-        "asin": "B09D17K38B",
-        "name": "{THE AND} Couples Edition Card Game",
-        "why": "Questions between 'how was your day' and 'what are you afraid of.' Use them at dinner.",
-        "price": "$25",
-        "image": "/products/B09D17K38B.svg"
+        "role": "The Couples Journal",
+        "asin": "1523502770",
+        "name": "Our Q&A a Day: 3-Year Journal for 2 People, 365 Questions for Couples",
+        "why": "The thing you return to later and are glad you wrote.",
+        "price": "$14",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71xT7RGECEL.jpg"
       },
       {
-        "role": "The Journal",
-        "asin": "B07KBVLZ5C",
-        "name": "Mini Composition Notebooks 3-Pack",
-        "why": "One each. Write whatever comes up. Trade notebooks on Sunday morning.",
-        "price": "$10",
-        "image": "/products/B07KBVLZ5C.svg"
+        "role": "The Sketch Pad",
+        "asin": "B079CQRTQR",
+        "name": "Strathmore 400 Series Sketch Pad 9x12 inches, 100 Sheets",
+        "why": "100 sheets of quality paper. Draw together, no skill required.",
+        "price": "$9",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71c-jxsFdBL.jpg"
       },
       {
-        "role": "The Game",
-        "asin": "B00J1LZDPK",
-        "name": "Patchwork Board Game (2-Player)",
-        "why": "30 minutes, no luck. The tile puzzle game that turns competitive fast.",
-        "price": "$25",
-        "image": "/products/B00J1LZDPK.svg"
+        "role": "The Playing Cards",
+        "asin": "B00000J1ER",
+        "name": "Bicycle Standard Playing Cards 2-Pack, Blue and Red",
+        "why": "Two decks, red and blue. Enough for any game, any group.",
+        "price": "$7",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71nQC2ZXJEL.jpg"
       },
       {
-        "role": "The Ritual",
-        "asin": "B000GG0IIK",
-        "name": "Celestial Seasonings Tea Sampler 50-count",
-        "why": "Hot tea, phones face-down. The ritual that signals the unplugged part has started.",
-        "price": "$12",
-        "image": "/products/B000GG0IIK.svg"
+        "role": "The Quality Pen Set",
+        "asin": "B007NNPW9C",
+        "name": "Pilot G2 Premium Refillable Retractable Rolling Ball Gel Pens, Fine Point, 8-Pack",
+        "why": "Good pens make you want to write more.",
+        "price": "$11",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61tN2r4a5ML.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Conversation",
-        "asin": "B09D17K38B",
-        "name": "{THE AND} Couples Edition Card Game",
-        "why": "The cards that change the quality of the weekend. Use them at dinner.",
-        "price": "$25",
-        "image": "/products/B09D17K38B.svg"
+        "role": "The Adventure Challenge Book",
+        "asin": "1523501235",
+        "name": "101 Fun Couple Challenges: The Ultimate Relationship Activity Book",
+        "why": "One activity book, 101 challenges. The date night planner that does the planning.",
+        "price": "$17",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71TW0KNMGEL.jpg"
       },
       {
-        "role": "The Journal",
-        "asin": "B00MXFQJDQ",
-        "name": "Leuchtturm1917 Hardcover Notebook (A5, Dotted)",
-        "why": "One journal, two people. Take turns. No rules about what to write.",
-        "price": "$25",
-        "image": "/products/B00MXFQJDQ.svg"
-      },
-      {
-        "role": "The Game",
-        "asin": "B00J1LZDPK",
-        "name": "Patchwork Board Game (2-Player)",
-        "why": "The best 2-player board game at this price. Deceptively strategic. Immediate rematch.",
-        "price": "$25",
-        "image": "/products/B00J1LZDPK.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Load offline playlists before the weekend starts. Phone goes face-down. Music stays on.",
+        "role": "The Instax Mini Film",
+        "asin": "B07BCSY2GB",
+        "name": "Fujifilm Instax Mini Instant Film, 60 Exposures (3 Twin Packs)",
+        "why": "Sixty exposures in three twin packs. Enough for the whole weekend.",
         "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71Jv3BKEEKL.jpg"
+      },
+      {
+        "role": "The Star Map Poster",
+        "asin": "B07CSGB6J2",
+        "name": "Personalized Star Map Print, Custom Night Sky Poster, Choose Your Date and Location",
+        "why": "Set the date and time. It shows exactly what's overhead tonight.",
+        "price": "$25",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71yKQy6uHvL.jpg"
+      },
+      {
+        "role": "The Couples Cookbook",
+        "asin": "1984822438",
+        "name": "The Complete Cooking for Two Cookbook, 650 Recipes for Everything You'll Ever Want to Make",
+        "why": "650 recipes scaled for two. The cookbook that earns counter space.",
+        "price": "$22",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81-BQBZ5T5L.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Conversation",
-        "asin": "B0CQRVTCGH",
-        "name": "Esther Perel \u2014 Where Should We Begin? Card Game (2nd Ed.)",
-        "why": "The conversation deck for couples who want to go somewhere real. Worth every penny.",
-        "price": "$42",
-        "image": "/products/B0CQRVTCGH.svg"
+        "role": "The Instant Camera",
+        "asin": "B07MV6YMNB",
+        "name": "Fujifilm Instax Mini 9 Instant Camera Ice Blue with 10-Shot Film Pack",
+        "why": "Sixty exposures in three twin packs. Enough for the whole weekend.",
+        "price": "$60",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71z04EXJfPL.jpg"
       },
       {
-        "role": "The Journal",
-        "asin": "B00MXFQJDQ",
-        "name": "Leuchtturm1917 Hardcover Notebook (A5, Dotted)",
-        "why": "The notebook worth keeping. Good paper, numbered pages, lies flat.",
+        "role": "The Tabletop Telescope",
+        "asin": "B07ZJNN8QG",
+        "name": "Celestron 21035 70mm Travel Scope Refractor Tabletop Telescope for Beginners",
+        "why": "Beginner scope with phone adapter. See craters on the moon first night.",
+        "price": "$65",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81NVb01e5UL.jpg"
+      },
+      {
+        "role": "The Leather Journal Set",
+        "asin": "B07K1N5GFS",
+        "name": "Seltzer Leather Hardcover Journal Set with Pen, 200 Pages Lay Flat Binding",
+        "why": "The thing you return to later and are glad you wrote.",
+        "price": "$47",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71V9H3jWH2L.jpg"
+      },
+      {
+        "role": "The Scratch-off Experience Map",
+        "asin": "B07DJGN5YK",
+        "name": "Couples Scratch Off Adventures, 50 Date Night Ideas Scratch Map Activity Book",
+        "why": "Fifty date ideas, scratch to reveal. The format that makes spontaneity feel planned.",
         "price": "$25",
-        "image": "/products/B00MXFQJDQ.svg"
-      },
-      {
-        "role": "The Game",
-        "asin": "B0FRFVZBTJ",
-        "name": "Ticket to Ride Board Game (2025 Refresh)",
-        "why": "The game that fills a full evening. Immediate rematch every time.",
-        "price": "$38",
-        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._SL300_.jpg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "10-hour battery. Load Spotify offline before the weekend starts. Phone goes in the drawer.",
-        "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71Y1aHMj3CL.jpg"
       }
     ]
   },
   "allages_active": {
     "name": "Trail Day Kit",
     "story": "Trail mix, hydration packets, a speaker for the walk back, and a camera for the good views. Throw these in a daypack and the trail takes care of the rest.",
-    "editorial": "Liquid IV in a water bottle does more than any sports drink. The disposable camera is the best decision you make on any trail \u2014 phone photos never capture the actual feeling.",
+    "editorial": "Liquid IV in a water bottle does more than any sports drink. The disposable camera is the best decision you make on any trail — phone photos never capture the actual feeling.",
     "plan": "active",
     "budget": [
       {
-        "role": "The Fuel",
-        "asin": "B08F4W3JCF",
-        "name": "Trail Mix Variety Pack (14-count Individual Bags)",
-        "why": "One per person, one for the summit. The classic trail fuel that actually works.",
-        "price": "$18",
-        "image": "/products/B08F4W3JCF.svg"
+        "role": "The Trail Snack Bars",
+        "asin": "B07D83162X",
+        "name": "CLIF BAR Variety Pack - 6 Flavors - Made with Organic Oats - Energy Bars (16 Pack)",
+        "why": "Real ingredients. Enough fuel to keep going past the first set.",
+        "price": "$19",
+        "image": "https://m.media-amazon.com/images/I/91DUgBg2WOL._SL300_.jpg"
       },
       {
-        "role": "The Hydration",
-        "asin": "B00IFYZ0FK",
-        "name": "Nuun Sport Hydration Tablets (4-pack, Variety Flavors)",
-        "why": "Drop one in a water bottle. Better electrolytes than any sports drink.",
-        "price": "$16",
-        "image": "/products/B00IFYZ0FK.svg"
+        "role": "The Blister Bandages",
+        "asin": "B07TXDL4N2",
+        "name": "165 Pieces Moleskin for Feet Blisters Moleskin Tape Anti-Wear Heels Stickers Blister Prevention Pads, 11 Shapes 15 Sets",
+        "why": "Treat blisters before they become the reason you stop.",
+        "price": "$9",
+        "image": "https://m.media-amazon.com/images/I/81TuFMK7FuL._SL300_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "24-hour battery. Fits any pocket. The walk back always needs music.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Emergency Poncho",
+        "asin": "B0971VR46N",
+        "name": "USGI Industries Military Style Poncho Lightweight Tactical Multi Use Rip Stop Rain Poncho for Hiking, Hunting, Emergency",
+        "why": "Compresses to nothing, opens to full rain cover. Keep one in the pack.",
+        "price": "$15",
+        "image": "https://m.media-amazon.com/images/I/71YPhCZT4tL._SL300_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "For the views that phone cameras never quite get right. 27 honest shots.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Water Purification Tabs",
+        "asin": "B0C2JR1RYT",
+        "name": "Aquatabs 49mg Water Purification Tablets (30 Pack) - Portable Water Purifier for Camping, EPA Registered & NSF/ANSI 60 Certified",
+        "why": "Drop one tablet per liter. EPA registered. The cheap insurance.",
+        "price": "$7",
+        "image": "https://m.media-amazon.com/images/I/71v-qN6FnmL._SL300_.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Fuel",
-        "asin": "B07CZVZMXY",
-        "name": "RXBAR Whole Food Protein Bars Variety Pack (12-count)",
-        "why": "Real ingredients, no junk, no wrapper guilt. The bar that actually fills you up on trail.",
-        "price": "$25",
-        "image": "/products/B07CZVZMXY.svg"
-      },
-      {
-        "role": "The Hydration",
-        "asin": "B08MVQD88P",
-        "name": "Liquid IV Hydration Multiplier 16-count Variety Pack",
-        "why": "One packet multiplies your hydration. Mix it, drink it, keep moving.",
-        "price": "$22",
-        "image": "/products/B08MVQD88P.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Pocket-sized. Sounds great outdoors. 5-hour battery for the whole trail.",
+        "role": "The Hydration Pack",
+        "asin": "B07G9L5Q1Y",
+        "name": "Road Runner Hydration Backpack - Lightweight Water Backpack with 2L Bladder - 12L Hydration Pack for Running, Hiking, Cycling",
+        "why": "2-liter bladder, 12-liter pack. Hands stay free the whole trail.",
         "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71gEe1X8ViL._SL300_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00B5I44PY",
-        "name": "Fujifilm Instax Mini Film 20-pack",
-        "why": "Print the summit shot. Instant, physical, and it actually captures the light.",
-        "price": "$14",
-        "image": "/products/B00B5I44PY.svg"
+        "role": "The Trekking Poles",
+        "asin": "B07K361V95",
+        "name": "Montem Ultra Strong Trekking, Walking, and Hiking Poles - One Pair (2 Poles) - Collapsible, Lightweight, Quick Locking",
+        "why": "Quick-lock collapsible. Adds stability on the descents.",
+        "price": "$40",
+        "image": "https://m.media-amazon.com/images/I/71+smTiEhDL._SL300_.jpg"
+      },
+      {
+        "role": "The Trail First Aid Kit",
+        "asin": "B07Q3FVY3P",
+        "name": "Protect Life First Aid Kit - 100 Piece Compact Emergency Preparedness Kit for Home, Office, Camping, Hiking",
+        "why": "100 pieces in a compact kit. The thing you hope you never use.",
+        "price": "$17",
+        "image": "https://m.media-amazon.com/images/I/71b8p+K0mAL._SL300_.jpg"
+      },
+      {
+        "role": "The Dry Bag",
+        "asin": "B076B154J4",
+        "name": "Earth Pak Waterproof Dry Bag - 10L/20L Sizes - Transparent Bag for Beach, Swimming, Fishing, Boating, Kayaking",
+        "why": "Submersible and transparent. Phone and wallet stay dry.",
+        "price": "$20",
+        "image": "https://m.media-amazon.com/images/I/81zGkfYvKiL._SL300_.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Fuel",
-        "asin": "B08CTRVZMX",
-        "name": "RXBAR Whole Food Protein Bars Variety Pack (24-count)",
-        "why": "Stock up. You'll go back to these every weekend once you start.",
-        "price": "$38",
-        "image": "/products/B08CTRVZMX.svg"
+        "role": "The Hiking Boots Insoles",
+        "asin": "B06XPL78L4",
+        "name": "Superfeet Hike Support Insoles for Hikers with High Arch Support & Carbon Fiber Stabilizer Cap",
+        "why": "The support upgrade your boots didn't come with.",
+        "price": "$55",
+        "image": "https://m.media-amazon.com/images/I/71bXz0FLWZL._SL300_.jpg"
       },
       {
-        "role": "The Hydration",
-        "asin": "B09MVQD88Q",
-        "name": "Liquid IV Hydration Multiplier 30-count Variety Pack",
-        "why": "Enough for the whole season. Throw packets in every bag you own.",
-        "price": "$35",
-        "image": "/products/B09MVQD88Q.svg"
+        "role": "The GPS Handheld",
+        "asin": "B08HR5CXCK",
+        "name": "Garmin GPSMAP 65s, Button-Operated Handheld with Altimeter and Compass, Expanded Satellite Support, 2.6\" Color Display",
+        "why": "Dedicated GPS, no phone required. Works in every dead zone.",
+        "price": "$250",
+        "image": "https://m.media-amazon.com/images/I/71YHLFJy5GL._SL300_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip to the shoulder strap. IP67 waterproof. 10 hours. Handles any weather.",
-        "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "role": "The Solar Charger",
+        "asin": "B09H6GGK55",
+        "name": "FlexSolar 40W Foldable Solar Panel Charger with USB-C and USB-A Outputs for Phones, Power Banks - Waterproof for Camping, Hiking",
+        "why": "Foldable, 40W output. Phone topped off on every long day.",
+        "price": "$60",
+        "image": "https://m.media-amazon.com/images/I/71GKKhbpSbL._SL300_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B0CQQ6L8T5",
-        "name": "Kodak FunSaver 35mm Disposable Camera 2-Pack",
-        "why": "Two cameras, one trail. One for the views, one for the people who showed up.",
-        "price": "$32",
-        "image": "/products/B0CQQ6L8T5.svg"
+        "role": "The Ultralight Tent",
+        "asin": "B09FJY42FZ",
+        "name": "GEERTOP Lightweight 2 Person Backpacking Tent 4 Season Double Layer Waterproof Cold Weather Tent for Camping, Hiking",
+        "why": "Two-person, four-season, under 5 lbs. Sets up in 10 minutes.",
+        "price": "$75",
+        "image": "https://m.media-amazon.com/images/I/71XrSLfKD-L._SL300_.jpg"
       }
     ]
   },
   "allages_cozy": {
     "name": "Sunday Cook-Off Kit",
     "story": "Pick 3 ingredients, set the timer, everyone cooks. Aprons on, music up, and whoever finishes last does the dishes. Grab these and the competition starts itself.",
-    "editorial": "The timer is not optional \u2014 it's what makes it feel like a competition instead of Sunday dinner prep. The aprons signal that the cook-off has started.",
+    "editorial": "The timer is not optional — it's what makes it feel like a competition instead of Sunday dinner prep. The aprons signal that the cook-off has started.",
     "plan": "cozy",
     "budget": [
       {
-        "role": "The Aprons",
-        "asin": "B09FZGXHBN",
-        "name": "Disposable Chef Aprons (10-pack)",
-        "why": "Put one on and you're a chef. Take it off and you're back to regular Sunday.",
-        "price": "$12",
-        "image": "/products/B09FZGXHBN.svg"
-      },
-      {
-        "role": "The Timer",
-        "asin": "B07FLL9LGV",
-        "name": "Large Digital Kitchen Timer with Loud Alarm",
-        "why": "Visible from across the kitchen. The countdown changes the energy in the room.",
-        "price": "$12",
-        "image": "/products/B07FLL9LGV.svg"
-      },
-      {
-        "role": "The Snack Station",
-        "asin": "B0C3QG7YKF",
-        "name": "Variety Snack Pack (Chips, Crackers & Pretzels, 30-count)",
-        "why": "For the judges. And the cooks between rounds. Nobody cooks well when hungry.",
+        "role": "The Spice Sampler",
+        "asin": "B0B1QX3N61",
+        "name": "Thoughtfully Gourmet Global Spice Collection Gift Set, International Seasonings, Set of 8",
+        "why": "Eight international seasonings. The cook-off gets interesting fast.",
         "price": "$15",
-        "image": "/products/B0C3QG7YKF.svg"
+        "image": "https://m.media-amazon.com/images/I/71kVnGDBmlL._SL1500_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "Counter height, kitchen volume. The soundtrack that makes the cook-off feel real.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Kitchen Timer",
+        "asin": "B083QYS6YH",
+        "name": "2 Pack Digital Kitchen Timer for Cooking, Big Digits, Loud Alarm, Magnetic Backing Stand, White",
+        "why": "Loud alarm, big digits. The countdown that makes it feel like a competition.",
+        "price": "$11",
+        "image": "https://m.media-amazon.com/images/I/71tTTOcQcXL._SL1500_.jpg"
+      },
+      {
+        "role": "The Recipe Cards",
+        "asin": "B0BKP9WJLT",
+        "name": "Premium Recipe Cards, Double Sided 4x6 Inch Thick with Plenty of Writing Space, Set of 50 Blank Cards",
+        "why": "Write the winning recipe down. Thick cardstock, plenty of space.",
+        "price": "$10",
+        "image": "https://m.media-amazon.com/images/I/81Vy4a8TSJL._SL1500_.jpg"
+      },
+      {
+        "role": "The Apron",
+        "asin": "B01M8PHD4B",
+        "name": "Syntus 2 Pack Adjustable Bib Apron, Waterdrop Resistant with 2 Pockets, Cooking Kitchen Aprons for Women Men Chef, Black",
+        "why": "Put one on and you're officially a chef.",
+        "price": "$14",
+        "image": "https://m.media-amazon.com/images/I/61PqQzNtPWL._SL1500_.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Aprons",
-        "asin": "B08KGFXK2L",
-        "name": "Matching Family Apron Set (4-Pack, Adults + Kids)",
-        "why": "When the aprons go on, the cook-off has started. The costume is the signal.",
-        "price": "$35",
-        "image": "/products/B08KGFXK2L.svg"
-      },
-      {
-        "role": "The Kids Kitchen",
-        "asin": "B07DT7XDZ5",
-        "name": "America's Test Kitchen Kids Cookbook",
-        "why": "Written for actual young cooks, not parents pretending to supervise. Real techniques.",
-        "price": "$25",
-        "image": "/products/B07DT7XDZ5.svg"
-      },
-      {
-        "role": "The Timer",
-        "asin": "B07FLL9LGV",
-        "name": "Large Digital Kitchen Timer with Loud Alarm",
-        "why": "One hour. Visible countdown. Real stakes.",
-        "price": "$12",
-        "image": "/products/B07FLL9LGV.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Mounted on the cabinet handle. Kitchen chaos needs the right energy.",
+        "role": "The Cast Iron Skillet",
+        "asin": "B00006JSUA",
+        "name": "Lodge Seasoned Cast Iron Skillet, PFAS-Free Non-Toxic Cookware, Naturally Non-Stick & Oven Safe, 10.25 Inches",
+        "why": "Pre-seasoned, oven-safe, indestructible. The pan that outlasts everyone.",
         "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/91G5PEGIsuL._SL1500_.jpg"
+      },
+      {
+        "role": "The Chef Knife",
+        "asin": "B00WEHFU16",
+        "name": "Victorinox Fibrox Pro Chef's Knife, 8-Inch Chef's, Stainless Steel, Ergonomic Non-Slip Handle, Dishwasher Safe",
+        "why": "The knife that makes cooking faster and more enjoyable.",
+        "price": "$40",
+        "image": "https://m.media-amazon.com/images/I/61FJnAkQ1WL._SL1500_.jpg"
+      },
+      {
+        "role": "The Cooking Thermometer",
+        "asin": "B07R18W3W1",
+        "name": "ThermoPro TP19 Waterproof Digital Meat Thermometer for Grilling, Ambidextrous Backlit Instant Read for Candy, BBQ, Smoker",
+        "why": "Individually wrapped, variety pack. Nobody argues over the last one.",
+        "price": "$20",
+        "image": "https://m.media-amazon.com/images/I/71qFpKTOgOL._SL1500_.jpg"
+      },
+      {
+        "role": "The Spice Rack",
+        "asin": "B095W7GGBX",
+        "name": "SpaceAid Spice Rack Organizer with 28 Spice Jars, 386 Spice Labels, Chalk Marker and Funnel Set for Cabinet, Countertop, Black",
+        "why": "The driveway becomes a canvas. Works for every age.",
+        "price": "$37",
+        "image": "https://m.media-amazon.com/images/I/81Z3P1c2evL._SL1500_.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Aprons",
-        "asin": "B08KGFXK2L",
-        "name": "Matching Family Apron Set (4-Pack, Adults + Kids)",
-        "why": "The uniform. The whole family is a restaurant for one hour.",
-        "price": "$35",
-        "image": "/products/B08KGFXK2L.svg"
+        "role": "The Stand Mixer Attachment",
+        "asin": "B01DBGQR1K",
+        "name": "KitchenAid Stand Mixer Attachment KSMPRA 3-Piece Pasta Roller & Cutter Set, Stainless Steel",
+        "why": "Fresh pasta in 30 minutes. The attachment that makes Sunday cooking worthwhile.",
+        "price": "$75",
+        "image": "https://m.media-amazon.com/images/I/71m2PwNbJNL._SL1500_.jpg"
       },
       {
-        "role": "The Kids Kitchen",
-        "asin": "B07DT7XDZ5",
-        "name": "America's Test Kitchen Kids Cookbook",
-        "why": "The book that made our kids actually want to cook. Takes them seriously.",
-        "price": "$25",
-        "image": "/products/B07DT7XDZ5.svg"
+        "role": "The Knife Set",
+        "asin": "B00GHX5HGG",
+        "name": "HENCKELS Statement Premium Quality 15-Piece Knife Set with Block, Razor-Sharp, German Engineered, Dishwasher Safe",
+        "why": "Fifteen pieces, German steel, dishwasher safe. The full kitchen upgrade.",
+        "price": "$60",
+        "image": "https://m.media-amazon.com/images/I/81E+MHjWxFL._SL1500_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip to the cabinet. IP67 waterproof for the splatter zone. Competition needs volume.",
-        "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "role": "The Sous Vide Cooker",
+        "asin": "B0BQ93XGWC",
+        "name": "Anova Culinary Sous Vide Precision Cooker Nano 3.0, 800 Watts, WiFi Connected, Compact Design",
+        "why": "Restaurant-quality precision. WiFi connected, 800 watts.",
+        "price": "$63",
+        "image": "https://m.media-amazon.com/images/I/61S3DFzJIAL._SL1500_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "Pass it around for the plating shots. Cook-off photos always surprise you.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Dutch Oven",
+        "asin": "B000N4WN08",
+        "name": "Lodge Enameled Cast Iron Dutch Oven with Lid, Moisture-Sealing, Oven Safe to 500°F, 6 Quarts, Caribbean Blue",
+        "why": "Braise, bake, slow cook. The one pan that earns its keep.",
+        "price": "$70",
+        "image": "https://m.media-amazon.com/images/I/81D6yAT+XCL._SL1500_.jpg"
       }
     ]
   },
   "allages_celebratory": {
     "name": "Block Party Kit",
-    "story": "Card games, glow accessories, something for the cooler, and music \u2014 grab these and the block party runs itself without a single thing to assemble or return.",
+    "story": "Card games, glow accessories, something for the cooler, and music — grab these and the block party runs itself without a single thing to assemble or return.",
     "editorial": "Codenames works for every age and every group size. The glow sticks are the moment everyone remembers. Best of all: fits in a single tote bag.",
     "plan": "celebratory",
     "budget": [
       {
-        "role": "The Game",
-        "asin": "B0FJMQB63N",
-        "name": "Codenames Party Game",
-        "why": "Set it up on a table. People find it. No instruction session required.",
-        "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/81-ZhxEhSWL._SL300_.jpg"
+        "role": "The Paper Plates Bulk",
+        "asin": "B0C2CY22B8",
+        "name": "Amazon Basics Everyday Disposable Paper Plates, 8.62 Inch, Microwave-Safe, Cut Resistant, Soak-Proof, 100 Count",
+        "why": "Microwave safe, soak-proof. 100 plates, no dishes.",
+        "price": "$9",
+        "image": "https://m.media-amazon.com/images/I/71zqHQPHdWL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Atmosphere",
-        "asin": "B0BNQMFR5K",
-        "name": "300-Piece Glow Party Pack (Bracelets, Necklaces, Rings)",
-        "why": "Hand them out at dusk. Instant party. Zero setup.",
+        "role": "The Sidewalk Chalk",
+        "asin": "B08Z4GTQZH",
+        "name": "Cra-Z-Art 48 Piece Washable Triangle Sidewalk Chalk Set",
+        "why": "The driveway becomes a canvas. Works for every age.",
         "price": "$12",
-        "image": "/products/B0BNQMFR5K.svg"
+        "image": "https://m.media-amazon.com/images/I/81OjKnbP4GL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Cooler Boost",
-        "asin": "B0CTXV2N1K",
-        "name": "Kool Aid Drink Mix Singles 48-count Variety",
-        "why": "Mix in water bottles for everyone. Endless supply. Keeps the kids hydrated.",
-        "price": "$8",
-        "image": "/products/B0CTXV2N1K.svg"
+        "role": "The Bubbles Bulk",
+        "asin": "B08TMCHNBD",
+        "name": "JOYIN 36 Pcs Bubble Bottles with Wand Assortment for Kids, 4oz Blow Bubbles Solution, Party Favors",
+        "why": "Works on every age. Kids and adults both chase them.",
+        "price": "$14",
+        "image": "https://m.media-amazon.com/images/I/81yj5JDIOBL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Soundtrack",
-        "asin": "B01MTB55WH",
-        "name": "Anker Soundcore 2 Portable Bluetooth Speaker",
-        "why": "On before anyone arrives. 24-hour battery. The playlist that runs all afternoon.",
-        "price": "$28",
-        "image": "https://m.media-amazon.com/images/I/71jjggEx2XL._SL300_.jpg"
+        "role": "The Party Banner",
+        "asin": "B0D128WKHK",
+        "name": "AIBIIN 7x5ft Block Party Backdrop Banner Summer Neighborhood Photography Background BBQ Picnic Decoration Supplies",
+        "why": "Instant photo backdrop. Five seconds to hang.",
+        "price": "$11",
+        "image": "https://m.media-amazon.com/images/I/71XNS8cTUjL._AC_SL1500_.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Game",
-        "asin": "B0FJMQB63N",
-        "name": "Codenames Party Game",
-        "why": "The tournament game. Scales to 20 players without any extra equipment.",
-        "price": "$25",
-        "image": "https://m.media-amazon.com/images/I/81-ZhxEhSWL._SL300_.jpg"
+        "role": "The Outdoor Games Set",
+        "asin": "B0792LNGWC",
+        "name": "Amazon Basics Wooden Cornhole Outdoor Lawn Game Set with 8 Bean Bags",
+        "why": "The backyard standard. Plays itself once it's set up.",
+        "price": "$35",
+        "image": "https://m.media-amazon.com/images/I/81G2c0MRVUL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Atmosphere",
-        "asin": "B08LMTXF3K",
-        "name": "Confetti Poppers 24-Pack + Glow Bracelet Set",
-        "why": "Pop the cannons at the right moment. Hand out the bracelets after dark.",
+        "role": "The Bluetooth Speaker",
+        "asin": "B09GJVTRNZ",
+        "name": "JBL Flip 6 - Portable Bluetooth Speaker, Powerful Sound and Deep Bass, IPX7 Waterproof, 12 Hours of Playtime",
+        "why": "The soundtrack that sets the pace. Load the playlist before anyone arrives.",
+        "price": "$40",
+        "image": "https://m.media-amazon.com/images/I/71GBGOkxhVL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Cooler Bag",
+        "asin": "B0FFBFM1XQ",
+        "name": "Amazon Basics Leakproof Portable Soft Insulated Cooler Lunch Bag, Stays Cold for Hours, 24 Can Capacity, Gray",
+        "why": "Twenty cans of cold. Portable cooler for the court.",
+        "price": "$18",
+        "image": "https://m.media-amazon.com/images/I/71hVdQcJEeL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Folding Table Cloth",
+        "asin": "B07QX2CC6D",
+        "name": "Eleclassi White 12 Pack Premium Disposable Plastic Tablecloth 54 x 108 in for 6 or 8 Foot Rectangle Tables",
+        "why": "Fits a 6 or 8-foot table. 12 in a pack, no reuse required.",
         "price": "$20",
-        "image": "/products/B08LMTXF3K.svg"
-      },
-      {
-        "role": "The Cooler Boost",
-        "asin": "B08MVQD88P",
-        "name": "Liquid IV Hydration Multiplier 16-count Variety Pack",
-        "why": "For the crowd that's been out in the heat. One packet, one water bottle, done.",
-        "price": "$22",
-        "image": "/products/B08MVQD88P.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Plenty loud for a gathering. 5-hour battery. No one babysits it.",
-        "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71nCc5H1eDL._AC_SL1500_.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Game",
-        "asin": "B0FRFVZBTJ",
-        "name": "Ticket to Ride Board Game (2025 Refresh)",
-        "why": "The game that runs for three hours at a single table. Everybody wants in.",
-        "price": "$38",
-        "image": "https://m.media-amazon.com/images/I/81be7iLdHiL._SL300_.jpg"
+        "role": "The Canopy Tent",
+        "asin": "B078XR1CS8",
+        "name": "CROWN SHADES 10x10 Pop Up Canopy, One Push Tent Canopy with Storage Bag, 8 Stakes, 4 Ropes, White",
+        "why": "Two-person, four-season, under 5 lbs. Sets up in 10 minutes.",
+        "price": "$75",
+        "image": "https://m.media-amazon.com/images/I/81TBikHJBHL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Atmosphere",
-        "asin": "B09FDLVKF2",
-        "name": "Confetti Cannon Party Set (6-pack) + Glow Mega Pack",
-        "why": "Six cannons plus glow accessories. The two moments everyone talks about later.",
-        "price": "$25",
-        "image": "/products/B09FDLVKF2.svg"
+        "role": "The Premium Speaker",
+        "asin": "B08X4YMTPM",
+        "name": "JBL Charge 5 - Portable Waterproof Bluetooth Speaker with Powerbank USB Charge Out, 20 Hours Playtime, Black",
+        "why": "The soundtrack that sets the pace. Load the playlist before anyone arrives.",
+        "price": "$70",
+        "image": "https://m.media-amazon.com/images/I/71q5bNP80GL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Cooler Boost",
-        "asin": "B09MVQD88Q",
-        "name": "Liquid IV Hydration Multiplier 30-count Variety Pack",
-        "why": "Enough for the whole block. Throw one in every cooler you've got.",
-        "price": "$35",
-        "image": "/products/B09MVQD88Q.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip it to the table edge. IP67 waterproof. 10 hours at gathering volume.",
+        "role": "The Inflatable Games",
+        "asin": "B0BZ6MHN3C",
+        "name": "Tribello Giant Inflatable Outdoor Toys, Pool/Yard Games for Kids - 4 in A Row Inflatable Game",
+        "why": "Giant 4-in-a-row, inflatable. Instant focal point.",
         "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71QjLSgr2FL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Ice Cream Maker",
+        "asin": "B003KYSLMW",
+        "name": "Cuisinart Ice Cream Maker, 1.5 Quart Double Insulated, Sorbet and Frozen Yogurt Maker, Ready in 20 Minutes, ICE-21P1, White",
+        "why": "Ready in 20 minutes, 1.5 quart. The dessert everyone asked for.",
+        "price": "$70",
+        "image": "https://m.media-amazon.com/images/I/81ioLiXZMhL._AC_SL1500_.jpg"
       }
     ]
   },
   "allages_deep": {
     "name": "Stargazing Night Kit",
-    "story": "A star map, something warm to drink, a blanket you can actually lie on, and a camera to capture what you see. Grab these \u2014 the sky does the rest.",
+    "story": "A star map, something warm to drink, a blanket you can actually lie on, and a camera to capture what you see. Grab these — the sky does the rest.",
     "editorial": "You don't need a telescope for your first night. The planisphere teaches you more than an app, and it works without a battery. The thermos is what keeps you outside for hour three.",
     "plan": "deep",
     "budget": [
       {
-        "role": "The Map",
-        "asin": "B000MMEOIC",
-        "name": "David Chandler Planisphere (40-degree latitude)",
-        "why": "Set the date and time. It shows exactly what's overhead. The paper version that slows you down in a good way.",
+        "role": "The Planisphere Star Chart",
+        "asin": "B09HYYH66D",
+        "name": "Explore Scientific Double-Sided Multi-Latitude Planisphere Star Map Night Sky Guide for Astronomy",
+        "why": "Set the date and time. It shows exactly what's overhead tonight.",
         "price": "$15",
-        "image": "/products/B000MMEOIC.svg"
+        "image": "https://m.media-amazon.com/images/I/71ZQyMfbSbL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Warmth",
-        "asin": "B0CWP7M285",
-        "name": "Bedsure Waterproof Outdoor Blanket",
-        "why": "Waterproof bottom, fleece top. Lie on it, wrap in it. Clear nights get cold fast.",
-        "price": "$28",
-        "image": "/products/B0CWP7M285.svg"
+        "role": "The Red Flashlight",
+        "asin": "B015MRZ488",
+        "name": "Carson RedSight Red LED Flashlight for Reading Astronomy Star Maps and Preserving Night Vision (SL-22)",
+        "why": "Set the date and time. It shows exactly what's overhead tonight.",
+        "price": "$13",
+        "image": "https://m.media-amazon.com/images/I/61x3YxvkytL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Thermos",
-        "asin": "B0756LN9NH",
-        "name": "Stanley Classic Trigger-Action Travel Mug (16oz)",
-        "why": "Hot tea or cocoa at midnight. The thing that keeps you outside for the extra hour.",
-        "price": "$18",
-        "image": "/products/B0756LN9NH.svg"
+        "role": "The Constellation Cards",
+        "asin": "B0C9JWZ99F",
+        "name": "Briston Galactic Guide 88 Constellation Flashcards - Astronomy Learning Cards for Kids & Adults, Star Chart Study Set",
+        "why": "88 constellations on flashcards. Learn a few before you go out.",
+        "price": "$14",
+        "image": "https://m.media-amazon.com/images/I/81c+Oy0BGSL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Memory Maker",
-        "asin": "B00001R3W3",
-        "name": "Kodak FunSaver 35mm Disposable Camera",
-        "why": "Film is the only medium that captures how the sky actually looked. 27 shots.",
-        "price": "$18",
-        "image": "https://m.media-amazon.com/images/I/513HVzCDz4L._SL300_.jpg"
+        "role": "The Hot Cocoa",
+        "asin": "B087X1X8VD",
+        "name": "Thoughtfully Gourmet Hot Chocolate Gift Set, Flavors Include Salted Caramel, Peppermint, French Vanilla, Set of 9",
+        "why": "Warm mugs change the energy of the room.",
+        "price": "$15",
+        "image": "https://m.media-amazon.com/images/I/81r0c3LGBZL._AC_SL1500_.jpg"
       }
     ],
     "perfect": [
       {
-        "role": "The Map",
-        "asin": "B000MMEOIC",
-        "name": "David Chandler Planisphere (40-degree latitude)",
-        "why": "The analog complement to Stellarium. Navigate the sky yourself. No phone required.",
-        "price": "$15",
-        "image": "/products/B000MMEOIC.svg"
+        "role": "The Binoculars For Stargazing",
+        "asin": "B01MQVXHUM",
+        "name": "SkyGenius 10 x 50 Binoculars for Adults Powerful Full-Size, Clear Durable for Bird Watching, Stargazing with Low Light Night Vision",
+        "why": "Low-light optics, full-size. The stars get closer.",
+        "price": "$37",
+        "image": "https://m.media-amazon.com/images/I/71SizjMiMKL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Warmth",
-        "asin": "B0CWP7M285",
-        "name": "Bedsure Waterproof Outdoor Blanket",
-        "why": "Big enough for the group. Dry on the bottom. The blanket you always wish you'd brought.",
-        "price": "$28",
-        "image": "/products/B0CWP7M285.svg"
-      },
-      {
-        "role": "The Hot Drink",
-        "asin": "B00464BCUA",
-        "name": "Starbucks Via Ready Brew Instant Coffee (26-count Variety)",
-        "why": "Hot coffee at hour two. No machine. Just hot water and the stars.",
-        "price": "$18",
-        "image": "/products/B00464BCUA.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08KW1KR5H",
-        "name": "JBL Go 3 Portable Bluetooth Speaker",
-        "why": "Low volume ambient music while you wait for your eyes to dark-adapt. 5-hour battery.",
+        "role": "The Star Map Book",
+        "asin": "1108457568",
+        "name": "Turn Left at Orion: Hundreds of Night Sky Objects to See in a Home Telescope and How to Find Them, 5th Edition",
+        "why": "The astronomy guide that makes sense. Hundreds of objects, easy directions.",
         "price": "$30",
-        "image": "https://m.media-amazon.com/images/I/715ZUYP5N5L._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/81bKGMWtGTL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Telescope Eyepiece",
+        "asin": "B00006RH5I",
+        "name": "Celestron 1.25\" Eyepiece and Filter Accessory Kit - 14 Piece Telescope Accessory Set with Plossl Eyepieces, Barlow Lens, Colored Filters",
+        "why": "Fourteen pieces including Barlow lens and colored filters. The telescope upgrade kit.",
+        "price": "$38",
+        "image": "https://m.media-amazon.com/images/I/81HO7TMKMAL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Camp Chair",
+        "asin": "B09H1XGD7H",
+        "name": "SUNNYFEEL Folding Camping Chair High Back, Portable Backpacking Chairs Lightweight Collapsible with Pillow for Outdoor, Picnic, Beach",
+        "why": "High-back, pillow included, folds flat. Comfortable enough for three hours of stargazing.",
+        "price": "$40",
+        "image": "https://m.media-amazon.com/images/I/71Iy1m2-vdL._AC_SL1500_.jpg"
       }
     ],
     "splurge": [
       {
-        "role": "The Map",
-        "asin": "B000MMEOIC",
-        "name": "David Chandler Planisphere (40-degree latitude)",
-        "why": "Always start with the paper map. You'll remember constellations you navigated yourself.",
-        "price": "$15",
-        "image": "/products/B000MMEOIC.svg"
+        "role": "The Beginner Telescope",
+        "asin": "B07VY3CDG7",
+        "name": "Celestron Travel Scope 70DX Portable Refractor Telescope - 70mm Aperture, Fully-Coated Glass Optics, Phone Adapter Included",
+        "why": "Beginner scope with phone adapter. See craters on the moon first night.",
+        "price": "$70",
+        "image": "https://m.media-amazon.com/images/I/71Oj8X9VbgL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Warmth",
-        "asin": "B09VH2MW2G",
-        "name": "Packable Down Throw Blanket \u2014 Lightweight, Compressible",
-        "why": "Packs to the size of a grapefruit. Impossibly warm at midnight. Worth every penny.",
-        "price": "$45",
-        "image": "/products/B09VH2MW2G.svg"
+        "role": "The Astrophotography Adapter",
+        "asin": "B07J2GGFQB",
+        "name": "Celestron Smartphone Adapter for Telescope, Binoculars & Spotting Scopes - Capture Images & Video, Compact Metal Body",
+        "why": "Low-light optics, full-size. The stars get closer.",
+        "price": "$42",
+        "image": "https://m.media-amazon.com/images/I/61qMcNzxbgL._AC_SL1500_.jpg"
       },
       {
-        "role": "The Hot Drink",
-        "asin": "B00A3AQZZY",
-        "name": "Harney & Sons Tea Sampler 50-count",
-        "why": "Hot tea changes the experience at hour two when the temperature drops 15 degrees.",
-        "price": "$25",
-        "image": "/products/B00A3AQZZY.svg"
-      },
-      {
-        "role": "The Soundtrack",
-        "asin": "B08PJ7JMQM",
-        "name": "JBL Clip 4 Portable Bluetooth Speaker",
-        "why": "Clip to the blanket bag. Ambient music that doesn't interrupt the conversation the sky starts.",
+        "role": "The Star Projector",
+        "asin": "B0B4518KC2",
+        "name": "Northern Galaxy Light Aurora Projector with 33 Light Effects, LED Star Projector for Bedroom, Remote Control, Bluetooth Speaker",
+        "why": "Turns any wall into a screen. Setup in under 5 minutes.",
         "price": "$50",
-        "image": "https://m.media-amazon.com/images/I/712bkrVtjHL._SL300_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71w5X3kSknL._AC_SL1500_.jpg"
+      },
+      {
+        "role": "The Night Vision Monocular",
+        "asin": "B083R36S2S",
+        "name": "JStoon Digital Night Vision Monocular with Infrared Illuminator & Video Recording, 984ft Long Distance, 1080P, 32 GB SD Card",
+        "why": "984ft range, 1080P, SD card included. See what's out there after dark.",
+        "price": "$60",
+        "image": "https://m.media-amazon.com/images/I/71gxKR5GKPL._AC_SL1500_.jpg"
       }
     ]
   }
