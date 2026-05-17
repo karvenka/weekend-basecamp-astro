@@ -2163,3 +2163,33 @@ button:focus-visible {
   content: "📍";
   font-size: 0.75rem;
 }
+
+/* ============================================================
+   GOOGLE RATINGS — inline review badges
+   ============================================================ */
+.google-rating {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.4rem;
+}
+.rating-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 0.8rem;
+  color: #e8a100;
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+}
+.rating-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+.rating-count {
+  color: #888;
+  font-weight: 400;
+  font-size: 0.75rem;
+  margin-left: 2px;
+}
