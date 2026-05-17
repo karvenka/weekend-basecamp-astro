@@ -145,6 +145,21 @@ const breadcrumbItems = [
         transition: color 0.1s;
       }
       .guides-toc-link:hover { color: #CC5500; }
+      .article-body img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 2rem 0;
+      }
+      @media (max-width: 600px) {
+        .article-body img {
+          border-radius: 8px;
+          margin: 1.25rem -1.5rem;
+          max-width: calc(100% + 3rem);
+          width: calc(100% + 3rem);
+        }
+      }
       .article-body h2 { scroll-margin-top: 80px; }
       .article-body h3 { scroll-margin-top: 80px; }
     </style>
