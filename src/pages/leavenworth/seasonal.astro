@@ -1,0 +1,173 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+<BaseLayout
+  title="Leavenworth Seasonal Guide — When to Visit"
+  description="Spring wildflowers, summer river floats, fall colors and Oktoberfest, winter lights and skiing — what to expect in Leavenworth every season."
+>
+  <Header slot="header" />
+
+  <div class="sub-page">
+    <div class="container--narrow">
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/leavenworth">Leavenworth</a>
+        <span class="breadcrumb__sep">›</span>
+        <span>Seasonal Guide</span>
+      </nav>
+
+      <h1 class="sub-page__title">When to Visit Leavenworth</h1>
+      <p class="sub-page__intro">
+        There's no bad time to visit Leavenworth. That's not a cop-out — each season genuinely brings something different. Here's what to expect and when to book.
+      </p>
+
+      <!-- SPRING -->
+      <h2 class="sub-page__section-title">🌸 Spring (April–May)</h2>
+      <div class="season-block">
+        <p>The shoulder season. Wildflowers start popping on the lower trails. The town is noticeably less crowded than summer or fall, prices are lower, and you'll actually be able to walk down Front Street without playing human Frogger.</p>
+
+        <h3 class="activity__name">What's happening</h3>
+        <ul>
+          <li><strong>Maifest</strong> — Celebrates spring with Bavarian music, a Festzug parade, and dancing. Less chaotic than Oktoberfest, more locals, great energy.</li>
+          <li>Wildflowers on lower trails (Icicle Ridge, creek meadows)</li>
+          <li>Fish Hatchery juvenile salmon releases</li>
+          <li>Some higher elevation trails still have snow through May</li>
+        </ul>
+
+        <h3 class="activity__name">Weather</h3>
+        <p>Unpredictable. Can swing from 70°F to rain in the same afternoon. Layers are your friend. Pack a rain shell.</p>
+
+        <h3 class="activity__name">Why spring?</h3>
+        <p>Lower prices, fewer crowds, and a town waking up from winter. Great for couples and anyone who likes having space to breathe.</p>
+      </div>
+
+      <!-- SUMMER -->
+      <h2 class="sub-page__section-title">☀️ Summer (June–August)</h2>
+      <div class="season-block">
+        <p>Peak season. River tubing, hiking at full capacity, long golden evenings, and temperatures that regularly hit the 90s. Every restaurant patio is packed, every parking spot is contested, and the Wenatchee River is full of bobbing tubes.</p>
+
+        <h3 class="activity__name">What's happening</h3>
+        <ul>
+          <li>River tubing on the Wenatchee (July–August)</li>
+          <li>All trails open and accessible</li>
+          <li>Leavenworth Summer Theater — Broadway-style shows</li>
+          <li>Live music on patios (Yodelin Broth Co, Icicle Brewing)</li>
+          <li>Alpine Coaster and Adventure Park in full swing</li>
+          <li>Long daylight hours — sunset after 9 PM in June</li>
+        </ul>
+
+        <h3 class="activity__name">Weather</h3>
+        <p>Hot and dry. Temperatures regularly hit 85–95°F. This is the dry eastern-Washington climate — it sneaks up on Seattle folks who forget sunscreen. Evenings cool down to 50s–60s.</p>
+
+        <h3 class="activity__name">Why summer?</h3>
+        <p>Maximum outdoor activities. Best for families, groups, and anyone who wants to hike all day and float the river. Come midweek if you can — weekends are a zoo.</p>
+
+        <div class="tip">💡 Bring sunscreen and a hat. The elevation plus dry air means you'll burn faster than you expect. Hydrate aggressively on hikes.</div>
+      </div>
+
+      <!-- FALL -->
+      <h2 class="sub-page__section-title">🍂 Fall (September–October)</h2>
+      <div class="season-block">
+        <p><strong>My favorite season.</strong> The days are warm, the nights are crisp, and the fall colors in the surrounding hills are spectacular. This is when I bring friends who've never been.</p>
+
+        <h3 class="activity__name">What's happening</h3>
+        <ul>
+          <li><strong>Oktoberfest</strong> — Three weekends in October (2026: Oct 2–3, 9–10, 16–17). Three stages, beer gardens, polka bands, yodelers, a 10,000 sq ft Kinderplatz for kids. Come for the atmosphere even if you don't drink.</li>
+          <li>Fall colors peak mid-to-late October</li>
+          <li>Larch season in the Enchantments (late September–early October)</li>
+          <li>Wine tasting at its best — harvest season</li>
+          <li>Between Oktoberfest weekends is the secret sweet spot — decorated but not overrun</li>
+        </ul>
+
+        <h3 class="activity__name">Weather</h3>
+        <p>Days in the 60s–70s, nights dropping to 30s–40s. Perfect hiking weather. Bring layers for evening.</p>
+
+        <h3 class="activity__name">Why fall?</h3>
+        <p>Best weather, best colors, best energy. Oktoberfest is a blast, and the between-weekends windows are Leavenworth at its most perfect. Wine tasting hits different during harvest.</p>
+
+        <div class="tip">💡 The secret best time to visit: a Wednesday or Thursday in late September. Fall colors are starting, crowds are gone, restaurants are relaxed. You'll feel like you have the whole town to yourself.</div>
+      </div>
+
+      <!-- WINTER -->
+      <h2 class="sub-page__section-title">❄️ Winter (November–March)</h2>
+      <div class="season-block">
+        <p>Leavenworth goes full Narnia. The village transforms with over 500,000 LED lights, sleigh rides run through the snow, and the cozy factor is off the charts.</p>
+
+        <h3 class="activity__name">What's happening</h3>
+        <ul>
+          <li><strong>Christmas Lighting Festival</strong> — Starts the Friday after Thanksgiving, runs through Valentine's Day. December ceremony weekends draw huge crowds.</li>
+          <li><strong>Winter Karneval</strong> (January) — Ice carving, fireworks, a quirky energy that breaks up winter</li>
+          <li>Skiing at Stevens Pass (~35 min away)</li>
+          <li>Sleigh rides at Eagle Creek Ranch</li>
+          <li>Reindeer Farm goes all-out with Santa and Northern Lights projections</li>
+          <li>Cozy wine tasting and restaurant dining</li>
+        </ul>
+
+        <h3 class="activity__name">Weather</h3>
+        <p>Cold. Highs in the 30s, lows in the teens and 20s. Snow is common and beautiful. Dress warmly — heavier than you think. Waterproof boots are essential.</p>
+
+        <h3 class="activity__name">Driving in winter</h3>
+        <p>Stevens Pass gets serious snow. Check <a href="https://wsdot.wa.gov/travel/real-time/mountainpasses" target="_blank" rel="noopener noreferrer">WSDOT pass conditions</a> before you leave. Carry chains even with AWD — traction requirements are enforced.</p>
+
+        <h3 class="activity__name">Why winter?</h3>
+        <p>Pure magic. The lights, the snow, the fireplace-and-wine evenings. Best for couples and romantic getaways, but families love the holiday atmosphere too.</p>
+
+        <div class="tip">💡 Avoid the first two Saturdays in December (most crowded for Christmas Lighting). Mid-January through Valentine's Day has the same lights with a fraction of the people.</div>
+      </div>
+
+      <!-- FESTIVAL CALENDAR -->
+      <h2 class="sub-page__section-title">Festival Calendar</h2>
+      <div class="festival-calendar">
+        <div class="festival">
+          <span class="festival__when">May</span>
+          <div>
+            <strong>Maifest</strong> — Bavarian music, parade, dancing. Free.
+          </div>
+        </div>
+        <div class="festival">
+          <span class="festival__when">June–Aug</span>
+          <div>
+            <strong>Summer Theater</strong> — Broadway-style shows.
+          </div>
+        </div>
+        <div class="festival">
+          <span class="festival__when">October</span>
+          <div>
+            <strong>Oktoberfest</strong> — Three weekends. Book months ahead. Tickets on sale July 1.
+          </div>
+        </div>
+        <div class="festival">
+          <span class="festival__when">Nov–Feb</span>
+          <div>
+            <strong>Christmas Lighting Festival</strong> — 500,000+ LED lights. Free.
+          </div>
+        </div>
+        <div class="festival">
+          <span class="festival__when">January</span>
+          <div>
+            <strong>Winter Karneval</strong> — Ice carving, fireworks. Free.
+          </div>
+        </div>
+      </div>
+
+      <!-- BOTTOM LINE -->
+      <h2 class="sub-page__section-title">The Bottom Line</h2>
+      <p>Late September through mid-October for the best weather, fall colors, and Oktoberfest energy. December for winter magic. Summer for hiking and river fun. Each season has its thing — there's genuinely no bad time, but mid-October is my personal sweet spot.</p>
+
+      <div class="related-pages">
+        <p class="related-pages__label">Continue exploring Leavenworth</p>
+        <div class="related-pages__links">
+          <a href="/leavenworth/things-to-do">Things to Do →</a>
+          <a href="/leavenworth/restaurants">Where to Eat →</a>
+          <a href="/leavenworth/where-to-stay">Where to Stay →</a>
+          <a href="/leavenworth/getting-there">Getting There →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

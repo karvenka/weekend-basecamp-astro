@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+<BaseLayout
+  title="Where to Stay in Leavenworth, WA"
+  description="Camping, vacation rentals, and splurge-worthy resorts in Leavenworth — from $30/night to $1,000/night, reviewed by a local."
+>
+  <Header slot="header" />
+
+  <div class="sub-page">
+    <div class="container--narrow">
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/leavenworth">Leavenworth</a>
+        <span class="breadcrumb__sep">›</span>
+        <span>Where to Stay</span>
+      </nav>
+
+      <h1 class="sub-page__title">Where to Stay in Leavenworth</h1>
+      <p class="sub-page__intro">
+        Where you stay completely changes the Leavenworth experience. Walking distance from Front Street means you can wander back from dinner under the string lights at 10 PM instead of driving. Here's every option worth considering, from sleeping bags to luxury spas.
+      </p>
+
+      <!-- BUDGET -->
+      <h2 class="sub-page__section-title" id="budget">Budget: Camping ($30–$50/night)</h2>
+
+      <div class="activity">
+        <h3 class="activity__name">Icicle River RV Resort &amp; Campgrounds</h3>
+        <p>Campgrounds along Icicle Road put you right on the water. You'll wake up to the sound of Icicle Creek, which is the best alarm clock money can't buy. National Forest campgrounds nearby are even more rustic and affordable. First-come, first-served fills up fast on summer weekends — get there Friday afternoon or book ahead where possible.</p>
+        <div class="tip">💡 Even if you're not a camper, a one-night tent stay along Icicle Creek is an experience worth trying. The stars from the campground are incredible.</div>
+      </div>
+
+      <!-- MID-RANGE -->
+      <h2 class="sub-page__section-title" id="mid">Mid-Range: Vacation Rentals &amp; Condos ($150–$300/night)</h2>
+
+      <div class="activity">
+        <h3 class="activity__name">Village Vacation Rentals</h3>
+        <p>The village area is full of condos and cabins on <a href="https://www.airbnb.com/s/Leavenworth--WA/homes" target="_blank" rel="noopener noreferrer">Airbnb</a> and Vrbo, typically sleeping 4–6 guests. This is the sweet spot for most visitors — you get a kitchen (breakfast without restaurant waits), a living room (decompression after hiking), and usually a fireplace or deck with mountain views.</p>
+        <p>The key is location: <strong>stay within walking distance of Front Street.</strong> It transforms the whole experience when you can walk back from dinner instead of driving. Properties in the village core, off Commercial Street, or along the Wenatchee River are ideal.</p>
+        <div class="tip">💡 Look for places that include a local recommendations binder or guide — the best hosts curate restaurant picks, parking tips, and trail suggestions that go beyond what Google tells you.</div>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">What to Look For</h3>
+        <ul class="sub-page__tips-list">
+          <li><strong>Walking distance to Front Street</strong> — this is the #1 factor. Don't book a place 10 minutes outside town unless you want to drive every time you want food.</li>
+          <li><strong>Kitchen</strong> — breakfast at the condo, coffee on the deck, then walk to town when you're ready. No rush.</li>
+          <li><strong>Fireplace or fire pit</strong> — especially for fall and winter stays. Nothing beats a fire after a day of hiking.</li>
+          <li><strong>Parking included</strong> — some village rentals include a dedicated spot, which is gold on busy weekends.</li>
+        </ul>
+      </div>
+
+      <!-- SPLURGE -->
+      <h2 class="sub-page__section-title" id="splurge">Splurge: Resorts &amp; Hotels</h2>
+
+      <div class="activity">
+        <h3 class="activity__name">Sleeping Lady Mountain Resort</h3>
+        <p class="activity__meta">💰 From ~$160/night</p>
+        <p>Sits along Icicle Creek with an outdoor pool, spa, and art installations scattered around wooded grounds. The vibe is rustic-luxe — think exposed timber, creek-side paths, and a quietness that's hard to find in the village itself. Great for couples looking for something a step above a vacation rental without going full luxury.</p>
+        <div class="tip">💡 Ask for a creekside room. The sound of the water is worth the upgrade.</div>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">Posthotel</h3>
+        <p class="activity__meta">💰 From ~$1,000/night · Adults only</p>
+        <p>The ultimate splurge. European-style wellness with saunas, a saltwater pool, plunge pools, spa treatments, and a breakfast spread that includes house-baked scones and Austrian dishes. If you've ever wanted a European spa weekend without the flight, this is it. Adults only, so it's genuinely peaceful.</p>
+        <div class="tip">💡 Book a midweek stay if budget allows — same experience, lower rates, and you'll have the pools and saunas practically to yourself.</div>
+      </div>
+
+      <!-- GENERAL TIPS -->
+      <h2 class="sub-page__section-title">Booking Tips</h2>
+      <ul class="sub-page__tips-list">
+        <li><strong>Festival weekends book months ahead.</strong> Oktoberfest and Christmas Lighting weekends sell out fast. If you know your dates, book as early as possible.</li>
+        <li><strong>Midweek stays are significantly cheaper.</strong> Wednesday–Thursday stays can be 30–50% less than Friday–Saturday.</li>
+        <li><strong>Day trip vs. overnight:</strong> You can do Leavenworth as a day trip from Seattle, but staying overnight is the move. The town at night — lit up with string lights, without the day-trip crowds — is a completely different experience. Sunrise from Waterfront Park with a coffee is worth the extra $150 for a rental.</li>
+        <li><strong>Two-night minimum is common</strong> on weekends at most rentals, especially in peak season. Plan accordingly.</li>
+      </ul>
+
+      <div class="related-pages">
+        <p class="related-pages__label">Continue exploring Leavenworth</p>
+        <div class="related-pages__links">
+          <a href="/leavenworth/things-to-do">Things to Do →</a>
+          <a href="/leavenworth/restaurants">Where to Eat →</a>
+          <a href="/leavenworth/seasonal">Seasonal Guide →</a>
+          <a href="/leavenworth/getting-there">Getting There →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

@@ -1,0 +1,197 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+<BaseLayout
+  title="Where to Eat in Leavenworth, WA"
+  description="Every restaurant worth your time in Leavenworth — from bratwurst in the beer garden to a multi-course tasting menu. Reviewed by a local."
+>
+  <Header slot="header" />
+
+  <div class="sub-page">
+    <div class="container--narrow">
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/leavenworth">Leavenworth</a>
+        <span class="breadcrumb__sep">›</span>
+        <span>Where to Eat</span>
+      </nav>
+
+      <h1 class="sub-page__title">Where to Eat in Leavenworth</h1>
+      <p class="sub-page__intro">
+        Leavenworth has no business having food this good. A town of 2,000 people with a tasting-menu restaurant, wood-fired pizza, Mexican food that slaps, and the best jalapeño biscuit sandwich in Washington state. Here's every spot I actually go back to.
+      </p>
+
+      <!-- QUICK BITES -->
+      <h2 class="sub-page__section-title" id="quick">Quick Bites &amp; Beer Gardens</h2>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">München Haus</h3>
+          <span class="restaurant__price">$</span>
+        </div>
+        <p class="restaurant__meta">📍 709 Front St · German sausages &amp; beer garden</p>
+        <p class="restaurant__vibe">The iconic Leavenworth experience. Outdoor picnic tables, massive sausage selection, craft beer on tap, twinkling lights. It's not fancy. It's not trying to be.</p>
+        <p class="restaurant__best-for">👫 Everyone — families, couples, groups, solo</p>
+        <p class="restaurant__order">🍽️ <strong>Order this:</strong> Jalapeño cheddar sausage with house-made sauerkraut. Skip the basic bratwurst — you came all this way to be boring?</p>
+      </div>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">Yodelin Broth Co</h3>
+          <span class="restaurant__price">$$</span>
+        </div>
+        <p class="restaurant__meta">📍 633 Front St · Broth bowls &amp; beer garden</p>
+        <p class="restaurant__vibe">Don't let the name fool you — this isn't just broth. Their curry-infused noodle bowl with king oyster mushrooms is a full, deeply flavorful meal. Patio has mountain views and live music on summer weekends.</p>
+        <p class="restaurant__best-for">👫 Couples, solo, lighter meal seekers</p>
+        <p class="restaurant__order">🍽️ <strong>Order this:</strong> The Yodelin broth bowl with a side of fresh baguette for dipping.</p>
+      </div>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">Tumwater Bread &amp; Pizza</h3>
+          <span class="restaurant__price">$$</span>
+        </div>
+        <p class="restaurant__meta">📍 Downtown · Wood-fired pizza &amp; artisan bread</p>
+        <p class="restaurant__vibe">When you want a break from schnitzel but don't want a sit-down experience. Crispy wood-fired pizzas made in front of you. The bread is excellent.</p>
+        <p class="restaurant__best-for">👫 Families, quick lunch, casual</p>
+        <p class="restaurant__order">🍽️ <strong>Order this:</strong> Any specialty pizza. Take a loaf of sourdough for the drive home.</p>
+      </div>
+
+      <!-- SIT-DOWN DINNER -->
+      <h2 class="sub-page__section-title" id="dinner">Sit-Down Dinner</h2>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">Andreas Keller</h3>
+          <span class="restaurant__price">$$</span>
+        </div>
+        <p class="restaurant__meta">📍 829 Front St (lower level) · Traditional German</p>
+        <p class="restaurant__vibe">A cellar restaurant with live accordion music, schnitzel the size of your head, and a cozy, slightly rowdy atmosphere. Serving authentic Bavarian food since 1989.</p>
+        <p class="restaurant__best-for">👫 Groups, couples, families with older kids</p>
+        <p class="restaurant__order">🍽️ <strong>Order this:</strong> The beef goulash and a boot of beer. The schnitzel is also a winner, but the goulash is what keeps me coming back.</p>
+        <div class="tip">No reservations needed. Expect a wait on Saturday evenings.</div>
+      </div>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">Visconti's Italian</h3>
+          <span class="restaurant__price">$$$</span>
+        </div>
+        <p class="restaurant__meta">📍 636 Front St · Italian/Pacific Northwest</p>
+        <p class="restaurant__vibe">The best dinner in town, full stop. Wood-fired oven, house-made pasta, Wine Spectator Best of Award of Excellence. Opens at 3 PM for dinner.</p>
+        <p class="restaurant__best-for">👫 Couples, date night, special occasions</p>
+        <p class="restaurant__order">🍽️ <strong>Order this:</strong> Start with sautéed calamari, then wood oven clams or veal piccata. The tiramisu is worth saving room for. Trust the servers' wine pairing recommendations.</p>
+        <div class="tip">⚠️ Reservation required on weekends. Book ahead.</div>
+      </div>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">South</h3>
+          <span class="restaurant__price">$$</span>
+        </div>
+        <p class="restaurant__meta">📍 Front Street · Mexican/Latin-inspired</p>
+        <p class="restaurant__vibe">The break from German food you didn't know you needed. Tacos, enchiladas, margaritas that have no business being this good in a Bavarian village. Lively atmosphere.</p>
+        <p class="restaurant__best-for">👫 Groups, families, anyone craving variety</p>
+        <p class="restaurant__order">🍽️ <strong>Order this:</strong> Carnitas tacos and a margarita. Green chicken enchiladas with roasted tomatillo sauce is the backup pick.</p>
+      </div>
+
+      <!-- COFFEE & BREAKFAST -->
+      <h2 class="sub-page__section-title" id="breakfast">Coffee &amp; Breakfast</h2>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">Argonaut Coffee &amp; Biscuits</h3>
+          <span class="restaurant__price">$</span>
+        </div>
+        <p class="restaurant__meta">📍 Downtown · Breakfast &amp; coffee</p>
+        <p class="restaurant__vibe">The best breakfast in Leavenworth. Flaky, spicy jalapeño cheddar biscuit sandwiches. Great espresso. The line is long on weekends but worth it. Cozy without being pretentious.</p>
+        <p class="restaurant__best-for">👫 Everyone — essential first stop</p>
+        <p class="restaurant__order">🍽️ <strong>Order this:</strong> The jalapeño biscuit breakfast sandwich. Get there early — they sell out of biscuits.</p>
+      </div>
+
+      <!-- DRINKS -->
+      <h2 class="sub-page__section-title" id="drinks">Drinks</h2>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">Icicle Brewing Company</h3>
+          <span class="restaurant__price">$$</span>
+        </div>
+        <p class="restaurant__meta">📍 935 Front St · Craft beer &amp; pub food</p>
+        <p class="restaurant__vibe">Over two dozen beers brewed on-site with water from Icicle Creek. Dog-friendly patio with fire pits and mountain views.</p>
+        <p class="restaurant__best-for">👫 Groups, couples, beer lovers</p>
+        <p class="restaurant__order">🍽️ <strong>Order this:</strong> Dragontail IPA with a Bavarian pretzel. Try the Dark Persuasion if you're feeling adventurous — it's a German chocolate cake ale you won't expect to like and then order twice.</p>
+      </div>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">Icicle Ridge Winery</h3>
+          <span class="restaurant__price">$</span>
+        </div>
+        <p class="restaurant__meta">📍 920 Front St · Wine tasting</p>
+        <p class="restaurant__vibe">Right on Front Street with a cozy tasting room. The pear wine is excellent. Open until 9 PM Friday and Saturday nights — a great way to start an evening.</p>
+        <p class="restaurant__best-for">👫 Couples, girls' weekend</p>
+        <p class="restaurant__order">🍽️ <strong>Try:</strong> Pear wine and any seasonal red.</p>
+      </div>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">Kestrel Vintners</h3>
+          <span class="restaurant__price">$</span>
+        </div>
+        <p class="restaurant__meta">📍 843 Front St · Wine tasting</p>
+        <p class="restaurant__vibe">26 varieties and five wines for $5. Hard to beat that value. Casual and welcoming.</p>
+        <p class="restaurant__best-for">👫 Budget-friendly wine exploring</p>
+      </div>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">Silvara Cellars</h3>
+          <span class="restaurant__price">$$</span>
+        </div>
+        <p class="restaurant__meta">📍 77 Stage Rd (short drive) · Wine tasting &amp; cheese pairings</p>
+        <p class="restaurant__vibe">A more elevated experience. Award-winning wines, cheese pairings, and views of the Wenatchee River that make you want to quit your job and become a vintner.</p>
+        <p class="restaurant__best-for">👫 Couples, girls' weekend, special occasions</p>
+      </div>
+
+      <!-- SPLURGE -->
+      <h2 class="sub-page__section-title" id="splurge">The Splurge</h2>
+
+      <div class="restaurant">
+        <div class="restaurant__header">
+          <h3 class="restaurant__name">Mana</h3>
+          <span class="restaurant__price">$$$$</span>
+        </div>
+        <p class="restaurant__meta">📍 1033 Commercial St · Farm-to-table tasting menu</p>
+        <p class="restaurant__vibe">Single-seating, multi-course tasting menu using wild-crafted, seasonal ingredients. Not German. Not what you'd expect. One of the best meals in Washington state. This is for a special occasion — or honestly, going to Mana is special enough to make it an occasion.</p>
+        <p class="restaurant__best-for">👫 Couples, foodie groups, celebrations</p>
+        <p class="restaurant__order">🍽️ <strong>Order this:</strong> Whatever the chef's preparing. That's the whole point. Just trust it.</p>
+        <div class="tip">⚠️ Book well in advance. Limited reservations.</div>
+      </div>
+
+      <!-- INSIDER TIPS -->
+      <h2 class="sub-page__section-title">Insider Tips</h2>
+      <ul class="sub-page__tips-list">
+        <li><strong>Reservations vs. walk-in:</strong> Visconti's and Mana require reservations on weekends. München Haus, Andreas Keller, South, and Yodelin are walk-in friendly, though expect waits on Saturday evenings.</li>
+        <li><strong>Picnic hack:</strong> Cheesemonger's Shop picnic board + Icicle Ridge wine + Waterfront Park. Perfect afternoon, under $30.</li>
+        <li><strong>Best breakfast strategy:</strong> Argonaut first, then walk Front Street while it's empty.</li>
+        <li><strong>What to skip:</strong> The "Bavarian" candy shops selling the same taffy you find at every tourist town. Put that money toward a tasting.</li>
+      </ul>
+
+      <div class="related-pages">
+        <p class="related-pages__label">Continue exploring Leavenworth</p>
+        <div class="related-pages__links">
+          <a href="/leavenworth/things-to-do">Things to Do →</a>
+          <a href="/leavenworth/where-to-stay">Where to Stay →</a>
+          <a href="/leavenworth/seasonal">Seasonal Guide →</a>
+          <a href="/leavenworth/getting-there">Getting There →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

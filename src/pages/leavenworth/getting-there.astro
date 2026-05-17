@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+<BaseLayout
+  title="Getting to Leavenworth, WA from Seattle"
+  description="Driving routes, parking tips, winter driving advice, and when to leave Seattle for Leavenworth — by someone who makes the drive 15+ times a year."
+>
+  <Header slot="header" />
+
+  <div class="sub-page">
+    <div class="container--narrow">
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/leavenworth">Leavenworth</a>
+        <span class="breadcrumb__sep">›</span>
+        <span>Getting There</span>
+      </nav>
+
+      <h1 class="sub-page__title">Getting to Leavenworth</h1>
+      <p class="sub-page__intro">
+        I make this drive 15+ times a year. I have opinions about when to leave, which route to take, and where to stop. Here's everything you need to know.
+      </p>
+
+      <!-- THE DRIVE -->
+      <h2 class="sub-page__section-title">The Drive from Seattle</h2>
+
+      <div class="activity">
+        <h3 class="activity__name">The Main Route: US-2 over Stevens Pass</h3>
+        <p class="activity__meta">📍 ~120 miles · ⏱ 2–3.5 hours depending on traffic</p>
+        <p>Take US-2 east from Everett through Monroe, Sultan, and Skykomish, then over Stevens Pass. The road is beautiful — old-growth forest, river valleys, and mountain passes. In ideal conditions, it's a 2-hour drive. In reality, traffic and weather can push it to 3.5 hours.</p>
+
+        <h3 class="activity__name">When to Leave</h3>
+        <ul>
+          <li><strong>Before 7 AM Saturday</strong> — roughly 2 hours. The road is yours.</li>
+          <li><strong>9 AM Saturday</strong> — you're sitting in Sultan traffic wondering why you didn't leave at 7.</li>
+          <li><strong>Friday after work</strong> — leave by 3 PM or you'll hate everything.</li>
+          <li><strong>Sunday return</strong> — leave Leavenworth by 2 PM to avoid the westbound crush over Stevens Pass. After 4 PM is miserable.</li>
+        </ul>
+
+        <div class="tip">💡 I will die on this hill: US-2 is the right route. Some people suggest I-90 to Highway 97 (through Cle Elum). It's longer, it's less scenic, and you still end up in traffic. US-2, early morning, end of discussion.</div>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">Stops Along the Way</h3>
+        <ul>
+          <li><strong>Sultan</strong> — Last stop for cheap gas and fast food before the mountains. Fill up here.</li>
+          <li><strong>Skykomish</strong> — A few places to stretch your legs if you need a break. The Cascadia Inn does decent food.</li>
+          <li><strong>Stevens Pass</strong> — If you're a skier, note the turnoff. Otherwise, keep driving — Leavenworth is 35 minutes past the summit.</li>
+        </ul>
+      </div>
+
+      <!-- PARKING -->
+      <h2 class="sub-page__section-title">Parking in Town</h2>
+
+      <div class="activity">
+        <p>The main lots near Front Street fill up fast on weekends. Here's the strategy:</p>
+        <ul>
+          <li><strong>The lot by the Festhalle fills first.</strong> Don't even try it after 10 AM on a Saturday.</li>
+          <li><strong>Residential streets south of Front Street</strong> — legal and usually have spots when the main lots are full. This is where locals park.</li>
+          <li><strong>Festival weekends</strong> — they run shuttle parking from outlying lots. Use it. Driving around looking for a spot on Oktoberfest weekend is a special kind of misery.</li>
+          <li><strong>Arrive before 10 AM</strong> on a regular weekend and parking is a non-issue.</li>
+          <li><strong>Weekdays?</strong> Park wherever you want. The town is yours.</li>
+        </ul>
+        <div class="tip">💡 If you're staying at a vacation rental within walking distance of Front Street, park once and don't move your car until you leave. Walk everything.</div>
+      </div>
+
+      <!-- WINTER DRIVING -->
+      <h2 class="sub-page__section-title">Winter Driving</h2>
+
+      <div class="activity">
+        <p>Stevens Pass gets serious snow. This is not optional advice — this is "you will get stuck or fined if you ignore it" advice.</p>
+        <ul>
+          <li><strong>Check <a href="https://wsdot.wa.gov/travel/real-time/mountainpasses" target="_blank" rel="noopener noreferrer">WSDOT pass conditions</a> before you leave.</strong> Every time. No exceptions.</li>
+          <li><strong>Carry chains even with AWD.</strong> Traction requirements are enforced and the fine for not carrying chains is more annoying than just buying the $40 chains.</li>
+          <li><strong>Drive slow.</strong> Leave extra following distance. Don't be the person sliding off the road because you were texting.</li>
+          <li><strong>AWD or 4WD recommended</strong> November through March. Front-wheel drive with chains works but adds stress.</li>
+          <li><strong>Give yourself extra time.</strong> A 2-hour summer drive can become 3.5+ hours in winter conditions.</li>
+        </ul>
+        <div class="tip">💡 Keep a winter kit in your car: chains, blanket, flashlight, snacks, phone charger. If the pass closes while you're on it, you could be sitting for hours.</div>
+      </div>
+
+      <!-- DAY TRIP VS OVERNIGHT -->
+      <h2 class="sub-page__section-title">Day Trip vs. Overnight?</h2>
+
+      <div class="activity">
+        <p><strong>Day trip works.</strong> Leave early (before 8 AM), and you'll have a full day for Front Street, a short hike, lunch, wine tasting, and the drive home.</p>
+        <p><strong>But overnight is the move.</strong> The town at night — lit up with string lights, without the day-trip crowds — is a completely different experience. Sunrise from Waterfront Park with a coffee is worth the extra $150 for a rental. You also avoid the stressful timed departure ("we need to leave by 3 or traffic will be terrible").</p>
+        <p>My recommendation: first visit, stay one night. You'll know immediately if you want to come back for a full weekend. (Spoiler: you will.)</p>
+      </div>
+
+      <!-- CELL SERVICE -->
+      <h2 class="sub-page__section-title">Cell Service &amp; Practical Notes</h2>
+      <ul class="sub-page__tips-list">
+        <li><strong>Cell service:</strong> Coverage is decent in town (T-Mobile and Verizon work fine) but gets spotty on Icicle Road and non-existent on most trails. Download offline maps before you hike.</li>
+        <li><strong>Cash:</strong> Some smaller shops and the farmer's market are cash-only or cash-preferred. ATMs on Front Street have tourist-trap fees. Bring some cash.</li>
+        <li><strong>Gas:</strong> Fill up in Sultan on the way there. Gas in Leavenworth is fine but pricier than the lowlands.</li>
+        <li><strong>Dogs:</strong> Leavenworth is very dog-friendly. Most patios allow dogs, Blackbird Island is great for walks, and Icicle Brewing's patio welcomes pups by the fire pits.</li>
+      </ul>
+
+      <div class="related-pages">
+        <p class="related-pages__label">Continue exploring Leavenworth</p>
+        <div class="related-pages__links">
+          <a href="/leavenworth/things-to-do">Things to Do →</a>
+          <a href="/leavenworth/restaurants">Where to Eat →</a>
+          <a href="/leavenworth/where-to-stay">Where to Stay →</a>
+          <a href="/leavenworth/seasonal">Seasonal Guide →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

@@ -1584,3 +1584,467 @@ button:focus-visible {
 .mobile-nav-drawer__link--sub:hover {
   color: #fff !important;
 }
+
+
+/* ============================================================
+   DESTINATION HUB — /leavenworth/ landing page
+   ============================================================ */
+.hub-hero {
+  position: relative;
+  min-height: 280px;
+  background-size: cover;
+  background-position: center 40%;
+  display: flex;
+  align-items: flex-end;
+}
+.hub-hero__overlay {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 60%, transparent 100%);
+  padding: 3rem 1rem 1.5rem;
+}
+.hub-hero__inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.hub-hero__label {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #CC5500;
+  background: rgba(255,255,255,0.15);
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin: 0 0 0.5rem;
+  backdrop-filter: blur(4px);
+}
+.hub-hero__title {
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+  font-weight: 900;
+  color: #fff;
+  margin: 0 0 0.25rem;
+  line-height: 1.1;
+}
+.hub-hero__subtitle {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+  margin: 0;
+  line-height: 1.4;
+}
+@media (min-width: 640px) {
+  .hub-hero { min-height: 340px; }
+  .hub-hero__overlay { padding: 4rem 1.5rem 2rem; }
+}
+
+/* Hub quick nav pills */
+.hub-nav {
+  background: #fff;
+  border-bottom: 1px solid #e8dfd3;
+  position: sticky;
+  top: 56px;
+  z-index: 50;
+}
+.hub-nav__track {
+  display: flex;
+  gap: 6px;
+  padding: 10px 1rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.hub-nav__track::-webkit-scrollbar { display: none; }
+.hub-nav__pill {
+  flex-shrink: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid #d5cdc0;
+  background: #fff;
+  color: #4a3f35;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.hub-nav__pill:hover,
+.hub-nav__pill:focus {
+  background: #CC5500;
+  border-color: #CC5500;
+  color: #fff;
+}
+@media (min-width: 640px) {
+  .hub-nav__track { padding: 10px 1.5rem; justify-content: center; }
+}
+
+/* Hub intro text */
+.hub-intro {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4a3f35;
+  max-width: 650px;
+  margin: 0;
+}
+
+/* Hub sub-guide cards */
+.hub-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+@media (min-width: 480px) {
+  .hub-cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 768px) {
+  .hub-cards { grid-template-columns: repeat(3, 1fr); }
+}
+.hub-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  border: 1px solid #e8dfd3;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+.hub-card:hover,
+.hub-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  border-color: #CC5500;
+}
+.hub-card__emoji {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.hub-card__title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 0.15rem;
+  color: #1a1a1a;
+  line-height: 1.2;
+}
+.hub-card__desc {
+  font-size: 0.8rem;
+  color: #6b5c4c;
+  margin: 0;
+  line-height: 1.3;
+}
+.hub-card__arrow {
+  margin-left: auto;
+  color: #CC5500;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+.hub-card--coming {
+  opacity: 0.55;
+  cursor: default;
+}
+.hub-card--coming:hover,
+.hub-card--coming:focus-visible {
+  transform: none;
+  box-shadow: none;
+  border-color: #e8dfd3;
+}
+.hub-card__soon {
+  margin-left: auto;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #999;
+  flex-shrink: 0;
+}
+.hub-coming-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #999;
+  margin: 1.5rem 0 0.75rem;
+}
+
+/* Hub facts strip */
+.hub-facts {
+  background: #1a1a1a;
+  padding: 1rem 0;
+}
+.hub-facts__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.hub-facts__item {
+  font-size: 0.8rem;
+  color: #b0a090;
+  white-space: nowrap;
+}
+
+/* Hub full guide link */
+.hub-full-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #CC5500;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #CC5500;
+  border-radius: 8px;
+  transition: background 0.15s, color 0.15s;
+}
+.hub-full-link:hover {
+  background: #CC5500;
+  color: #fff;
+}
+
+/* ============================================================
+   SUB-PAGES — /leavenworth/things-to-do, /restaurants, etc.
+   ============================================================ */
+.sub-page {
+  padding: 1.5rem 0 3rem;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 1.5rem;
+}
+.breadcrumb a {
+  color: #CC5500;
+  text-decoration: none;
+}
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb__sep {
+  margin: 0 0.4rem;
+  color: #ccc;
+}
+
+/* Sub-page headings */
+.sub-page__title {
+  font-size: clamp(1.5rem, 4vw, 2.2rem);
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 0 0 0.75rem;
+  line-height: 1.15;
+}
+.sub-page__intro {
+  font-size: 1rem;
+  color: #4a3f35;
+  line-height: 1.7;
+  max-width: 650px;
+  margin: 0 0 2rem;
+}
+.sub-page__section-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 2.5rem 0 0.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8dfd3;
+}
+.sub-page__section-title:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+.sub-page__section-intro {
+  font-size: 0.95rem;
+  color: #6b5c4c;
+  margin: 0 0 1.25rem;
+  line-height: 1.5;
+}
+
+/* Activity blocks */
+.activity {
+  margin-bottom: 2rem;
+}
+.activity__name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin: 0 0 0.25rem;
+}
+.activity__meta {
+  font-size: 0.8rem;
+  color: #888;
+  margin: 0 0 0.5rem;
+}
+.activity p,
+.activity ul {
+  font-size: 0.95rem;
+  color: #4a3f35;
+  line-height: 1.65;
+  margin: 0 0 0.75rem;
+}
+.activity ul {
+  padding-left: 1.25rem;
+}
+.activity li {
+  margin-bottom: 0.4rem;
+}
+
+/* Insider tip box */
+.tip {
+  background: #fef9f2;
+  border-left: 3px solid #CC5500;
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  color: #4a3f35;
+  line-height: 1.5;
+  border-radius: 0 8px 8px 0;
+  margin-top: 0.5rem;
+}
+.tip a {
+  color: #CC5500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Restaurant blocks */
+.restaurant {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #f0ebe3;
+}
+.restaurant:last-child {
+  border-bottom: none;
+}
+.restaurant__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.15rem;
+}
+.restaurant__name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin: 0;
+}
+.restaurant__price {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #CC5500;
+  white-space: nowrap;
+}
+.restaurant__meta {
+  font-size: 0.8rem;
+  color: #888;
+  margin: 0 0 0.5rem;
+}
+.restaurant__vibe {
+  font-size: 0.95rem;
+  color: #4a3f35;
+  line-height: 1.6;
+  margin: 0 0 0.4rem;
+}
+.restaurant__best-for {
+  font-size: 0.8rem;
+  color: #6b5c4c;
+  margin: 0 0 0.4rem;
+}
+.restaurant__order {
+  font-size: 0.9rem;
+  color: #4a3f35;
+  line-height: 1.5;
+  margin: 0 0 0.4rem;
+}
+
+/* Tips list */
+.sub-page__tips-list {
+  padding-left: 1.25rem;
+  margin: 0 0 1.5rem;
+}
+.sub-page__tips-list li {
+  font-size: 0.95rem;
+  color: #4a3f35;
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+}
+
+/* Season blocks */
+.season-block {
+  margin-bottom: 1rem;
+}
+.season-block p,
+.season-block ul {
+  font-size: 0.95rem;
+  color: #4a3f35;
+  line-height: 1.65;
+  margin: 0 0 0.75rem;
+}
+.season-block ul {
+  padding-left: 1.25rem;
+}
+.season-block li {
+  margin-bottom: 0.4rem;
+}
+
+/* Festival calendar */
+.festival-calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+.festival {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  font-size: 0.9rem;
+  color: #4a3f35;
+  line-height: 1.5;
+}
+.festival__when {
+  flex-shrink: 0;
+  width: 70px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #CC5500;
+  padding-top: 2px;
+}
+
+/* Related pages footer */
+.related-pages {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8dfd3;
+}
+.related-pages__label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #888;
+  margin: 0 0 0.75rem;
+}
+.related-pages__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.related-pages__links a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #CC5500;
+  text-decoration: none;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid #e8dfd3;
+  border-radius: 8px;
+  transition: background 0.15s, border-color 0.15s;
+}
+.related-pages__links a:hover {
+  background: #fef9f2;
+  border-color: #CC5500;
+}

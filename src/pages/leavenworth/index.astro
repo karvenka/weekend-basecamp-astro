@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const subGuides = [
+  {
+    emoji: "🥾",
+    title: "Things to Do",
+    desc: "Free hikes, paid adventures, and the stuff locals actually do",
+    href: "/leavenworth/things-to-do"
+  },
+  {
+    emoji: "🍽️",
+    title: "Where to Eat",
+    desc: "Every restaurant worth your time, from bratwurst to tasting menus",
+    href: "/leavenworth/restaurants"
+  },
+  {
+    emoji: "🏨",
+    title: "Where to Stay",
+    desc: "Camping, condos, and the splurge-worthy resorts",
+    href: "/leavenworth/where-to-stay"
+  },
+  {
+    emoji: "🌸",
+    title: "Seasonal Guide",
+    desc: "What to expect spring, summer, fall, and winter",
+    href: "/leavenworth/seasonal"
+  },
+  {
+    emoji: "🚗",
+    title: "Getting There",
+    desc: "Routes, parking, winter driving, and when to leave Seattle",
+    href: "/leavenworth/getting-there"
+  }
+];
+
+const comingSoon = [
+  { emoji: "👶", title: "With Kids", desc: "Stroller-friendly, snack-stop approved" },
+  { emoji: "💑", title: "Romantic Weekend", desc: "Wine, walks, dinner for two" },
+  { emoji: "🍻", title: "Group Trip", desc: "Big tables, cabins, and activities for 6+" },
+];
+---
+<BaseLayout
+  title="Leavenworth, WA — A Local's Guide"
+  description="I own a place in Leavenworth and visit 15+ times a year. Restaurants, hikes, where to stay, seasonal tips — everything you need for the perfect weekend."
+>
+  <Header slot="header" />
+
+  <!-- HUB HERO -->
+  <section class="hub-hero" style="background-image:url('/images/leavenworth/hero-front-street.jpg');">
+    <div class="hub-hero__overlay">
+      <div class="hub-hero__inner">
+        <p class="hub-hero__label">Destination Guide</p>
+        <h1 class="hub-hero__title">Leavenworth, WA</h1>
+        <p class="hub-hero__subtitle">A local's guide to the Bavarian village in the Cascades</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK NAV -->
+  <nav class="hub-nav" aria-label="Guide sections">
+    <div class="hub-nav__track">
+      <a href="/leavenworth/things-to-do" class="hub-nav__pill">Things to Do</a>
+      <a href="/leavenworth/restaurants" class="hub-nav__pill">Where to Eat</a>
+      <a href="/leavenworth/where-to-stay" class="hub-nav__pill">Where to Stay</a>
+      <a href="/leavenworth/seasonal" class="hub-nav__pill">Seasonal</a>
+      <a href="/leavenworth/getting-there" class="hub-nav__pill">Getting There</a>
+    </div>
+  </nav>
+
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container--narrow">
+      <p class="hub-intro">
+        I own a place here and visit 15+ times a year. This isn't a travel blog cobbled together from other travel blogs. These are my actual recommendations — every restaurant, every trail, every insider tip is from personal experience.
+      </p>
+    </div>
+  </section>
+
+  <!-- SUB-GUIDE CARDS -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="hub-cards">
+        {subGuides.map(g => (
+          <a href={g.href} class="hub-card">
+            <span class="hub-card__emoji">{g.emoji}</span>
+            <div>
+              <h2 class="hub-card__title">{g.title}</h2>
+              <p class="hub-card__desc">{g.desc}</p>
+            </div>
+            <span class="hub-card__arrow">→</span>
+          </a>
+        ))}
+      </div>
+
+      <!-- Coming soon -->
+      <h3 class="hub-coming-label">More guides on the way</h3>
+      <div class="hub-cards hub-cards--coming">
+        {comingSoon.map(g => (
+          <div class="hub-card hub-card--coming">
+            <span class="hub-card__emoji">{g.emoji}</span>
+            <div>
+              <h2 class="hub-card__title">{g.title}</h2>
+              <p class="hub-card__desc">{g.desc}</p>
+            </div>
+            <span class="hub-card__soon">Soon</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FACTS STRIP -->
+  <section class="hub-facts">
+    <div class="container">
+      <div class="hub-facts__row">
+        <span class="hub-facts__item">📍 2.5 hrs from Seattle</span>
+        <span class="hub-facts__item">🏔️ Elevation: 1,170 ft</span>
+        <span class="hub-facts__item">👤 Population: ~2,000</span>
+        <span class="hub-facts__item">⭐ Best season: All of them</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FULL GUIDE LINK -->
+  <section class="section" style="text-align:center;">
+    <div class="container--narrow">
+      <p style="color:#6b5c4c;font-size:0.9rem;margin:0 0 0.75rem;">Want everything in one page?</p>
+      <a href="/guides/the-perfect-weekend-in-leavenworth-wa" class="hub-full-link">Read the full Leavenworth guide →</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>
