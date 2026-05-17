@@ -2064,3 +2064,102 @@ button:focus-visible {
   background: #fef9f2;
   border-color: #CC5500;
 }
+
+
+/* ============================================================
+   WEBCAM GRID — YouTube live embeds
+   ============================================================ */
+.webcam-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 640px) {
+  .webcam-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.webcam-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f5f0e8;
+  border: 1px solid #e8dfd3;
+}
+.webcam-card iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border: 0;
+}
+.webcam-card__label {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.webcam-card__label span {
+  font-size: 0.7rem;
+  color: #999;
+}
+.webcam-extras {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+.webcam-extras a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.65rem;
+  background: #fff;
+  border: 1px solid #e8dfd3;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #2c2c2c;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: border-color 0.15s, color 0.15s;
+}
+.webcam-extras a:hover {
+  border-color: #CC5500;
+  color: #CC5500;
+}
+
+/* ============================================================
+   MAP EMBED & MAP LINKS
+   ============================================================ */
+.map-embed {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1rem 0;
+  border: 1px solid #e8dfd3;
+}
+.map-embed iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  display: block;
+}
+.map-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
+  color: #CC5500;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.15s;
+}
+.map-link:hover {
+  color: #e06000;
+  text-decoration: underline;
+}
+.map-link::before {
+  content: "📍";
+  font-size: 0.75rem;
+}

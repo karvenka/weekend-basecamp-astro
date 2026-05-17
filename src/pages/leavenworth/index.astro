@@ -115,6 +115,11 @@ const comingSoon = [
       <p class="hub-intro">
         I own a place here and visit 15+ times a year. This isn't a travel blog cobbled together from other travel blogs. These are my actual recommendations — every restaurant, every trail, every insider tip is from personal experience.
       </p>
+
+      <!-- MAP — Getting Oriented -->
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5415.5!2d-120.6615!3d47.5962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549a45e90b1c2e1f%3A0x97385f4d0dbf0be8!2sLeavenworth%2C%20WA!5e0!3m2!1sen!2sus" title="Map of Leavenworth, WA" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
   </section>
 
@@ -166,33 +171,34 @@ const comingSoon = [
     </div>
   </section>
 
-  <!-- LIVE WEBCAMS -->
+  <!-- LIVE WEBCAMS — YouTube Live Embeds -->
   <section class="section" style="padding-top:0;">
     <div class="container">
       <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:0.25rem;">📹 Live Webcams</h2>
       <p style="font-size:0.85rem;color:#666;margin-bottom:0.75rem;">See what Leavenworth looks like right now</p>
-      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">
-        <a href="https://www.skylinewebcams.com/en/webcam/united-states/washington/leavenworth/leavenworth-washington-downtown.html" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.35rem;padding:0.4rem 0.75rem;background:#f5f0e8;border-radius:20px;text-decoration:none;color:#2c2c2c;font-size:0.8rem;font-weight:600;border:1px solid #e8dfd3;transition:all 0.15s;">
-          <span>🎥</span> Downtown Leavenworth <span style="color:#999;font-size:0.7rem;">· Village view</span>
-        </a>
-        <a href="https://www.skylinewebcams.com/en/webcam/united-states/washington/leavenworth/leavenworth-village-of-lights.html" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.35rem;padding:0.4rem 0.75rem;background:#f5f0e8;border-radius:20px;text-decoration:none;color:#2c2c2c;font-size:0.8rem;font-weight:600;border:1px solid #e8dfd3;transition:all 0.15s;">
-          <span>🎥</span> Front Street Park <span style="color:#999;font-size:0.7rem;">· Village of Lights</span>
-        </a>
-        <a href="https://www.skylinewebcams.com/en/webcam/united-states/washington/leavenworth/leavenworth-festhalle.html" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.35rem;padding:0.4rem 0.75rem;background:#f5f0e8;border-radius:20px;text-decoration:none;color:#2c2c2c;font-size:0.8rem;font-weight:600;border:1px solid #e8dfd3;transition:all 0.15s;">
-          <span>🎥</span> Festhalle <span style="color:#999;font-size:0.7rem;">· Event venue</span>
-        </a>
-        <a href="https://www.skylinewebcams.com/en/webcam/united-states/washington/leavenworth/leavenworth-rhein-haus.html" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.35rem;padding:0.4rem 0.75rem;background:#f5f0e8;border-radius:20px;text-decoration:none;color:#2c2c2c;font-size:0.8rem;font-weight:600;border:1px solid #e8dfd3;transition:all 0.15s;">
-          <span>🎥</span> Rhein Haus <span style="color:#999;font-size:0.7rem;">· Street view</span>
-        </a>
-        <a href="https://www.stevenspass.com/the-mountain/mountain-conditions/mountain-cams.aspx" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.35rem;padding:0.4rem 0.75rem;background:#f5f0e8;border-radius:20px;text-decoration:none;color:#2c2c2c;font-size:0.8rem;font-weight:600;border:1px solid #e8dfd3;transition:all 0.15s;">
-          <span>⛷️</span> Stevens Pass <span style="color:#999;font-size:0.7rem;">· Ski area</span>
-        </a>
-        <a href="https://wsdot.com/travel/real-time/mountainpasses/stevens" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.35rem;padding:0.4rem 0.75rem;background:#f5f0e8;border-radius:20px;text-decoration:none;color:#2c2c2c;font-size:0.8rem;font-weight:600;border:1px solid #e8dfd3;transition:all 0.15s;">
-          <span>🛣️</span> WSDOT Stevens Pass <span style="color:#999;font-size:0.7rem;">· Road conditions</span>
-        </a>
-        <a href="https://www.trafficvision.live/cameras/us-2-stevens-pass" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.35rem;padding:0.4rem 0.75rem;background:#f5f0e8;border-radius:20px;text-decoration:none;color:#2c2c2c;font-size:0.8rem;font-weight:600;border:1px solid #e8dfd3;transition:all 0.15s;">
-          <span>🛣️</span> US-2 Highway Cams <span style="color:#999;font-size:0.7rem;">· Traffic cameras</span>
-        </a>
+      <div class="webcam-grid">
+        <div class="webcam-card">
+          <iframe src="https://www.youtube.com/embed/XjhxRZEm638?autoplay=0" title="Downtown Leavenworth Live Webcam" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          <div class="webcam-card__label">🎥 Downtown <span>· Village view</span></div>
+        </div>
+        <div class="webcam-card">
+          <iframe src="https://www.youtube.com/embed/yHH8EWIR01Y?autoplay=0" title="Rhein Haus Leavenworth Live Webcam" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          <div class="webcam-card__label">🎥 Rhein Haus <span>· Front Street</span></div>
+        </div>
+        <div class="webcam-card">
+          <iframe src="https://www.youtube.com/embed/TmtVbezZaqg?autoplay=0" title="Kris Kringl Leavenworth Live Webcam" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          <div class="webcam-card__label">🎥 Kris Kringl <span>· Front Street</span></div>
+        </div>
+        <div class="webcam-card">
+          <iframe src="https://www.youtube.com/embed/s869fYS-TGY?autoplay=0" title="Leavenworth Adventure Park Live Webcam" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          <div class="webcam-card__label">🎥 Adventure Park <span>· Alpine coaster</span></div>
+        </div>
+      </div>
+      <div class="webcam-extras">
+        <a href="https://www.youtube.com/watch?v=NdW8Mh0lmOo" target="_blank" rel="noopener">🎥 Mountain Modern cam</a>
+        <a href="https://www.stevenspass.com/the-mountain/mountain-conditions/mountain-cams.aspx" target="_blank" rel="noopener">⛷️ Stevens Pass cams</a>
+        <a href="https://wsdot.com/travel/real-time/mountainpasses/stevens" target="_blank" rel="noopener">🛣️ WSDOT road conditions</a>
+        <a href="https://leavenworth.org/webcams/" target="_blank" rel="noopener">📹 All official cams</a>
       </div>
     </div>
   </section>
