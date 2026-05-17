@@ -18,154 +18,189 @@ This isn't a travel blog guide cobbled together from other travel blog guides. T
 
 Buckle up. I have a lot of tips.
 
-## 20+ Things to Do in Leavenworth
+## Free Things to Do
 
-### 1. Walk Front Street (and Actually Enjoy It)
-📍 Front Street, downtown | ⏱ 1-2 hours | 💰 Free (until you start shopping)
+You don't need to spend a dime to have a great time in Leavenworth. Some of the best experiences here cost nothing — just your time and a pair of decent shoes.
+
+### Walk Front Street (and Actually Enjoy It)
+📍 Front Street, downtown | ⏱ 1-2 hours
 
 Front Street is the main drag — every building is Bavarian-themed, there's an accordion player somewhere, and yes, it's a little kitschy. Lean into it. Walk the full stretch from the Festhalle to the east end, pop into the shops, grab a pretzel, and people-watch. The Cheesemonger's Shop is legitimately excellent, and Kris Kringl (the year-round Christmas shop) will either delight you or terrify you depending on your relationship with nutcrackers.
 
 💡 **Insider tip:** Walk Front Street before 10 AM on a Saturday. You'll have it almost to yourself, the light is gorgeous for photos, and you'll feel like you're in an actual Bavarian village instead of a theme park.
 
-### 2. Explore Waterfront Park and Blackbird Island
-📍 314 Commercial St | ⏱ 1-2 hours | 💰 Free
+### Explore Waterfront Park and Blackbird Island
+📍 314 Commercial St | ⏱ 1-2 hours
 
 This is where Leavenworth transforms from "cute tourist town" to "wait, this place is actually stunning." Waterfront Park sits along the Wenatchee River, and a footbridge takes you over to Blackbird Island — a flat, shaded loop trail through old-growth trees with river views that make you forget you were eating a bratwurst 10 minutes ago. Bring a blanket. Sit by the water. Watch the river runners float past. This is the Leavenworth the tourism brochures can't capture.
 
 💡 **Insider tip:** In winter, the trails on Blackbird Island get a light dusting of snow and the whole island turns into a postcard. Hardly anyone goes out there when it's cold, which is exactly why you should.
 
-### 3. Ride the Tumwater Twister at Leavenworth Adventure Park
-📍 9342 Icicle Rd | ⏱ 1-2 hours | 💰 $20/adult ride
-
-Washington's first alpine coaster drops 234 feet through the forest and lets you control your own speed. My kids are obsessed. I'm obsessed. The first time I rode it, I was white-knuckling the brake. By the third ride, I was a speed demon. They also have a 27-foot climbing wall and a gem mining sluice for the younger crew. Book online in advance — the line on weekends can get gnarly.
-
-💡 **Insider tip:** Sit in the back seat and let the front rider control speed. You get a better view and a more thrilling ride. Also, go on a weekday if you can — you might get two or three rides in the time it takes to get one on a Saturday.
-
-### 4. Visit the Leavenworth Reindeer Farm
-📍 Off Icicle Rd | ⏱ 1-1.5 hours | 💰 $30-$75/person
-
-Yes, real reindeer. Over 50 of them. This family-run farm does guided tours where you actually get into the enclosure and feed them fresh willow branches. My daughter's face the first time a reindeer ate from her hand — that's the kind of moment you don't forget. During the holiday season, they go all-out with Santa visits and a geodesic dome showing Northern Lights projections. Book ahead. They sell out, especially in December.
-
-💡 **Insider tip:** The "fully immersive" tour ($50-$75) is worth the upgrade over the viewing-only option. You actually get in there with the reindeer. Also, there's a steep hill to walk up to the farm — wear real shoes, not sandals.
-
-### 5. Hike Icicle Ridge
-📍 Icicle Rd trailhead | ⏱ 3-5 hours | 💰 Free (Northwest Forest Pass required)
+### Hike Icicle Ridge
+📍 Icicle Rd trailhead | ⏱ 3-5 hours | 🎫 Northwest Forest Pass required
 
 This is my go-to when I want a real hike without committing to an all-day death march. The trail climbs steadily through forest, hitting viewpoints at around 3,600 and 4,200 feet that give you sweeping panoramas of the valley and surrounding peaks. In late spring, the wildflowers are ridiculous. In fall, the larches turn gold and it looks like someone put an Instagram filter on reality. The full out-and-back is about 6 miles, but you can turn around at any viewpoint and still feel like you accomplished something.
 
 💡 **Insider tip:** Snow lingers on this trail well into May. If you're going before June, bring gaiters or at least waterproof boots. Check the [Washington Trails Association](https://www.wta.org/go-hiking/hikes/icicle-ridge-1) trip reports before you go. Also see our [family hiking guide](/guides/the-no-stress-family-hiking-guide) if you're bringing kids.
 
-### 6. Tackle Colchuck Lake (The Bucket-List Hike)
-📍 Stuart/Colchuck Lake Trailhead | ⏱ 6-8 hours | 💰 Free (permit required)
+### Tackle Colchuck Lake (The Bucket-List Hike)
+📍 Stuart/Colchuck Lake Trailhead | ⏱ 6-8 hours | 🎫 Permit required
 
 If you're a serious hiker and can only do one trail near Leavenworth, this is it. The 8-9 mile round trip with 2,300+ feet of elevation gain rewards you with an alpine lake so turquoise it looks Photoshopped. The last mile is steep and rocky, but when you pop out at the lake with the Enchantment peaks behind it, you'll understand why people lose the permit lottery year after year and still keep trying. Bring trekking poles, lots of water, and start early — parking fills up fast.
 
 💡 **Insider tip:** This trail is brutally popular. Start before 6 AM to get a parking spot and to have the lake to yourself for even 20 minutes. Pack out all your trash — volunteers at the trailhead are watching, and rightfully so.
 
-### 7. Wine Tasting on Front Street
+### Stroll Through the Meadows at Icicle Creek
+📍 Icicle Rd | ⏱ 1-2 hours
+
+Follow Icicle Road past the Adventure Park and you'll find open meadows along Icicle Creek that are perfect for a picnic, a quick wade (the water is glacial, fair warning), or just sitting and staring at the mountains. This is where locals go to escape the Front Street bustle. Bring a book and a blanket. Maybe some wine from your tasting earlier.
+
+💡 **Insider tip:** This area is stunning in early morning light. If you're a photographer, get out here at golden hour — you'll get shots that look like the Pacific Northwest tourism board should be paying you.
+
+### Visit the Leavenworth National Fish Hatchery
+📍 12790 Fish Hatchery Rd | ⏱ 45 min-1 hour
+
+This one surprises people. The Fish Hatchery raises Chinook salmon and is free to visit. You can see the fish runs, learn about the conservation efforts, and walk the beautiful grounds along Icicle Creek. It's educational without being boring, and it's one of the few attractions that's never crowded. Great for kids.
+
+💡 **Insider tip:** Visit in spring to see the juvenile salmon releases. It's surprisingly emotional watching thousands of tiny fish head toward the ocean.
+
+### Rock Climbing at Peshastin Pinnacles State Park
+📍 8 miles east of Leavenworth | ⏱ 2-4 hours | 🎫 Discover Pass required
+
+Thirty-four acres of 200-foot sandstone spires rising out of the desert landscape. It's a day-use-only park with a 1.5-mile loop trail even if you don't climb, but the real draw is the rock. Routes range from beginner-friendly slabs to multi-pitch adventures. The views from the pinnacles over orchards and the Wenatchee Valley are staggering. The park closes for winter (reopens March 15) and you need to be off the rocks 30 minutes before closing. No bolting or drilling allowed.
+
+💡 **Insider tip:** Even if you're not a climber, the short hiking loop is worth the drive. Pack sunscreen — there's zero shade and the desert terrain reflects heat like a mirror.
+
+### Stargaze from the Valley
+📍 Icicle Rd or Chumstick Hwy | ⏱ 1 hour
+
+Leavenworth sits in a mountain valley with limited light pollution once you get just a few minutes outside of town. Drive up Icicle Road past the campgrounds and pull over — on a clear night, the Milky Way is absolutely visible. Summer and fall are the best seasons. Bring a blanket and hot chocolate. Check our [stargazing guide](/guides/the-stargazing-night-guide) for gear tips and timing.
+
+💡 **Insider tip:** New moon weekends are best. Download a stargazing app before you go — you'll be amazed at what you can identify.
+
+### Explore the Enchantment Lakes (With a Permit)
+📍 Stuart Range Wilderness | ⏱ 1-3 days | 🎫 Permit lottery for overnight
+
+The Enchantments are the crown jewel of the Alpine Lakes Wilderness — a chain of pristine alpine lakes surrounded by granite peaks and mountain goats who have zero fear of humans. The catch? You need a permit for overnight camping, and the lottery is brutally competitive. Day-hiking through is possible (19 miles, 4,600+ ft gain) but requires peak fitness and an early start. If you've ever seen those jaw-dropping larch photos from Washington in October, they're probably from here.
+
+💡 **Insider tip:** Apply for the lottery in late February/early March. If you don't get a permit, Colchuck Lake (listed above) gives you a taste without the bureaucracy.
+
+---
+
+## Budget-Friendly (Under $25)
+
+Great experiences that cost less than a mediocre dinner. Wine tasting for $5, a museum full of 9,000 nutcrackers, live music on a patio — Leavenworth does "cheap but memorable" surprisingly well.
+
+### Wine Tasting on Front Street
 📍 Various downtown locations | ⏱ 2-3 hours | 💰 $5-$25 per tasting
 
 You don't expect a Bavarian village to have a wine scene, but Leavenworth delivers. **Icicle Ridge Winery** (920 Front St) is right on Front Street with a cozy tasting room and excellent pear wine. **Kestrel Vintners** (843 Front St) has 26 varieties and does a tasting of five wines for $5 — that's hard to beat. For a more elevated experience, drive a few minutes out of town to **Silvara Cellars** (77 Stage Rd) for award-winning wines, cheese pairings, and views of the Wenatchee River that make you want to quit your job and become a vintner.
 
 💡 **Insider tip:** Icicle Ridge stays open until 9 PM on Friday and Saturday nights. Start your evening there with a glass before dinner.
 
-### 8. Float the Wenatchee River
-📍 Various put-in points | ⏱ 1.5-3 hours | 💰 ~$30/person with rental
-
-Summer in Leavenworth means one thing: river time. The Wenatchee River runs right through town and multiple outfitters rent tubes and provide shuttle service for the ~2-mile float. The rapids are gentle (Class I), the water is cold enough to wake you up but not cold enough to be miserable, and you'll float past scenery that belongs in a screensaver. **Leavenworth Outdoor Center** is reliable for rentals and even offers dog-friendly tubes. Season runs roughly July through August.
-
-💡 **Insider tip:** Bring a dry bag for your phone and keys. Wear water shoes, not flip-flops (you'll lose them). And yes, the water is that cold — the river is snowmelt. You'll adjust.
-
-### 9. The Nutcracker Museum
+### The Nutcracker Museum
 📍 735 Front St | ⏱ 30-45 minutes | 💰 $5
 
 Over 9,000 nutcrackers. Some from Roman times. There's a scavenger hunt. There's a 17-minute video about the history of nutcrackers that is somehow more entertaining than it has any right to be. Is this the quirkiest museum you'll ever visit? Yes. Will you regret going? No. My kids ask to go every single time. It closes early — get there before 4 PM to actually enjoy it.
 
 💡 **Insider tip:** The gift shop is legitimately great for unique souvenirs. Skip the generic Front Street gift shops and get a nutcracker here instead.
 
-### 10. Rock Climbing at Peshastin Pinnacles State Park
-📍 8 miles east of Leavenworth | ⏱ 2-4 hours | 💰 Free (Discover Pass required)
-
-Thirty-four acres of 200-foot sandstone spires rising out of the desert landscape. It's a day-use-only park with a 1.5-mile loop trail even if you don't climb, but the real draw is the rock. Routes range from beginner-friendly slabs to multi-pitch adventures. The views from the pinnacles over orchards and the Wenatchee Valley are staggering. The park closes for winter (reopens March 15) and you need to be off the rocks 30 minutes before closing. No bolting or drilling allowed.
-
-💡 **Insider tip:** Even if you're not a climber, the short hiking loop is worth the drive. Pack sunscreen — there's zero shade and the desert terrain reflects heat like a mirror.
-
-### 11. Ski Stevens Pass (Winter)
-📍 Stevens Pass, ~35 min from Leavenworth | ⏱ Full day | 💰 ~$100+ lift ticket
-
-Stevens Pass is the closest major ski area and it gets *dumped* on. The mountain has a great mix of terrain for all levels, and skiing here means you can stay in Leavenworth (which is a much better base camp than the pass itself) and drive up for the day. Avoid weekends if you can — the lots fill up and the lift lines get ugly.
-
-💡 **Insider tip:** Check the [WSDOT pass conditions](https://wsdot.wa.gov/travel/real-time/mountainpasses) before you leave Leavenworth. Carry chains even if your car has AWD — they do enforce traction requirements.
-
-### 12. Take a Sleigh Ride (Winter)
-📍 Eagle Creek Ranch, 7951 Eagle Creek Rd | ⏱ 1-1.5 hours | 💰 $30-$60/person
-
-A horse-drawn sleigh through snow-covered meadows and evergreen forests with the Cascades towering overhead. It sounds like a Hallmark movie, and it kind of is, and it's kind of perfect. **Eagle Creek Ranch** does a ~30-minute ride followed by hot cider by a wood stove in the barn. The horses are beautifully cared for, the staff are friendly, and even my jaded teenager admitted it was "actually pretty cool."
-
-💡 **Insider tip:** Book the earliest ride of the day for the best snow conditions and fewest crowds. Dress warmer than you think you need to — you're sitting still in an open sleigh.
-
-### 13. Stroll Through the Meadows at Icicle Creek
-📍 Icicle Rd | ⏱ 1-2 hours | 💰 Free
-
-Follow Icicle Road past the Adventure Park and you'll find open meadows along Icicle Creek that are perfect for a picnic, a quick wade (the water is glacial, fair warning), or just sitting and staring at the mountains. This is where locals go to escape the Front Street bustle. Bring a book and a blanket. Maybe some wine from your tasting earlier.
-
-💡 **Insider tip:** This area is stunning in early morning light. If you're a photographer, get out here at golden hour — you'll get shots that look like the Pacific Northwest tourism board should be paying you.
-
-### 14. Attend a Festival
-📍 Throughout town | ⏱ Full day | 💰 Varies
-
-Leavenworth runs on festivals. **Oktoberfest** (three weekends in October — in 2026 it's October 2-3, 9-10, and 16-17) is the big one: three stages, beer gardens, polka bands, yodelers, and a 10,000 sq ft Kinderplatz for kids. **Maifest** in May celebrates spring with Bavarian music and the Festzug parade. The **Christmas Lighting Festival** kicks off the Friday after Thanksgiving and runs through Valentine's Day — over 500,000 LED lights, sledding, and enough holiday cheer to make even a Grinch crack a smile. **Winter Karneval** in January brings ice carving and fireworks.
-
-💡 **Insider tip:** For Oktoberfest, book your stay months ahead and buy tickets when they go on sale July 1. Between festival weekends is the secret sweet spot — the town is decorated but not overrun.
-
-### 15. Visit the Leavenworth National Fish Hatchery
-📍 12790 Fish Hatchery Rd | ⏱ 45 min-1 hour | 💰 Free
-
-This one surprises people. The Fish Hatchery raises Chinook salmon and is free to visit. You can see the fish runs, learn about the conservation efforts, and walk the beautiful grounds along Icicle Creek. It's educational without being boring, and it's one of the few attractions that's never crowded. Great for kids.
-
-💡 **Insider tip:** Visit in spring to see the juvenile salmon releases. It's surprisingly emotional watching thousands of tiny fish head toward the ocean.
-
-### 16. Golf at Leavenworth Golf Club
-📍 9101 Icicle Rd | ⏱ 3-4 hours | 💰 ~$89
-
-An 18-hole course nestled in the valley with mountain views from every hole. The fairways are narrow and lined with trees, so accuracy matters more than distance. It's semi-private but open to the public, and the scenery makes up for any frustration with your short game. Par 71, about 5,800 yards from the blue tees.
-
-💡 **Insider tip:** Book a morning tee time for the best conditions and quietest course. The views of the surrounding peaks with morning mist are worth the early wake-up.
-
-### 17. Try Gem Mining at the Adventure Park
+### Gem Mining at the Adventure Park
 📍 9342 Icicle Rd | ⏱ 30 minutes | 💰 $5-$15
 
 This is a hit with younger kids. The "Gems of the Enchantments" mining sluice lets kids sift through rough to find gemstones and fossils they get to keep. It's essentially panning for gold, mountain-style. My kids have a collection of "precious gems" from this place that they guard with their lives. Manageable and fun while the other parent rides the coaster.
 
 💡 **Insider tip:** This is included in some combo ticket packages with the Alpine Coaster. Check the website before buying separately.
 
-### 18. Explore the Enchantment Lakes (With a Permit)
-📍 Stuart Range Wilderness | ⏱ 1-3 days | 💰 Free (permit lottery)
-
-The Enchantments are the crown jewel of the Alpine Lakes Wilderness — a chain of pristine alpine lakes surrounded by granite peaks and mountain goats who have zero fear of humans. The catch? You need a permit for overnight camping, and the lottery is brutally competitive. Day-hiking through is possible (19 miles, 4,600+ ft gain) but requires peak fitness and an early start. If you've ever seen those jaw-dropping larch photos from Washington in October, they're probably from here.
-
-💡 **Insider tip:** Apply for the lottery in late February/early March. If you don't get a permit, Colchuck Lake (listed above) gives you a taste without the bureaucracy.
-
-### 19. Shop the Specialty Stores
-📍 Front Street | ⏱ 1-2 hours | 💰 Varies
+### Shop the Specialty Stores
+📍 Front Street | ⏱ 1-2 hours | 💰 Browsing is free, buying is dangerous
 
 Beyond the typical tourist shops, there are some genuine gems. **The Cheesemonger's Shop** has incredible artisan cheeses and charcuterie boards you can take to the park. **Posy Handpicked Goods** is a curated gift shop with local items and plants. **Cured** does a great selection of meats and provisions. And **Die Musik Box** has one of the largest collections of music boxes in the Northwest — whether you need one is a different question.
 
 💡 **Insider tip:** The Cheesemonger's Shop sells picnic boards pre-assembled. Grab one, a bottle from Icicle Ridge, and walk to Waterfront Park. That's a perfect Leavenworth afternoon.
 
-### 20. Catch Live Music
-📍 Various venues | ⏱ Varies | 💰 Free-$30
+### Catch Live Music
+📍 Various venues | ⏱ Varies | 💰 Free-$20
 
 During summer, Yodelin Broth Co has live musicians on the patio — think acoustic sets against a backdrop of forested mountains while you eat a broth bowl. Icicle Brewing does trivia nights and occasional live music. And during festivals, you'll hear everything from polka bands to jazz. The Leavenworth Summer Theater puts on Broadway-style shows that are surprisingly good for a town this size.
 
 💡 **Insider tip:** Check [leavenworth.org](https://leavenworth.org) for the event calendar before your trip. There's almost always something happening, especially on weekends.
 
-### 21. Stargaze from the Valley
-📍 Icicle Rd or Chumstick Hwy | ⏱ 1 hour | 💰 Free
+---
 
-Leavenworth sits in a mountain valley with limited light pollution once you get just a few minutes outside of town. Drive up Icicle Road past the campgrounds and pull over — on a clear night, the Milky Way is absolutely visible. Summer and fall are the best seasons. Bring a blanket and hot chocolate. Check our [stargazing guide](/guides/the-stargazing-night-guide) for gear tips and timing.
+## Paid Experiences (Worth Every Dollar)
 
-💡 **Insider tip:** New moon weekends are best. Download a stargazing app before you go — you'll be amazed at what you can identify.
+These cost real money, but they're the experiences your family will still be talking about years later. Budget $30-$100 per person and pick one or two that match your vibe.
+
+### Ride the Tumwater Twister at Leavenworth Adventure Park
+📍 9342 Icicle Rd | ⏱ 1-2 hours | 💰 $20/adult ride
+
+Washington's first alpine coaster drops 234 feet through the forest and lets you control your own speed. My kids are obsessed. I'm obsessed. The first time I rode it, I was white-knuckling the brake. By the third ride, I was a speed demon. They also have a 27-foot climbing wall and a gem mining sluice for the younger crew. Book online in advance — the line on weekends can get gnarly.
+
+💡 **Insider tip:** Sit in the back seat and let the front rider control speed. You get a better view and a more thrilling ride. Also, go on a weekday if you can — you might get two or three rides in the time it takes to get one on a Saturday.
+
+### Visit the Leavenworth Reindeer Farm
+📍 Off Icicle Rd | ⏱ 1-1.5 hours | 💰 $30-$75/person
+
+Yes, real reindeer. Over 50 of them. This family-run farm does guided tours where you actually get into the enclosure and feed them fresh willow branches. My daughter's face the first time a reindeer ate from her hand — that's the kind of moment you don't forget. During the holiday season, they go all-out with Santa visits and a geodesic dome showing Northern Lights projections. Book ahead. They sell out, especially in December.
+
+💡 **Insider tip:** The "fully immersive" tour ($50-$75) is worth the upgrade over the viewing-only option. You actually get in there with the reindeer. Also, there's a steep hill to walk up to the farm — wear real shoes, not sandals.
+
+### Float the Wenatchee River
+📍 Various put-in points | ⏱ 1.5-3 hours | 💰 ~$30/person with rental | ☀️ Summer only (July-August)
+
+Summer in Leavenworth means one thing: river time. The Wenatchee River runs right through town and multiple outfitters rent tubes and provide shuttle service for the ~2-mile float. The rapids are gentle (Class I), the water is cold enough to wake you up but not cold enough to be miserable, and you'll float past scenery that belongs in a screensaver. **Leavenworth Outdoor Center** is reliable for rentals and even offers dog-friendly tubes.
+
+💡 **Insider tip:** Bring a dry bag for your phone and keys. Wear water shoes, not flip-flops (you'll lose them). And yes, the water is that cold — the river is snowmelt. You'll adjust.
+
+### Take a Sleigh Ride (Winter)
+📍 Eagle Creek Ranch, 7951 Eagle Creek Rd | ⏱ 1-1.5 hours | 💰 $30-$60/person | ❄️ Winter only
+
+A horse-drawn sleigh through snow-covered meadows and evergreen forests with the Cascades towering overhead. It sounds like a Hallmark movie, and it kind of is, and it's kind of perfect. **Eagle Creek Ranch** does a ~30-minute ride followed by hot cider by a wood stove in the barn. The horses are beautifully cared for, the staff are friendly, and even my jaded teenager admitted it was "actually pretty cool."
+
+💡 **Insider tip:** Book the earliest ride of the day for the best snow conditions and fewest crowds. Dress warmer than you think you need to — you're sitting still in an open sleigh.
+
+### Golf at Leavenworth Golf Club
+📍 9101 Icicle Rd | ⏱ 3-4 hours | 💰 ~$89
+
+An 18-hole course nestled in the valley with mountain views from every hole. The fairways are narrow and lined with trees, so accuracy matters more than distance. It's semi-private but open to the public, and the scenery makes up for any frustration with your short game. Par 71, about 5,800 yards from the blue tees.
+
+💡 **Insider tip:** Book a morning tee time for the best conditions and quietest course. The views of the surrounding peaks with morning mist are worth the early wake-up.
+
+### Ski Stevens Pass (Winter)
+📍 Stevens Pass, ~35 min from Leavenworth | ⏱ Full day | 💰 $100+ lift ticket | ❄️ Winter only
+
+Stevens Pass is the closest major ski area and it gets *dumped* on. The mountain has a great mix of terrain for all levels, and skiing here means you can stay in Leavenworth (which is a much better base camp than the pass itself) and drive up for the day. Avoid weekends if you can — the lots fill up and the lift lines get ugly.
+
+💡 **Insider tip:** Check the [WSDOT pass conditions](https://wsdot.wa.gov/travel/real-time/mountainpasses) before you leave Leavenworth. Carry chains even if your car has AWD — they do enforce traction requirements.
+
+---
+
+## Festivals & Seasonal Events
+
+Leavenworth runs on festivals. Half the reason people come back is because there's always something happening. Here's what to plan around.
+
+### Oktoberfest (October — Three Weekends)
+📍 Throughout town | 💰 Ticket required for beer gardens
+
+The big one. Three stages, beer gardens, polka bands, yodelers, and a 10,000 sq ft Kinderplatz for kids. In 2026 it's October 2-3, 9-10, and 16-17. Come for the atmosphere even if you don't drink — the music, the costumes, and the energy are infectious. Between festival weekends is the secret sweet spot — the town is decorated but not overrun.
+
+### Maifest (May)
+📍 Throughout town | 💰 Free
+
+Celebrates spring with Bavarian music, a Festzug parade, dancing, and an energy that says "winter is finally over." Less chaotic than Oktoberfest, more locals, and a great time to visit if you want the festival vibe without the crowds.
+
+### Christmas Lighting Festival (Late November – February)
+📍 Throughout town | 💰 Free
+
+Over 500,000 LED lights transform the village into something out of a snow globe. The December lighting ceremony weekends draw huge crowds — plan ahead and book early. Sledding, holiday markets, carolers, and enough cheer to make even a Grinch crack a smile. This is Leavenworth at its most magical.
+
+### Winter Karneval (January)
+📍 Throughout town | 💰 Free
+
+Ice carving, fireworks, and a quirky energy that breaks up the long winter. Lower-key than the holiday festivals but a fun reason to visit in the quiet season.
+
+💡 **Festival tip:** For Oktoberfest, book your stay months ahead and buy tickets when they go on sale July 1. For Christmas Lighting, avoid the first two Saturdays in December (most crowded) — mid-January through Valentine's Day has the same lights with a fraction of the people.
 
 ## Where to Eat
 
