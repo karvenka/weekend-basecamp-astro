@@ -115,8 +115,32 @@ const comingSoon = [
       <p class="hub-intro">
         I own a place here and visit 15+ times a year. This isn't a travel blog cobbled together from other travel blogs. These are my actual recommendations — every restaurant, every trail, every insider tip is from personal experience.
       </p>
+    </div>
+  </section>
 
+  <!-- INTERACTIVE MAP -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div id="leavenworth-map" class="interactive-map"></div>
+      <div class="map-legend">
+        <span class="legend-item"><span class="legend-dot" style="background:#e74c3c;"></span> Restaurants</span>
+        <span class="legend-item"><span class="legend-dot" style="background:#3498db;"></span> Things to Do</span>
+        <span class="legend-item"><span class="legend-dot" style="background:#2ecc71;"></span> Parking</span>
+        <span class="legend-item"><span class="legend-dot" style="background:#9b59b6;"></span> Lodging</span>
+      </div>
+    </div>
+  </section>
 
+  <!-- WHO'S COMING — persona filter chips -->
+  <section class="section section--flush" style="padding-bottom:1rem;">
+    <div class="container">
+      <p class="section__label">Who's coming?</p>
+      <div class="persona-chips">
+        <a href="/leavenworth/with-kids/" class="persona-chip">👶 With Kids</a>
+        <a href="/leavenworth/dog-friendly/" class="persona-chip">🐕 Dog-Friendly</a>
+        <span class="persona-chip persona-chip--soon">💑 Couples <span class="persona-chip__badge">Soon</span></span>
+        <span class="persona-chip persona-chip--soon">🍻 Group Trip <span class="persona-chip__badge">Soon</span></span>
+      </div>
     </div>
   </section>
 
@@ -221,4 +245,74 @@ const comingSoon = [
   </section>
 
   <Footer slot="footer" />
+
+  <!-- Leaflet Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
+    var mapEl = document.getElementById('leavenworth-map');
+    if (!mapEl) return;
+
+    var map = L.map('leavenworth-map', {
+      scrollWheelZoom: false
+    }).setView([47.5955, -120.6620], 15);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://openstreetmap.org">OSM</a>',
+      maxZoom: 18
+    }).addTo(map);
+
+    var pins = [
+      // Restaurants (red)
+      {lat:47.59444,lng:-120.66301,name:"München Haus",type:"restaurant",info:"⭐ 4.5 · Bratwurst & beer garden"},
+      {lat:47.59528,lng:-120.66132,name:"Andreas Keller",type:"restaurant",info:"⭐ 4.2 · Bavarian basement restaurant"},
+      {lat:47.59464,lng:-120.66382,name:"Visconti's",type:"restaurant",info:"⭐ 4.7 · Italian fine dining"},
+      {lat:47.59618,lng:-120.65963,name:"Icicle Brewing",type:"restaurant",info:"⭐ 4.5 · Craft beer & patio"},
+      {lat:47.59451,lng:-120.66358,name:"Yodelin Broth Co",type:"restaurant",info:"⭐ 4.5 · Broth bowls & beer garden"},
+      {lat:47.59581,lng:-120.66051,name:"South",type:"restaurant",info:"⭐ 4.4 · Latin American"},
+      {lat:47.59174,lng:-120.67025,name:"Argonaut Coffee",type:"restaurant",info:"⭐ 4.6 · Coffee & biscuits"},
+      {lat:47.59514,lng:-120.66070,name:"Tumwater Bread & Pizza",type:"restaurant",info:"⭐ 4.6 · Wood-fired pizza"},
+      {lat:47.59623,lng:-120.65755,name:"Mana",type:"restaurant",info:"⭐ 4.8 · Chef's tasting menu"},
+      // Activities (blue)
+      {lat:47.59237,lng:-120.66360,name:"Waterfront Park & Blackbird Island",type:"activity",info:"Free · Trails along the river"},
+      {lat:47.59490,lng:-120.66242,name:"Nutcracker Museum",type:"activity",info:"⭐ 4.4 · 9,000+ nutcrackers"},
+      {lat:47.58718,lng:-120.67488,name:"Adventure Park",type:"activity",info:"⭐ 4.5 · Alpine coaster & climbing"},
+      {lat:47.60636,lng:-120.64922,name:"Reindeer Farm",type:"activity",info:"⭐ 4.9 · Feed real reindeer"},
+      {lat:47.59657,lng:-120.65895,name:"Festhalle",type:"activity",info:"Events & Oktoberfest venue"},
+      // Parking (green)
+      {lat:47.59590,lng:-120.66450,name:"P1 / Aasgard Lot",type:"parking",info:"Paid · Closest to west end"},
+      {lat:47.59560,lng:-120.66200,name:"P2 / Blewett Lot",type:"parking",info:"Paid · Central"},
+      {lat:47.59540,lng:-120.65950,name:"P3 / Colchuck Lot",type:"parking",info:"Paid · East end (less busy)"},
+      {lat:47.59700,lng:-120.65800,name:"P4 / Dragontail Lot",type:"parking",info:"Paid · Near Festhalle"},
+      // Lodging (purple)
+      {lat:47.59427,lng:-120.66171,name:"Posthotel",type:"lodging",info:"⭐ 9.2/10 · Luxury boutique"},
+    ];
+
+    var colors = {
+      restaurant: '#e74c3c',
+      activity: '#3498db',
+      parking: '#2ecc71',
+      lodging: '#9b59b6'
+    };
+
+    pins.forEach(function(pin) {
+      var color = colors[pin.type] || '#CC5500';
+      var icon = L.divIcon({
+        className: 'map-pin-wrap',
+        html: '<div style="background:'+color+';width:14px;height:14px;border-radius:50%;border:2.5px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.35);"></div>',
+        iconSize: [19, 19],
+        iconAnchor: [9, 9]
+      });
+
+      var marker = L.marker([pin.lat, pin.lng], {icon: icon}).addTo(map);
+      var query = encodeURIComponent(pin.name + ' Leavenworth WA');
+      marker.bindPopup(
+        '<div style="min-width:160px;"><strong>' + pin.name + '</strong><br>' +
+        '<span style="font-size:0.85em;color:#555;">' + pin.info + '</span><br>' +
+        '<a href="https://www.google.com/maps/search/?api=1&query=' + query + '" target="_blank" rel="noopener" style="font-size:0.85em;color:#CC5500;">Directions →</a></div>'
+      );
+    });
+  });
+  </script>
 </BaseLayout>
