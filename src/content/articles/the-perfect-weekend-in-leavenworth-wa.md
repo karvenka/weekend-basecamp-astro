@@ -8,6 +8,8 @@ thumbnail: "🏔️"
 thumbnailBg: "linear-gradient(135deg, #2d5016, #87CEEB)"
 ---
 
+![Bavarian village of Leavenworth with mountain peaks](/images/leavenworth/hero-front-street.jpg)
+
 I didn't plan to fall in love with Leavenworth. Nobody does. You go once because a friend tells you it's "this cute little Bavarian village in the mountains," you eat a bratwurst, take a selfie in front of a half-timbered building, and think, *Okay, that was nice.*
 
 Then you go back. And again. And suddenly you own two condos there and you're arguing with your wife about whether the drive up should take Highway 2 or I-90 to Highway 97 (it's Highway 2, and I will die on this hill).
@@ -32,6 +34,8 @@ Front Street is the main drag — every building is Bavarian-themed, there's an 
 ### Explore Waterfront Park and Blackbird Island
 📍 314 Commercial St | ⏱ 1-2 hours
 
+![Wenatchee River flowing through the valley](/images/leavenworth/waterfront-park.jpg)
+
 This is where Leavenworth transforms from "cute tourist town" to "wait, this place is actually stunning." Waterfront Park sits along the Wenatchee River, and a footbridge takes you over to Blackbird Island — a flat, shaded loop trail through old-growth trees with river views that make you forget you were eating a bratwurst 10 minutes ago. Bring a blanket. Sit by the water. Watch the river runners float past. This is the Leavenworth the tourism brochures can't capture.
 
 💡 **Insider tip:** In winter, the trails on Blackbird Island get a light dusting of snow and the whole island turns into a postcard. Hardly anyone goes out there when it's cold, which is exactly why you should.
@@ -45,6 +49,8 @@ This is my go-to when I want a real hike without committing to an all-day death 
 
 ### Tackle Colchuck Lake (The Bucket-List Hike)
 📍 Stuart/Colchuck Lake Trailhead | ⏱ 6-8 hours | 🎫 Permit required
+
+![Turquoise alpine lake surrounded by granite peaks](/images/leavenworth/colchuck-lake.jpg)
 
 If you're a serious hiker and can only do one trail near Leavenworth, this is it. The 8-9 mile round trip with 2,300+ feet of elevation gain rewards you with an alpine lake so turquoise it looks Photoshopped. The last mile is steep and rocky, but when you pop out at the lake with the Enchantment peaks behind it, you'll understand why people lose the permit lottery year after year and still keep trying. Bring trekking poles, lots of water, and start early — parking fills up fast.
 
@@ -93,6 +99,8 @@ Great experiences that cost less than a mediocre dinner. Wine tasting for $5, a 
 
 ### Wine Tasting on Front Street
 📍 Various downtown locations | ⏱ 2-3 hours | 💰 $5-$25 per tasting
+
+![Wine tasting with mountain views](/images/leavenworth/wine-tasting.jpg)
 
 You don't expect a Bavarian village to have a wine scene, but Leavenworth delivers. **Icicle Ridge Winery** (920 Front St) is right on Front Street with a cozy tasting room and excellent pear wine. **Kestrel Vintners** (843 Front St) has 26 varieties and does a tasting of five wines for $5 — that's hard to beat. For a more elevated experience, drive a few minutes out of town to **Silvara Cellars** (77 Stage Rd) for award-winning wines, cheese pairings, and views of the Wenatchee River that make you want to quit your job and become a vintner.
 
@@ -203,6 +211,8 @@ Ice carving, fireworks, and a quirky energy that breaks up the long winter. Lowe
 💡 **Festival tip:** For Oktoberfest, book your stay months ahead and buy tickets when they go on sale July 1. For Christmas Lighting, avoid the first two Saturdays in December (most crowded) — mid-January through Valentine's Day has the same lights with a fraction of the people.
 
 ## Where to Eat
+
+![Outdoor beer garden with bratwurst and pretzels](/images/leavenworth/beer-garden.jpg)
 
 ### München Haus
 📍 709 Front St | 🍽 German sausages & beer | 💰 $10-$20/person
