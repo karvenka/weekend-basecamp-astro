@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('articles');
+const seasonal = allArticles.filter(a => a.data.category === 'Seasonal');
+seasonal.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+const plannedSeasonal = [
+  { emoji: '🇺🇸', name: 'Memorial Day Weekend Ideas', season: 'Spring' },
+  { emoji: '☀️', name: 'Summer Weekend Bucket List', season: 'Summer' },
+  { emoji: '🎆', name: '4th of July Weekend Guide', season: 'Summer' },
+  { emoji: '⚾', name: 'Labor Day Long Weekend Ideas', season: 'Fall' },
+  { emoji: '🍂', name: 'Fall Weekend Activities', season: 'Fall' },
+  { emoji: '🎃', name: 'Halloween Weekend Fun', season: 'Fall' },
+  { emoji: '🦃', name: 'Thanksgiving Weekend Playbook', season: 'Fall' },
+  { emoji: '❄️', name: 'Winter Weekend Ideas', season: 'Winter' },
+  { emoji: '🎄', name: 'Holiday Season Weekend Guide', season: 'Winter' },
+];
+---
+<BaseLayout title="Seasonal" description="Timely ideas for holidays, seasons, and long weekends.">
+  <Header slot="header" />
+
+  <div style="max-width:900px;margin:3rem auto;padding:0 1.5rem;">
+    <div style="margin-bottom:2.5rem;">
+      <h1 style="font-size:2.5rem;font-weight:900;margin:0 0 0.75rem;color:#2c2c2c;">Seasonal</h1>
+      <p style="font-size:1.1rem;color:#6b5c4c;margin:0;line-height:1.5;max-width:600px;">Timely ideas for holidays, seasons, and long weekends.</p>
+    </div>
+
+    {seasonal.length > 0 ? (
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;margin-bottom:3rem;">
+        {seasonal.map(article => (
+          <a href={`/guides/${article.slug}`} style="display:block;background:#fff;border-radius:10px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.06);transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)'">
+            <div style={`height:140px;background:${article.data.thumbnailBg || 'linear-gradient(135deg,#CC5500,#ff8c42)'};display:flex;align-items:center;justify-content:center;font-size:3.2rem;`}>
+              <span style="filter:drop-shadow(0 2px 8px rgba(0,0,0,0.2));">{article.data.thumbnail || '📅'}</span>
+            </div>
+            <div style="padding:1.25rem;">
+              <span style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#CC5500;">Seasonal</span>
+              <h2 style="margin:0.5rem 0 0.75rem;font-size:1.2rem;font-weight:700;line-height:1.3;">{article.data.title}</h2>
+              {article.data.description && (
+                <p style="margin:0;font-size:0.9rem;color:#6b6b6b;line-height:1.5;">{article.data.description}</p>
+              )}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div style="margin-bottom:3rem;">
+        <div style="background:#fff;border:2px solid #CC5500;border-radius:10px;padding:1.5rem 1.75rem;margin-bottom:2rem;">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:0.75rem;">
+            <span style="font-size:1.5rem;">🇺🇸</span>
+            <div>
+              <span style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#CC5500;">Coming This Weekend</span>
+              <h2 style="font-size:1.3rem;font-weight:700;margin:0.25rem 0 0;color:#2c2c2c;">Memorial Day Weekend Ideas</h2>
+            </div>
+          </div>
+          <p style="font-size:0.95rem;color:#6b5c4c;margin:0;line-height:1.5;">Our first seasonal guide drops soon — sign up for the newsletter to get it delivered.</p>
+        </div>
+
+        <h3 style="font-size:1.2rem;font-weight:700;color:#2c2c2c;margin:0 0 1rem;">What's Coming</h3>
+        <p style="font-size:0.95rem;color:#6b5c4c;margin:0 0 1.5rem;">Seasonal guides timed to holidays and long weekends throughout the year:</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;">
+          {plannedSeasonal.map(item => (
+            <div style="background:#fff;border:1px solid #e8dfd3;border-radius:10px;padding:1.15rem;display:flex;align-items:center;gap:12px;">
+              <span style="font-size:1.6rem;">{item.emoji}</span>
+              <div>
+                <span style="font-weight:700;color:#2c2c2c;font-size:0.9rem;display:block;">{item.name}</span>
+                <span style="font-size:0.75rem;color:#999;">{item.season}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

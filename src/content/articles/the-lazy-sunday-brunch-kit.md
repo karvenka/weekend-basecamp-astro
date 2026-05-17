@@ -3,9 +3,12 @@ title: "The Lazy Sunday Brunch Kit"
 description: "The art of doing nothing together, but doing it beautifully—waffles, good coffee, vinyl, and the radical act of putting your phone down."
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
-category: "Friends"
+category: "Couples"
 thumbnail: "🥐"
 thumbnailBg: "linear-gradient(135deg, #fccb90, #d57eeb)"
+tags: ["couples", "food", "brunch", "at-home", "cozy"]
+relatedArticles: ["25-at-home-date-night-ideas", "the-sunday-family-cook-off", "12-best-board-games-for-couples"]
+metaDescription: "The lazy Sunday brunch kit — everything you need for a perfect at-home brunch. Recipes, playlist, gear, and the art of doing absolutely nothing before noon."
 ---
 
 There is a specific kind of Sunday morning that you only get a handful of times a year — when nobody has obligations until afternoon, the weather is doing something interesting outside the window, and a small group of people you actually like has ended up in the same place without anyone planning it. The question is whether you let that morning dissolve into everyone staring at their phones or whether you build something worth remembering out of it.
@@ -71,3 +74,13 @@ The art of the lazy Sunday brunch is creating just enough structure that the mor
 One of our friends, who travels constantly for work and rarely has a free Sunday, showed up to one of these mornings and sat at the table for four hours. "I forgot what it felt like to not be somewhere else," she said.
 
 That's the whole point. Build the table. Make the waffles. Put on the record. The rest takes care of itself.
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🕯️ [25 At-Home Date Night Ideas](/guides/25-at-home-date-night-ideas) — turn any evening into something special
+- 👨‍🍳 [The Sunday Family Cook-Off](/guides/the-sunday-family-cook-off) — turn brunch into a friendly competition
+- 🎲 [12 Best Board Games for Couples](/guides/12-best-board-games-for-couples) — the perfect post-brunch activity

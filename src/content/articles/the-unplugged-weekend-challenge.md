@@ -3,9 +3,12 @@ title: "The Unplugged Weekend Challenge"
 description: "48 hours without screens sounds like a punishment. What actually happens is more interesting than that."
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
-category: "Couples"
+category: "Everyone"
 thumbnail: "📵"
 thumbnailBg: "linear-gradient(135deg, #a18cd1, #fbc2eb)"
+tags: ["digital-detox", "family", "screen-free", "wellness"]
+relatedArticles: ["weekend-activities-for-kids-that-dont-involve-screens", "the-no-stress-family-hiking-guide", "25-at-home-date-night-ideas"]
+metaDescription: "The unplugged weekend challenge — 48 hours without screens. We tried it expecting chaos. What actually happened surprised us. Here's the framework that works."
 ---
 
 We lasted about six hours the first time we tried this. Not because we couldn't handle no screens — because we'd forgotten that our phones were also our maps, our timers, our music, our cameras, and our default response to any moment of silence or uncertainty. Without them, we kept reaching for pockets that had nothing useful in them.
@@ -86,3 +89,13 @@ That boredom — the comfortable kind, with another person — is what's missing
 The challenge isn't 48 hours without your phone. The challenge is remembering what you used to do with time before your phone told you what to do with it.
 
 Try it once. See what's there.
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🧒 [Weekend Activities for Kids Without Screens](/guides/weekend-activities-for-kids-that-dont-involve-screens) — more screen-free ideas that actually work
+- 🥾 [The No-Stress Family Hiking Guide](/guides/the-no-stress-family-hiking-guide) — the perfect unplugged outdoor activity
+- 🕯️ [25 At-Home Date Night Ideas](/guides/25-at-home-date-night-ideas) — intentional evenings, no screens required

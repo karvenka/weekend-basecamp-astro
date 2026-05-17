@@ -6,6 +6,9 @@ pubDate: 2026-04-12
 category: "Friends"
 thumbnail: "🍂"
 thumbnailBg: "linear-gradient(135deg, #ff9a56, #ff6f00)"
+tags: ["friends", "holiday", "hosting", "food"]
+relatedArticles: ["neighborhood-block-party-playbook", "the-ultimate-game-night-guide", "how-to-plan-the-perfect-backyard-night"]
+metaDescription: "How to host a Friendsgiving that's actually fun — not stressful. The potluck hack, seating strategy, and the one rule that makes it memorable every year."
 ---
 
 Here is the honest truth about Friendsgiving: the food is secondary. I know that's a strange thing to say at the start of what some people might expect to be a cooking guide. But we've hosted or attended a dozen of these gatherings over the years, and the ones that became traditions had nothing to do with whose green bean casserole was better. They had to do with the people who showed up, the table they sat around, and whether anyone thought to have an activity ready for 9pm when the energy starts to flag.
@@ -69,3 +72,13 @@ Friendsgiving works because it's the holiday you choose rather than the one you'
 "It was the first Thanksgiving I actually looked forward to," one friend told me years ago, the night of our first real Friendsgiving. She lives three time zones away now but she still asks every October if we're doing it again.
 
 We always do it again.
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🎉 [The Neighborhood Block Party Playbook](/guides/neighborhood-block-party-playbook) — throw the party your street talks about all year
+- 🎯 [The Ultimate Game Night Guide](/guides/the-ultimate-game-night-guide) — the perfect post-dinner activity
+- 🔥 [The Perfect Backyard Night](/guides/how-to-plan-the-perfect-backyard-night) — fire, food, and zero plans to be anywhere else

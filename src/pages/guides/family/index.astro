@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const familySlugs = [
+  'the-no-stress-family-hiking-guide',
+  'weekend-activities-for-kids-that-dont-involve-screens',
+  'the-sunday-family-cook-off',
+  'how-to-host-a-friendsgiving-thats-actually-fun',
+];
+
+const allArticles = await getCollection('articles');
+const articles = allArticles.filter(a =>
+  a.data.category?.toLowerCase() === 'family' ||
+  familySlugs.includes(a.slug) ||
+  (a.data.tags && a.data.tags.some((t: string) => t.toLowerCase() === 'family'))
+);
+articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+<BaseLayout title="Family Weekend Ideas" description="Kid-friendly activities, family hikes, and weekend ideas the whole crew will love.">
+  <Header slot="header" />
+
+  <div style="max-width:900px;margin:3rem auto;padding:0 1.5rem;">
+    <div style="margin-bottom:2.5rem;">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:0.75rem;">
+        <span style="font-size:2rem;">👨‍👩‍👧‍👦</span>
+        <h1 style="font-size:2.5rem;font-weight:900;margin:0;color:#2c2c2c;">Family Weekend Ideas</h1>
+      </div>
+      <p style="font-size:1.05rem;color:#6b5c4c;margin:0;line-height:1.5;max-width:600px;">Kid-friendly activities, family hikes, and weekend ideas the whole crew will love.</p>
+    </div>
+
+    {articles.length === 0 && (
+      <p style="color:#6b6b6b;">No family guides yet. Check back soon!</p>
+    )}
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem;">
+      {articles.map(article => (
+        <a href={`/guides/${article.slug}`} style="display:block;background:#fff;border-radius:10px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.06);transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)'">
+          <div style={`height:120px;background:${article.data.thumbnailBg || 'linear-gradient(135deg,#4CAF50,#81C784)'};display:flex;align-items:center;justify-content:center;font-size:2.8rem;`}>
+            <span style="filter:drop-shadow(0 2px 8px rgba(0,0,0,0.2));">{article.data.thumbnail || '👨‍👩‍👧‍👦'}</span>
+          </div>
+          <div style="padding:1.15rem;">
+            {article.data.category && (
+              <span style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#9a7a5a;">{article.data.category}</span>
+            )}
+            <h2 style="margin:0.4rem 0 0.5rem;font-size:1.1rem;font-weight:700;line-height:1.3;">{article.data.title}</h2>
+            {article.data.description && (
+              <p style="margin:0;font-size:0.85rem;color:#6b6b6b;line-height:1.5;">{article.data.description}</p>
+            )}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div style="text-align:center;margin-top:2.5rem;">
+      <a href="/guides" style="display:inline-block;background:#2c2c2c;color:#f5f0e8;padding:0.75rem 2rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:1rem;transition:background 0.15s;" onmouseover="this.style.background='#444'" onmouseout="this.style.background='#2c2c2c'">Browse All Guides →</a>
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

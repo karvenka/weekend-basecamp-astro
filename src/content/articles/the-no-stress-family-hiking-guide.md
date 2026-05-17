@@ -6,6 +6,9 @@ pubDate: 2026-03-31
 category: "Guides"
 thumbnail: "🥾"
 thumbnailBg: "linear-gradient(135deg, #56ab2f, #a8e063)"
+tags: ["family", "hiking", "outdoor", "kids"]
+relatedArticles: ["weekend-activities-for-kids-that-dont-involve-screens", "weekend-camping-for-couples-who-dont-camp", "trail-running-for-total-beginners"]
+metaDescription: "The no-stress family hiking guide. Our first hike lasted 22 minutes before a meltdown. Here's everything we learned about hiking with kids who have opinions."
 ---
 
 Weekend Basecamp • Family & Kids
@@ -361,3 +364,13 @@ Family hiking isn't about epic summits or Instagram-worthy overlooks. It's about
 _Weekend Basecamp is reader-supported. When you buy through links on our site, we may earn an affiliate commission._
 
 © 2026 Weekend Basecamp. All rights reserved.
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🧒 [Weekend Activities for Kids Without Screens](/guides/weekend-activities-for-kids-that-dont-involve-screens) — 20 ideas parents actually enjoy too
+- ⛺ [Weekend Camping for Couples](/guides/weekend-camping-for-couples-who-dont-camp) — the romantic version of getting outdoors
+- 🏃 [Trail Running for Total Beginners](/guides/trail-running-for-total-beginners) — once you're ready to pick up the pace

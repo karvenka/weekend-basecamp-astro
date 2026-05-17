@@ -3,9 +3,12 @@ title: "How to Plan the Perfect Backyard Night"
 description: "Plan the perfect backyard night with the right lighting, music, food, and screen-free activities. A step-by-step guide with tested gear picks."
 author: "Karthick Venkatesan"
 pubDate: 2026-03-27
-category: "Guides"
+category: "Friends"
 thumbnail: "🔥"
 thumbnailBg: "linear-gradient(135deg, #f7971e, #ffd200)"
+tags: ["friends", "outdoor", "backyard", "summer"]
+relatedArticles: ["neighborhood-block-party-playbook", "the-stargazing-night-guide", "the-ultimate-game-night-guide"]
+metaDescription: "How to plan the perfect backyard night. Lighting, music, food, and the one setup trick that makes your yard feel like a venue. Tested over 20+ summer nights."
 ---
 
 The best family nights don't happen at restaurants or movie theaters. They happen in your own backyard — with a fire, some food, and zero plan to be anywhere else. Here's how to set one up without it feeling like another thing on your to-do list.
@@ -57,3 +60,13 @@ Don't overcomplicate it. Hot dogs on sticks, pre-made foil packets on the grill,
 **9:30 PM** — Flashlight tag until the kids crash.
 
 _Sources: What Hi-Fi? Best Outdoor Speakers 2025, Wirecutter Best Portable Bluetooth Speakers 2025_
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🎉 [The Neighborhood Block Party Playbook](/guides/neighborhood-block-party-playbook) — take it beyond the backyard
+- 🌌 [The Stargazing Night Guide](/guides/the-stargazing-night-guide) — the perfect late-night addition
+- 🎯 [The Ultimate Game Night Guide](/guides/the-ultimate-game-night-guide) — bring the games outside

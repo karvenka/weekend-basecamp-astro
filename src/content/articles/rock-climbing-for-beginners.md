@@ -6,6 +6,9 @@ pubDate: 2026-03-31
 category: "Guides"
 thumbnail: "🧗"
 thumbnailBg: "linear-gradient(135deg, #6a85b6, #bac8e0)"
+tags: ["outdoor", "climbing", "adventure", "fitness"]
+relatedArticles: ["trail-running-for-total-beginners", "the-no-stress-family-hiking-guide", "the-weekend-pickleball-starter-guide"]
+metaDescription: "Rock climbing for beginners — indoor to outdoor, gear to technique. Everything you need to start climbing this weekend without feeling like an imposter."
 ---
 
 The first time we went rock climbing, we were terrified. Our hands were shaking as we laced up borrowed shoes two sizes too big. The wall seemed impossibly tall. We couldn't imagine how we'd ever get our bodies off the ground, let alone reach the top. Our friend who'd invited us kept saying encouraging things—"You're stronger than you think!" and "It's not about strength, it's about technique!"—but we were convinced she was lying.
@@ -267,4 +270,12 @@ Yes, but only as part of a complete program. Climbing burns calories and builds 
   * Building Community Through Physical Challenge
   * Hiking vs. Climbing: Which Adventure Is Right for You?
 
+---
 
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🏃 [Trail Running for Total Beginners](/guides/trail-running-for-total-beginners) — another sport that's easier than you think
+- 🥾 [The No-Stress Family Hiking Guide](/guides/the-no-stress-family-hiking-guide) — a gentler way to get outdoors
+- 🏓 [The Weekend Pickleball Starter Guide](/guides/the-weekend-pickleball-starter-guide) — the social sport that hooks everyone

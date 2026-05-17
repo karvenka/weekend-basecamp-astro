@@ -6,6 +6,9 @@ pubDate: 2026-04-12
 category: "Everyone"
 thumbnail: "👨‍🍳"
 thumbnailBg: "linear-gradient(135deg, #ff5858, #f09819)"
+tags: ["family", "food", "cooking", "kids"]
+relatedArticles: ["the-lazy-sunday-brunch-kit", "weekend-activities-for-kids-that-dont-involve-screens", "25-at-home-date-night-ideas"]
+metaDescription: "The Sunday family cook-off — turn dinner into a competition your kids will actually want to repeat. Rules, scoring, and the secret ingredient: letting them win sometimes."
 ---
 
 The problem with cooking together as a family is that it usually isn't actually together. One parent is at the stove managing the real work while everyone else watches or wanders off. Kids are nominally helping until they're in the way and get redirected to the table. It's a performance of collaboration without the actual thing.
@@ -73,3 +76,13 @@ Our son made a chicken dish once that was wildly over-seasoned. He scored last. 
 "I want to do that again," he said. Not the over-seasoned disaster. The whole thing. The cook-off, the stakes, the competition, the eating together around the table.
 
 Make it a Sunday thing. The kitchen gets noisier. The cooking gets better. The Sundays start to matter.
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🥐 [The Lazy Sunday Brunch Kit](/guides/the-lazy-sunday-brunch-kit) — the art of doing nothing together, beautifully
+- 🧒 [Weekend Activities for Kids Without Screens](/guides/weekend-activities-for-kids-that-dont-involve-screens) — more screen-free ideas the whole family enjoys
+- 🕯️ [25 At-Home Date Night Ideas](/guides/25-at-home-date-night-ideas) — after the kids are in bed

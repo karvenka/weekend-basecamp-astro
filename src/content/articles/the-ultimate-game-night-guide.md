@@ -3,9 +3,12 @@ title: "The Ultimate Game Night Guide"
 description: "Host an unforgettable game night with the right games, snacks, and pacing. 60+ board games tested and ranked by group size, vibe, and complexity."
 author: "Karthick Venkatesan"
 pubDate: 2026-03-31
-category: "Guides"
+category: "Friends"
 thumbnail: "🎯"
 thumbnailBg: "linear-gradient(135deg, #4facfe, #00f2fe)"
+tags: ["friends", "games", "at-home", "cozy"]
+relatedArticles: ["12-best-board-games-for-couples", "how-to-host-a-friendsgiving-thats-actually-fun", "how-to-plan-the-perfect-backyard-night"]
+metaDescription: "The ultimate game night guide for groups of 4-10. Best games by group size, food that works one-handed, and the playlist that keeps energy up past midnight."
 ---
 
 Here's a confession: we used to be terrible at game night. Not terrible at games — terrible at hosting them. We'd invite eight people over, crack open Monopoly, and watch the evening slowly disintegrate into a three-hour slog where half the table was on their phones by hour two and someone was genuinely angry about a property trade. By 10 PM, people were inventing excuses to leave. "Early morning tomorrow." "My cat has a vet appointment." Sure, Kevin. On a Saturday.
@@ -285,3 +288,13 @@ A few accessories make a big difference. A good table cover (felt or neoprene) p
 ## More from Weekend Basecamp
 
 🕯️ The Perfect Date Night at Home Entertaining · 20 min read 🎬 How to Build a Backyard Movie Theater Outdoor · 15 min read 🍿 The Best Snack Boards for Entertaining Food · 12 min read
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🎲 [12 Best Board Games for Couples](/guides/12-best-board-games-for-couples) — scale it down for two-player nights
+- 🍂 [How to Host a Friendsgiving](/guides/how-to-host-a-friendsgiving-thats-actually-fun) — the holiday gathering that becomes a tradition
+- 🔥 [The Perfect Backyard Night](/guides/how-to-plan-the-perfect-backyard-night) — take game night outside

@@ -3,9 +3,12 @@ title: "The Weekend Pickleball Starter Guide"
 description: "Why pickleball is the best sport for friend groups who haven't played sports since college—and the gear that actually matters."
 author: "Karthick Venkatesan"
 pubDate: 2026-04-12
-category: "Friends"
+category: "Everyone"
 thumbnail: "🏓"
 thumbnailBg: "linear-gradient(135deg, #11998e, #38ef7d)"
+tags: ["outdoor", "pickleball", "sport", "social"]
+relatedArticles: ["trail-running-for-total-beginners", "rock-climbing-for-beginners", "how-to-plan-the-perfect-backyard-night"]
+metaDescription: "The weekend pickleball starter guide. Gear, rules, and where to play — from someone who went from 'what is this' to 'why didn't I start sooner' in one weekend."
 ---
 
 We stumbled into pickleball the way most people do: someone at a backyard party said "I found a court, I have paddles, let's go," and three hours later we were already arguing about whether to book the court again next weekend. That was two years ago. We still book the court every other weekend.
@@ -61,3 +64,13 @@ And stop apologizing when you hit a winner. You'll see this in every beginner gr
 One of our friends, Maya, showed up to her first session in tennis shoes and a gym shirt, convinced she'd be the worst person on the court. By game three she was directing traffic and telling people where to stand. "It's the first sport I've tried where I felt like I got it on day one," she told us. That's the pitch. That's why your entire friend group will still be booking courts in six months.
 
 Pack the paddles. Find the court. The rest figures itself out.
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🏃 [Trail Running for Total Beginners](/guides/trail-running-for-total-beginners) — another beginner-friendly weekend sport
+- 🧗 [Rock Climbing for Beginners](/guides/rock-climbing-for-beginners) — if you want more of a physical challenge
+- 🔥 [The Perfect Backyard Night](/guides/how-to-plan-the-perfect-backyard-night) — celebrate your wins with friends after

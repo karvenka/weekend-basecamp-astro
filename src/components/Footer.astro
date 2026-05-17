@@ -4,20 +4,42 @@ const year = new Date().getFullYear();
 <footer class="wbc-footer">
   <div class="wbc-footer__inner">
     <p class="wbc-footer__brand">Weekend Basecamp &copy; {year}</p>
-    <nav class="wbc-footer__links">
-      <a href="/guides">Guides</a>
-      <a href="/pages/our-story">Our Story</a>
-      <a href="/pages/purchasing-faq">Purchasing FAQ</a>
+
+    <div class="wbc-footer__columns">
+      <div class="wbc-footer__col">
+        <h4 class="wbc-footer__col-title">Explore</h4>
+        <nav class="wbc-footer__col-links">
+          <a href="/destinations">Destinations</a>
+          <a href="/guides">Guides</a>
+          <a href="/seasonal">Seasonal</a>
+          <a href="/our-story">About</a>
+        </nav>
+      </div>
+      <div class="wbc-footer__col">
+        <h4 class="wbc-footer__col-title">Categories</h4>
+        <nav class="wbc-footer__col-links">
+          <a href="/guides/couples">Couples</a>
+          <a href="/guides/family">Family</a>
+          <a href="/guides/friends">Friends</a>
+          <a href="/guides/outdoor">Outdoor</a>
+        </nav>
+      </div>
+      <div class="wbc-footer__col">
+        <h4 class="wbc-footer__col-title">Connect</h4>
+        <nav class="wbc-footer__col-links">
+          <a href="https://www.pinterest.com/weekendbasecamp" target="_blank" rel="noopener noreferrer">Pinterest</a>
+          <a href="https://www.instagram.com/weekendbasecamp" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="#newsletter">Newsletter</a>
+        </nav>
+      </div>
+    </div>
+
+    <p class="wbc-footer__disclosure">
+      Weekend Basecamp is reader-supported. When you buy through links on our site, we may earn a commission.
+    </p>
+    <nav class="wbc-footer__legal">
       <a href="/pages/privacy">Privacy</a>
     </nav>
-    <div class="wbc-footer__social">
-      <a href="https://www.pinterest.com/weekendbasecamp" target="_blank" rel="noopener noreferrer">Pinterest</a>
-      <a href="https://www.instagram.com/weekendbasecamp" target="_blank" rel="noopener noreferrer">Instagram</a>
-    </div>
-    <p class="wbc-footer__disclosure">
-      As an Amazon Associate, Weekend Basecamp earns from qualifying purchases.
-      Prices shown are estimates and may vary on Amazon.
-    </p>
   </div>
 </footer>
 
@@ -35,7 +57,7 @@ const year = new Date().getFullYear();
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 1.5rem;
     align-items: center;
   }
   .wbc-footer__brand {
@@ -44,36 +66,63 @@ const year = new Date().getFullYear();
     color: #f5f0e8;
     font-size: 1rem;
   }
-  .wbc-footer__links {
+  .wbc-footer__columns {
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+    gap: 3rem;
     justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
   }
-  .wbc-footer__links a {
+  .wbc-footer__col {
+    min-width: 120px;
+  }
+  .wbc-footer__col-title {
+    margin: 0 0 0.5rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #f5f0e8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .wbc-footer__col-links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .wbc-footer__col-links a {
     color: #b0a090;
     text-decoration: none;
     font-weight: 500;
+    font-size: 0.85rem;
     transition: color 0.15s;
   }
-  .wbc-footer__links a:hover { color: #f5f0e8; }
-  .wbc-footer__social {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-  }
-  .wbc-footer__social a {
-    color: #888;
-    text-decoration: none;
-    font-size: 0.82rem;
-    transition: color 0.15s;
-  }
-  .wbc-footer__social a:hover { color: #f5f0e8; }
+  .wbc-footer__col-links a:hover { color: #f5f0e8; }
   .wbc-footer__disclosure {
     margin: 0;
     font-size: 0.78rem;
     color: #666;
     max-width: 600px;
     line-height: 1.5;
+  }
+  .wbc-footer__legal {
+    display: flex;
+    gap: 16px;
+  }
+  .wbc-footer__legal a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.78rem;
+    transition: color 0.15s;
+  }
+  .wbc-footer__legal a:hover { color: #f5f0e8; }
+  @media (max-width: 480px) {
+    .wbc-footer__columns {
+      flex-direction: column;
+      gap: 1.5rem;
+      text-align: center;
+    }
+    .wbc-footer__col-links {
+      align-items: center;
+    }
   }
 </style>

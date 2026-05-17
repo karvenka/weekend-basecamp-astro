@@ -2,66 +2,173 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import KitFinder from '../components/KitFinder.astro';
-import SocialProof from '../components/SocialProof.astro';
 import { getCollection } from 'astro:content';
 
 const allArticles = await getCollection('articles');
-const featured = allArticles.slice(0, 6);
+const latestArticles = [...allArticles].sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 6);
+const destinations = allArticles.filter(a => a.data.category === 'Destinations');
+const seasonal = allArticles.filter(a => a.data.category === 'Seasonal');
 ---
-<BaseLayout title="Home" description="Guides & Gear That Help You Build Memories">
+<BaseLayout title="Weekend Adventures Start Here" description="Destination guides, outdoor adventures, and weekend ideas — written from experience by a family that actually does this stuff.">
   <Header slot="header" />
 
-  <section style="max-width:900px;margin:0 auto;padding:32px 24px 16px;text-align:center;">
-    <h1 style="font-size:clamp(2rem,5vw,3.25rem);font-weight:900;line-height:1.1;color:#2c2c2c;margin:0 0 1rem;">
-      Guides &amp; Gear That Help You Build Memories
-    </h1>
-    <p style="font-size:1.05rem;color:#6b5c4c;max-width:560px;margin:0 auto 0.75rem;line-height:1.5;">
-      With family, friends, and the people who matter most. Get together. Have fun. Grow closer.
-    </p>
+  <!-- A. Hero Section -->
+  <section style="background:linear-gradient(180deg, #f5f0e8 0%, #faf7f2 100%);padding:4rem 24px 3rem;text-align:center;">
+    <div style="max-width:700px;margin:0 auto;">
+      <h1 style="font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;line-height:1.1;color:#2c2c2c;margin:0 0 1.25rem;">
+        Weekend adventures start here.
+      </h1>
+      <p style="font-size:1.1rem;color:#6b5c4c;max-width:600px;margin:0 auto 2rem;line-height:1.6;">
+        Destination guides, outdoor adventures, and weekend ideas — written from experience by a family that actually does this stuff.
+      </p>
+      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+        <a href="/guides/the-perfect-weekend-in-leavenworth-wa" style="display:inline-block;padding:8px 18px;background:#fff;border:1px solid #e8dfd3;border-radius:999px;text-decoration:none;color:#2c2c2c;font-size:0.88rem;font-weight:600;transition:background 0.15s,border-color 0.15s;" onmouseover="this.style.background='#f5f0e8';this.style.borderColor='#CC5500'" onmouseout="this.style.background='#fff';this.style.borderColor='#e8dfd3'">🏔️ Leavenworth</a>
+        <a href="/destinations" style="display:inline-block;padding:8px 18px;background:#fff;border:1px solid #e8dfd3;border-radius:999px;text-decoration:none;color:#2c2c2c;font-size:0.88rem;font-weight:600;transition:background 0.15s,border-color 0.15s;" onmouseover="this.style.background='#f5f0e8';this.style.borderColor='#CC5500'" onmouseout="this.style.background='#fff';this.style.borderColor='#e8dfd3'">🏝️ Olympic Peninsula</a>
+        <a href="/destinations" style="display:inline-block;padding:8px 18px;background:#fff;border:1px solid #e8dfd3;border-radius:999px;text-decoration:none;color:#2c2c2c;font-size:0.88rem;font-weight:600;transition:background 0.15s,border-color 0.15s;" onmouseover="this.style.background='#f5f0e8';this.style.borderColor='#CC5500'" onmouseout="this.style.background='#fff';this.style.borderColor='#e8dfd3'">⛴️ San Juan Islands</a>
+      </div>
+    </div>
   </section>
 
-  <KitFinder />
+  <!-- B. Featured Destination Spotlight -->
+  <section style="max-width:900px;margin:0 auto;padding:2rem 24px;">
+    <a href="/guides/the-perfect-weekend-in-leavenworth-wa" style="display:block;background:linear-gradient(135deg, #2d5016, #4a8c2a, #87CEEB);border-radius:14px;padding:3rem 2.5rem;text-decoration:none;color:#fff;transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 30px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='';this.style.boxShadow='none'">
+      <div style="max-width:550px;">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:1rem;">
+          <span style="font-size:1.5rem;">🏔️</span>
+          <span style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.85);">Featured Destination</span>
+        </div>
+        <h2 style="font-size:clamp(1.5rem,3.5vw,2.2rem);font-weight:900;line-height:1.15;margin:0 0 0.75rem;">The Perfect Weekend in Leavenworth, WA</h2>
+        <p style="font-size:1rem;color:rgba(255,255,255,0.85);line-height:1.5;margin:0 0 1.5rem;">From a local who owns two places there and visits 15+ times a year.</p>
+        <span style="display:inline-block;padding:10px 24px;background:rgba(255,255,255,0.2);border:1px solid rgba(255,255,255,0.35);border-radius:6px;font-weight:700;font-size:0.95rem;backdrop-filter:blur(4px);">Read the Guide →</span>
+      </div>
+    </a>
+  </section>
 
-  {featured.length > 0 && (
-    <section style="margin:3rem 0 2rem;padding:0 24px;">
-      <h2 style="font-size:1.6rem;font-weight:800;margin-bottom:1.5rem;">Featured Guides</h2>
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;">
-        {featured.map(article => (
+  <!-- C. Seasonal Spotlight -->
+  <section style="max-width:900px;margin:0 auto;padding:0 24px 2rem;">
+    <a href="/guides/memorial-day-weekend-ideas" style="display:block;background:#fff;border:2px solid #CC5500;border-radius:10px;padding:1.25rem 1.5rem;text-decoration:none;color:inherit;transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(204,85,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='none'">
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+        <span style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#CC5500;background:rgba(204,85,0,0.08);padding:4px 10px;border-radius:4px;">This Weekend</span>
+        <h3 style="font-size:1.15rem;font-weight:700;margin:0;color:#2c2c2c;">Memorial Day Ideas 🇺🇸</h3>
+        <span style="margin-left:auto;color:#CC5500;font-weight:600;font-size:0.9rem;">Read →</span>
+      </div>
+    </a>
+  </section>
+
+  <!-- D. Browse by Category -->
+  <section style="max-width:900px;margin:0 auto;padding:1rem 24px 2.5rem;">
+    <h2 style="font-size:1.4rem;font-weight:800;margin:0 0 1.25rem;color:#2c2c2c;">Browse by Category</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;">
+      <a href="/guides/outdoor" style="display:block;background:linear-gradient(135deg,#56ab2f,#a8e063);border-radius:10px;padding:1.5rem;text-decoration:none;color:#fff;transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='none'">
+        <span style="font-size:2rem;display:block;margin-bottom:0.5rem;">🏕️</span>
+        <span style="font-size:1.05rem;font-weight:700;display:block;margin-bottom:0.25rem;">Outdoor</span>
+        <span style="font-size:0.82rem;opacity:0.9;">Hikes, camping, and fresh air adventures</span>
+      </a>
+      <a href="/guides/couples" style="display:block;background:linear-gradient(135deg,#E91E63,#F06292);border-radius:10px;padding:1.5rem;text-decoration:none;color:#fff;transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='none'">
+        <span style="font-size:2rem;display:block;margin-bottom:0.5rem;">❤️</span>
+        <span style="font-size:1.05rem;font-weight:700;display:block;margin-bottom:0.25rem;">Couples</span>
+        <span style="font-size:0.82rem;opacity:0.9;">Date nights and romantic getaways</span>
+      </a>
+      <a href="/guides/family" style="display:block;background:linear-gradient(135deg,#4CAF50,#81C784);border-radius:10px;padding:1.5rem;text-decoration:none;color:#fff;transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='none'">
+        <span style="font-size:2rem;display:block;margin-bottom:0.5rem;">👨‍👩‍👧‍👦</span>
+        <span style="font-size:1.05rem;font-weight:700;display:block;margin-bottom:0.25rem;">Family</span>
+        <span style="font-size:0.82rem;opacity:0.9;">Kid-friendly ideas the whole crew will love</span>
+      </a>
+      <a href="/guides/friends" style="display:block;background:linear-gradient(135deg,#2196F3,#64B5F6);border-radius:10px;padding:1.5rem;text-decoration:none;color:#fff;transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow='none'">
+        <span style="font-size:2rem;display:block;margin-bottom:0.5rem;">🎉</span>
+        <span style="font-size:1.05rem;font-weight:700;display:block;margin-bottom:0.25rem;">Friends</span>
+        <span style="font-size:0.82rem;opacity:0.9;">Game nights, parties, and group fun</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- E. Latest Guides Grid -->
+  {latestArticles.length > 0 && (
+    <section style="max-width:900px;margin:0 auto;padding:1rem 24px 2.5rem;">
+      <h2 style="font-size:1.4rem;font-weight:800;margin:0 0 1.25rem;color:#2c2c2c;">Latest Guides</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:1.25rem;">
+        {latestArticles.map(article => (
           <a href={`/guides/${article.slug}`} style="display:block;background:#fff;border-radius:10px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.06);transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)'">
-            <div style={`height:120px;background:${article.data.thumbnailBg || `linear-gradient(135deg,${article.data.category === 'Friends' ? '#2196F3,#64B5F6,#BBDEFB' : article.data.category === 'Couples' ? '#E91E63,#F06292,#F8BBD0' : article.data.category === 'Everyone' ? '#4CAF50,#81C784,#C8E6C9' : '#CC5500,#ff8c42,#ffd699'})`};display:flex;align-items:center;justify-content:center;font-size:3rem;`}>
-              <span style="filter:drop-shadow(0 2px 8px rgba(0,0,0,0.2));">{article.data.thumbnail || (article.data.category === 'Friends' ? '👫' : article.data.category === 'Couples' ? '💑' : article.data.category === 'Everyone' ? '🌍' : '👨‍👩‍👧‍👦')}</span>
+            <div style={`height:110px;background:${article.data.thumbnailBg || 'linear-gradient(135deg,#CC5500,#ff8c42)'};display:flex;align-items:center;justify-content:center;font-size:2.8rem;`}>
+              <span style="filter:drop-shadow(0 2px 8px rgba(0,0,0,0.2));">{article.data.thumbnail || '📖'}</span>
             </div>
-            <div style="padding:1.25rem;">
-            {article.data.category && (
-              <span style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#9a7a5a;">{article.data.category}</span>
-            )}
-            <h3 style="margin:0.5rem 0 0.75rem;font-size:1.1rem;font-weight:700;line-height:1.3;">{article.data.title}</h3>
-            {article.data.description && (
-              <p style="margin:0;font-size:0.9rem;color:#6b6b6b;line-height:1.5;">{article.data.description}</p>
-            )}
+            <div style="padding:1.15rem;">
+              {article.data.category && (
+                <span style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#9a7a5a;">{article.data.category}</span>
+              )}
+              <h3 style="margin:0.4rem 0 0.5rem;font-size:1.05rem;font-weight:700;line-height:1.3;">{article.data.title}</h3>
+              {article.data.description && (
+                <p style="margin:0;font-size:0.85rem;color:#6b6b6b;line-height:1.5;">{article.data.description}</p>
+              )}
             </div>
           </a>
         ))}
       </div>
       <div style="text-align:center;margin-top:2rem;">
-        <a href="/guides" style="display:inline-block;background:#2c2c2c;color:#f5f0e8;padding:0.75rem 2rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:1rem;">Browse All Guides →</a>
+        <a href="/guides" style="display:inline-block;background:#2c2c2c;color:#f5f0e8;padding:0.75rem 2rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:1rem;transition:background 0.15s;" onmouseover="this.style.background='#444'" onmouseout="this.style.background='#2c2c2c'">Browse All Guides →</a>
       </div>
     </section>
   )}
 
-  
-  <SocialProof />
+  <!-- F. Trust Bar / Social Proof -->
+  <section style="background:#f8f6ea;padding:3rem 1.5rem;border-top:1px solid #e8dfd3;border-bottom:1px solid #e8dfd3;">
+    <div style="max-width:900px;margin:0 auto;text-align:center;">
+      <h2 style="font-size:1.4rem;font-weight:800;color:#2c2c2c;margin:0 0 2rem;">Everything you need for a better weekend</h2>
 
-  <section style="margin:3rem 0 2rem;padding:2rem 24px;background:#1a1a1a;text-align:center;">
-    <h2 style="font-size:1.4rem;font-weight:800;color:#f5f0e8;margin:0 0 0.5rem;">Get weekend ideas in your inbox</h2>
-    <p style="font-size:0.95rem;color:#a89880;margin:0 0 1.25rem;max-width:480px;margin-left:auto;margin-right:auto;">One email per week. Curated kits, new guides, and the occasional product we can't stop recommending.</p>
-    <form style="display:flex;gap:8px;max-width:420px;margin:0 auto;flex-wrap:wrap;justify-content:center;" action="https://formsubmit.co/vkarthickprabu@gmail.com" method="POST">
-      <input type="hidden" name="_subject" value="New Weekend Basecamp subscriber" /><input type="hidden" name="_captcha" value="false" /><input type="hidden" name="_next" value="https://weekendbasecamp.com/?subscribed=1" />
-      <input type="email" name="email" placeholder="your@email.com" required style="flex:1;min-width:200px;padding:10px 14px;border:none;border-radius:6px;font-size:0.95rem;" />
-      <button type="submit" style="padding:10px 20px;background:#CC5500;color:#fff;border:none;border-radius:6px;font-weight:700;font-size:0.95rem;cursor:pointer;white-space:nowrap;">Subscribe</button>
-    </form>
-    <p style="font-size:0.75rem;color:#666;margin-top:0.75rem;">No spam. Unsubscribe anytime.</p>
+      <div style="display:flex;justify-content:center;gap:2.5rem;margin-bottom:2rem;flex-wrap:wrap;">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+          <span style="font-size:2rem;font-weight:900;color:#CC5500;line-height:1;">20+</span>
+          <span style="font-size:0.82rem;font-weight:600;color:#6b5c4c;text-transform:uppercase;letter-spacing:0.05em;">Guides</span>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+          <span style="font-size:2rem;font-weight:900;color:#CC5500;line-height:1;">100%</span>
+          <span style="font-size:0.82rem;font-weight:600;color:#6b5c4c;text-transform:uppercase;letter-spacing:0.05em;">Family Tested</span>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+          <span style="font-size:2rem;font-weight:900;color:#CC5500;line-height:1;">🌲</span>
+          <span style="font-size:0.82rem;font-weight:600;color:#6b5c4c;text-transform:uppercase;letter-spacing:0.05em;">Based in the Pacific Northwest</span>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;margin-bottom:2rem;text-align:left;">
+        <a href="/guides/25-at-home-date-night-ideas" style="background:#fff;border:1px solid #e8dfd3;border-radius:12px;padding:1.25rem 1.5rem;text-decoration:none;color:inherit;transition:transform 0.2s ease,box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='';this.style.boxShadow='none'">
+          <blockquote style="margin:0 0 0.75rem;font-size:0.95rem;font-style:italic;color:#2c2c2c;line-height:1.5;">"The secret to a great date night isn't spending more money — it's spending more attention."</blockquote>
+          <cite style="font-size:0.78rem;font-style:normal;color:#CC5500;">— from <strong>25 At-Home Date Night Ideas</strong></cite>
+        </a>
+        <a href="/guides/the-no-stress-family-hiking-guide" style="background:#fff;border:1px solid #e8dfd3;border-radius:12px;padding:1.25rem 1.5rem;text-decoration:none;color:inherit;transition:transform 0.2s ease,box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='';this.style.boxShadow='none'">
+          <blockquote style="margin:0 0 0.75rem;font-size:0.95rem;font-style:italic;color:#2c2c2c;line-height:1.5;">"The goal of a family hike isn't the summit. It's the car ride home where nobody is crying."</blockquote>
+          <cite style="font-size:0.78rem;font-style:normal;color:#CC5500;">— from <strong>The No-Stress Family Hiking Guide</strong></cite>
+        </a>
+        <a href="/guides/weekend-activities-for-kids-that-dont-involve-screens" style="background:#fff;border:1px solid #e8dfd3;border-radius:12px;padding:1.25rem 1.5rem;text-decoration:none;color:inherit;transition:transform 0.2s ease,box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='';this.style.boxShadow='none'">
+          <blockquote style="margin:0 0 0.75rem;font-size:0.95rem;font-style:italic;color:#2c2c2c;line-height:1.5;">"We declared a screen-free Saturday once, expecting a riot. Instead, we had the best family day we'd had in months."</blockquote>
+          <cite style="font-size:0.78rem;font-style:normal;color:#CC5500;">— from <strong>Weekend Activities for Kids</strong></cite>
+        </a>
+      </div>
+
+      <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:12px;">
+        <span style="background:#fff;border:1px solid #e8dfd3;border-radius:999px;padding:8px 16px;font-size:0.82rem;font-weight:600;color:#4a3f35;white-space:nowrap;">🏕️ Real family tested</span>
+        <span style="background:#fff;border:1px solid #e8dfd3;border-radius:999px;padding:8px 16px;font-size:0.82rem;font-weight:600;color:#4a3f35;white-space:nowrap;">💰 Budget-friendly picks</span>
+        <span style="background:#fff;border:1px solid #e8dfd3;border-radius:999px;padding:8px 16px;font-size:0.82rem;font-weight:600;color:#4a3f35;white-space:nowrap;">🔄 Updated regularly</span>
+        <span style="background:#fff;border:1px solid #e8dfd3;border-radius:999px;padding:8px 16px;font-size:0.82rem;font-weight:600;color:#4a3f35;white-space:nowrap;">🌲 PNW based</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- G. Newsletter Section -->
+  <section style="padding:3rem 24px;background:#1a1a1a;text-align:center;">
+    <div style="max-width:520px;margin:0 auto;">
+      <div style="font-size:2.5rem;margin-bottom:0.75rem;">📬</div>
+      <h2 style="font-size:1.4rem;font-weight:800;color:#f5f0e8;margin:0 0 0.5rem;">Get weekend ideas in your inbox</h2>
+      <p style="font-size:0.95rem;color:#a89880;margin:0 0 1.5rem;line-height:1.5;">One email per week. New guides, seasonal ideas, and the occasional hidden gem we can't stop recommending.</p>
+      <form style="display:flex;gap:8px;max-width:420px;margin:0 auto;flex-wrap:wrap;justify-content:center;" action="https://formsubmit.co/vkarthickprabu@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Weekend Basecamp subscriber" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://weekendbasecamp.com/?subscribed=1" />
+        <input type="email" name="email" placeholder="your@email.com" required style="flex:1;min-width:200px;padding:12px 16px;border:2px solid transparent;border-radius:8px;font-size:0.95rem;background:#fff;color:#1a1a1a;font-family:inherit;" />
+        <button type="submit" style="padding:12px 28px;background:#CC5500;color:#fff;border:none;border-radius:8px;font-weight:700;font-size:0.95rem;cursor:pointer;font-family:inherit;white-space:nowrap;transition:background 0.2s;" onmouseover="this.style.background='#e06000'" onmouseout="this.style.background='#CC5500'">Subscribe</button>
+      </form>
+      <p style="font-size:0.75rem;color:#555;margin-top:0.75rem;">No spam. Unsubscribe anytime.</p>
+    </div>
   </section>
 
   <Footer slot="footer" />

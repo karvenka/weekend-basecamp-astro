@@ -3,9 +3,12 @@ title: "12 Best Board Games for Couples"
 description: "The 12 best board games for couples—from deep conversation starters to competitive two-player strategy games. Tested, ranked, and honest about which ones are worth buying."
 author: "Karthick Venkatesan"
 pubDate: 2026-03-28
-category: "Guides"
+category: "Couples"
 thumbnail: "🎲"
 thumbnailBg: "linear-gradient(135deg, #667eea, #764ba2)"
+tags: ["couples", "games", "at-home", "cozy"]
+relatedArticles: ["25-at-home-date-night-ideas", "the-ultimate-game-night-guide", "the-lazy-sunday-brunch-kit"]
+metaDescription: "The 12 best board games for couples, ranked by how many times we've actually replayed them. Skip the duds — these are the ones that start real conversations."
 ---
 
 Board games for couples are the best-kept secret in date night planning. No reservations needed, no screens competing for attention — just two people, a table, and a game that reveals sides of each other you did not know existed. Whether you want deep conversation, fierce competition, or uncontrollable laughter, there is a game for that.
@@ -51,3 +54,13 @@ The setup matters more than you think. Light some candles. Put on a lo-fi or jaz
 **The Deep Connection Kit:** THE AND Couples + Telescope + Blanket + Candle Lantern. For the night when you actually want to talk. [Browse this kit →](https://weekendbasecamp.com/?who=couple&vibe=deep)
 
  _The best date nights are not expensive. They are intentional. A $15 card game and two hours of undivided attention will always beat a $200 dinner where you both check your phones._
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🕯️ [25 At-Home Date Night Ideas](/guides/25-at-home-date-night-ideas) — because the best dates cost less than $20
+- 🎯 [The Ultimate Game Night Guide](/guides/the-ultimate-game-night-guide) — for when you need a competitive edge with friends
+- 🥐 [The Lazy Sunday Brunch Kit](/guides/the-lazy-sunday-brunch-kit) — pair great games with a perfect morning

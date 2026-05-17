@@ -6,6 +6,9 @@ pubDate: 2026-04-12
 category: "Everyone"
 thumbnail: "🎉"
 thumbnailBg: "linear-gradient(135deg, #43e97b, #38f9d7)"
+tags: ["community", "outdoor", "party", "summer"]
+relatedArticles: ["how-to-plan-the-perfect-backyard-night", "how-to-host-a-friendsgiving-thats-actually-fun", "the-ultimate-game-night-guide"]
+metaDescription: "The neighborhood block party playbook. Permits, food, music, and games that get strangers talking. How to throw the party your street talks about all year."
 ---
 
 The first time someone on our block suggested a block party, the response was enthusiastic in theory and paralyzed in practice. Everyone liked the idea. Nobody wanted to be responsible for it. We've seen this pattern repeat in five different neighborhoods: the block party that almost happened but didn't because the logistics seemed too complicated and nobody stepped forward.
@@ -79,3 +82,13 @@ Three years ago our block had the quiet anonymity of any American suburb: people
 A block party is one afternoon. The relationships that form at it last for years. Set the date, hand out the glow bracelets at dusk, put out Codenames.
 
 The neighborhood you want to live in is one good afternoon away.
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🔥 [The Perfect Backyard Night](/guides/how-to-plan-the-perfect-backyard-night) — start smaller with your own yard
+- 🍂 [How to Host a Friendsgiving](/guides/how-to-host-a-friendsgiving-thats-actually-fun) — the friend-group version of a neighborhood gathering
+- 🎯 [The Ultimate Game Night Guide](/guides/the-ultimate-game-night-guide) — games that work for any size group

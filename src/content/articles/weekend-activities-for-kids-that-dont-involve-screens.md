@@ -6,6 +6,9 @@ pubDate: 2026-03-31
 category: "Guides"
 thumbnail: "🧒"
 thumbnailBg: "linear-gradient(135deg, #36d1dc, #5b86e5)"
+tags: ["family", "kids", "screen-free", "activities"]
+relatedArticles: ["the-no-stress-family-hiking-guide", "the-sunday-family-cook-off", "the-unplugged-weekend-challenge"]
+metaDescription: "Weekend activities for kids without screens. Tested on real kids with real opinions. From backyard science to neighborhood adventures — no WiFi required."
 ---
 
 Weekend Basecamp Editorial
@@ -359,4 +362,14 @@ What do you do about other family members who might not be on board with screen-
 
 This is real and hard. If your partner isn't interested, start by just doing it with the kids and letting them see the benefits. If extended family is skeptical, explain what you're trying to accomplish and emphasize that it's actually fun, not punishment. Once people see happy kids and happy parents, skepticism usually decreases. If your partner is genuinely opposed, find a compromise—maybe screen-free until dinner, or once a month instead of weekly. Partnership matters more than perfect adherence to any plan.
 
-Weekend Basecamp is supported by readers. When you buy through our links, we may earn a commission. We select products independently and stand behind everything we recommend. 
+Weekend Basecamp is supported by readers. When you buy through our links, we may earn a commission. We select products independently and stand behind everything we recommend.
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🥾 [The No-Stress Family Hiking Guide](/guides/the-no-stress-family-hiking-guide) — get everyone outside without a meltdown
+- 👨‍🍳 [The Sunday Family Cook-Off](/guides/the-sunday-family-cook-off) — turn dinner into a competition kids love
+- 📵 [The Unplugged Weekend Challenge](/guides/the-unplugged-weekend-challenge) — 48 hours without screens, and what actually happens

@@ -6,6 +6,9 @@ pubDate: 2026-04-12
 category: "Couples"
 thumbnail: "⛺"
 thumbnailBg: "linear-gradient(135deg, #2d5016, #56ab2f)"
+tags: ["couples", "camping", "outdoor", "romantic"]
+relatedArticles: ["the-stargazing-night-guide", "the-no-stress-family-hiking-guide", "25-at-home-date-night-ideas"]
+metaDescription: "Weekend camping for couples who don't camp. The cabin trick, campfire dinners, and everything you need for a romantic outdoor weekend without the misery."
 ---
 
 My partner had exactly one camping experience before we started doing this: a miserable three-day trip in high school where it rained continuously, the food was awful, and she slept on what might as well have been gravel. For years, "camping" was a hard no. Then we found a state park cabin with a fire ring, a covered porch, and a bed with actual springs. She was converted. Not into camping as generally understood — into the specific, comfortable, romantic version of it that most camping gear companies don't want you to know is an option.
@@ -63,3 +66,13 @@ Go slow. Don't make a schedule. The point is the two of you, not the itinerary. 
 "I thought I was going to hate it," my partner said on our second camping trip, sitting in front of a fire she'd built herself, holding a mug of camp coffee. "But this feels like we're actually somewhere."
 
 That's exactly it. You go camping to feel like you're actually somewhere, together, without the noise. Pick the right site. Bring the right sleeping setup. Build the fire. The rest is just showing up.
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🌌 [The Stargazing Night Guide](/guides/the-stargazing-night-guide) — perfect for your campfire evening
+- 🥾 [The No-Stress Family Hiking Guide](/guides/the-no-stress-family-hiking-guide) — bring the kids next time
+- 🕯️ [25 At-Home Date Night Ideas](/guides/25-at-home-date-night-ideas) — for when you stay in instead

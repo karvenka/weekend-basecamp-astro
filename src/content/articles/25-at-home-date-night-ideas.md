@@ -3,9 +3,12 @@ title: "25 At-Home Date Night Ideas That Actually Feel Special"
 description: "25 creative at-home date night ideas that actually feel special—from cooking challenges to stargazing on the couch. Most cost under $20."
 author: "Karthick Venkatesan"
 pubDate: 2026-03-29
-category: "Guides"
+category: "Couples"
 thumbnail: "🕯️"
 thumbnailBg: "linear-gradient(135deg, #E91E63, #F06292)"
+tags: ["couples", "date-night", "at-home", "budget"]
+relatedArticles: ["12-best-board-games-for-couples", "the-stargazing-night-guide", "the-lazy-sunday-brunch-kit", "weekend-camping-for-couples-who-dont-camp"]
+metaDescription: "25 at-home date night ideas that actually feel special. Tested by real couples. From cooking challenges to stargazing — spend more attention, not more money."
 ---
 
 Weekend Basecamp • Couples
@@ -790,3 +793,14 @@ Rotate between the five categories — one cozy night, then an active date, then
 ### What if my partner isn't into date nights?
 
 Start with the lowest-effort options: the morning coffee ritual, the candle evening, the bike ride to nowhere. These don't feel like "date nights" — they feel like hanging out. Once your partner experiences the difference between an intentional evening and a default one, the buy-in usually follows naturally. Don't announce it as "date night." Just do it.
+
+---
+
+## More Weekend Ideas
+
+Looking for more? Check out these guides:
+
+- 🎲 [12 Best Board Games for Couples](/guides/12-best-board-games-for-couples) — the best-kept secret in date night planning
+- 🌌 [The Stargazing Night Guide](/guides/the-stargazing-night-guide) — turn a clear night into something unforgettable
+- 🥐 [The Lazy Sunday Brunch Kit](/guides/the-lazy-sunday-brunch-kit) — the art of doing nothing together, beautifully
+- ⛺ [Weekend Camping for Couples](/guides/weekend-camping-for-couples-who-dont-camp) — even if you don't camp
