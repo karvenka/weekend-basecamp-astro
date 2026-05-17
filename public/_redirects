@@ -16,3 +16,11 @@
 /blogs/low-effort-weekends/weekend-activities-for-kids-that-dont-involve-screens /guides/weekend-activities-for-kids-that-dont-involve-screens/ 301
 /blogs/low-effort-weekends/weekend-camping-for-couples-who-dont-camp /guides/weekend-camping-for-couples-who-dont-camp/ 301
 /blogs/low-effort-weekends /guides 301
+
+# Redirect destination shortcut
+/leavenworth-wa /guides/the-perfect-weekend-in-leavenworth-wa/ 301
+/leavenworth /guides/the-perfect-weekend-in-leavenworth-wa/ 301
+
+# Redirect removed purchasing FAQ
+/pages/purchasing-faq /our-story 301
+/pages/purchasing-faq/ /our-story 301

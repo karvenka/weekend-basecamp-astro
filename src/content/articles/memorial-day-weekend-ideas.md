@@ -50,7 +50,7 @@ If you're in the Pacific Northwest, Memorial Day weekend is when the mountains f
 
 I'm biased here — I own a place in Leavenworth and visit 15+ times a year. But that bias comes from experience: this Bavarian village about two hours east of Seattle is genuinely one of the best day trips in Washington, and Memorial Day weekend is a sweet spot. The summer tourist crush hasn't fully hit yet, the weather on the east side of the Cascades is usually gorgeous, and the whole town is walkable.
 
-Hit up the Leavenworth Nutcracker Museum (weirdly fascinating), grab a bratwurst from München Haus, and let the kids run around Waterfront Park by the Wenatchee River. If you're feeling ambitious, the Icicle Gorge Trail is a flat, easy loop that's beautiful this time of year. The drive over Stevens Pass is half the experience — windows down, mountains everywhere, stop at the Sultan Bakery for a bear claw on the way. I'm actually working on a full Leavenworth weekend guide that'll cover everything from restaurants to hikes to where to stay — stay tuned for that one.
+Hit up the Leavenworth Nutcracker Museum (weirdly fascinating), grab a bratwurst from München Haus, and let the kids run around Waterfront Park by the Wenatchee River. If you're feeling ambitious, the Icicle Gorge Trail is a flat, easy loop that's beautiful this time of year. The drive over Stevens Pass is half the experience — windows down, mountains everywhere, stop at the Sultan Bakery for a bear claw on the way. I wrote a full [Leavenworth weekend guide](/guides/the-perfect-weekend-in-leavenworth-wa) that covers everything from restaurants to hikes to where to stay.
 
 ### Mt. Rainier — Paradise or Sunrise
 
@@ -102,7 +102,7 @@ Here's one most people skip: a dedicated [stargazing night](/guides/the-stargazi
 
 ## The Gear Upgrade
 
-Memorial Day weekend is also prime time to invest in a few things that make your outdoor time way better. I'm not going to throw a bunch of product links at you (we're updating our gear recommendations with new affiliate partners soon — check back for links), but here's what I'd prioritize:
+Memorial Day weekend is also prime time to invest in a few things that make your outdoor time way better. Here's what I'd prioritize:
 
 **A decent portable speaker.** Not the $15 one that sounds like music is being played through a tin can. Something waterproof with actual bass that you can throw in a backpack or leave on the patio. Makes backyard movie nights, camping, and day trips significantly better. JBL and Bose both make excellent options in the $80-150 range.
 

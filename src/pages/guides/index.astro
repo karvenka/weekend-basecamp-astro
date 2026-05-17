@@ -7,30 +7,29 @@ import { getCollection } from 'astro:content';
 const articles = await getCollection('articles');
 articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 ---
-<BaseLayout title="Guides" description="All guides from Weekend Basecamp">
+<BaseLayout title="All Guides" description="Every Weekend Basecamp guide — destination guides, activity ideas, seasonal picks, and more.">
   <Header slot="header" />
 
-  <div style="max-width:900px;margin:3rem auto;padding:0 1.5rem;">
-    <h1 style="font-size:2.5rem;font-weight:900;margin-bottom:2rem;">All Guides</h1>
+  <div class="container" style="padding-top:3rem;padding-bottom:3rem;">
+    <div class="page-header">
+      <h1 class="page-header__title">All Guides</h1>
+      <p class="page-header__desc">Every guide we've published — destination deep-dives, activity ideas, and seasonal picks.</p>
+    </div>
 
-    {articles.length === 0 && (
-      <p style="color:#6b6b6b;">No guides yet. Check back soon!</p>
-    )}
-
-    <div style="display:grid;gap:1.25rem;">
+    <div style="display:grid;gap:1rem;">
       {articles.map(article => (
-        <a href={`/guides/${article.slug}`} style="display:flex;background:#fff;border-radius:10px;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.06);overflow:hidden;transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)'">
-          <div style={`min-width:100px;width:100px;display:flex;align-items:center;justify-content:center;background:${article.data.thumbnailBg || 'linear-gradient(135deg,#CC5500,#ff8c42)'};font-size:2.2rem;flex-shrink:0;`}>
+        <a href={`/guides/${article.slug}`} class="list-card">
+          <div class="list-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#CC5500,#ff8c42)'};`}>
             {article.data.thumbnail || '📖'}
           </div>
-          <div style="padding:1.25rem;flex:1;display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
+          <div class="list-card__body">
             <div>
               {article.data.category && (
-                <span style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#9a7a5a;">{article.data.category}</span>
+                <span class="guide-card__cat">{article.data.category}</span>
               )}
-              <h2 style="margin:0.4rem 0 0.5rem;font-size:1.2rem;font-weight:700;">{article.data.title}</h2>
+              <h2 style="margin:0.35rem 0 0.4rem;font-size:1.1rem;font-weight:700;">{article.data.title}</h2>
               {article.data.description && (
-                <p style="margin:0;font-size:0.9rem;color:#6b6b6b;">{article.data.description}</p>
+                <p style="margin:0;font-size:0.88rem;color:#6b6b6b;">{article.data.description}</p>
               )}
             </div>
             <time style="font-size:0.8rem;color:#999;white-space:nowrap;" datetime={article.data.pubDate.toISOString()}>

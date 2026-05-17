@@ -2,55 +2,17 @@
 ---
 <div class="author-box">
   <div class="author-box__inner">
-    <div class="author-box__avatar">KV</div>
+    <div class="author-box__avatar" aria-hidden="true">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+        <circle cx="12" cy="7" r="4"/>
+      </svg>
+    </div>
     <div class="author-box__content">
       <div class="author-box__name">Written by Karthick Venkatesan</div>
       <p class="author-box__bio">
-        Karthick is a dad, weekend adventurer, and the creator of Weekend Basecamp. He owns two vacation rentals in Leavenworth, WA, hikes with his kids most weekends, and believes the best memories come from intentional time together — not expensive plans. Everything on this site is tested by his family first.
+        Dad of two, weekend adventurer, and the person behind Weekend Basecamp. Karthick owns two vacation rentals in Leavenworth, WA and visits 15+ times a year. Everything on this site is based on personal experience — weekends his family has actually had.
       </p>
     </div>
   </div>
 </div>
-
-<style>
-  .author-box {
-    margin: 2.5rem 0;
-    padding: 1.5rem;
-    background: #f8f6ea;
-    border-radius: 10px;
-    border: 1px solid #e8dfd3;
-  }
-  .author-box__inner {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-  }
-  .author-box__avatar {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    background: #CC5500;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 800;
-    font-size: 1.1rem;
-    flex-shrink: 0;
-  }
-  .author-box__name {
-    font-weight: 800;
-    font-size: 1rem;
-    color: #1a1a1a;
-    margin-bottom: 0.4rem;
-  }
-  .author-box__bio {
-    margin: 0;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    color: #4a4a4a;
-  }
-  @media (max-width: 500px) {
-    .author-box__inner { flex-direction: column; align-items: center; text-align: center; }
-  }
-</style>

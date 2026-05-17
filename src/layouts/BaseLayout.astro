@@ -3,9 +3,11 @@ export interface Props {
   title: string;
   description?: string;
   canonicalUrl?: string;
+  ogImage?: string;
 }
-const { title, description = 'Weekend Basecamp — Guides & Gear for Family Adventures', canonicalUrl } = Astro.props;
+const { title, description = 'Weekend destination guides and activity ideas — written from experience by a PNW family.', canonicalUrl, ogImage } = Astro.props;
 const canonical = canonicalUrl || Astro.url.href;
+const socialImage = ogImage || 'https://weekendbasecamp.com/social-card.png';
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -13,44 +15,25 @@ const canonical = canonicalUrl || Astro.url.href;
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="canonical" href={canonical} />
+  <link rel="icon" type="image/png" href="/logo.png" />
+  <link rel="stylesheet" href="/styles/global.css" />
   <meta name="description" content={description} />
   <meta property="og:title" content={`${title} | Weekend Basecamp`} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonical} />
-  <meta property="og:image" content="https://weekendbasecamp.com/social-card.png" />
+  <meta property="og:image" content={socialImage} />
   <meta property="og:site_name" content="Weekend Basecamp" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={`${title} | Weekend Basecamp`} />
   <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content="https://weekendbasecamp.com/social-card.png" />
+  <meta name="twitter:image" content={socialImage} />
   <meta name="pinterest-rich-pin" content="true" />
   <title>{title} | Weekend Basecamp</title>
   <meta name="google-site-verification" content="Wz3JkCHX0us1qU6yumBdnhHWsH7PKfdS21hu5WlRSeA" />
   <slot name="head" />
-  <style>
-    *, *::before, *::after { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-      background: #faf7f2;
-      color: #2c2c2c;
-      line-height: 1.6;
-    }
-    a { color: inherit; }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    @media (max-width: 600px) {
-      body { font-size: 16px; }
-    }
-  </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"Weekend Basecamp","url":"https://weekendbasecamp.com","logo":"https://weekendbasecamp.com/logo.png","description":"Guides & Gear That Help You Build Memories","sameAs":["https://www.pinterest.com/weekendbasecamp","https://www.instagram.com/weekendbasecamp"]}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"Weekend Basecamp","url":"https://weekendbasecamp.com","potentialAction":{"@type":"SearchAction","target":"https://weekendbasecamp.com/guides?q={search_term_string}","query-input":"required name=search_term_string"}}
+{"@context":"https://schema.org","@type":"Organization","name":"Weekend Basecamp","url":"https://weekendbasecamp.com","logo":"https://weekendbasecamp.com/logo.png","description":"Weekend destination guides and activity ideas for the Pacific Northwest — written from experience by a family that actually does this stuff.","sameAs":["https://www.pinterest.com/weekendbasecamp","https://www.instagram.com/weekendbasecamp"]}
 </script>
 </head>
 <body>

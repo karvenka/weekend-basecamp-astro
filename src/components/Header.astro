@@ -1,97 +1,77 @@
 ---
 ---
-<div class="wbc-announcement-bar">🏔️ New: Leavenworth destination guide — written by a local</div>
-<header id="wbc-header">
-  <div class="wbc-header-top">
-    <a href="/" class="wbc-logo" aria-label="Weekend Basecamp home">
-      <img src="/logo.png" alt="" class="wbc-logo-img" />
-      <span class="wbc-logo-text">W E E K E N D &nbsp; B A S E C A M P</span>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="site-logo" aria-label="Weekend Basecamp home">
+      <img src="/logo.webp" alt="" class="site-logo__img" width="32" height="32" />
+      <span class="site-logo__text">Weekend Basecamp</span>
     </a>
-    <button class="wbc-search-btn" aria-label="Search">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="/destinations" class="site-nav__link">Destinations</a>
+      <a href="/guides" class="site-nav__link">Guides</a>
+      <a href="/seasonal" class="site-nav__link">Seasonal</a>
+      <a href="/our-story" class="site-nav__link">About</a>
+    </nav>
+    <button class="hamburger-btn" aria-label="Open menu" aria-expanded="false" id="hamburger-toggle">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
     </button>
   </div>
-  <nav class="wbc-nav">
-    <a href="/destinations" class="wbc-nav-link">Destinations</a>
-    <a href="/guides" class="wbc-nav-link">Guides</a>
-    <a href="/seasonal" class="wbc-nav-link">Seasonal</a>
-    <a href="/our-story" class="wbc-nav-link">About</a>
-  </nav>
 </header>
 
-<style>
-  .wbc-announcement-bar {
-    background: #CC5500;
-    color: #fff;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 5px 16px;
-    letter-spacing: 0.02em;
+<!-- Mobile nav drawer -->
+<div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+<nav class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile navigation">
+  <div class="mobile-nav-drawer__header">
+    <span class="site-logo__text" style="font-size:0.9rem;">Weekend Basecamp</span>
+    <button class="mobile-nav-drawer__close" aria-label="Close menu" id="mobile-nav-close">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+  </div>
+  <div class="mobile-nav-drawer__links">
+    <a href="/destinations" class="mobile-nav-drawer__link">🗺️ Destinations</a>
+    <a href="/guides" class="mobile-nav-drawer__link">📋 Guides</a>
+    <a href="/seasonal" class="mobile-nav-drawer__link">🌸 Seasonal</a>
+    <a href="/our-story" class="mobile-nav-drawer__link">👋 About Us</a>
+    <a href="/guides/couples" class="mobile-nav-drawer__link" style="padding-left:2.5rem;font-size:0.9rem;color:#999;">Couples</a>
+    <a href="/guides/family" class="mobile-nav-drawer__link" style="padding-left:2.5rem;font-size:0.9rem;color:#999;">Family</a>
+    <a href="/guides/friends" class="mobile-nav-drawer__link" style="padding-left:2.5rem;font-size:0.9rem;color:#999;">Friends</a>
+    <a href="/guides/outdoor" class="mobile-nav-drawer__link" style="padding-left:2.5rem;font-size:0.9rem;color:#999;">Outdoor</a>
+  </div>
+  <a href="/guides/the-perfect-weekend-in-leavenworth-wa" class="mobile-nav-drawer__cta">🏔️ Leavenworth Guide</a>
+</nav>
+
+<script>
+  const toggle = document.getElementById('hamburger-toggle');
+  const overlay = document.getElementById('mobile-nav-overlay');
+  const drawer = document.getElementById('mobile-nav-drawer');
+  const closeBtn = document.getElementById('mobile-nav-close');
+
+  function openNav() {
+    overlay?.classList.add('open');
+    drawer?.classList.add('open');
+    toggle?.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
   }
-  #wbc-header {
-    background: #1a1a1a;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
-    padding: 0 24px;
+  function closeNav() {
+    overlay?.classList.remove('open');
+    drawer?.classList.remove('open');
+    toggle?.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
   }
-  .wbc-header-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 48px;
-  }
-  .wbc-logo {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .wbc-logo-img {
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  .wbc-logo-text {
-    font-size: 0.85rem;
-    font-weight: 800;
-    letter-spacing: 0.2em;
-    color: #f5f0e8;
-    text-transform: uppercase;
-    font-family: inherit;
-  }
-  .wbc-search-btn {
-    background: none;
-    border: none;
-    color: #d4c8b8;
-    cursor: pointer;
-    padding: 4px;
-    display: flex;
-    align-items: center;
-    transition: color 0.15s;
-  }
-  .wbc-search-btn:hover { color: #fff; }
-  .wbc-nav {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 0 0 8px;
-    border-top: 1px solid rgba(255,255,255,0.08);
-  }
-  .wbc-nav-link {
-    color: #a89880;
-    text-decoration: none;
-    font-size: 0.78rem;
-    font-weight: 500;
-    transition: color 0.15s;
-    letter-spacing: 0.02em;
-  }
-  .wbc-nav-link:hover { color: #fff; }
-  @media (max-width: 480px) {
-    #wbc-header { padding: 0 14px; }
-    .wbc-logo-text { font-size: 0.72rem; letter-spacing: 0.15em; }
-    .wbc-nav { gap: 14px; }
-    .wbc-nav-link { font-size: 0.72rem; }
-    .wbc-logo-img { height: 28px; width: 28px; }
-  }
-</style>
+
+  toggle?.addEventListener('click', openNav);
+  overlay?.addEventListener('click', closeNav);
+  closeBtn?.addEventListener('click', closeNav);
+
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeNav();
+  });
+</script>

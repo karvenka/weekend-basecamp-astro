@@ -20,43 +20,36 @@ const articles = allArticles.filter(a =>
 );
 articles.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 ---
-<BaseLayout title="Couples Weekend Ideas" description="Date nights, romantic getaways, and weekend ideas for two.">
+<BaseLayout title="Couples Weekend Ideas" description="Date nights, romantic getaways, and weekend ideas for two — tested by a real couple.">
   <Header slot="header" />
 
-  <div style="max-width:900px;margin:3rem auto;padding:0 1.5rem;">
-    <div style="margin-bottom:2.5rem;">
+  <div class="container" style="padding-top:3rem;padding-bottom:3rem;">
+    <div class="page-header">
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:0.75rem;">
         <span style="font-size:2rem;">❤️</span>
-        <h1 style="font-size:2.5rem;font-weight:900;margin:0;color:#2c2c2c;">Couples Weekend Ideas</h1>
+        <h1 class="page-header__title" style="margin:0;">Couples</h1>
       </div>
-      <p style="font-size:1.05rem;color:#6b5c4c;margin:0;line-height:1.5;max-width:600px;">Date nights, romantic getaways, and weekend ideas for two.</p>
+      <p class="page-header__desc">Date nights, romantic getaways, and weekend ideas for two.</p>
     </div>
 
-    {articles.length === 0 && (
-      <p style="color:#6b6b6b;">No couples guides yet. Check back soon!</p>
-    )}
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem;">
+    <div class="card-grid card-grid--3">
       {articles.map(article => (
-        <a href={`/guides/${article.slug}`} style="display:block;background:#fff;border-radius:10px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.06);transition:transform 0.15s,box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='';this.style.boxShadow='0 2px 8px rgba(0,0,0,0.06)'">
-          <div style={`height:120px;background:${article.data.thumbnailBg || 'linear-gradient(135deg,#E91E63,#F06292)'};display:flex;align-items:center;justify-content:center;font-size:2.8rem;`}>
-            <span style="filter:drop-shadow(0 2px 8px rgba(0,0,0,0.2));">{article.data.thumbnail || '❤️'}</span>
+        <a href={`/guides/${article.slug}`} class="guide-card">
+          <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#E91E63,#F06292)'};`}>
+            <span style="filter:drop-shadow(0 2px 8px rgba(0,0,0,0.2));font-size:2.5rem;">{article.data.thumbnail || '❤️'}</span>
           </div>
-          <div style="padding:1.15rem;">
-            {article.data.category && (
-              <span style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#9a7a5a;">{article.data.category}</span>
-            )}
-            <h2 style="margin:0.4rem 0 0.5rem;font-size:1.1rem;font-weight:700;line-height:1.3;">{article.data.title}</h2>
+          <div class="guide-card__body">
+            <h2 class="guide-card__title">{article.data.title}</h2>
             {article.data.description && (
-              <p style="margin:0;font-size:0.85rem;color:#6b6b6b;line-height:1.5;">{article.data.description}</p>
+              <p class="guide-card__desc">{article.data.description}</p>
             )}
           </div>
         </a>
       ))}
     </div>
 
-    <div style="text-align:center;margin-top:2.5rem;">
-      <a href="/guides" style="display:inline-block;background:#2c2c2c;color:#f5f0e8;padding:0.75rem 2rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:1rem;transition:background 0.15s;" onmouseover="this.style.background='#444'" onmouseout="this.style.background='#2c2c2c'">Browse All Guides →</a>
+    <div class="text-center mt-2">
+      <a href="/guides" class="btn btn--dark">Browse All Guides →</a>
     </div>
   </div>
 
