@@ -33,11 +33,45 @@ const subGuides = [
     title: "Getting There",
     desc: "Routes, parking, winter driving, and when to leave Seattle",
     href: "/leavenworth/getting-there"
+  },
+  {
+    emoji: "🅿️",
+    title: "Parking",
+    desc: "Which lots fill first and the strategy nobody tells you",
+    href: "/leavenworth/parking"
+  },
+  {
+    emoji: "🐕",
+    title: "Dog-Friendly",
+    desc: "Patios, trails, water access, and emergency vet info",
+    href: "/leavenworth/dog-friendly"
+  },
+  {
+    emoji: "👶",
+    title: "With Kids",
+    desc: "Stroller-friendly routes, snack stops, and age-specific activities",
+    href: "/leavenworth/with-kids"
+  }
+];
+
+const seasonal = [
+  {
+    emoji: "🍺",
+    title: "Oktoberfest 2026",
+    desc: "Oct 2–17 · Which weekend to pick, parking, cost breakdown",
+    href: "/leavenworth/oktoberfest",
+    badge: "Oct 2–17"
+  },
+  {
+    emoji: "🎄",
+    title: "Christmas & Village of Lights",
+    desc: "Lighting ceremonies, the secret January window, and what to wear",
+    href: "/leavenworth/christmas",
+    badge: "Nov–Feb"
   }
 ];
 
 const comingSoon = [
-  { emoji: "👶", title: "With Kids", desc: "Stroller-friendly, snack-stop approved" },
   { emoji: "💑", title: "Romantic Weekend", desc: "Wine, walks, dinner for two" },
   { emoji: "🍻", title: "Group Trip", desc: "Big tables, cabins, and activities for 6+" },
 ];
@@ -65,6 +99,11 @@ const comingSoon = [
       <a href="/leavenworth/things-to-do" class="hub-nav__pill">Things to Do</a>
       <a href="/leavenworth/restaurants" class="hub-nav__pill">Where to Eat</a>
       <a href="/leavenworth/where-to-stay" class="hub-nav__pill">Where to Stay</a>
+      <a href="/leavenworth/parking" class="hub-nav__pill">Parking</a>
+      <a href="/leavenworth/with-kids" class="hub-nav__pill">With Kids</a>
+      <a href="/leavenworth/dog-friendly" class="hub-nav__pill">Dog-Friendly</a>
+      <a href="/leavenworth/oktoberfest" class="hub-nav__pill">Oktoberfest</a>
+      <a href="/leavenworth/christmas" class="hub-nav__pill">Christmas</a>
       <a href="/leavenworth/seasonal" class="hub-nav__pill">Seasonal</a>
       <a href="/leavenworth/getting-there" class="hub-nav__pill">Getting There</a>
     </div>
@@ -91,6 +130,21 @@ const comingSoon = [
               <p class="hub-card__desc">{g.desc}</p>
             </div>
             <span class="hub-card__arrow">→</span>
+          </a>
+        ))}
+      </div>
+
+      <!-- Seasonal Events -->
+      <h3 class="hub-coming-label" style="margin-top:1.5rem;">Seasonal Events</h3>
+      <div class="hub-cards">
+        {seasonal.map(g => (
+          <a href={g.href} class="hub-card hub-card--seasonal">
+            <span class="hub-card__emoji">{g.emoji}</span>
+            <div>
+              <h2 class="hub-card__title">{g.title}</h2>
+              <p class="hub-card__desc">{g.desc}</p>
+            </div>
+            <span class="hub-card__badge">{g.badge}</span>
           </a>
         ))}
       </div>

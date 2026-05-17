@@ -1,0 +1,187 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+<BaseLayout
+  title="Leavenworth Parking Guide — Where to Actually Park"
+  description="A local's guide to parking in Leavenworth, WA. Which lots fill first, where to park during festivals, and the strategies nobody tells you."
+>
+  <Header slot="header" />
+
+  <div class="sub-page">
+    <div class="container--narrow">
+
+      <!-- BREADCRUMB -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/leavenworth">Leavenworth</a>
+        <span class="breadcrumb__sep">›</span>
+        <span>Parking</span>
+      </nav>
+
+      <h1 class="sub-page__title">Where to Park in Leavenworth</h1>
+      <p class="sub-page__intro">
+        Parking is the #1 complaint I hear from visitors. It doesn't have to be. I've parked in this town hundreds of times — here's the strategy nobody tells you.
+      </p>
+
+      <!-- THE STRATEGY -->
+      <h2 class="sub-page__section-title" id="strategy">The Strategy (Read This First)</h2>
+
+      <div class="activity">
+        <h3 class="activity__name">The Golden Rule</h3>
+        <p>If you're arriving on a <strong>Saturday morning</strong>, skip the main lots near the Festhalle — everyone and their grandmother is heading there. Instead, come in from the east on Highway 2 and park at <strong>Colchuck/P3</strong> or <strong>Dragontail/P4</strong>. They're a 2-3 minute walk to Front Street and they're the last ones to fill. Everyone else is circling the Festhalle lot like vultures.</p>
+        <div class="tip">💡 If you arrive before 9:30 AM on a normal weekend, you'll get a spot almost anywhere. After 10:30? Good luck near the Festhalle.</div>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">Friday Night? Don't Stress.</h3>
+        <p>If you're arriving Friday evening, parking is rarely a problem. The day-trippers have left and the evening crowd is manageable. Grab whatever lot is closest to your dinner plans and walk.</p>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">The ParkMobile App</h3>
+        <p>Leavenworth uses the <strong>ParkMobile app</strong> for paid parking. Download it before you arrive so you're not fumbling with your phone while cars stack up behind you. You can extend your time from your phone without walking back — genuinely useful on a long afternoon.</p>
+      </div>
+
+      <!-- MAIN LOTS -->
+      <h2 class="sub-page__section-title" id="lots">The Lots</h2>
+      <p class="sub-page__section-intro">Leavenworth has four paid downtown lots plus free options. Here's the honest rundown, from closest to Front Street to farthest.</p>
+
+      <div class="activity">
+        <h3 class="activity__name">Aasgard / P1 — The Closest</h3>
+        <p class="activity__meta">📍 West end of Front St, near Festhalle · 🚶 1 min to Front Street</p>
+        <p>Right next to the Festhalle and the west end of Front Street. This is where everyone tries to park first — which is exactly why you shouldn't plan on it. It fills by 10 AM on weekends and 9 AM during festivals. Small lot, high turnover.</p>
+        <div class="tip">💡 If you see a spot open here, take it. But don't circle waiting for one — you'll waste 20 minutes that could've been spent walking from P3.</div>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">Blewett / P2 — The Middle Ground</h3>
+        <p class="activity__meta">📍 Behind the commercial buildings, central downtown · 🚶 2 min to Front Street</p>
+        <p>Tucked behind the shops on the south side. Decent capacity and usually fills after P1 but before P3. A good bet if you arrive between 9-10 AM. Two-minute walk to Front Street through an alley that feels like a shortcut even the locals forget about.</p>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">Colchuck / P3 — The Smart Choice</h3>
+        <p class="activity__meta">📍 East end of downtown · 🚶 3 min to Front Street</p>
+        <p>This is my default lot. It's at the east end of town, slightly further from the Festhalle, which means most tourists skip it. But here's the thing — Front Street is only half a mile long. The "far" end is a 3-minute walk. You'll spend less time walking from P3 than you would circling P1 looking for a spot.</p>
+        <div class="tip">💡 If you're coming from Seattle on Highway 2, P3 is literally the first lot you hit. Take it and start your walk from the quieter east end of town.</div>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">Dragontail / P4 — The Overflow</h3>
+        <p class="activity__meta">📍 East of P3, near the highway · 🚶 4-5 min to Front Street</p>
+        <p>The largest lot and the last resort for most people — which means it almost always has spots. Five-minute walk to Front Street. Not glamorous, but you're parked and walking while everyone else is still circling.</p>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">Enchantments / P7 — Free ADA Parking</h3>
+        <p class="activity__meta">📍 Near the Festhalle · 🚶 1-2 min to Front Street · ♿ ADA placard required</p>
+        <p>Free parking for vehicles displaying a valid ADA placard. Close to the Festhalle and Front Street. Limited spots, so arrive early during peak times.</p>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">Freund / P5 — Free ADA Parking</h3>
+        <p class="activity__meta">📍 South of downtown · 🚶 3 min to Front Street · ♿ ADA placard required</p>
+        <p>Another free option for ADA placard holders with a short walk to the village center.</p>
+      </div>
+
+      <!-- RATES -->
+      <h2 class="sub-page__section-title" id="rates">What It Costs</h2>
+
+      <div class="activity">
+        <h3 class="activity__name">2026 Rates</h3>
+        <p>Leavenworth uses dynamic pricing — rates vary by how busy the day is:</p>
+        <ul>
+          <li><strong>Non-busy days (weekdays, off-season):</strong> ~$2/hour</li>
+          <li><strong>Busy days (summer weekends, festivals):</strong> ~$4-4.50/hour</li>
+          <li><strong>On-street metered parking:</strong> 3-hour maximum per zone</li>
+          <li><strong>Lot hours:</strong> 7 AM – 3 AM (must leave by 3 AM)</li>
+        </ul>
+        <p>Pay at the kiosk (Visa/MC/Discover) or through the ParkMobile app. No cash.</p>
+        <div class="tip">💡 Check the <a href="https://cityofleavenworth.com/visitors/parking-rates-calendar/" target="_blank" rel="noopener">City of Leavenworth parking calendar</a> before you go — it shows which days are "busy" rates vs normal. A Tuesday in March costs half what a Saturday in July does.</div>
+      </div>
+
+      <!-- FESTIVAL PARKING -->
+      <h2 class="sub-page__section-title" id="festivals">Festival Parking (Oktoberfest & Christmas)</h2>
+      <p class="sub-page__section-intro">Festivals are a different beast. Normal parking strategies go out the window.</p>
+
+      <div class="activity">
+        <h3 class="activity__name">Oktoberfest Weekends (October)</h3>
+        <p>All lots fill by 10 AM. The town effectively doubles in population. Your options:</p>
+        <ul>
+          <li><strong>Arrive by 9 AM</strong> and grab whatever you can find in P3 or P4</li>
+          <li><strong>Use a shuttle</strong> — check <a href="https://leavenworth.org" target="_blank" rel="noopener">leavenworth.org</a> for park-and-ride locations that run shuttles into town</li>
+          <li><strong>Designated driver plan</strong> — if someone in your group isn't drinking, drop everyone at the Festhalle and park at P4</li>
+        </ul>
+        <p>See our full <a href="/leavenworth/oktoberfest">Oktoberfest guide</a> for the complete strategy.</p>
+      </div>
+
+      <div class="activity">
+        <h3 class="activity__name">Christmas Lighting Festival (Nov–Dec)</h3>
+        <p>Lighting ceremony weekends are the most crowded days of the year. Period. The town isn't designed for the number of people who show up.</p>
+        <ul>
+          <li><strong>Arrive by 2 PM</strong> for lighting ceremony weekends — lots fill well before the ceremony</li>
+          <li><strong>Park-and-ride shuttles</strong> run from remote lots — strongly recommended</li>
+          <li><strong>Secret move:</strong> Visit on a weekday evening in December. The lights are on every night through February. Same magic, 1/10th the crowds.</li>
+        </ul>
+        <p>See our full <a href="/leavenworth/christmas">Christmas guide</a> for detailed planning.</p>
+      </div>
+
+      <!-- RV PARKING -->
+      <h2 class="sub-page__section-title" id="rv">RV & Oversized Vehicle Parking</h2>
+
+      <div class="activity">
+        <h3 class="activity__name">Where Can Big Rigs Park?</h3>
+        <p>Downtown lots are tight — most don't accommodate oversized vehicles. Your options:</p>
+        <ul>
+          <li><strong>Willkommen Park & Ride</strong> — Free, allows oversized vehicles. Best option for RVs visiting for the day.</li>
+          <li><strong>Alpine RV Park</strong> — Paid, dedicated RV spots. Good for overnight stays.</li>
+          <li><strong>Leavenworth Fairgrounds</strong> — Sometimes available for overflow during festivals. Call ahead.</li>
+        </ul>
+        <p>Overnight camping is <strong>not allowed</strong> in city lots. Don't try it — you'll get a ticket.</p>
+      </div>
+
+      <!-- OVERNIGHT -->
+      <h2 class="sub-page__section-title" id="overnight">Overnight Parking</h2>
+
+      <div class="activity">
+        <h3 class="activity__name">Staying the Night?</h3>
+        <p>All city lots require you to leave by 3 AM. If you need overnight parking:</p>
+        <ul>
+          <li><strong>Horseshoe Lake</strong> has 10 reserved overnight stalls. First-come, nonrefundable. Reserve through the city website.</li>
+          <li><strong>Your lodging</strong> — most hotels and vacation rentals include parking. Confirm when you book.</li>
+          <li><strong>Hikers:</strong> If you're heading out early for a hike, the Horseshoe Lake stalls work well as a pre-dawn launch point.</li>
+        </ul>
+      </div>
+
+      <!-- TIPS -->
+      <h2 class="sub-page__section-title" id="tips">Insider Tips</h2>
+
+      <div class="activity">
+        <h3 class="activity__name">The Things Nobody Tells You</h3>
+        <ul>
+          <li><strong>Front Street is closed to cars</strong> — it's pedestrian-only. Don't drive toward it expecting to park on the street.</li>
+          <li><strong>Link Transit buses are free</strong> — if you're staying nearby, check the <a href="https://www.linktransit.com" target="_blank" rel="noopener">Link Transit</a> routes. Route 22 runs through town.</li>
+          <li><strong>Bike parking</strong> exists near Front Street if you're feeling adventurous (or staying close enough to ride in).</li>
+          <li><strong>The residential streets</strong> south of Commercial St have some unrestricted parking, but please be respectful of the neighbors. They live here year-round.</li>
+          <li><strong>On-street time limits are enforced.</strong> Three hours per zone. If you move your car to a different zone, the clock resets.</li>
+          <li><strong>Winter bonus:</strong> Parking is significantly easier November through March (except lighting ceremony weekends). The cold keeps casual visitors away.</li>
+        </ul>
+      </div>
+
+      <!-- RELATED -->
+      <div class="related-pages">
+        <p class="related-pages__label">Continue exploring Leavenworth</p>
+        <div class="related-pages__links">
+          <a href="/leavenworth/things-to-do">Things to Do →</a>
+          <a href="/leavenworth/restaurants">Where to Eat →</a>
+          <a href="/leavenworth/getting-there">Getting There →</a>
+          <a href="/leavenworth/oktoberfest">Oktoberfest Guide →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

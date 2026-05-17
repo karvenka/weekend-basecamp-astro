@@ -1761,6 +1761,22 @@ button:focus-visible {
   color: #999;
   flex-shrink: 0;
 }
+.hub-card__badge {
+  margin-left: auto;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #CC5500;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.hub-card--seasonal {
+  border-left: 3px solid #CC5500;
+}
 .hub-coming-label {
   font-size: 0.85rem;
   font-weight: 600;
