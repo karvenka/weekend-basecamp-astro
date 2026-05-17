@@ -2,45 +2,77 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import { getCollection } from 'astro:content';
 
-const personaSlug = 'solo';
-const allArticles = await getCollection('articles');
-const articles = allArticles
-  .filter(a => a.data.personas?.includes(personaSlug))
-  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const plans = [
+  {
+    title: "Solo Leavenworth Weekend",
+    hook: "Your pace, your plan. Best solo dining, hiking alone tips, quiet corners",
+    type: "Getaway",
+    duration: "Full Weekend",
+    emoji: "🏔️",
+    link: "/guides/the-perfect-weekend-in-leavenworth-wa",
+    color: "#1565c0"
+  },
+  {
+    title: "Push Your Limits Weekend",
+    hook: "Rock climbing Saturday, trail running Sunday. Test yourself.",
+    type: "Day Trip",
+    duration: "Full Weekend",
+    emoji: "💪",
+    link: "/guides/rock-climbing-for-beginners",
+    color: "#d84315"
+  },
+  {
+    title: "Solo Camping Reset",
+    hook: "Just you, a tent, and no one asking what you want for dinner",
+    type: "Getaway",
+    duration: "Overnight",
+    emoji: "⛺",
+    link: "/guides/weekend-camping-for-couples-who-dont-camp",
+    color: "#2e7d32"
+  },
+  {
+    title: "The Unplugged Solo Weekend",
+    hook: "48 hours, zero screens. Read, cook, walk, think.",
+    type: "At Home",
+    duration: "Full Weekend",
+    emoji: "📵",
+    link: "/guides/the-unplugged-weekend-challenge",
+    color: "#37474f"
+  }
+];
 ---
-<BaseLayout title="Solo Weekend Adventure Ideas | Weekend Basecamp" description="Just you and the weekend. No compromises, no group texts, no waiting for anyone. Go.">
+<BaseLayout title="Solo Weekend Plans | Weekend Basecamp" description="Weekend plans for one. Solo getaways, personal challenges, and at-home resets that don't require anyone else's schedule.">
   <Header slot="header" />
 
   <div class="persona-page">
     <div class="container">
-      <a href="/" class="persona-page__back">← Pick a different crew</a>
+      <a href="/" class="persona-page__back">← Back</a>
 
-      <div class="persona-page__hero" style="--persona-accent:#1565c0;">
+      <div class="persona-page__hero">
         <span class="persona-page__emoji">🎒</span>
-        <h1 class="persona-page__title">Solo Adventure</h1>
-        <p class="persona-page__intro">No compromises. No group texts. No waiting for everyone to agree on a restaurant. Just you, an idea, and two days to do exactly what you want. Some of the best weekends are the ones where you answer to nobody.</p>
+        <h1 class="persona-page__title">Solo</h1>
+        <p class="persona-page__intro">Just you and the weekend. Plans that don't require anyone else's schedule, opinions, or approval.</p>
       </div>
 
-      <div class="card-grid card-grid--2">
-        {articles.map(article => (
-          <a href={`/guides/${article.slug}`} class="guide-card">
-            <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#1565C0,#64B5F6)'};`}>
-              <span class="guide-card__emoji">{article.data.thumbnail || '📖'}</span>
+      <div class="plan-grid">
+        {plans.map(plan => (
+          <a href={plan.link} class="plan-card">
+            <div class="plan-card__header" style={`background:${plan.color};`}>
+              <span class="plan-card__emoji">{plan.emoji}</span>
             </div>
-            <div class="guide-card__body">
-              <h2 class="guide-card__title">{article.data.title}</h2>
+            <div class="plan-card__body">
+              <div class="plan-card__badges">
+                <span class="plan-card__badge">{plan.type}</span>
+                <span class="plan-card__badge">{plan.duration}</span>
+              </div>
+              <h2 class="plan-card__title">{plan.title}</h2>
+              <p class="plan-card__hook">{plan.hook}</p>
             </div>
           </a>
         ))}
       </div>
 
-      <div class="persona-page__leavenworth">
-        <a href="/guides/the-perfect-weekend-in-leavenworth-wa">
-          🏔️ <strong>Leavenworth solo is underrated.</strong> Hike Colchuck Lake, grab a beer at Icicle Brewing, and watch the sunset from your cabin. Our guide has the solo-friendly spots. →
-        </a>
-      </div>
     </div>
   </div>
 

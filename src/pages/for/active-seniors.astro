@@ -2,45 +2,77 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import { getCollection } from 'astro:content';
 
-const personaSlug = 'active-seniors';
-const allArticles = await getCollection('articles');
-const articles = allArticles
-  .filter(a => a.data.personas?.includes(personaSlug))
-  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const plans = [
+  {
+    title: "Leavenworth at Your Pace",
+    hook: "Easy village walks, wine rooms, scenic drives, no rushing",
+    type: "Getaway",
+    duration: "Full Weekend",
+    emoji: "🏔️",
+    link: "/guides/the-perfect-weekend-in-leavenworth-wa",
+    color: "#558b2f"
+  },
+  {
+    title: "Morning Hike, Afternoon Nap",
+    hook: "Easy trails, wildflowers, a packed lunch, then a well-earned rest",
+    type: "Day Trip",
+    duration: "Saturday",
+    emoji: "🥾",
+    link: "/guides/the-no-stress-family-hiking-guide",
+    color: "#43a047"
+  },
+  {
+    title: "The Lazy Sunday Brunch",
+    hook: "Farmer's market finds, slow cooking, and a really good cup of coffee",
+    type: "At Home",
+    duration: "Sunday",
+    emoji: "☕",
+    link: "/guides/the-lazy-sunday-brunch-kit",
+    color: "#8d6e63"
+  },
+  {
+    title: "Backyard Evening Under the Stars",
+    hook: "Fire pit, blankets, a little stargazing, early bedtime",
+    type: "At Home",
+    duration: "Saturday Night",
+    emoji: "🌌",
+    link: "/guides/the-stargazing-night-guide",
+    color: "#1a237e"
+  }
+];
 ---
-<BaseLayout title="Weekend Ideas for Active Seniors | Weekend Basecamp" description="Stay moving, stay curious. Weekend ideas for people who've earned the right to spend their time exactly how they want.">
+<BaseLayout title="Weekend Plans for Active Seniors | Weekend Basecamp" description="Weekend plans at your pace. Easy hikes, scenic getaways, and at-home plans that keep you moving and curious.">
   <Header slot="header" />
 
   <div class="persona-page">
     <div class="container">
-      <a href="/" class="persona-page__back">← Pick a different crew</a>
+      <a href="/" class="persona-page__back">← Back</a>
 
-      <div class="persona-page__hero" style="--persona-accent:#558b2f;">
+      <div class="persona-page__hero">
         <span class="persona-page__emoji">🌿</span>
         <h1 class="persona-page__title">Active Seniors</h1>
-        <p class="persona-page__intro">You've earned the right to spend your weekends exactly how you want. These guides are for people who'd rather be on a trail than on a couch — who think retirement means more time for the good stuff, not less.</p>
+        <p class="persona-page__intro">Stay moving, stay curious. Weekend plans at a pace that lets you actually enjoy the scenery instead of racing past it.</p>
       </div>
 
-      <div class="card-grid card-grid--2">
-        {articles.map(article => (
-          <a href={`/guides/${article.slug}`} class="guide-card">
-            <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#689F38,#AED581)'};`}>
-              <span class="guide-card__emoji">{article.data.thumbnail || '📖'}</span>
+      <div class="plan-grid">
+        {plans.map(plan => (
+          <a href={plan.link} class="plan-card">
+            <div class="plan-card__header" style={`background:${plan.color};`}>
+              <span class="plan-card__emoji">{plan.emoji}</span>
             </div>
-            <div class="guide-card__body">
-              <h2 class="guide-card__title">{article.data.title}</h2>
+            <div class="plan-card__body">
+              <div class="plan-card__badges">
+                <span class="plan-card__badge">{plan.type}</span>
+                <span class="plan-card__badge">{plan.duration}</span>
+              </div>
+              <h2 class="plan-card__title">{plan.title}</h2>
+              <p class="plan-card__hook">{plan.hook}</p>
             </div>
           </a>
         ))}
       </div>
 
-      <div class="persona-page__leavenworth">
-        <a href="/guides/the-perfect-weekend-in-leavenworth-wa">
-          🏔️ <strong>Leavenworth is walkable and gorgeous.</strong> Bavarian charm, easy trails, great restaurants — and you can do it all at your own pace. Check our guide. →
-        </a>
-      </div>
     </div>
   </div>
 

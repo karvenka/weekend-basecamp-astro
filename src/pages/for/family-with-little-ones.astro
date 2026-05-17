@@ -2,45 +2,77 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import { getCollection } from 'astro:content';
 
-const personaSlug = 'family-littles';
-const allArticles = await getCollection('articles');
-const articles = allArticles
-  .filter(a => a.data.personas?.includes(personaSlug))
-  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const plans = [
+  {
+    title: "Leavenworth with Toddlers",
+    hook: "Stroller-friendly village, train museum, ice cream stops between naps",
+    type: "Getaway",
+    duration: "Full Weekend",
+    emoji: "🏔️",
+    link: "/guides/the-perfect-weekend-in-leavenworth-wa",
+    color: "#43a047"
+  },
+  {
+    title: "Screen-Free Family Weekend",
+    hook: "No devices, all fun. Cook-off, crafts, backyard games",
+    type: "At Home",
+    duration: "Full Weekend",
+    emoji: "📵",
+    link: "/guides/weekend-activities-for-kids-that-dont-involve-screens",
+    color: "#00897b"
+  },
+  {
+    title: "First Family Hike",
+    hook: "Start small, snack often, end with ice cream. Repeat.",
+    type: "Day Trip",
+    duration: "Saturday",
+    emoji: "🥾",
+    link: "/guides/the-no-stress-family-hiking-guide",
+    color: "#558b2f"
+  },
+  {
+    title: "Sunday Family Cook-Off",
+    hook: "Teams, mystery ingredients, taste-testing judges under age 6",
+    type: "At Home",
+    duration: "Sunday",
+    emoji: "👨‍🍳",
+    link: "/guides/the-sunday-family-cook-off",
+    color: "#ef6c00"
+  }
+];
 ---
-<BaseLayout title="Weekend Ideas for Families with Little Ones | Weekend Basecamp" description="Weekend ideas that work when nap schedules are non-negotiable and someone always needs a snack. Tested with kids under 6.">
+<BaseLayout title="Weekend Plans for Families with Little Ones | Weekend Basecamp" description="Weekend plans that work when nap schedules are non-negotiable. Tested with kids under 6.">
   <Header slot="header" />
 
   <div class="persona-page">
     <div class="container">
-      <a href="/" class="persona-page__back">← Pick a different crew</a>
+      <a href="/" class="persona-page__back">← Back</a>
 
-      <div class="persona-page__hero" style="--persona-accent:#43a047;">
+      <div class="persona-page__hero">
         <span class="persona-page__emoji">👶</span>
         <h1 class="persona-page__title">Family with Little Ones</h1>
-        <p class="persona-page__intro">Nap schedules are non-negotiable. Someone always needs a snack. And the phrase "are we there yet?" starts approximately four minutes into any drive. These guides are built for all of that — tested with kids under 6 who have very strong opinions about everything.</p>
+        <p class="persona-page__intro">Nap schedules are non-negotiable. Someone always needs a snack. These plans are built for that.</p>
       </div>
 
-      <div class="card-grid card-grid--2">
-        {articles.map(article => (
-          <a href={`/guides/${article.slug}`} class="guide-card">
-            <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#4CAF50,#81C784)'};`}>
-              <span class="guide-card__emoji">{article.data.thumbnail || '📖'}</span>
+      <div class="plan-grid">
+        {plans.map(plan => (
+          <a href={plan.link} class="plan-card">
+            <div class="plan-card__header" style={`background:${plan.color};`}>
+              <span class="plan-card__emoji">{plan.emoji}</span>
             </div>
-            <div class="guide-card__body">
-              <h2 class="guide-card__title">{article.data.title}</h2>
+            <div class="plan-card__body">
+              <div class="plan-card__badges">
+                <span class="plan-card__badge">{plan.type}</span>
+                <span class="plan-card__badge">{plan.duration}</span>
+              </div>
+              <h2 class="plan-card__title">{plan.title}</h2>
+              <p class="plan-card__hook">{plan.hook}</p>
             </div>
           </a>
         ))}
       </div>
 
-      <div class="persona-page__leavenworth">
-        <a href="/guides/the-perfect-weekend-in-leavenworth-wa">
-          🏔️ <strong>Leavenworth is incredibly kid-friendly.</strong> Our guide covers stroller-friendly walks, the train museum, and where to get the best hot chocolate. →
-        </a>
-      </div>
     </div>
   </div>
 

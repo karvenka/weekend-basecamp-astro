@@ -2,107 +2,90 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { getCollection } from 'astro:content';
-
-const allArticles = await getCollection('articles');
-
-// Count guides per persona
-const personaCounts: Record<string, number> = {};
-const personas = ['couples','family-littles','family-teens','friends','girls-weekend','active-seniors','solo'];
-personas.forEach(p => {
-  personaCounts[p] = allArticles.filter(a => a.data.personas?.includes(p as any)).length;
-});
 ---
-<BaseLayout title="Weekend Guides for Your Crew | Weekend Basecamp" description="Pick your crew, get tailored weekend guides. Couples, families, friends, solo — real ideas from a PNW family that actually does this stuff.">
+<BaseLayout title="Plan Your Weekend | Weekend Basecamp" description="Weekend destination guides and activity plans for couples, families, friends, and solo adventurers. Based in the Pacific Northwest.">
   <Header slot="header" />
 
-  <!-- HERO — the question -->
-  <section class="hero hero--persona">
+  <!-- HERO — one line, that's it -->
+  <section class="hero hero--minimal">
     <div class="hero__inner">
-      <h1 class="hero__title">Who's coming<br/>this weekend?</h1>
-      <p class="hero__subtitle">Pick your crew. Get tailored guides.</p>
+      <h1 class="hero__title">Plan your weekend.</h1>
     </div>
   </section>
 
-  <!-- PERSONA GRID — this IS the homepage -->
-  <section class="section" style="padding-top:0.5rem;padding-bottom:0.5rem;">
+  <!-- DUAL PATH — the main interaction -->
+  <section class="section" style="padding-top:0;padding-bottom:1rem;">
     <div class="container">
-      <div class="persona-grid">
-
-        <a href="/for/couples" class="persona-card" style="--persona-bg:#fce4ec;--persona-accent:#e91e63;">
-          <span class="persona-card__emoji">💑</span>
-          <h2 class="persona-card__name">Couples</h2>
-          <p class="persona-card__desc">Date nights & getaways for two</p>
-          <span class="persona-card__count">{personaCounts['couples']} guides</span>
+      <div class="dual-path">
+        <a href="#browse" class="path-card path-card--ideas">
+          <span class="path-card__icon">💡</span>
+          <h2 class="path-card__title">I need ideas</h2>
+          <p class="path-card__desc">Pick your crew, get tailored plans</p>
+          <span class="path-card__arrow">↓</span>
         </a>
-
-        <a href="/for/family-with-little-ones" class="persona-card" style="--persona-bg:#e8f5e9;--persona-accent:#43a047;">
-          <span class="persona-card__emoji">👶</span>
-          <h2 class="persona-card__name">Little Ones</h2>
-          <p class="persona-card__desc">Toddler-proof weekend ideas</p>
-          <span class="persona-card__count">{personaCounts['family-littles']} guides</span>
+        <a href="#destinations" class="path-card path-card--destination">
+          <span class="path-card__icon">🗺️</span>
+          <h2 class="path-card__title">I know where</h2>
+          <p class="path-card__desc">Jump to a destination guide</p>
+          <span class="path-card__arrow">↓</span>
         </a>
-
-        <a href="/for/family-with-teens" class="persona-card" style="--persona-bg:#e0f2f1;--persona-accent:#00897b;">
-          <span class="persona-card__emoji">🧑‍🤝‍🧑</span>
-          <h2 class="persona-card__name">With Teens</h2>
-          <p class="persona-card__desc">Adventures they won't eye-roll</p>
-          <span class="persona-card__count">{personaCounts['family-teens']} guides</span>
-        </a>
-
-        <a href="/for/friends" class="persona-card" style="--persona-bg:#fff3e0;--persona-accent:#ef6c00;">
-          <span class="persona-card__emoji">🍻</span>
-          <h2 class="persona-card__name">Friends</h2>
-          <p class="persona-card__desc">Group hangs & get-togethers</p>
-          <span class="persona-card__count">{personaCounts['friends']} guides</span>
-        </a>
-
-        <a href="/for/girls-weekend" class="persona-card" style="--persona-bg:#f3e5f5;--persona-accent:#8e24aa;">
-          <span class="persona-card__emoji">👩‍👩‍👧</span>
-          <h2 class="persona-card__name">Girls' Weekend</h2>
-          <p class="persona-card__desc">Your people, your weekend</p>
-          <span class="persona-card__count">{personaCounts['girls-weekend']} guides</span>
-        </a>
-
-        <a href="/for/active-seniors" class="persona-card" style="--persona-bg:#e8f5e9;--persona-accent:#558b2f;">
-          <span class="persona-card__emoji">🌿</span>
-          <h2 class="persona-card__name">Active Seniors</h2>
-          <p class="persona-card__desc">Stay moving, stay curious</p>
-          <span class="persona-card__count">{personaCounts['active-seniors']} guides</span>
-        </a>
-
-        <a href="/for/solo" class="persona-card" style="--persona-bg:#e3f2fd;--persona-accent:#1565c0;">
-          <span class="persona-card__emoji">🎒</span>
-          <h2 class="persona-card__name">Solo</h2>
-          <p class="persona-card__desc">Just you and the weekend</p>
-          <span class="persona-card__count">{personaCounts['solo']} guides</span>
-        </a>
-
       </div>
     </div>
   </section>
 
-  <!-- LEAVENWORTH SPOTLIGHT — universal, works for everyone -->
-  <section class="section" style="padding-top:0;padding-bottom:0.5rem;">
+  <!-- BROWSE BY CREW — persona chips -->
+  <section class="section section--flush" id="browse">
     <div class="container">
-      <a href="/guides/the-perfect-weekend-in-leavenworth-wa" class="spotlight" style="background-image:url('/images/leavenworth/hero-front-street.jpg');">
-        <div class="spotlight__content">
-          <span class="spotlight__badge">Featured</span>
-          <h2 class="spotlight__title">The Perfect Weekend in Leavenworth</h2>
-          <span class="spotlight__btn">Read the Guide →</span>
-        </div>
-      </a>
+      <p class="section__label">Who's coming?</p>
+      <div class="crew-chips">
+        <a href="/for/couples" class="crew-chip" style="--chip-bg:#fce4ec;--chip-accent:#e91e63;">
+          <span class="crew-chip__emoji">💑</span>
+          <span class="crew-chip__label">Couples</span>
+        </a>
+        <a href="/for/family-with-little-ones" class="crew-chip" style="--chip-bg:#e8f5e9;--chip-accent:#43a047;">
+          <span class="crew-chip__emoji">👶</span>
+          <span class="crew-chip__label">Little Ones</span>
+        </a>
+        <a href="/for/family-with-teens" class="crew-chip" style="--chip-bg:#e0f2f1;--chip-accent:#00897b;">
+          <span class="crew-chip__emoji">🧑‍🤝‍🧑</span>
+          <span class="crew-chip__label">Teens</span>
+        </a>
+        <a href="/for/friends" class="crew-chip" style="--chip-bg:#fff3e0;--chip-accent:#ef6c00;">
+          <span class="crew-chip__emoji">🍻</span>
+          <span class="crew-chip__label">Friends</span>
+        </a>
+        <a href="/for/girls-weekend" class="crew-chip" style="--chip-bg:#f3e5f5;--chip-accent:#8e24aa;">
+          <span class="crew-chip__emoji">👩‍👩‍👧</span>
+          <span class="crew-chip__label">Girls'</span>
+        </a>
+        <a href="/for/active-seniors" class="crew-chip" style="--chip-bg:#e8f5e9;--chip-accent:#558b2f;">
+          <span class="crew-chip__emoji">🌿</span>
+          <span class="crew-chip__label">Seniors</span>
+        </a>
+        <a href="/for/solo" class="crew-chip" style="--chip-bg:#e3f2fd;--chip-accent:#1565c0;">
+          <span class="crew-chip__emoji">🎒</span>
+          <span class="crew-chip__label">Solo</span>
+        </a>
+      </div>
     </div>
   </section>
 
-  <!-- TRUST LINE -->
-  <div class="trust-line">
-    <span>18 guides</span>
-    <span class="trust-line__dot">·</span>
-    <span>Family tested</span>
-    <span class="trust-line__dot">·</span>
-    <span>Based in the PNW</span>
-  </div>
+  <!-- DESTINATIONS -->
+  <section class="section section--flush" id="destinations">
+    <div class="container">
+      <p class="section__label">Where to?</p>
+      <a href="/guides/the-perfect-weekend-in-leavenworth-wa" class="dest-card" style="background-image:url('/images/leavenworth/hero-front-street.jpg');">
+        <div class="dest-card__overlay">
+          <h2 class="dest-card__title">Leavenworth, WA</h2>
+          <p class="dest-card__sub">Full weekend guide · Written by a local</p>
+        </div>
+      </a>
+      <div class="dest-coming">
+        <span class="dest-coming__item">🌊 Olympic Peninsula — coming soon</span>
+        <span class="dest-coming__item">🏝️ San Juan Islands — coming soon</span>
+      </div>
+    </div>
+  </section>
 
   <!-- NEWSLETTER -->
   <section class="section section--dark" id="newsletter">

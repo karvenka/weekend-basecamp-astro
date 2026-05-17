@@ -1240,19 +1240,6 @@ button:focus-visible {
 }
 
 /* --- TRUST LINE (replaces bloated trust section) --- */
-.trust-line {
-  text-align: center;
-  padding: 0.75rem 1rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: #9a7a5a;
-  letter-spacing: 0.02em;
-}
-.trust-line__dot {
-  margin: 0 0.35rem;
-  color: #d4c8b8;
-}
-
 /* --- NEWSLETTER compact variant --- */
 .newsletter--compact {
   max-width: 480px;
@@ -1277,91 +1264,191 @@ button:focus-visible {
 
 
 /* ============================================================
-   PERSONA GRID — Homepage
+   DUAL-PATH HOMEPAGE
    ============================================================ */
-.hero--persona .hero__inner {
-  padding: 2.5rem 1rem 1rem;
+.hero--minimal .hero__inner {
+  padding: 2rem 1rem 0.5rem;
   text-align: center;
 }
-.hero--persona .hero__title {
-  font-size: clamp(1.8rem, 5vw, 2.8rem);
-  margin-bottom: 0.25rem;
-}
-.hero--persona .hero__subtitle {
-  font-size: 1rem;
-  color: #888;
+.hero--minimal .hero__title {
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
   margin: 0;
+  font-weight: 800;
 }
 
-.persona-grid {
+/* --- Dual Path Cards --- */
+.dual-path {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 0.75rem;
-  padding: 0;
 }
 @media (min-width: 640px) {
-  .persona-grid {
-    grid-template-columns: repeat(3, 1fr);
+  .dual-path {
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
 }
-@media (min-width: 900px) {
-  .persona-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
 
-.persona-card {
+.path-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   text-decoration: none;
-  background: var(--persona-bg, #f5f0e8);
+  padding: 1.5rem 1rem;
   border-radius: 16px;
-  padding: 1.25rem 0.75rem 1rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border: 2px solid transparent;
+  border: 2px solid #e8e0d4;
+  background: #fffbf5;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   cursor: pointer;
+  min-height: 120px;
+  justify-content: center;
 }
-.persona-card:hover,
-.persona-card:focus-visible {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-  border-color: var(--persona-accent, #CC5500);
+.path-card:hover,
+.path-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  border-color: #CC5500;
 }
-.persona-card:active {
-  transform: translateY(-1px);
+.path-card:active {
+  transform: translateY(0);
 }
-.persona-card__emoji {
-  font-size: 2.5rem;
+.path-card__icon {
+  font-size: 2rem;
   line-height: 1;
   margin-bottom: 0.5rem;
 }
-.persona-card__name {
-  font-size: 0.95rem;
-  font-weight: 700;
+.path-card__title {
+  font-size: 1.1rem;
+  font-weight: 800;
   color: #1a1a1a;
   margin: 0 0 0.25rem;
-  line-height: 1.2;
 }
-.persona-card__desc {
-  font-size: 0.75rem;
+.path-card__desc {
+  font-size: 0.85rem;
   color: #666;
-  margin: 0 0 0.5rem;
+  margin: 0;
   line-height: 1.3;
 }
-.persona-card__count {
+.path-card__arrow {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #CC5500;
+  transition: transform 0.2s ease;
+}
+.path-card:hover .path-card__arrow {
+  transform: translateY(3px);
+}
+
+/* --- Section Labels --- */
+.section--flush {
+  padding: 0.75rem 0;
+}
+.section__label {
   font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #999;
+  margin: 0 0 0.5rem;
+}
+
+/* --- Crew Chips (horizontal scroll) --- */
+.crew-chips {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 0.25rem;
+}
+.crew-chips::-webkit-scrollbar { display: none; }
+
+.crew-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 0.5rem 0.85rem;
+  border-radius: 100px;
+  background: var(--chip-bg, #f5f0e8);
+  border: 1.5px solid transparent;
+  transition: border-color 0.2s ease, transform 0.15s ease;
+  flex-shrink: 0;
+  min-height: 44px;
+}
+.crew-chip:hover,
+.crew-chip:focus-visible {
+  border-color: var(--chip-accent, #CC5500);
+  transform: translateY(-1px);
+}
+.crew-chip:active {
+  transform: scale(0.97);
+}
+.crew-chip__emoji {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+.crew-chip__label {
+  font-size: 0.85rem;
   font-weight: 600;
-  color: var(--persona-accent, #CC5500);
-  background: rgba(0,0,0,0.04);
-  padding: 0.15rem 0.5rem;
-  border-radius: 10px;
+  color: #333;
+}
+
+/* --- Destination Card --- */
+.dest-card {
+  display: block;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+.dest-card:hover {
+  transform: translateY(-2px);
+}
+.dest-card__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.25rem;
+}
+.dest-card__title {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 0 0 0.15rem;
+}
+.dest-card__sub {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.dest-coming {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.dest-coming__item {
+  font-size: 0.78rem;
+  color: #999;
+  background: #f5f0e8;
+  padding: 0.3rem 0.75rem;
+  border-radius: 100px;
 }
 
 /* ============================================================
-   PERSONA PAGE — Landing pages per persona
+   PERSONA PAGE — Weekend Plans
    ============================================================ */
 .persona-page {
   padding: 1.5rem 0 3rem;
@@ -1373,6 +1460,9 @@ button:focus-visible {
   text-decoration: none;
   margin-bottom: 1.5rem;
   transition: color 0.15s;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
 }
 .persona-page__back:hover {
   color: #CC5500;
@@ -1384,64 +1474,89 @@ button:focus-visible {
   border-bottom: 1px solid #eee;
 }
 .persona-page__emoji {
-  font-size: 3.5rem;
+  font-size: 3rem;
   display: block;
   margin-bottom: 0.5rem;
 }
 .persona-page__title {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   font-weight: 800;
   color: #1a1a1a;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.5rem;
 }
 .persona-page__intro {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #555;
-  line-height: 1.6;
-  max-width: 600px;
+  line-height: 1.5;
+  max-width: 520px;
   margin: 0 auto;
 }
 
-.persona-page__leavenworth {
-  margin-top: 2rem;
-  padding: 1rem 1.25rem;
-  background: #f5f0e8;
-  border-radius: 12px;
-  border-left: 4px solid #CC5500;
-}
-.persona-page__leavenworth a {
-  color: #2c2c2c;
-  text-decoration: none;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  display: block;
-}
-.persona-page__leavenworth a:hover {
-  color: #CC5500;
-}
-
-/* Card grid 2-col variant for persona pages */
-.card-grid--2 {
+/* --- Plan Cards Grid --- */
+.plan-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
 }
-@media (min-width: 480px) {
-  .card-grid--2 {
+@media (min-width: 520px) {
+  .plan-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Guide card on persona pages — compact, no description */
-.persona-page .guide-card__body {
-  padding: 0.75rem;
+.plan-card {
+  display: block;
+  text-decoration: none;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e8e0d4;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.persona-page .guide-card__title {
-  font-size: 0.9rem;
-  line-height: 1.3;
+.plan-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
 }
-.persona-page .guide-card__emoji {
-  font-size: 2rem;
+.plan-card:active {
+  transform: translateY(-1px);
+}
+.plan-card__header {
+  padding: 1.25rem;
+  text-align: center;
+}
+.plan-card__emoji {
+  font-size: 2.2rem;
+}
+.plan-card__body {
+  padding: 1rem 1.1rem 1.25rem;
+}
+.plan-card__badges {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+.plan-card__badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  background: #f5f0e8;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+.plan-card__title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 0 0 0.35rem;
+  line-height: 1.25;
+}
+.plan-card__hook {
+  font-size: 0.82rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.4;
 }
 
 /* ============================================================

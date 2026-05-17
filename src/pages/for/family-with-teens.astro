@@ -2,45 +2,77 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import { getCollection } from 'astro:content';
 
-const personaSlug = 'family-teens';
-const allArticles = await getCollection('articles');
-const articles = allArticles
-  .filter(a => a.data.personas?.includes(personaSlug))
-  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const plans = [
+  {
+    title: "Leavenworth Adventure Weekend",
+    hook: "Village by day, hiking trails, tubing on the river",
+    type: "Getaway",
+    duration: "Full Weekend",
+    emoji: "🏔️",
+    link: "/guides/the-perfect-weekend-in-leavenworth-wa",
+    color: "#00897b"
+  },
+  {
+    title: "The Challenge Weekend",
+    hook: "Rock climbing Saturday, trail running Sunday. No phones.",
+    type: "Day Trip",
+    duration: "Full Weekend",
+    emoji: "💪",
+    link: "/guides/rock-climbing-for-beginners",
+    color: "#d84315"
+  },
+  {
+    title: "The Unplugged Challenge",
+    hook: "48 hours, zero screens. Harder than it sounds. Better than you'd think.",
+    type: "At Home",
+    duration: "Full Weekend",
+    emoji: "📵",
+    link: "/guides/the-unplugged-weekend-challenge",
+    color: "#37474f"
+  },
+  {
+    title: "Ultimate Game Marathon",
+    hook: "Strategic games, tournament brackets, bragging rights for a month",
+    type: "At Home",
+    duration: "Saturday",
+    emoji: "🎯",
+    link: "/guides/the-ultimate-game-night-guide",
+    color: "#1565c0"
+  }
+];
 ---
-<BaseLayout title="Weekend Ideas for Families with Teens | Weekend Basecamp" description="Adventures they won't eye-roll at. Weekend ideas for families with teenagers who'd rather be anywhere else.">
+<BaseLayout title="Weekend Plans for Families with Teens | Weekend Basecamp" description="Weekend ideas teens won't eye-roll at. Adventures, challenges, and plans that actually get them off the couch.">
   <Header slot="header" />
 
   <div class="persona-page">
     <div class="container">
-      <a href="/" class="persona-page__back">← Pick a different crew</a>
+      <a href="/" class="persona-page__back">← Back</a>
 
-      <div class="persona-page__hero" style="--persona-accent:#00897b;">
+      <div class="persona-page__hero">
         <span class="persona-page__emoji">🧑‍🤝‍🧑</span>
         <h1 class="persona-page__title">Family with Teens</h1>
-        <p class="persona-page__intro">Getting a teenager off the couch requires one of two things: something genuinely cool, or no Wi-Fi. These guides have both. Activities that are interesting enough that they'll put their phone down voluntarily — or at least only check it every ten minutes.</p>
+        <p class="persona-page__intro">Adventures they won't eye-roll at. Plans that actually get everyone off the couch and into the same room — or trail.</p>
       </div>
 
-      <div class="card-grid card-grid--2">
-        {articles.map(article => (
-          <a href={`/guides/${article.slug}`} class="guide-card">
-            <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#009688,#4DB6AC)'};`}>
-              <span class="guide-card__emoji">{article.data.thumbnail || '📖'}</span>
+      <div class="plan-grid">
+        {plans.map(plan => (
+          <a href={plan.link} class="plan-card">
+            <div class="plan-card__header" style={`background:${plan.color};`}>
+              <span class="plan-card__emoji">{plan.emoji}</span>
             </div>
-            <div class="guide-card__body">
-              <h2 class="guide-card__title">{article.data.title}</h2>
+            <div class="plan-card__body">
+              <div class="plan-card__badges">
+                <span class="plan-card__badge">{plan.type}</span>
+                <span class="plan-card__badge">{plan.duration}</span>
+              </div>
+              <h2 class="plan-card__title">{plan.title}</h2>
+              <p class="plan-card__hook">{plan.hook}</p>
             </div>
           </a>
         ))}
       </div>
 
-      <div class="persona-page__leavenworth">
-        <a href="/guides/the-perfect-weekend-in-leavenworth-wa">
-          🏔️ <strong>Teens actually love Leavenworth.</strong> River tubing, rock climbing nearby, and enough food to keep them happy. Our guide has the full breakdown. →
-        </a>
-      </div>
     </div>
   </div>
 

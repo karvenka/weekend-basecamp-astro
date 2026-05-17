@@ -2,45 +2,77 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import { getCollection } from 'astro:content';
 
-const personaSlug = 'friends';
-const allArticles = await getCollection('articles');
-const articles = allArticles
-  .filter(a => a.data.personas?.includes(personaSlug))
-  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const plans = [
+  {
+    title: "Leavenworth Group Trip",
+    hook: "Big tables, group activities, cabin rentals for 6+",
+    type: "Getaway",
+    duration: "Full Weekend",
+    emoji: "🏔️",
+    link: "/guides/the-perfect-weekend-in-leavenworth-wa",
+    color: "#ef6c00"
+  },
+  {
+    title: "The Epic Hangout Weekend",
+    hook: "Game night Friday, backyard hang Saturday, brunch Sunday",
+    type: "At Home",
+    duration: "Full Weekend",
+    emoji: "🎮",
+    link: "/guides/the-ultimate-game-night-guide",
+    color: "#1565c0"
+  },
+  {
+    title: "Block Party Planning Weekend",
+    hook: "Rally the neighbors. Plan it Saturday, throw it Sunday.",
+    type: "At Home",
+    duration: "Full Weekend",
+    emoji: "🎉",
+    link: "/guides/neighborhood-block-party-playbook",
+    color: "#8e24aa"
+  },
+  {
+    title: "The Backyard Night",
+    hook: "Fire pit, string lights, a playlist, and nowhere to be tomorrow",
+    type: "At Home",
+    duration: "Saturday Night",
+    emoji: "🔥",
+    link: "/guides/how-to-plan-the-perfect-backyard-night",
+    color: "#d84315"
+  }
+];
 ---
-<BaseLayout title="Weekend Ideas for Friend Groups | Weekend Basecamp" description="Game nights, cookouts, group trips, and hangouts that actually bring people together.">
+<BaseLayout title="Weekend Plans for Friends | Weekend Basecamp" description="Group hangouts, getaway weekends, and plans built for 4+ people who want to do something better than just 'hang out.'">
   <Header slot="header" />
 
   <div class="persona-page">
     <div class="container">
-      <a href="/" class="persona-page__back">← Pick a different crew</a>
+      <a href="/" class="persona-page__back">← Back</a>
 
-      <div class="persona-page__hero" style="--persona-accent:#ef6c00;">
+      <div class="persona-page__hero">
         <span class="persona-page__emoji">🍻</span>
-        <h1 class="persona-page__title">Friends Hangout</h1>
-        <p class="persona-page__intro">The group chat says "we should hang out more" every week. These are the guides that turn "we should" into "we did." No planning committees required. Just pick one, text the group, and show up.</p>
+        <h1 class="persona-page__title">Friends</h1>
+        <p class="persona-page__intro">Group hangs that go beyond "so what do you guys want to do?" Plans for 4+ people who want to do something better than just existing in the same room.</p>
       </div>
 
-      <div class="card-grid card-grid--2">
-        {articles.map(article => (
-          <a href={`/guides/${article.slug}`} class="guide-card">
-            <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#FF9800,#FFB74D)'};`}>
-              <span class="guide-card__emoji">{article.data.thumbnail || '📖'}</span>
+      <div class="plan-grid">
+        {plans.map(plan => (
+          <a href={plan.link} class="plan-card">
+            <div class="plan-card__header" style={`background:${plan.color};`}>
+              <span class="plan-card__emoji">{plan.emoji}</span>
             </div>
-            <div class="guide-card__body">
-              <h2 class="guide-card__title">{article.data.title}</h2>
+            <div class="plan-card__body">
+              <div class="plan-card__badges">
+                <span class="plan-card__badge">{plan.type}</span>
+                <span class="plan-card__badge">{plan.duration}</span>
+              </div>
+              <h2 class="plan-card__title">{plan.title}</h2>
+              <p class="plan-card__hook">{plan.hook}</p>
             </div>
           </a>
         ))}
       </div>
 
-      <div class="persona-page__leavenworth">
-        <a href="/guides/the-perfect-weekend-in-leavenworth-wa">
-          🏔️ <strong>Group trip idea:</strong> Leavenworth is 2 hours from Seattle, walkable, and has enough food and drink to keep everyone happy. Check our guide. →
-        </a>
-      </div>
     </div>
   </div>
 
