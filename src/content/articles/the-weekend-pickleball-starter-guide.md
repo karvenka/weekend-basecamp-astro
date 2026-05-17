@@ -1,7 +1,7 @@
 ---
 title: "The Weekend Pickleball Starter Guide"
 description: "Why pickleball is the best sport for friend groups who haven't played sports since college—and the gear that actually matters."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-04-12
 category: "Everyone"
 thumbnail: "🏓"

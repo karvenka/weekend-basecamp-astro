@@ -1,7 +1,7 @@
 ---
 title: "The Unplugged Weekend Challenge"
 description: "48 hours without screens sounds like a punishment. What actually happens is more interesting than that."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-04-12
 category: "Everyone"
 thumbnail: "📵"

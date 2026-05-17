@@ -1,7 +1,7 @@
 ---
 title: "How to Host a Friendsgiving That's Actually Fun"
 description: "A hosting guide for the friend group holiday that has nothing to do with turkey and everything to do with showing up for each other."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-04-12
 category: "Friends"
 thumbnail: "🍂"

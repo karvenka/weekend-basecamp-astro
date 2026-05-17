@@ -1,7 +1,7 @@
 ---
 title: "Weekend Camping for Couples Who Don't Camp"
 description: "You don't need to be outdoorsy to pull off a romantic camping weekend. You just need to know what to skip and what to bring."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-04-12
 category: "Couples"
 thumbnail: "⛺"

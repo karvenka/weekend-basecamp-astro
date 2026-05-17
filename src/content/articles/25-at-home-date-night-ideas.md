@@ -1,7 +1,7 @@
 ---
 title: "25 At-Home Date Night Ideas That Actually Feel Special"
 description: "25 creative at-home date night ideas that actually feel special—from cooking challenges to stargazing on the couch. Most cost under $20."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-03-29
 category: "Couples"
 thumbnail: "🕯️"

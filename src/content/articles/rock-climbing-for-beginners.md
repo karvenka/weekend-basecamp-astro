@@ -1,7 +1,7 @@
 ---
 title: "Rock Climbing for Beginners"
 description: "A complete beginner's guide to rock climbing—indoor vs outdoor, essential gear, managing fear, and realistic progression from your first day on the wall."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-03-31
 category: "Guides"
 thumbnail: "🧗"

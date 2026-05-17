@@ -1,7 +1,7 @@
 ---
 title: "The Lazy Sunday Brunch Kit"
 description: "The art of doing nothing together, but doing it beautifully—waffles, good coffee, vinyl, and the radical act of putting your phone down."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-04-12
 category: "Couples"
 thumbnail: "🥐"

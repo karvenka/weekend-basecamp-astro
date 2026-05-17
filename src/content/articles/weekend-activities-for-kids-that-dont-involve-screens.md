@@ -1,7 +1,7 @@
 ---
 title: "Weekend Activities for Kids That Don't Involve Screens"
 description: "20 weekend activities for kids that don't involve screens—and that parents actually enjoy too. Tested by real families, organized by age and energy level."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-03-31
 category: "Guides"
 thumbnail: "🧒"

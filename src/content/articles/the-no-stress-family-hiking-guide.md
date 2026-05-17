@@ -1,7 +1,7 @@
 ---
 title: "The No-Stress Family Hiking Guide"
 description: "The family hiking guide for parents who've had it with trailside meltdowns. Trail picking, packing, pacing, and the gear that actually matters with kids."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-03-31
 category: "Guides"
 thumbnail: "🥾"

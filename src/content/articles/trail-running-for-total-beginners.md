@@ -1,7 +1,7 @@
 ---
 title: "Trail Running for Total Beginners"
 description: "Why trails are actually easier on your body than roads, the simple plan to get started, and the gear that matters versus the gear that doesn't."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-04-12
 category: "Everyone"
 thumbnail: "🏃"

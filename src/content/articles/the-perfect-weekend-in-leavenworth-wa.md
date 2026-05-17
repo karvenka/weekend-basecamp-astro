@@ -1,7 +1,7 @@
 ---
 title: "The Perfect Weekend in Leavenworth, WA: A Local's Guide to the Bavarian Village"
 description: "I own a place in Leavenworth and visit 15+ times a year. From hidden hiking trails to the best restaurants, here's everything you need for the perfect weekend."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-05-16
 category: "Destinations"
 thumbnail: "🏔️"
@@ -14,7 +14,7 @@ I didn't plan to fall in love with Leavenworth. Nobody does. You go once because
 
 Then you go back. And again. And suddenly you own two condos there and you're arguing with your wife about whether the drive up should take Highway 2 or I-90 to Highway 97 (it's Highway 2, and I will die on this hill).
 
-I've been visiting Leavenworth 15+ times a year for years now. I own a place at 480 Alpine Place and another at 525 Alpine Place, both walking distance from Front Street. I know which parking lot fills up first on a Saturday morning (the one by the Festhalle). I know which barista at Argonaut knows my order. I know that mid-October is the sweet spot between Oktoberfest weekends when the town is somehow both festive and peaceful.
+I've been visiting Leavenworth 15+ times a year for years now. I own a couple of places in the village, both walking distance from Front Street. I know which parking lot fills up first on a Saturday morning (the one by the Festhalle). I know which barista at Argonaut knows my order. I know that mid-October is the sweet spot between Oktoberfest weekends when the town is somehow both festive and peaceful.
 
 This isn't a travel blog guide cobbled together from other travel blog guides. This is me telling you exactly what I'd tell a friend who texted "Hey, we're thinking about going to Leavenworth this weekend — any tips?"
 
@@ -285,7 +285,7 @@ When you want a break from schnitzel but don't want a sit-down experience. Their
 ### Mid-Range: Vacation Rentals & Condos
 The village area is full of condos and cabins on Airbnb and Vrbo, typically running $150-$300/night. Look for places within walking distance of Front Street — it transforms the whole experience when you can walk back from dinner instead of driving.
 
-Full disclosure: I own **Alpine Haven** (a condo at 480 Alpine Place) and **Alpine Village** (at 525 Alpine Place). Both are on [Airbnb](https://www.airbnb.com/s/Leavenworth--WA/homes) and sleep 4-6 guests. I'm biased, but they're a 5-minute walk from Front Street, and I keep them stocked with a binder of local recommendations that's basically a printed version of this guide. You'll find everything from restaurant menus to the best parking strategy to which trail matches your fitness level. Whether you book mine or someone else's — staying in the village beats a hotel on the highway every time.
+Full disclosure: I own a couple of vacation rental condos in the village, both on [Airbnb](https://www.airbnb.com/s/Leavenworth--WA/homes) and sleeping 4-6 guests. I'm biased, but they're a 5-minute walk from Front Street, and I keep them stocked with a binder of local recommendations that's basically a printed version of this guide. You'll find everything from restaurant menus to the best parking strategy to which trail matches your fitness level. Whether you book mine or someone else's — staying in the village beats a hotel on the highway every time.
 
 ### Splurge: Sleeping Lady or Posthotel
 **Sleeping Lady Mountain Resort** (from ~$160/night) sits along Icicle Creek and has an outdoor pool, spa, and art installations scattered around the wooded grounds. It's rustic-luxe and great for couples.

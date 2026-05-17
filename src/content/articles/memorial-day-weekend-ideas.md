@@ -1,7 +1,7 @@
 ---
 title: "Memorial Day Weekend 2026: 15 Ideas That Actually Beat the Same Old BBQ"
 description: "Skip the boring cookout. Here are 15 Memorial Day weekend ideas — from backyard upgrades to day trips — that'll make this one the weekend you actually remember."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-05-16
 category: "Seasonal"
 thumbnail: "🇺🇸"
@@ -44,7 +44,7 @@ The Memorial Day angle: make it a potluck so you're not stuck cooking for 40 peo
 
 ## Day Trips Worth the Drive
 
-If you're in the Pacific Northwest, Memorial Day weekend is when the mountains finally start opening up, the ferries start running full schedules, and you remember why you put up with eight months of grey skies. These are all doable as day trips from the Seattle/Bothell area — no hotel required.
+If you're in the Pacific Northwest, Memorial Day weekend is when the mountains finally start opening up, the ferries start running full schedules, and you remember why you put up with eight months of grey skies. These are all doable as day trips from the Seattle area — no hotel required.
 
 ### Leavenworth, WA
 
@@ -68,7 +68,7 @@ The catch: ferry reservations. Book them now. Actually, stop reading this and go
 
 Hurricane Ridge and the Hoh Rainforest are two completely different ecosystems, and you can technically hit both in a long day trip, though I'd recommend picking one. Hurricane Ridge gives you alpine meadows and panoramic mountain views — on a clear day, you can see all the way to Victoria, BC. The Hoh Rainforest is like walking into a Jurassic Park set, minus the velociraptors (probably). The Hall of Mosses trail is short, flat, and jaw-dropping. Our kids spent half the hike whispering because it felt "too quiet to talk normal" — which, from a seven-year-old, is the highest possible compliment.
 
-Fair warning: the Olympic Peninsula is a solid 3-4 hours from Bothell depending on where you're headed. Doable as a day trip, but you'll feel it. If you can swing an overnight, do it.
+Fair warning: the Olympic Peninsula is a solid 3-4 hours from the Seattle area depending on where you're headed. Doable as a day trip, but you'll feel it. If you can swing an overnight, do it.
 
 ### Local State Parks
 

@@ -1,7 +1,7 @@
 ---
 title: "The Neighborhood Block Party Playbook"
 description: "How to throw the block party your neighborhood actually shows up to—from getting buy-in to the games that work for every age."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-04-12
 category: "Everyone"
 thumbnail: "🎉"

@@ -1,7 +1,7 @@
 ---
 title: "The Stargazing Night Guide"
 description: "What you can actually see in the night sky, how to see it, and how to turn a clear night into something you'll remember."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-04-12
 category: "Couples"
 thumbnail: "🌌"

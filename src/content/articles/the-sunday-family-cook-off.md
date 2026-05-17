@@ -1,7 +1,7 @@
 ---
 title: "The Sunday Family Cook-Off"
 description: "A simple competition format that gets everyone in the kitchen, teaches kids to cook, and turns Sunday into the meal everyone looks forward to."
-author: "Karthick Venkatesan"
+author: "WBC Team"
 pubDate: 2026-04-12
 category: "Everyone"
 thumbnail: "👨‍🍳"
