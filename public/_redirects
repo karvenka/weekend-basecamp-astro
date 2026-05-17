@@ -19,7 +19,9 @@
 
 # Redirect destination shortcut
 /leavenworth-wa /guides/the-perfect-weekend-in-leavenworth-wa/ 301
+/leavenworth-wa/ /guides/the-perfect-weekend-in-leavenworth-wa/ 301
 /leavenworth /guides/the-perfect-weekend-in-leavenworth-wa/ 301
+/leavenworth/ /guides/the-perfect-weekend-in-leavenworth-wa/ 301
 
 # Redirect removed purchasing FAQ
 /pages/purchasing-faq /our-story 301
