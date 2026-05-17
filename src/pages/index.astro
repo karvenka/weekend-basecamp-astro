@@ -5,171 +5,129 @@ import Footer from '../components/Footer.astro';
 import { getCollection } from 'astro:content';
 
 const allArticles = await getCollection('articles');
-const latestArticles = [...allArticles].sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 6);
+const latestArticles = [...allArticles].sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 3);
 const seasonal = allArticles.filter(a => a.data.category === 'Seasonal');
 const latestSeasonal = seasonal.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())[0];
+
+// Short display titles for cards (avoid overwhelming long titles)
+const shortTitles: Record<string, string> = {
+  'the-perfect-weekend-in-leavenworth-wa': 'Perfect Leavenworth Weekend',
+  'memorial-day-weekend-ideas': 'Memorial Day: 15 Ideas',
+  'how-to-host-a-friendsgiving-thats-actually-fun': 'Host a Real Friendsgiving',
+  'neighborhood-block-party-playbook': 'Block Party Playbook',
+  'the-lazy-sunday-brunch-kit': 'Lazy Sunday Brunch',
+  'the-stargazing-night-guide': 'Stargazing Night Guide',
+  'the-no-stress-family-hiking-guide': 'No-Stress Family Hikes',
+  '25-at-home-date-night-ideas': '25 Date Night Ideas',
+  '12-best-board-games-for-couples': 'Board Games for Couples',
+  'weekend-camping-for-couples-who-dont-camp': 'Camping for Non-Campers',
+  'rock-climbing-for-beginners': 'Rock Climbing 101',
+  'trail-running-for-total-beginners': 'Trail Running 101',
+  'the-weekend-pickleball-starter-guide': 'Pickleball Starter Guide',
+  'weekend-activities-for-kids-that-dont-involve-screens': 'Screen-Free Kid Activities',
+  'the-sunday-family-cook-off': 'Family Cook-Off',
+  'the-ultimate-game-night-guide': 'Ultimate Game Night',
+  'the-unplugged-weekend-challenge': 'Unplugged Weekend',
+  'how-to-plan-the-perfect-backyard-night': 'Perfect Backyard Night',
+};
 ---
 <BaseLayout title="Weekend Destination Guides & Activity Ideas" description="Weekend destination guides and outdoor activity ideas for the Pacific Northwest — written from experience by a family that actually does this stuff.">
   <Header slot="header" />
 
-  <!-- HERO -->
+  <!-- HERO — compact, scannable in 3 seconds -->
   <section class="hero">
     <div class="hero__inner">
-      <span class="hero__tagline">Pacific Northwest Weekend Guides</span>
       <h1 class="hero__title">Your weekends deserve<br/>better than the couch.</h1>
-      <p class="hero__subtitle">
-        Destination guides, outdoor adventures, and weekend ideas — written from experience
-        by a PNW family that actually does this stuff.
-      </p>
-      <a href="/guides/the-perfect-weekend-in-leavenworth-wa" class="hero__cta">
-        🏔️ Start with Leavenworth
-      </a>
+      <p class="hero__subtitle">PNW destination guides & weekend ideas — from a family that actually does this stuff.</p>
     </div>
   </section>
 
-  <!-- FEATURED DESTINATION -->
-  <section class="section">
+  <!-- CATEGORY CHIP BAR — Airbnb-style horizontal scroll, visual shortcut -->
+  <nav class="chip-bar" aria-label="Browse by category">
+    <div class="chip-bar__track">
+      <a href="/guides/the-perfect-weekend-in-leavenworth-wa" class="chip chip--featured">
+        <span class="chip__icon">🏔️</span>
+        <span class="chip__label">Leavenworth</span>
+      </a>
+      <a href="/guides/outdoor" class="chip">
+        <span class="chip__icon">🏕️</span>
+        <span class="chip__label">Outdoor</span>
+      </a>
+      <a href="/guides/couples" class="chip">
+        <span class="chip__icon">❤️</span>
+        <span class="chip__label">Couples</span>
+      </a>
+      <a href="/guides/family" class="chip">
+        <span class="chip__icon">👨‍👩‍👧‍👦</span>
+        <span class="chip__label">Family</span>
+      </a>
+      <a href="/guides/friends" class="chip">
+        <span class="chip__icon">🎉</span>
+        <span class="chip__label">Friends</span>
+      </a>
+      {latestSeasonal && (
+        <a href={`/guides/${latestSeasonal.slug}`} class="chip chip--seasonal">
+          <span class="chip__icon">🇺🇸</span>
+          <span class="chip__label">Memorial Day</span>
+        </a>
+      )}
+      <a href="/guides" class="chip chip--all">
+        <span class="chip__icon">→</span>
+        <span class="chip__label">All Guides</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- FEATURED — Leavenworth spotlight, the hero card -->
+  <section class="section" style="padding-top:0.75rem;">
     <div class="container">
       <a href="/guides/the-perfect-weekend-in-leavenworth-wa" class="spotlight" style="background-image:url('/images/leavenworth/hero-front-street.jpg');">
         <div class="spotlight__content">
-          <div class="spotlight__label">
-            <span style="font-size:1.5rem;">🏔️</span>
-            <span class="spotlight__label-text">Featured Destination</span>
-          </div>
-          <h2 class="spotlight__title">The Perfect Weekend in Leavenworth, WA</h2>
-          <p class="spotlight__desc">From a local who owns two places there and visits 15+ times a year.</p>
+          <span class="spotlight__badge">Featured</span>
+          <h2 class="spotlight__title">The Perfect Weekend in Leavenworth</h2>
           <span class="spotlight__btn">Read the Guide →</span>
         </div>
       </a>
     </div>
   </section>
 
-  <!-- SEASONAL SPOTLIGHT -->
-  {latestSeasonal && (
-    <section style="padding:0 1rem 1.5rem;">
-      <div class="container">
-        <a href={`/guides/${latestSeasonal.slug}`} class="seasonal-banner">
-          <span class="seasonal-banner__badge">This Weekend</span>
-          <h3 class="seasonal-banner__title">{latestSeasonal.data.title.replace(/:.*/,'').trim()} 🇺🇸</h3>
-          <span class="seasonal-banner__arrow">Read →</span>
-        </a>
-      </div>
-    </section>
-  )}
-
-  <!-- BROWSE BY CATEGORY -->
-  <section class="section" style="padding-top:1rem;">
+  <!-- GUIDE PICKS — 3 cards, image-forward, no descriptions -->
+  <section class="section" style="padding-top:0;">
     <div class="container">
-      <h2 class="section__title">Browse by Category</h2>
-      <div class="card-grid card-grid--4">
-        <a href="/guides/outdoor" class="cat-card" style="background:linear-gradient(135deg,#56ab2f,#a8e063);">
-          <span class="cat-card__emoji">🏕️</span>
-          <span class="cat-card__name">Outdoor</span>
-          <span class="cat-card__desc">Hikes, camping, and fresh air</span>
-        </a>
-        <a href="/guides/couples" class="cat-card" style="background:linear-gradient(135deg,#E91E63,#F06292);">
-          <span class="cat-card__emoji">❤️</span>
-          <span class="cat-card__name">Couples</span>
-          <span class="cat-card__desc">Date nights and romantic getaways</span>
-        </a>
-        <a href="/guides/family" class="cat-card" style="background:linear-gradient(135deg,#4CAF50,#81C784);">
-          <span class="cat-card__emoji">👨‍👩‍👧‍👦</span>
-          <span class="cat-card__name">Family</span>
-          <span class="cat-card__desc">Kid-tested weekend ideas</span>
-        </a>
-        <a href="/guides/friends" class="cat-card" style="background:linear-gradient(135deg,#2196F3,#64B5F6);">
-          <span class="cat-card__emoji">🎉</span>
-          <span class="cat-card__name">Friends</span>
-          <span class="cat-card__desc">Game nights, parties, group fun</span>
-        </a>
+      <div class="picks-grid">
+        {latestArticles.map((article, i) => (
+          <a href={`/guides/${article.slug}`} class={`pick-card ${i === 0 ? 'pick-card--large' : ''}`}>
+            <div class="pick-card__img" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#CC5500,#ff8c42)'};`}>
+              {article.data.heroImage ? (
+                <img src={article.data.heroImage} alt="" loading="lazy" />
+              ) : (
+                <span class="pick-card__emoji">{article.data.thumbnail || '📖'}</span>
+              )}
+              <span class="pick-card__cat">{article.data.category}</span>
+            </div>
+            <h3 class="pick-card__title">{shortTitles[article.slug] || article.data.title}</h3>
+          </a>
+        ))}
+      </div>
+      <div class="text-center" style="margin-top:1.25rem;">
+        <a href="/guides" class="btn btn--outline btn--sm">See all 18 guides →</a>
       </div>
     </div>
   </section>
 
-  <!-- LATEST GUIDES -->
-  {latestArticles.length > 0 && (
-    <section class="section">
-      <div class="container">
-        <h2 class="section__title">Latest Guides</h2>
-        <div class="card-grid card-grid--3">
-          {latestArticles.map(article => (
-            <a href={`/guides/${article.slug}`} class="guide-card">
-              <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#CC5500,#ff8c42)'};`}>
-                {article.data.heroImage ? (
-                  <img src={article.data.heroImage} alt={article.data.title} loading="lazy" />
-                ) : (
-                  <span style="filter:drop-shadow(0 2px 8px rgba(0,0,0,0.2));">{article.data.thumbnail || '📖'}</span>
-                )}
-              </div>
-              <div class="guide-card__body">
-                {article.data.category && (
-                  <span class="guide-card__cat">{article.data.category}</span>
-                )}
-                <h3 class="guide-card__title">{article.data.title}</h3>
-                {article.data.description && (
-                  <p class="guide-card__desc">{article.data.description}</p>
-                )}
-              </div>
-            </a>
-          ))}
-        </div>
-        <div class="text-center mt-2">
-          <a href="/guides" class="btn btn--dark">Browse All Guides →</a>
-        </div>
-      </div>
-    </section>
-  )}
+  <!-- TRUST LINE — one single scannable line -->
+  <div class="trust-line">
+    <span>18 guides</span>
+    <span class="trust-line__dot">·</span>
+    <span>Family tested</span>
+    <span class="trust-line__dot">·</span>
+    <span>Based in the PNW</span>
+  </div>
 
-  <!-- SOCIAL PROOF -->
-  <section class="section section--alt">
-    <div class="container text-center">
-      <h2 class="section__title" style="text-align:center;">Real guides from real weekends</h2>
-
-      <div class="trust-stats">
-        <div class="trust-stat">
-          <span class="trust-stat__number">18</span>
-          <span class="trust-stat__label">Guides</span>
-        </div>
-        <div class="trust-stat">
-          <span class="trust-stat__number">100%</span>
-          <span class="trust-stat__label">Family Tested</span>
-        </div>
-        <div class="trust-stat">
-          <span class="trust-stat__number">15+</span>
-          <span class="trust-stat__label">Leavenworth Trips/Year</span>
-        </div>
-      </div>
-
-      <div class="trust-quotes">
-        <a href="/guides/25-at-home-date-night-ideas" class="trust-quote">
-          <blockquote>"The secret to a great date night isn't spending more money — it's spending more attention."</blockquote>
-          <cite>— from <strong>25 At-Home Date Night Ideas</strong></cite>
-        </a>
-        <a href="/guides/the-no-stress-family-hiking-guide" class="trust-quote">
-          <blockquote>"The goal of a family hike isn't the summit. It's the car ride home where nobody is crying."</blockquote>
-          <cite>— from <strong>The No-Stress Family Hiking Guide</strong></cite>
-        </a>
-        <a href="/guides/weekend-activities-for-kids-that-dont-involve-screens" class="trust-quote">
-          <blockquote>"We declared a screen-free Saturday once, expecting a riot. Instead, we had the best family day we'd had in months."</blockquote>
-          <cite>— from <strong>Weekend Activities for Kids</strong></cite>
-        </a>
-      </div>
-
-      <div class="trust-badges">
-        <span class="trust-badge">🏕️ Real family tested</span>
-        <span class="trust-badge">💰 Budget-friendly picks</span>
-        <span class="trust-badge">🔄 Updated regularly</span>
-        <span class="trust-badge">🌲 Based in the PNW</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- NEWSLETTER -->
+  <!-- NEWSLETTER — compact, inline -->
   <section class="section section--dark" id="newsletter">
-    <div class="newsletter">
-      <div class="newsletter__icon">📬</div>
-      <h2 class="newsletter__title">Get weekend ideas in your inbox</h2>
-      <p class="newsletter__desc">One email per week. New guides, seasonal ideas, and the occasional hidden gem we can't stop recommending.</p>
+    <div class="newsletter newsletter--compact">
+      <h2 class="newsletter__title">Weekend ideas, weekly 📬</h2>
       <form class="newsletter__form" action="https://formsubmit.co/vkarthickprabu@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="New Weekend Basecamp subscriber" />
         <input type="hidden" name="_captcha" value="false" />
