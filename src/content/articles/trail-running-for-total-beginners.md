@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #fc4a1a, #f7b733)"
 tags: ["outdoor", "running", "fitness", "adventure"]
 relatedArticles: ["the-no-stress-family-hiking-guide", "rock-climbing-for-beginners", "the-weekend-pickleball-starter-guide"]
 metaDescription: "Trail running for total beginners. How to start, what to wear, and why the trail is more forgiving than pavement. Your first run is easier than you think."
+personas: ["family-teens", "solo", "active-seniors"]
 ---
 
 The counterintuitive thing about trail running is that it's easier on your body than running on roads. Not easier in the sense of effortless — you will absolutely be breathing harder on a trail climb than on a flat road — but easier in the sense of impact, repetitive stress, and the kind of cumulative damage that sidelines road runners.

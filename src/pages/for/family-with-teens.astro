@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const personaSlug = 'family-teens';
+const allArticles = await getCollection('articles');
+const articles = allArticles
+  .filter(a => a.data.personas?.includes(personaSlug))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+<BaseLayout title="Weekend Ideas for Families with Teens | Weekend Basecamp" description="Adventures they won't eye-roll at. Weekend ideas for families with teenagers who'd rather be anywhere else.">
+  <Header slot="header" />
+
+  <div class="persona-page">
+    <div class="container">
+      <a href="/" class="persona-page__back">← Pick a different crew</a>
+
+      <div class="persona-page__hero" style="--persona-accent:#00897b;">
+        <span class="persona-page__emoji">🧑‍🤝‍🧑</span>
+        <h1 class="persona-page__title">Family with Teens</h1>
+        <p class="persona-page__intro">Getting a teenager off the couch requires one of two things: something genuinely cool, or no Wi-Fi. These guides have both. Activities that are interesting enough that they'll put their phone down voluntarily — or at least only check it every ten minutes.</p>
+      </div>
+
+      <div class="card-grid card-grid--2">
+        {articles.map(article => (
+          <a href={`/guides/${article.slug}`} class="guide-card">
+            <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#009688,#4DB6AC)'};`}>
+              <span class="guide-card__emoji">{article.data.thumbnail || '📖'}</span>
+            </div>
+            <div class="guide-card__body">
+              <h2 class="guide-card__title">{article.data.title}</h2>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div class="persona-page__leavenworth">
+        <a href="/guides/the-perfect-weekend-in-leavenworth-wa">
+          🏔️ <strong>Teens actually love Leavenworth.</strong> River tubing, rock climbing nearby, and enough food to keep them happy. Our guide has the full breakdown. →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #f7971e, #ffd200)"
 tags: ["friends", "outdoor", "backyard", "summer"]
 relatedArticles: ["neighborhood-block-party-playbook", "the-stargazing-night-guide", "the-ultimate-game-night-guide"]
 metaDescription: "How to plan the perfect backyard night. Lighting, music, food, and the one setup trick that makes your yard feel like a venue. Tested over 20+ summer nights."
+personas: ["friends", "couples"]
 ---
 
 The best family nights don't happen at restaurants or movie theaters. They happen in your own backyard — with a fire, some food, and zero plan to be anywhere else. Here's how to set one up without it feeling like another thing on your to-do list.

@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #a18cd1, #fbc2eb)"
 tags: ["digital-detox", "family", "screen-free", "wellness"]
 relatedArticles: ["weekend-activities-for-kids-that-dont-involve-screens", "the-no-stress-family-hiking-guide", "25-at-home-date-night-ideas"]
 metaDescription: "The unplugged weekend challenge — 48 hours without screens. We tried it expecting chaos. What actually happened surprised us. Here's the framework that works."
+personas: ["family-littles", "family-teens", "solo"]
 ---
 
 We lasted about six hours the first time we tried this. Not because we couldn't handle no screens — because we'd forgotten that our phones were also our maps, our timers, our music, our cameras, and our default response to any moment of silence or uncertainty. Without them, we kept reaching for pockets that had nothing useful in them.

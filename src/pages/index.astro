@@ -5,81 +5,85 @@ import Footer from '../components/Footer.astro';
 import { getCollection } from 'astro:content';
 
 const allArticles = await getCollection('articles');
-const latestArticles = [...allArticles].sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()).slice(0, 3);
-const seasonal = allArticles.filter(a => a.data.category === 'Seasonal');
-const latestSeasonal = seasonal.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())[0];
 
-// Short display titles for cards (avoid overwhelming long titles)
-const shortTitles: Record<string, string> = {
-  'the-perfect-weekend-in-leavenworth-wa': 'Perfect Leavenworth Weekend',
-  'memorial-day-weekend-ideas': 'Memorial Day: 15 Ideas',
-  'how-to-host-a-friendsgiving-thats-actually-fun': 'Host a Real Friendsgiving',
-  'neighborhood-block-party-playbook': 'Block Party Playbook',
-  'the-lazy-sunday-brunch-kit': 'Lazy Sunday Brunch',
-  'the-stargazing-night-guide': 'Stargazing Night Guide',
-  'the-no-stress-family-hiking-guide': 'No-Stress Family Hikes',
-  '25-at-home-date-night-ideas': '25 Date Night Ideas',
-  '12-best-board-games-for-couples': 'Board Games for Couples',
-  'weekend-camping-for-couples-who-dont-camp': 'Camping for Non-Campers',
-  'rock-climbing-for-beginners': 'Rock Climbing 101',
-  'trail-running-for-total-beginners': 'Trail Running 101',
-  'the-weekend-pickleball-starter-guide': 'Pickleball Starter Guide',
-  'weekend-activities-for-kids-that-dont-involve-screens': 'Screen-Free Kid Activities',
-  'the-sunday-family-cook-off': 'Family Cook-Off',
-  'the-ultimate-game-night-guide': 'Ultimate Game Night',
-  'the-unplugged-weekend-challenge': 'Unplugged Weekend',
-  'how-to-plan-the-perfect-backyard-night': 'Perfect Backyard Night',
-};
+// Count guides per persona
+const personaCounts: Record<string, number> = {};
+const personas = ['couples','family-littles','family-teens','friends','girls-weekend','active-seniors','solo'];
+personas.forEach(p => {
+  personaCounts[p] = allArticles.filter(a => a.data.personas?.includes(p as any)).length;
+});
 ---
-<BaseLayout title="Weekend Destination Guides & Activity Ideas" description="Weekend destination guides and outdoor activity ideas for the Pacific Northwest — written from experience by a family that actually does this stuff.">
+<BaseLayout title="Weekend Guides for Your Crew | Weekend Basecamp" description="Pick your crew, get tailored weekend guides. Couples, families, friends, solo — real ideas from a PNW family that actually does this stuff.">
   <Header slot="header" />
 
-  <!-- HERO — compact, scannable in 3 seconds -->
-  <section class="hero">
+  <!-- HERO — the question -->
+  <section class="hero hero--persona">
     <div class="hero__inner">
-      <h1 class="hero__title">Your weekends deserve<br/>better than the couch.</h1>
-      <p class="hero__subtitle">PNW destination guides & weekend ideas — from a family that actually does this stuff.</p>
+      <h1 class="hero__title">Who's coming<br/>this weekend?</h1>
+      <p class="hero__subtitle">Pick your crew. Get tailored guides.</p>
     </div>
   </section>
 
-  <!-- CATEGORY CHIP BAR — Airbnb-style horizontal scroll, visual shortcut -->
-  <nav class="chip-bar" aria-label="Browse by category">
-    <div class="chip-bar__track">
-      <a href="/guides/the-perfect-weekend-in-leavenworth-wa" class="chip chip--featured">
-        <span class="chip__icon">🏔️</span>
-        <span class="chip__label">Leavenworth</span>
-      </a>
-      <a href="/guides/outdoor" class="chip">
-        <span class="chip__icon">🏕️</span>
-        <span class="chip__label">Outdoor</span>
-      </a>
-      <a href="/guides/couples" class="chip">
-        <span class="chip__icon">❤️</span>
-        <span class="chip__label">Couples</span>
-      </a>
-      <a href="/guides/family" class="chip">
-        <span class="chip__icon">👨‍👩‍👧‍👦</span>
-        <span class="chip__label">Family</span>
-      </a>
-      <a href="/guides/friends" class="chip">
-        <span class="chip__icon">🎉</span>
-        <span class="chip__label">Friends</span>
-      </a>
-      {latestSeasonal && (
-        <a href={`/guides/${latestSeasonal.slug}`} class="chip chip--seasonal">
-          <span class="chip__icon">🇺🇸</span>
-          <span class="chip__label">Memorial Day</span>
-        </a>
-      )}
-      <a href="/guides" class="chip chip--all">
-        <span class="chip__icon">→</span>
-        <span class="chip__label">All Guides</span>
-      </a>
-    </div>
-  </nav>
+  <!-- PERSONA GRID — this IS the homepage -->
+  <section class="section" style="padding-top:0.5rem;padding-bottom:0.5rem;">
+    <div class="container">
+      <div class="persona-grid">
 
-  <!-- FEATURED — Leavenworth spotlight, the hero card -->
-  <section class="section" style="padding-top:0.75rem;">
+        <a href="/for/couples" class="persona-card" style="--persona-bg:#fce4ec;--persona-accent:#e91e63;">
+          <span class="persona-card__emoji">💑</span>
+          <h2 class="persona-card__name">Couples</h2>
+          <p class="persona-card__desc">Date nights & getaways for two</p>
+          <span class="persona-card__count">{personaCounts['couples']} guides</span>
+        </a>
+
+        <a href="/for/family-with-little-ones" class="persona-card" style="--persona-bg:#e8f5e9;--persona-accent:#43a047;">
+          <span class="persona-card__emoji">👶</span>
+          <h2 class="persona-card__name">Little Ones</h2>
+          <p class="persona-card__desc">Toddler-proof weekend ideas</p>
+          <span class="persona-card__count">{personaCounts['family-littles']} guides</span>
+        </a>
+
+        <a href="/for/family-with-teens" class="persona-card" style="--persona-bg:#e0f2f1;--persona-accent:#00897b;">
+          <span class="persona-card__emoji">🧑‍🤝‍🧑</span>
+          <h2 class="persona-card__name">With Teens</h2>
+          <p class="persona-card__desc">Adventures they won't eye-roll</p>
+          <span class="persona-card__count">{personaCounts['family-teens']} guides</span>
+        </a>
+
+        <a href="/for/friends" class="persona-card" style="--persona-bg:#fff3e0;--persona-accent:#ef6c00;">
+          <span class="persona-card__emoji">🍻</span>
+          <h2 class="persona-card__name">Friends</h2>
+          <p class="persona-card__desc">Group hangs & get-togethers</p>
+          <span class="persona-card__count">{personaCounts['friends']} guides</span>
+        </a>
+
+        <a href="/for/girls-weekend" class="persona-card" style="--persona-bg:#f3e5f5;--persona-accent:#8e24aa;">
+          <span class="persona-card__emoji">👩‍👩‍👧</span>
+          <h2 class="persona-card__name">Girls' Weekend</h2>
+          <p class="persona-card__desc">Your people, your weekend</p>
+          <span class="persona-card__count">{personaCounts['girls-weekend']} guides</span>
+        </a>
+
+        <a href="/for/active-seniors" class="persona-card" style="--persona-bg:#e8f5e9;--persona-accent:#558b2f;">
+          <span class="persona-card__emoji">🌿</span>
+          <h2 class="persona-card__name">Active Seniors</h2>
+          <p class="persona-card__desc">Stay moving, stay curious</p>
+          <span class="persona-card__count">{personaCounts['active-seniors']} guides</span>
+        </a>
+
+        <a href="/for/solo" class="persona-card" style="--persona-bg:#e3f2fd;--persona-accent:#1565c0;">
+          <span class="persona-card__emoji">🎒</span>
+          <h2 class="persona-card__name">Solo</h2>
+          <p class="persona-card__desc">Just you and the weekend</p>
+          <span class="persona-card__count">{personaCounts['solo']} guides</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LEAVENWORTH SPOTLIGHT — universal, works for everyone -->
+  <section class="section" style="padding-top:0;padding-bottom:0.5rem;">
     <div class="container">
       <a href="/guides/the-perfect-weekend-in-leavenworth-wa" class="spotlight" style="background-image:url('/images/leavenworth/hero-front-street.jpg');">
         <div class="spotlight__content">
@@ -91,31 +95,7 @@ const shortTitles: Record<string, string> = {
     </div>
   </section>
 
-  <!-- GUIDE PICKS — 3 cards, image-forward, no descriptions -->
-  <section class="section" style="padding-top:0;">
-    <div class="container">
-      <div class="picks-grid">
-        {latestArticles.map((article, i) => (
-          <a href={`/guides/${article.slug}`} class={`pick-card ${i === 0 ? 'pick-card--large' : ''}`}>
-            <div class="pick-card__img" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#CC5500,#ff8c42)'};`}>
-              {article.data.heroImage ? (
-                <img src={article.data.heroImage} alt="" loading="lazy" />
-              ) : (
-                <span class="pick-card__emoji">{article.data.thumbnail || '📖'}</span>
-              )}
-              <span class="pick-card__cat">{article.data.category}</span>
-            </div>
-            <h3 class="pick-card__title">{shortTitles[article.slug] || article.data.title}</h3>
-          </a>
-        ))}
-      </div>
-      <div class="text-center" style="margin-top:1.25rem;">
-        <a href="/guides" class="btn btn--outline btn--sm">See all 18 guides →</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- TRUST LINE — one single scannable line -->
+  <!-- TRUST LINE -->
   <div class="trust-line">
     <span>18 guides</span>
     <span class="trust-line__dot">·</span>
@@ -124,7 +104,7 @@ const shortTitles: Record<string, string> = {
     <span>Based in the PNW</span>
   </div>
 
-  <!-- NEWSLETTER — compact, inline -->
+  <!-- NEWSLETTER -->
   <section class="section section--dark" id="newsletter">
     <div class="newsletter newsletter--compact">
       <h2 class="newsletter__title">Weekend ideas, weekly 📬</h2>

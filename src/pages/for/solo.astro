@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const personaSlug = 'solo';
+const allArticles = await getCollection('articles');
+const articles = allArticles
+  .filter(a => a.data.personas?.includes(personaSlug))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+<BaseLayout title="Solo Weekend Adventure Ideas | Weekend Basecamp" description="Just you and the weekend. No compromises, no group texts, no waiting for anyone. Go.">
+  <Header slot="header" />
+
+  <div class="persona-page">
+    <div class="container">
+      <a href="/" class="persona-page__back">← Pick a different crew</a>
+
+      <div class="persona-page__hero" style="--persona-accent:#1565c0;">
+        <span class="persona-page__emoji">🎒</span>
+        <h1 class="persona-page__title">Solo Adventure</h1>
+        <p class="persona-page__intro">No compromises. No group texts. No waiting for everyone to agree on a restaurant. Just you, an idea, and two days to do exactly what you want. Some of the best weekends are the ones where you answer to nobody.</p>
+      </div>
+
+      <div class="card-grid card-grid--2">
+        {articles.map(article => (
+          <a href={`/guides/${article.slug}`} class="guide-card">
+            <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#1565C0,#64B5F6)'};`}>
+              <span class="guide-card__emoji">{article.data.thumbnail || '📖'}</span>
+            </div>
+            <div class="guide-card__body">
+              <h2 class="guide-card__title">{article.data.title}</h2>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div class="persona-page__leavenworth">
+        <a href="/guides/the-perfect-weekend-in-leavenworth-wa">
+          🏔️ <strong>Leavenworth solo is underrated.</strong> Hike Colchuck Lake, grab a beer at Icicle Brewing, and watch the sunset from your cabin. Our guide has the solo-friendly spots. →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

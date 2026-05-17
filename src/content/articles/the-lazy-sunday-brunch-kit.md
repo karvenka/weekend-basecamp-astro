@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #fccb90, #d57eeb)"
 tags: ["couples", "food", "brunch", "at-home", "cozy"]
 relatedArticles: ["25-at-home-date-night-ideas", "the-sunday-family-cook-off", "12-best-board-games-for-couples"]
 metaDescription: "The lazy Sunday brunch kit — everything you need for a perfect at-home brunch. Recipes, playlist, gear, and the art of doing absolutely nothing before noon."
+personas: ["couples", "girls-weekend", "active-seniors"]
 ---
 
 There is a specific kind of Sunday morning that you only get a handful of times a year — when nobody has obligations until afternoon, the weather is doing something interesting outside the window, and a small group of people you actually like has ended up in the same place without anyone planning it. The question is whether you let that morning dissolve into everyone staring at their phones or whether you build something worth remembering out of it.

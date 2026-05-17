@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #667eea, #764ba2)"
 tags: ["couples", "games", "at-home", "cozy"]
 relatedArticles: ["25-at-home-date-night-ideas", "the-ultimate-game-night-guide", "the-lazy-sunday-brunch-kit"]
 metaDescription: "The 12 best board games for couples, ranked by how many times we've actually replayed them. Skip the duds — these are the ones that start real conversations."
+personas: ["couples", "friends", "family-teens"]
 ---
 
 Board games for couples are the best-kept secret in date night planning. No reservations needed, no screens competing for attention — just two people, a table, and a game that reveals sides of each other you did not know existed. Whether you want deep conversation, fierce competition, or uncontrollable laughter, there is a game for that.

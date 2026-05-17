@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const personaSlug = 'friends';
+const allArticles = await getCollection('articles');
+const articles = allArticles
+  .filter(a => a.data.personas?.includes(personaSlug))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+<BaseLayout title="Weekend Ideas for Friend Groups | Weekend Basecamp" description="Game nights, cookouts, group trips, and hangouts that actually bring people together.">
+  <Header slot="header" />
+
+  <div class="persona-page">
+    <div class="container">
+      <a href="/" class="persona-page__back">← Pick a different crew</a>
+
+      <div class="persona-page__hero" style="--persona-accent:#ef6c00;">
+        <span class="persona-page__emoji">🍻</span>
+        <h1 class="persona-page__title">Friends Hangout</h1>
+        <p class="persona-page__intro">The group chat says "we should hang out more" every week. These are the guides that turn "we should" into "we did." No planning committees required. Just pick one, text the group, and show up.</p>
+      </div>
+
+      <div class="card-grid card-grid--2">
+        {articles.map(article => (
+          <a href={`/guides/${article.slug}`} class="guide-card">
+            <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#FF9800,#FFB74D)'};`}>
+              <span class="guide-card__emoji">{article.data.thumbnail || '📖'}</span>
+            </div>
+            <div class="guide-card__body">
+              <h2 class="guide-card__title">{article.data.title}</h2>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div class="persona-page__leavenworth">
+        <a href="/guides/the-perfect-weekend-in-leavenworth-wa">
+          🏔️ <strong>Group trip idea:</strong> Leavenworth is 2 hours from Seattle, walkable, and has enough food and drink to keep everyone happy. Check our guide. →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

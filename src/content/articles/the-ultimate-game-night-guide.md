@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #4facfe, #00f2fe)"
 tags: ["friends", "games", "at-home", "cozy"]
 relatedArticles: ["12-best-board-games-for-couples", "how-to-host-a-friendsgiving-thats-actually-fun", "how-to-plan-the-perfect-backyard-night"]
 metaDescription: "The ultimate game night guide for groups of 4-10. Best games by group size, food that works one-handed, and the playlist that keeps energy up past midnight."
+personas: ["friends", "couples", "family-teens"]
 ---
 
 Here's a confession: we used to be terrible at game night. Not terrible at games — terrible at hosting them. We'd invite eight people over, crack open Monopoly, and watch the evening slowly disintegrate into a three-hour slog where half the table was on their phones by hour two and someone was genuinely angry about a property trade. By 10 PM, people were inventing excuses to leave. "Early morning tomorrow." "My cat has a vet appointment." Sure, Kevin. On a Saturday.

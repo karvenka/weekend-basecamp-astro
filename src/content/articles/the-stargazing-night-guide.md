@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #0f0c29, #302b63, #24243e)"
 tags: ["couples", "outdoor", "stargazing", "romantic"]
 relatedArticles: ["weekend-camping-for-couples-who-dont-camp", "25-at-home-date-night-ideas", "how-to-plan-the-perfect-backyard-night"]
 metaDescription: "Your complete stargazing night guide. Best apps, gear, and timing for couples and families. No telescope required — just a blanket and a clear sky."
+personas: ["couples", "girls-weekend", "active-seniors"]
 ---
 
 Most people's last serious look at the night sky happened either in childhood or on a camping trip far from city lights, and the memory tends to be vivid precisely because the sky looked nothing like what they'd seen before. More stars. Deeper dark. The Milky Way as an actual visible band rather than a concept in textbooks.

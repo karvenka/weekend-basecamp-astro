@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #E91E63, #F06292)"
 tags: ["couples", "date-night", "at-home", "budget"]
 relatedArticles: ["12-best-board-games-for-couples", "the-stargazing-night-guide", "the-lazy-sunday-brunch-kit", "weekend-camping-for-couples-who-dont-camp"]
 metaDescription: "25 at-home date night ideas that actually feel special. Tested by real couples. From cooking challenges to stargazing — spend more attention, not more money."
+personas: ["couples", "girls-weekend"]
 ---
 
 Weekend Basecamp • Couples

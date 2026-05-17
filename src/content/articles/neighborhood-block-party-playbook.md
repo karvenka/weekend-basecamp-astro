@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #43e97b, #38f9d7)"
 tags: ["community", "outdoor", "party", "summer"]
 relatedArticles: ["how-to-plan-the-perfect-backyard-night", "how-to-host-a-friendsgiving-thats-actually-fun", "the-ultimate-game-night-guide"]
 metaDescription: "The neighborhood block party playbook. Permits, food, music, and games that get strangers talking. How to throw the party your street talks about all year."
+personas: ["friends", "family-littles", "family-teens"]
 ---
 
 The first time someone on our block suggested a block party, the response was enthusiastic in theory and paralyzed in practice. Everyone liked the idea. Nobody wanted to be responsible for it. We've seen this pattern repeat in five different neighborhoods: the block party that almost happened but didn't because the logistics seemed too complicated and nobody stepped forward.

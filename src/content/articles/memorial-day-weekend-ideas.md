@@ -6,6 +6,7 @@ pubDate: 2026-05-16
 category: "Seasonal"
 thumbnail: "🇺🇸"
 thumbnailBg: "linear-gradient(135deg, #1a3a5c, #CC5500, #c41e3a)"
+personas: ["couples", "family-littles", "family-teens", "friends", "girls-weekend", "active-seniors", "solo"]
 ---
 
 Let's be honest about how Memorial Day weekend actually goes. Thursday night, you tell your partner "we should do something fun this weekend — it's three whole days." Friday rolls around and you're tired from work, so you push it to Saturday. Saturday morning you sleep in, putter around the house, and then your neighbor texts: "Hey, firing up the grill around 4, come on over." So you go. You eat the same slightly-too-dry burgers on the same paper plates with the same warm potato salad that's been sitting in the sun for an hour too long. You make small talk about lawn care. You come home at 8, watch something forgettable on Netflix, and go to bed. Sunday and Monday blur together in a haze of errands you didn't need to run and screen time you didn't need to have. Tuesday morning you're back at your desk thinking, "What did I even do this weekend?"

@@ -6,6 +6,7 @@ pubDate: 2026-05-16
 category: "Destinations"
 thumbnail: "🏔️"
 thumbnailBg: "linear-gradient(135deg, #2d5016, #87CEEB)"
+personas: ["couples", "family-littles", "family-teens", "friends", "girls-weekend", "active-seniors", "solo"]
 ---
 
 ![Bavarian village of Leavenworth with mountain peaks](/images/leavenworth/hero-front-street.jpg)

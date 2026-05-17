@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #36d1dc, #5b86e5)"
 tags: ["family", "kids", "screen-free", "activities"]
 relatedArticles: ["the-no-stress-family-hiking-guide", "the-sunday-family-cook-off", "the-unplugged-weekend-challenge"]
 metaDescription: "Weekend activities for kids without screens. Tested on real kids with real opinions. From backyard science to neighborhood adventures — no WiFi required."
+personas: ["family-littles", "family-teens"]
 ---
 
 Weekend Basecamp Editorial

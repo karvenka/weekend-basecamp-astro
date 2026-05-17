@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #2d5016, #56ab2f)"
 tags: ["couples", "camping", "outdoor", "romantic"]
 relatedArticles: ["the-stargazing-night-guide", "the-no-stress-family-hiking-guide", "25-at-home-date-night-ideas"]
 metaDescription: "Weekend camping for couples who don't camp. The cabin trick, campfire dinners, and everything you need for a romantic outdoor weekend without the misery."
+personas: ["couples", "family-teens"]
 ---
 
 My partner had exactly one camping experience before we started doing this: a miserable three-day trip in high school where it rained continuously, the food was awful, and she slept on what might as well have been gravel. For years, "camping" was a hard no. Then we found a state park cabin with a fire ring, a covered porch, and a bed with actual springs. She was converted. Not into camping as generally understood — into the specific, comfortable, romantic version of it that most camping gear companies don't want you to know is an option.

@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #56ab2f, #a8e063)"
 tags: ["family", "hiking", "outdoor", "kids"]
 relatedArticles: ["weekend-activities-for-kids-that-dont-involve-screens", "weekend-camping-for-couples-who-dont-camp", "trail-running-for-total-beginners"]
 metaDescription: "The no-stress family hiking guide. Our first hike lasted 22 minutes before a meltdown. Here's everything we learned about hiking with kids who have opinions."
+personas: ["family-littles", "family-teens", "active-seniors"]
 ---
 
 Weekend Basecamp • Family & Kids

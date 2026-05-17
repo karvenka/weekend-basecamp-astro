@@ -14,6 +14,15 @@ const articles = defineCollection({
     tags: z.array(z.string()).optional(),
     relatedArticles: z.array(z.string()).optional(),
     metaDescription: z.string().optional(),
+    personas: z.array(z.enum([
+      'couples',
+      'family-littles',
+      'family-teens',
+      'friends',
+      'girls-weekend',
+      'active-seniors',
+      'solo',
+    ])).optional(),
   }),
 });
 export const collections = { articles };

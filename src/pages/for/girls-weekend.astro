@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const personaSlug = 'girls-weekend';
+const allArticles = await getCollection('articles');
+const articles = allArticles
+  .filter(a => a.data.personas?.includes(personaSlug))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+<BaseLayout title="Girls' Weekend Ideas | Weekend Basecamp" description="Because sometimes you need a weekend that's just for you and your people. Wine optional, laughs required.">
+  <Header slot="header" />
+
+  <div class="persona-page">
+    <div class="container">
+      <a href="/" class="persona-page__back">← Pick a different crew</a>
+
+      <div class="persona-page__hero" style="--persona-accent:#8e24aa;">
+        <span class="persona-page__emoji">👩‍👩‍👧</span>
+        <h1 class="persona-page__title">Girls' Weekend</h1>
+        <p class="persona-page__intro">Sometimes you need a weekend that's just for you and your people. No kids, no partners, no agenda — just good conversation, good food, and the kind of laughing that makes your face hurt. Wine optional. Pajamas encouraged.</p>
+      </div>
+
+      <div class="card-grid card-grid--2">
+        {articles.map(article => (
+          <a href={`/guides/${article.slug}`} class="guide-card">
+            <div class="guide-card__thumb" style={`background:${article.data.thumbnailBg || 'linear-gradient(135deg,#9C27B0,#CE93D8)'};`}>
+              <span class="guide-card__emoji">{article.data.thumbnail || '📖'}</span>
+            </div>
+            <div class="guide-card__body">
+              <h2 class="guide-card__title">{article.data.title}</h2>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div class="persona-page__leavenworth">
+        <a href="/guides/the-perfect-weekend-in-leavenworth-wa">
+          🏔️ <strong>Leavenworth = perfect girls' trip.</strong> Wine tasting, spa vibes, cute shops, and the kind of scenery that makes every photo look effortless. Our guide has it all. →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <Footer slot="footer" />
+</BaseLayout>

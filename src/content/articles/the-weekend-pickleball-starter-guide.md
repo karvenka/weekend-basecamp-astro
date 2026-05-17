@@ -9,6 +9,7 @@ thumbnailBg: "linear-gradient(135deg, #11998e, #38ef7d)"
 tags: ["outdoor", "pickleball", "sport", "social"]
 relatedArticles: ["trail-running-for-total-beginners", "rock-climbing-for-beginners", "how-to-plan-the-perfect-backyard-night"]
 metaDescription: "The weekend pickleball starter guide. Gear, rules, and where to play — from someone who went from 'what is this' to 'why didn't I start sooner' in one weekend."
+personas: ["friends", "active-seniors", "couples"]
 ---
 
 We stumbled into pickleball the way most people do: someone at a backyard party said "I found a court, I have paddles, let's go," and three hours later we were already arguing about whether to book the court again next weekend. That was two years ago. We still book the court every other weekend.
