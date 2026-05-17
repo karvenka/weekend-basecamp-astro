@@ -17,11 +17,9 @@
 /blogs/low-effort-weekends/weekend-camping-for-couples-who-dont-camp /guides/weekend-camping-for-couples-who-dont-camp/ 301
 /blogs/low-effort-weekends /guides 301
 
-# Redirect destination shortcut
-/leavenworth-wa /guides/the-perfect-weekend-in-leavenworth-wa/ 301
-/leavenworth-wa/ /guides/the-perfect-weekend-in-leavenworth-wa/ 301
-/leavenworth /guides/the-perfect-weekend-in-leavenworth-wa/ 301
-/leavenworth/ /guides/the-perfect-weekend-in-leavenworth-wa/ 301
+# Redirect old destination shortcut (now /leavenworth/ is a hub page)
+/leavenworth-wa /leavenworth/ 301
+/leavenworth-wa/ /leavenworth/ 301
 
 # Redirect removed purchasing FAQ
 /pages/purchasing-faq /our-story 301
