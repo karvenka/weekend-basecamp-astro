@@ -4,9 +4,20 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 ---
 <BaseLayout
-  title="Leavenworth with Kids — A Parent's Guide"
-  description="What actually works in Leavenworth with toddlers, school-age kids, and teens. Stroller-friendly routes, kid-approved restaurants, age-specific activities, and nap-schedule strategies."
+  title="Leavenworth with Kids — A Parent's Guide by Age"
+  description="Leavenworth with kids — stroller-friendly routes, kid-approved restaurants, age-specific activities for toddlers through teens, and nap-schedule strategies. By a parent who brings their kids here."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://weekendbasecamp.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Leavenworth", "item": "https://weekendbasecamp.com/leavenworth/" },
+        { "@type": "ListItem", "position": 3, "name": "With Kids" }
+      ]
+    })} />
+  </Fragment>
   <Header slot="header" />
 
   <div class="sub-page">
@@ -187,10 +198,11 @@ import Footer from '../../components/Footer.astro';
       <div class="related-pages">
         <p class="related-pages__label">Continue exploring Leavenworth</p>
         <div class="related-pages__links">
+          <a href="/leavenworth">← Leavenworth Guide</a>
           <a href="/leavenworth/things-to-do">Things to Do →</a>
           <a href="/leavenworth/restaurants">Where to Eat →</a>
+          <a href="/leavenworth/dog-friendly">Dog-Friendly →</a>
           <a href="/leavenworth/parking">Parking Guide →</a>
-          <a href="/leavenworth/christmas">Christmas Guide →</a>
         </div>
       </div>
 

@@ -9,6 +9,8 @@ thumbnailBg: "linear-gradient(135deg, #2d5016, #87CEEB)"
 personas: ["couples", "family-littles", "family-teens", "friends", "girls-weekend", "active-seniors", "solo"]
 ---
 
+> 📌 **This guide has grown into a full destination hub!** For the latest info — interactive map, parking strategies, restaurant reviews, dog-friendly spots, and more — visit our **[Complete Leavenworth Guide](/leavenworth/)**.
+
 ![Bavarian village of Leavenworth with mountain peaks](/images/leavenworth/hero-front-street.jpg)
 
 I didn't plan to fall in love with Leavenworth. Nobody does. You go once because a friend tells you it's "this cute little Bavarian village in the mountains," you eat a bratwurst, take a selfie in front of a half-timbered building, and think, *Okay, that was nice.*
@@ -368,3 +370,22 @@ Layers, always. Even in summer, mornings and evenings cool down in the mountains
 
 ### Does Leavenworth have good hiking?
 Some of the best in Washington, honestly. From flat riverside strolls (Waterfront Park) to moderate ridge hikes (Icicle Ridge) to bucket-list alpine adventures (Colchuck Lake, the Enchantments), there's a trail for every fitness level. The Enchantments permit area is one of the most sought-after backcountry destinations in the entire Pacific Northwest. Just bring the right gear and check trail conditions before you go.
+
+---
+
+## Explore Our Full Leavenworth Guide
+
+This article was the start — now we've built a complete destination guide with even more detail:
+
+- 🗺️ [Interactive Map with 19 pins](/leavenworth/)
+- 🅿️ [Parking Strategy Guide](/leavenworth/parking/) — which lots fill first
+- 🍽️ [Restaurant Reviews](/leavenworth/restaurants/) — every spot worth your time
+- 🐕 [Dog-Friendly Guide](/leavenworth/dog-friendly/) — trails, patios, vet info
+- 👶 [With Kids Guide](/leavenworth/with-kids/) — age-specific activities
+- 🍺 [Oktoberfest 2026](/leavenworth/oktoberfest/) — dates, parking, cost
+- 🎄 [Christmas Lighting Festival](/leavenworth/christmas/) — ceremony schedule
+- 🚗 [Getting There](/leavenworth/getting-there/) — routes and timing
+- 🏨 [Where to Stay](/leavenworth/where-to-stay/) — every price point
+- 🌸 [Seasonal Guide](/leavenworth/seasonal/) — best time to visit
+
+**[→ Go to the full Leavenworth destination guide](/leavenworth/)**

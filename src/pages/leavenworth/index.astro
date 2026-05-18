@@ -78,8 +78,31 @@ const comingSoon = [
 ---
 <BaseLayout
   title="Leavenworth, WA — A Local's Guide"
-  description="I own a place in Leavenworth and visit 15+ times a year. Restaurants, hikes, where to stay, seasonal tips — everything you need for the perfect weekend."
+  description="The only Leavenworth WA guide written by a local who visits 15+ times a year. Restaurants, hikes, parking tips, dog-friendly spots, where to stay, and seasonal advice for the perfect weekend."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "TouristDestination",
+      "name": "Leavenworth, Washington",
+      "description": "A Bavarian-themed village in the Cascade Mountains of Washington state, known for festivals, hiking, German cuisine, and year-round outdoor adventures.",
+      "url": "https://weekendbasecamp.com/leavenworth/",
+      "touristType": ["Couples", "Families", "Friends", "Solo travelers", "Dog owners", "Active seniors"],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.5955,
+        "longitude": -120.6620
+      },
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Washington",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "United States"
+        }
+      }
+    })} />
+  </Fragment>
   <Header slot="header" />
 
   <!-- HUB HERO -->

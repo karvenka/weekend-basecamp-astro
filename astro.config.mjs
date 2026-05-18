@@ -25,6 +25,29 @@ export default defineConfig({
     mdx(),
     sitemap({
       filter: (page) => !page.includes('/blogs/'),
+      serialize(item) {
+        // Leavenworth pages — recently updated
+        if (item.url.includes('/leavenworth')) {
+          item.lastmod = new Date('2026-05-18');
+        }
+        // Persona pages
+        else if (item.url.includes('/for/')) {
+          item.lastmod = new Date('2026-05-17');
+        }
+        // Homepage
+        else if (item.url === 'https://weekendbasecamp.com/' || item.url === 'https://weekendbasecamp.com') {
+          item.lastmod = new Date('2026-05-18');
+        }
+        // Guides
+        else if (item.url.includes('/guides/')) {
+          item.lastmod = new Date('2026-05-16');
+        }
+        // Everything else
+        else {
+          item.lastmod = new Date('2026-05-16');
+        }
+        return item;
+      },
     }),
   ],
 

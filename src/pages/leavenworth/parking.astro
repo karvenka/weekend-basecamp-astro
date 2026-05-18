@@ -5,8 +5,19 @@ import Footer from '../../components/Footer.astro';
 ---
 <BaseLayout
   title="Leavenworth Parking Guide — Where to Actually Park"
-  description="A local's guide to parking in Leavenworth, WA. Which lots fill first, where to park during festivals, and the strategies nobody tells you."
+  description="Where to park in Leavenworth, WA — which lots fill first, free vs paid options, festival parking strategy, ParkMobile tips, and the lot nobody knows about. From a local."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://weekendbasecamp.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Leavenworth", "item": "https://weekendbasecamp.com/leavenworth/" },
+        { "@type": "ListItem", "position": 3, "name": "Parking" }
+      ]
+    })} />
+  </Fragment>
   <Header slot="header" />
 
   <div class="sub-page">
@@ -178,9 +189,10 @@ import Footer from '../../components/Footer.astro';
       <div class="related-pages">
         <p class="related-pages__label">Continue exploring Leavenworth</p>
         <div class="related-pages__links">
+          <a href="/leavenworth">← Leavenworth Guide</a>
+          <a href="/leavenworth/getting-there">Getting There →</a>
           <a href="/leavenworth/things-to-do">Things to Do →</a>
           <a href="/leavenworth/restaurants">Where to Eat →</a>
-          <a href="/leavenworth/getting-there">Getting There →</a>
           <a href="/leavenworth/oktoberfest">Oktoberfest Guide →</a>
         </div>
       </div>

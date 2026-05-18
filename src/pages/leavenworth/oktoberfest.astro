@@ -4,9 +4,20 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 ---
 <BaseLayout
-  title="Leavenworth Oktoberfest 2026 — A Local's Guide"
-  description="Leavenworth Oktoberfest 2026 runs October 2-3, 9-10, and 16-17. Insider tips on which weekend to pick, parking, what to wear, cost breakdown, and the stuff only locals know."
+  title="Leavenworth Oktoberfest 2026 — Dates, Parking & Local Tips"
+  description="Leavenworth Oktoberfest 2026 runs October 2-3, 9-10, and 16-17. Which weekend to pick, parking strategy, what to wear, cost breakdown, and tips only a local would know."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://weekendbasecamp.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Leavenworth", "item": "https://weekendbasecamp.com/leavenworth/" },
+        { "@type": "ListItem", "position": 3, "name": "Oktoberfest 2026" }
+      ]
+    })} />
+  </Fragment>
   <Header slot="header" />
 
   <div class="sub-page">
@@ -166,6 +177,7 @@ import Footer from '../../components/Footer.astro';
       <div class="related-pages">
         <p class="related-pages__label">Continue exploring Leavenworth</p>
         <div class="related-pages__links">
+          <a href="/leavenworth">← Leavenworth Guide</a>
           <a href="/leavenworth/parking">Parking Guide →</a>
           <a href="/leavenworth/restaurants">Where to Eat →</a>
           <a href="/leavenworth/where-to-stay">Where to Stay →</a>

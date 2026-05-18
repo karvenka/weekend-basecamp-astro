@@ -1,3 +1,4 @@
+# Site-specific rules (Cloudflare may prepend additional managed rules)
 User-agent: *
 Allow: /
 Disallow: /api/
